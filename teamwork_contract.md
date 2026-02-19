@@ -28,7 +28,7 @@ Work will be distributed during the Monday sprint planning meeting. The scrum le
 ## Scrum Leader
 Each week, one of us takes on the scrum leader role. This person keeps the team on track, runs the Monday planning meeting, and ensures we meet our Thursday deadline. The rotation order is:
 
-**Rotation:** Sprint 1: [NAME] → Sprint 2: Rachelle → Sprint 3: [NAME] → Sprint 4: [NAME] → Sprint 5: [NAME]
+**Rotation:** Sprint 1: [NAME] → Sprint 2: Rachelle → Sprint 3: Nicole → Sprint 4: [NAME] → Sprint 5: [NAME]
 
 ## Code Review
 Code reviews will be completed by end of day Friday each week. The reviewer role rotates weekly alongside the scrum leader. [How do we want to divide this?]
