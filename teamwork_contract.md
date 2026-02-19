@@ -35,10 +35,10 @@ Code reviews will be completed by end of day Friday each week. There are two rol
 
 | Sprint | Primary | Secondary |
 |--------|---------|-----------|
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 2 | Nicole | Rachelle |
+| 3 | Jennifer | Nicole |
+| 4 | Shiao-li | Jennifer |
+| 5 | Rachelle | Shiao-li |
 
 ## Quality of Work
 We all want to be proud of what we produce! Team members will write clean, well-documented code and test before submitting for review. If a member is struggling with a task, they will raise it early.
