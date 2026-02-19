@@ -35,7 +35,6 @@ Code reviews will be completed by end of day Friday each week. There are two rol
 
 | Sprint | Primary | Secondary |
 |--------|---------|-----------|
-| 1 | | |
 | 2 | | |
 | 3 | | |
 | 4 | | |
