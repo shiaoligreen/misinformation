@@ -20,7 +20,7 @@ The team will meet three times per week:
 - **Wednesday afternoon** — In-person co-working session. Members who cannot attend in person may join online.
 - **Thursday** — Stakeholder meeting and sprint submission deadline. 
 
-Brief minutes from Monday's meeting will be recorded and stored in the shared repository. [Name to be assigned, or rotate weekly. Rachelle is happy to do this, if we want to have minutes!]
+Brief minutes from Monday's meeting will be recorded and stored in the shared repository. These will be jointly edited in Slack and uploaded as a README file to the repo. 
 
 ## Work Distribution
 Work will be distributed during the Monday sprint planning meeting. The scrum leader is responsible for ensuring tasks are divided fairly and that all members are contributing equally.
@@ -28,10 +28,18 @@ Work will be distributed during the Monday sprint planning meeting. The scrum le
 ## Scrum Leader
 Each week, one of us takes on the scrum leader role. This person keeps the team on track, runs the Monday planning meeting, and ensures we meet our Thursday deadline. The rotation order is:
 
-**Rotation:** Sprint 1: [NAME] → Sprint 2: Rachelle → Sprint 3: Nicole → Sprint 4: [NAME] → Sprint 5: [NAME]
+**Rotation:** Sprint 1: Team → Sprint 2: Rachelle → Sprint 3: Nicole → Sprint 4: Jennifer → Sprint 5: Shiao-li
 
 ## Code Review
-Code reviews will be completed by end of day Friday each week. The reviewer role rotates weekly alongside the scrum leader. [How do we want to divide this?]
+Code reviews will be completed by end of day Friday each week. There are two roles: Primary Reviewer and Secondary Reviewer, both rotate weekly. Each week, the reviewers will divide code review between them.
+
+| Sprint | Primary | Secondary |
+|--------|---------|-----------|
+| 1 | | |
+| 2 | | |
+| 3 | | |
+| 4 | | |
+| 5 | | |
 
 ## Quality of Work
 We all want to be proud of what we produce! Team members will write clean, well-documented code and test before submitting for review. If a member is struggling with a task, they will raise it early.
@@ -41,13 +49,13 @@ Life happens - any regular unavailability:
 
 - Jennifer: Sunday
 - Nicole: Sunday
-- Shiao-li: [unavailable times]
+- Shiao-li: Thursday after 7pm
 - Rachelle: Sunday
 
 Any unexpected unavailability should be flagged in Slack as early as possible.
 
 ## Code of Conduct
-Above all, let's just be kind and respectful to one another. A few things we commit to:
+Above all, let's be kind and respectful to one another. A few things we commit to:
 
 - Give feedback that is constructive and encouraging — we're learning!
 - Speak up early if something isn't working, whether it's a technical problem or a team dynamic issue.
