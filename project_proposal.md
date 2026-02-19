@@ -1,5 +1,6 @@
 # Project Proposal
 **Project:** COLX_523: Misinformation — Linguistic Markers in False vs. Verified News Headlines
+
 **Members:** Jennifer, Nicole, Shiao-li, Rachelle
 ---
 
