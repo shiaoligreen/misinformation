@@ -43,6 +43,10 @@ The genre is news and social media.
 
 The metadata provided in the dataset consists of either a 1 or 0, indicating misinformation or fact.
 
+**Format:**
+
+The corpus and metadata will be stored in text in CSV format.
+
 **Legal status:** All datasets are publicly available for research use under their respective licenses (academic/non-commercial). Web scraping is not required — data is directly downloadable or API-accessible.
 
 ---
