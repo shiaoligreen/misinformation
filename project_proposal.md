@@ -64,7 +64,7 @@ We will add the following third class of categorization:
 
 2 indicates a text primarily concerned with opinions and emotions.
 
-We will add additional annotated metadata fields to be decided. They will potentially include:
+We will add additional, still to be decided, metadata fields.
 
 **Potential Markers to Annotate**
 
