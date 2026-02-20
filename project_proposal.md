@@ -55,10 +55,13 @@ Individual news stories as well as social media posts.
 
 **Annotation schema:** 
 Consistent with the Twitter Misinformation dataset, we will use the following:
-0 indicates a factual text
-1 indicates misinformational text
+
+- 0 indicates a factual text
+
+- 1 indicates misinformational text
 
 We will add the following third class of categorization:
+
 2 indicates a text primarily concerned with opinions and emotions.
 
 We will add additional annotated metadata fields to be decided. They will potentially include:
