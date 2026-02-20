@@ -27,9 +27,13 @@ The annotation task associated with this project operates at both the token span
 
 We will draw on the following Hugging Face dataset:
 
-**Twitter Misinformation dataset** ([Hugging Face Roupeminassian Twitter Misinformation](https://huggingface.co/datasets/roupenminassian/twitter-misinformation))
+**Twitter Misinformation dataset** 
 
-In addition, we will perform some scrapping via Google News rss feed at https://news.google.com/rss/search?q=computational+linguistics
+([Hugging Face Roupeminassian Twitter Misinformation](https://huggingface.co/datasets/roupenminassian/twitter-misinformation))
+
+**Webpage Scraping**
+
+In addition, we will perform some scraping via Google News rss feed at https://news.google.com/rss/search?q=computational+linguistics
 
 **Combined target size:** 
 
