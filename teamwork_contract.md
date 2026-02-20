@@ -46,7 +46,7 @@ We all want to be proud of what we produce! Team members will write clean, well-
 ## Availability
 Life happens - any regular unavailability:
 
-- Jennifer: Sunday
+- Jennifer: Sunday (but even that is negotiable, if needed.)
 - Nicole: Sunday
 - Shiao-li: Thursday after 7pm
 - Rachelle: Sunday
@@ -70,7 +70,7 @@ By signing below, we agree to uphold this contract and support each other throug
 
 | Name | Signature | Date |
 |------|-----------|------|
-| Jennifer | | |
+| Jennifer |Jennifer Flake | Feb 19, 2026 |
 | Nicole | | |
 | Shiao-li | S F Green | Feb 18, 2026 |
 | Rachelle | | |
