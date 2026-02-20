@@ -25,7 +25,7 @@ We will draw on complementary datasets:
 **1. Fake News Detection Datasets** ([Kaggle](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets))
 
 
-**2. Twitter Misinformation Dataset** [Hugging Face Roupeminassian Twitter Misinformation](https://huggingface.co/datasets/roupenminassian/twitter-misinformation))
+**2. Twitter Misinformation Dataset** ([Hugging Face Roupeminassian Twitter Misinformation](https://huggingface.co/datasets/roupenminassian/twitter-misinformation))
 
 
 **Combined target size:** 
