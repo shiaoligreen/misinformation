@@ -71,6 +71,6 @@ By signing below, we agree to uphold this contract and support each other throug
 | Name | Signature | Date |
 |------|-----------|------|
 | Jennifer |Jennifer Flake | Feb 19, 2026 |
-| Nicole | | |
+| Nicole | Nicole Shantz | February 20, 2025|
 | Shiao-li | S F Green | Feb 18, 2026 |
 | Rachelle | RDJ | Feb 20, 2026 |
