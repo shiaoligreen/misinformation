@@ -73,4 +73,4 @@ By signing below, we agree to uphold this contract and support each other throug
 | Jennifer |Jennifer Flake | Feb 19, 2026 |
 | Nicole | | |
 | Shiao-li | S F Green | Feb 18, 2026 |
-| Rachelle | | |
+| Rachelle | RDJ | Feb 20, 2026 |
