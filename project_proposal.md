@@ -4,7 +4,7 @@
 **Members:** Jennifer, Nicole, Shiao-li, Rachelle
 ---
 
-We aim to build an annotated corpus that captures linguistic patterns distinguishing misinformation, opinion/editorial, from verified news.  Our goal is to produce a dataset resource useful for researchers studying how language signals credibility — or the lack of it. 
+We aim to build an annotated corpus that captures linguistic patterns distinguishing misinformation, opinion/editorial, from verified news.  Our goal is to produce a dataset resource useful for researchers studying how language signals credibility — or the lack of it. We plan to enhance the Twitter Misinformation Dataset that is currently available on Hugging Face with the goal of contributing the enhanced dataset to Hugging Face.
 
 ---
 
