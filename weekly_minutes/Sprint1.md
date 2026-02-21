@@ -1,4 +1,6 @@
-OverviewCheck-in on Monday
+Overview
+
+Check-in on Monday
 Co-working on Wednesday
 Call with stakeholder on Thursday
 
