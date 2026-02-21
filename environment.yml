@@ -7,7 +7,6 @@ dependencies:
   - pandas
   - numpy
   - feedparser
-  - os
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-spellchecker
