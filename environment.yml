@@ -6,6 +6,8 @@ dependencies:
   - python=3.12
   - pandas
   - numpy
+  - feedparser
+  - os
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-spellchecker
