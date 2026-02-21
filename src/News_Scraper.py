@@ -36,7 +36,7 @@ news_df = get_rss_title_url(url)
 root_dir = os.path.dirname(os.getcwd())
 
 # specify data folder
-folder = 'data'
+folder = 'data/raw'
 
 # create path
 folder = os.path.join(root_dir, folder)
