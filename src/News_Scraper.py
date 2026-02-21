@@ -11,9 +11,20 @@ news_articles = []
 # function to get title and URL of articles from feed and convert to DataFrame
 def get_rss_title_url(url):
     feed = feedparser.parse(url)
+
+    # check feed available
+    if feed.bozo:
+        print(f"Error: unable to parse feed at {url}")
+        return None
+    
+    #check feed returning entries
+    if len(feed.entries) == 0:
+        print("Warning: feed returned no entries")
+        return None
+
     # iterate through each item in the feed
     for item in feed.entries:
-        #
+        
         article = {
             'url': item.link,
             'text': item.title,
@@ -44,5 +55,8 @@ folder = os.path.join(root_dir, folder)
 # if it doesn't exist, create the subfolder
 os.makedirs(folder, exist_ok=True)
 
-# save to csv in data folder
-news_df.to_csv(os.path.join(folder, 'google_comp_ling_articles.csv'), index=False)
+# if entries exist, save to csv in data folder, else error message
+if news_df is not None:
+    news_df.to_csv(os.path.join(folder, 'google_comp_ling_articles.csv'), index=False)
+else:
+    print("Nothing to save")
