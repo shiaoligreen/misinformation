@@ -1,0 +1,4 @@
+filename,url
+training_data.csv,https://huggingface.co/datasets/jenniferflake/COLX_523/resolve/main/training_data.csv
+testing_data.csv,https://huggingface.co/datasets/jenniferflake/COLX_523/resolve/main/testing_data.csv
+scraped_headlines.csv,https://huggingface.co/datasets/jenniferflake/COLX_523/resolve/main/google_comp_ling_articles.csv
