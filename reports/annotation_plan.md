@@ -53,12 +53,13 @@ The `typos` annotation may prove to be the most difficult to automate, particula
 
 We will annotate 1000 items between us + one AI with 100% overlap. This distribution will allow there to be both pairwise and 5-way overlap.
 
-|  | Jennifer | Nicole | Rachelle | Shiao-li | AI |
-| --- | --- | --- | --- | --- | --- |
-| **Jennifer** | 1–40 | 41–60 | 61–80 | 81–100 | 1–1000 |
-| **Nicole** | 1–40 | 101–120 | 121–140 | 141–160 | 1–1000 |
-| **Rachelle** | 1–40 | 41–60 | 161–180 | 181–200 | 1–1000 |
-| **Shiao-li** | 1–40 | 61–80 | 121–140 | 201–220 | 1–1000 |
+| Annotator | 5-Way Overlap | Pairwise Overlaps | Solo Assignment (Human + AI) | Total Workload |
+| :--- | :--- | :--- | :--- | :--- |
+| **Jennifer** | 1–40 | 41–100 | 161–370 | 310 items |
+| **Nicole** | 1–40 | 41–60, 101–140 | 371–580 | 310 items |
+| **Rachelle** | 1–40 | 61–80, 101–120, 141–160 | 581–790 | 310 items |
+| **Shiao-li** | 1–40 | 81–100, 121–160 | 791–1000 | 310 items |
+| **AI** | 1–40 | 41–160 | 161–1000 | 1000 items |
 
 ## Pilot Study
 
