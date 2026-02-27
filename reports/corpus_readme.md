@@ -60,3 +60,5 @@ The collected corpus is stored at `data/raw/complete_dataset.csv` within the rep
 **Duplicate documents:** 16,737 exact duplicate rows were identified (by text). These have not been removed from the corpus at this stage and should be accounted for during annotation and analysis.
 
 **Noise:** Some texts contain embedded URLs (e.g. `https://t.co/...`, `pic.twitter.com/...`) and social media artifacts such as Twitter handles and retweet markers. These appear in the top frequent words and bigrams (`https co`, `twitter com`, `pic twitter`) and may need to be filtered depending on the annotation task.
+
+**Text Lengths:** The corpus contains texts of varying lengths — from short tweets and headlines (often under 20 words) to full news articles (potentially hundreds of words). This imbalance in text length across sources should be accounted for during analysis, as length alone may correlate with label or source type rather than linguistic content.
