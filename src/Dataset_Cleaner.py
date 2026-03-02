@@ -11,24 +11,33 @@ def clean_dataset(input_path=None, output_path=None):
     Parameters: optional input and output paths for .csv files. 
     """
      
+    #Default constants:
+    PARENT = ".."
+    DATA = "data"
+    RAW = "raw"
+    PREPROCESSED = "preprocessed"
+    DEFAULT_INPUT = "complete_dataset.csv"
+    DEFAULT_OUTPUT = "cleaned_dataset.csv"
+
+
     #Set path information:
     # Get the absolute path to the directory where this script is located (the 'src' folder)
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     #Build the absolute path to the 'data/raw' folder
-    data_raw_dir = os.path.join(script_dir, "..", "data", "raw")
+    data_raw_dir = os.path.join(script_dir, PARENT, DATA, RAW)
 
     #Build the absolute path to the 'data/processed' folder
-    data_processed_dir = os.path.join(script_dir, "..", "data", "preprocessed")
+    data_processed_dir = os.path.join(script_dir, PARENT, DATA, PREPROCESSED)
 
     ##set defaults for optional parameters ##
 
     #set default file path of csv file containing the links to data files
     if input_path is None:
-        input_path = os.path.join(data_raw_dir, "complete_dataset.csv")
+        input_path = os.path.join(data_raw_dir, DEFAULT_INPUT)
 
     if output_path is None:
-        output_path = os.path.join(data_processed_dir, "cleaned_dataset.csv")
+        output_path = os.path.join(data_processed_dir,DEFAULT_OUTPUT )
 
     # Now read the file, with the header specified, skipping any title, or other, rows before the actual header
     df = pd.read_csv(input_path, usecols=["text", "label"])
