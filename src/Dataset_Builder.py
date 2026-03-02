@@ -152,45 +152,6 @@ def build_dataset(file_containing_paths=None, path_col=None, data_cols=None, out
 
 
 
-def clean_dataset(input_path=None, output_path=None):
-     
-    #Set path information:
-    # Get the absolute path to the directory where this script is located (the 'src' folder)
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-
-    #Build the absolute path to the 'data/raw' folder
-    data_raw_dir = os.path.join(script_dir, "..", "data", "raw")
-
-    #Build the absolute path to the 'data/processed' folder
-    data_processed_dir = os.path.join(script_dir, "..", "data", "preprocessed")
-
-    ##set defaults for optional parameters ##
-
-    #set default file path of csv file containing the links to data files
-    if input_path is None:
-        input_path = os.path.join(data_raw_dir, "complete_dataset.csv")
-
-    if output_path is None:
-        output_path = os.path.join(data_processed_dir, "cleaned_dataset.csv")
-
-    # Now read the file, with the header specified, skipping any title, or other, rows before the actual header
-    df = pd.read_csv(input_path, usecols=["text", "label"])
-
-    #Drop duplicate rows
-    df = df.drop_duplicates()
-
-    #only keep rows with label = 1 or 0
-    df = df.query('label == 0 or label == 1')
-
-    #remove rows where 'text' is Nan or empty string
-    # Remove rows where 'text' is NaN or empty string
-    df = df[df['text'].notna() & (df['text'].str.strip() != '')]
-
-    #write file
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    df.to_csv(output_path, index=False, quoting=csv.QUOTE_ALL)
-    print(f"Saved cleaned dataset to {output_path}")
-
     
 
 
