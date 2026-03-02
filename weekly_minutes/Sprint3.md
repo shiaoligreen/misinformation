@@ -8,10 +8,12 @@ Call with stakeholder on Friday
 
 https://github.ubc.ca/MDS-CL-2025-26/COLX_523_adv-corp-ling_students/blob/master/Sprints/Sprint3/Sprint3.md
 
-* Annotation + explanation + code - 
-* Interannotator agreement study - 
-* Experimenting with annotation options (Optional) - 
-* Plan for the interface - 
+* Annotation dataset cleaning (id assignment) - Jennifer
+* Annotation + explanation - All members
+* Annotation instruction video - Shiao-li
+* Interannotator agreement study - Jennifer 
+* Experimenting with annotation options (Optional) - Nicole + Student volunteer  
+* Plan for the interface - Rachelle 
 
 
 ## Roles
