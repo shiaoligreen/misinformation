@@ -20,19 +20,27 @@ def build_dataset(file_containing_paths=None, path_col=None, data_cols=None, out
     another csv file. The default path given here is relative to the src directory, where this code is expected to be run.
     
     """
+    #Set default file and path info as constants
+    PARENT = ".."
+    DATA = "data"
+    RAW = "raw"
+    TEMP_FILE = "processed_urls_temp.txt"
+    DEFAULT_OUTPUT = "complete_dataset.csv"
+    LINK_FILE = "links_to_data.csv"
+
     #Set path information:
     # Get the absolute path to the directory where this script is located (the 'src' folder)
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     #Build the absolute path to the 'data/raw' folder
-    data_raw_dir = os.path.join(script_dir, "..", "data", "raw")
+    data_raw_dir = os.path.join(script_dir, PARENT, DATA, RAW)
 
 
     ##set defaults for optional parameters ##
 
     #set default file path of csv file containing the links to data files
     if file_containing_paths is None:
-        file_containing_paths = os.path.join(data_raw_dir, "links_to_data.csv")
+        file_containing_paths = os.path.join(data_raw_dir, LINK_FILE)
 
     #set default column name of links or paths contained in file_containing_paths
     if path_col is None:
@@ -40,13 +48,13 @@ def build_dataset(file_containing_paths=None, path_col=None, data_cols=None, out
 
     #set default path + filename where the full corpus will be created
     if output_path is None:
-        output_path = os.path.join(data_raw_dir, "complete_dataset.csv")
+        output_path = os.path.join(data_raw_dir, DEFAULT_OUTPUT)
 
     #set default columns names from source datafile to be extracted to build the corpus
     data_cols=["text", "label"]
     
     #set default temp file for tracking which files have been processed
-    temp_file = os.path.join(data_raw_dir, "processed_urls_temp.txt")
+    temp_file = os.path.join(data_raw_dir, TEMP_FILE)
 
     ##Start processing the source datasets ##
     
