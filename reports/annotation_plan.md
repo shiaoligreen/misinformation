@@ -55,11 +55,11 @@ We will annotate 1000 items between us + one AI with 100% overlap. This distribu
 
 | Annotator | 5-Way Overlap | Pairwise Overlaps | Solo Assignment (Human + AI) | Total Workload |
 | :--- | :--- | :--- | :--- | :--- |
-| **Jennifer** | 1–40 | 41–100 | 161–370 | 310 items |
-| **Nicole** | 1–40 | 41–60, 101–140 | 371–580 | 310 items |
-| **Rachelle** | 1–40 | 61–80, 101–120, 141–160 | 581–790 | 310 items |
-| **Shiao-li** | 1–40 | 81–100, 121–160 | 791–1000 | 310 items |
-| **AI** | 1–40 | 41–160 | 161–1000 | 1000 items |
+| **Jennifer** | 0–40 | 41–100 | 161–370 | 310 items |
+| **Nicole** | 0–40 | 41–60, 101–140 | 371–580 | 310 items |
+| **Rachelle** | 0–40 | 61–80, 101–120, 141–160 | 581–790 | 310 items |
+| **Shiao-li** | 0–40 | 81–100, 121–160 | 791–1000 | 310 items |
+| **AI** | 0–40 | 41–160 | 161–1000 | 1000 items |
 
 ## Pilot Study
 
