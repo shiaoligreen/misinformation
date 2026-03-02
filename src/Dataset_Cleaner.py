@@ -4,6 +4,12 @@ import csv
 
 
 def clean_dataset(input_path=None, output_path=None):
+    """
+    clean_dataset() removes duplicate rows from a .csv file.  Removes rows with NaN text. Removes rows with empty strings.
+    Adds index numbers while outputting file to 
+    
+    Parameters: optional input and output paths for .csv files. 
+    """
      
     #Set path information:
     # Get the absolute path to the directory where this script is located (the 'src' folder)
@@ -33,18 +39,13 @@ def clean_dataset(input_path=None, output_path=None):
     #only keep rows with label = 1 or 0
     df = df.query('label == 0 or label == 1')
 
-    #remove rows where 'text' is Nan or empty string
     # Remove rows where 'text' is NaN or empty string
     df = df[df['text'].notna() & (df['text'].str.strip() != '')]
 
-    #write file
+    #write file with index numbers. Quote the content of columns, so commas within the text do not cause unwanted columns.
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    df.to_csv(output_path, index=False, quoting=csv.QUOTE_ALL)
+    df.to_csv(output_path, index=True, quoting=csv.QUOTE_ALL)
     print(f"Saved cleaned dataset to {output_path}")
-
-
-
-
 
 
 
