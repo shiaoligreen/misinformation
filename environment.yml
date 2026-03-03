@@ -10,4 +10,6 @@ dependencies:
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-spellchecker
+  - matplotlib
   - nltk
+
