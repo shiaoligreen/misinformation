@@ -8,7 +8,7 @@ def clean_dataset(input_path=None, output_path=None):
     clean_dataset() removes duplicate rows from a .csv file.  Removes rows with NaN text. Removes rows with empty strings.
     Adds index numbers while outputting file to 
     
-    Parameters: optional input and output paths for .csv files. 
+    Parameters: optional input and output paths for .csv files.
     """
      
     #Default constants:
@@ -51,10 +51,20 @@ def clean_dataset(input_path=None, output_path=None):
     # Remove rows where 'text' is NaN or empty string
     df = df[df['text'].notna() & (df['text'].str.strip() != '')]
 
+    # Remove rows where 'text' contains 'reuters'  case-insensitive
+    df = df[~df['text'].str.contains(r"reuters", case=False, na=False)]
+
+    # Reset index so output CSV has contiguous row numbers
+    df = df.reset_index(drop=True)
+
+    # Calculate total number of tokens across the cleaned text column
+    total_tokens = int(df['text'].str.split().str.len().sum())
+
     #write file with index numbers. Quote the content of columns, so commas within the text do not cause unwanted columns.
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df.to_csv(output_path, index=True, quoting=csv.QUOTE_ALL)
     print(f"Saved cleaned dataset to {output_path}")
+    print(f"Total tokens in text column: {total_tokens}")
 
 
 
