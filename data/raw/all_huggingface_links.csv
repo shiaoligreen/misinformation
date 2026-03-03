@@ -2,3 +2,5 @@ filename,url
 training_data.csv,https://huggingface.co/datasets/COLX523/Misinformation/resolve/main/training_data.csv
 testing_data.csv,https://huggingface.co/datasets/COLX523/Misinformation/resolve/main/testing_data.csv
 scraped_headlines.csv,https://huggingface.co/datasets/COLX523/Misinformation/resolve/main/google_comp_ling_articles.csv
+complete_dataset.csv,https://huggingface.co/datasets/COLX523/Misinformation/resolve/main/complete_dataset.csv
+pilot_dataset.csv, https://huggingface.co/datasets/COLX523/Misinformation/resolve/main/pilot_dataset.csv
