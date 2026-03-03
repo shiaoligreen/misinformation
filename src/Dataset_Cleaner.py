@@ -3,12 +3,14 @@ import os
 import csv
 
 
-def clean_dataset(input_path=None, output_path=None):
+def clean_dataset(input_path=None, output_path=None, max_chars=560):
     """
-    clean_dataset() removes duplicate rows from a .csv file.  Removes rows with NaN text. Removes rows with empty strings.
+    clean_dataset() removes duplicate rows from a .csv file. Removes rows with NaN text, empty strings,
+    and rows where text is longer than max_chars.
     Adds index numbers while outputting file to 
     
-    Parameters: optional input and output paths for .csv files.
+    Parameters: optional input and output paths for .csv files,
+                optional max_chars as the maximum allowed text length.
     """
      
     #Default constants:
@@ -50,6 +52,9 @@ def clean_dataset(input_path=None, output_path=None):
 
     # Remove rows where 'text' is NaN or empty string
     df = df[df['text'].notna() & (df['text'].str.strip() != '')]
+
+    # Remove rows where 'text' is longer than max_chars
+    df = df[df['text'].str.len() <= max_chars]
 
     # Remove rows where 'text' contains 'reuters'  case-insensitive
     df = df[~df['text'].str.contains(r"reuters", case=False, na=False)]
