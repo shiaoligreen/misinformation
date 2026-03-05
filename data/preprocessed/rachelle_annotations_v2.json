@@ -1,0 +1,5627 @@
+[
+{
+  "Unnamed: 0": 0,
+  "text": "No Food, No FEMA: Hurricane Michael’s Survivors Are Furious https:\/\/thebea.st\/2CIXNoz ",
+  "label": 0,
+  "id": 1,
+  "annotator": 1,
+  "annotation_id": 1,
+  "created_at": "2026-03-04T05:20:13.339756Z",
+  "updated_at": "2026-03-04T05:20:13.339771Z",
+  "lead_time": 87.809
+},
+{
+  "Unnamed: 0": 1,
+  "text": "Would-be looter in Hurricane Michael-ravaged Florida shot, killed after trying to steal law enforcement vehicle: report\n\nhttps:\/\/www.foxnews.com\/us\/would-be-looter-in-hurricane-michael-ravaged-florida-shot-killed-after-trying-to-steal-law-enforcement-vehicle-report …\n... All looters need to be handled the same way!",
+  "label": [
+    {
+      "start": 315,
+      "end": 316,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Would",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 148,
+      "end": 153,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 2,
+  "annotator": 1,
+  "annotation_id": 2,
+  "created_at": "2026-03-04T05:21:34.259316Z",
+  "updated_at": "2026-03-05T16:42:39.347096Z",
+  "lead_time": 96.91999999999999
+},
+{
+  "Unnamed: 0": 2,
+  "text": "His argument is correct. Hurricane Rita killed over 100 people on the road, drowned them in their own cars. pic.twitter.com\/kulwIZW2EI",
+  "label": 0,
+  "id": 3,
+  "annotator": 1,
+  "annotation_id": 3,
+  "created_at": "2026-03-04T05:22:02.377324Z",
+  "updated_at": "2026-03-04T05:22:02.377341Z",
+  "lead_time": 27.893
+},
+{
+  "Unnamed: 0": 3,
+  "text": "im praying for all of my friends down in the Caribbean who have no where else to go and are forced to ride through the hurricane. be strong https:\/\/twitter.com\/ttrogdon\/status\/905205124699750401¬†‚Ä¶",
+  "label": 0,
+  "id": 4,
+  "annotator": 1,
+  "annotation_id": 4,
+  "created_at": "2026-03-04T05:22:46.508828Z",
+  "updated_at": "2026-03-04T05:22:46.508844Z",
+  "lead_time": 43.692
+},
+{
+  "Unnamed: 0": 4,
+  "text": "To all my Texas streamers: PLEASE be safe if the hurricane comes to you! I‚Äôd hate to lose...family...don‚Äôt be a hero. Take shelter. pic.twitter.com\/jDPPdMTHwN",
+  "label": [
+    {
+      "start": 27,
+      "end": 33,
+      "text": "PLEASE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 5,
+  "annotator": 1,
+  "annotation_id": 5,
+  "created_at": "2026-03-04T05:23:17.265150Z",
+  "updated_at": "2026-03-04T05:23:17.265166Z",
+  "lead_time": 30.546
+},
+{
+  "Unnamed: 0": 5,
+  "text": "RT @Stacy_Spencer: There is a Tornado warning. Service is canceled. Get to shelter and be safe. ¬´ praying for memphis.",
+  "label": 0,
+  "id": 6,
+  "annotator": 1,
+  "annotation_id": 6,
+  "created_at": "2026-03-04T05:23:37.805054Z",
+  "updated_at": "2026-03-04T05:23:37.805068Z",
+  "lead_time": 20.33
+},
+{
+  "Unnamed: 0": 6,
+  "text": "WTF? » No food, no FEMA: Hurricane Michael’s survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw …",
+  "label": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "WTF",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 3,
+      "text": "WTF",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 7,
+  "annotator": 1,
+  "annotation_id": 7,
+  "created_at": "2026-03-04T05:24:09.929340Z",
+  "updated_at": "2026-03-04T05:24:09.929371Z",
+  "lead_time": 31.934
+},
+{
+  "Unnamed: 0": 7,
+  "text": "The aftermath of a hurricane is horrific. The heat\/humidity is excruciating, no water\/ice, no bathing, complete darkness, bugs, no warm food",
+  "label": [
+    {
+      "start": 63,
+      "end": 75,
+      "text": "excruciating",
+      "labels": [
+        "adjectives"
+      ]
+    },
+    {
+      "start": 112,
+      "end": 120,
+      "text": "darkness",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 8,
+  "annotator": 1,
+  "annotation_id": 8,
+  "created_at": "2026-03-04T05:25:45.388395Z",
+  "updated_at": "2026-03-05T16:41:35.702409Z",
+  "lead_time": 141.582
+},
+{
+  "Unnamed: 0": 8,
+  "text": "No food, no FEMA: Hurricane Michael's survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw …",
+  "label": 0,
+  "id": 9,
+  "annotator": 1,
+  "annotation_id": 9,
+  "created_at": "2026-03-04T05:25:52.630508Z",
+  "updated_at": "2026-03-04T05:25:52.630526Z",
+  "lead_time": 7.031
+},
+{
+  "Unnamed: 0": 9,
+  "text": "You know they hate you at work when the TV manager picks you to go out with a camera and operate the LIVE DRIVE car in a tornado.",
+  "label": [
+    {
+      "start": 101,
+      "end": 111,
+      "text": "LIVE DRIVE",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 10,
+  "annotator": 1,
+  "annotation_id": 10,
+  "created_at": "2026-03-04T05:26:15.207417Z",
+  "updated_at": "2026-03-04T05:26:15.207433Z",
+  "lead_time": 22.375
+},
+{
+  "Unnamed: 0": 10,
+  "text": "@john19071969 It's unwise to flood the food supply and environment with new plant varieties. Good science requires more prudence.",
+  "label": 0,
+  "id": 11,
+  "annotator": 1,
+  "annotation_id": 11,
+  "created_at": "2026-03-04T05:26:48.003916Z",
+  "updated_at": "2026-03-04T05:26:48.003934Z",
+  "lead_time": 32.587
+},
+{
+  "Unnamed: 0": 11,
+  "text": "Someone parked their car in the living room because of Hurricane Matthew http:\/\/dlvr.it\/MPzpS1 ",
+  "label": 0,
+  "id": 12,
+  "annotator": 1,
+  "annotation_id": 12,
+  "created_at": "2026-03-04T05:26:58.731214Z",
+  "updated_at": "2026-03-04T05:26:58.731231Z",
+  "lead_time": 10.527
+},
+{
+  "Unnamed: 0": 12,
+  "text": "President Trump Gives Permission for US Troops to Stay at Trump Hotel in Washington DC https:\/\/t.co\/PTHILtJqh3 via @gatewaypundit",
+  "label": 1,
+  "id": 13,
+  "annotator": 1,
+  "annotation_id": 13,
+  "created_at": "2026-03-04T05:27:08.003135Z",
+  "updated_at": "2026-03-04T05:27:08.003151Z",
+  "lead_time": 9.078
+},
+{
+  "Unnamed: 0": 13,
+  "text": "Motorcyclist bicyclist injured in Denver collision on Broadway: At least two people were taken to a localÛ_ http:\/\/t.co\/ozK1QHJVfh",
+  "label": 0,
+  "id": 14,
+  "annotator": 1,
+  "annotation_id": 14,
+  "created_at": "2026-03-04T05:27:30.789118Z",
+  "updated_at": "2026-03-04T05:27:30.789134Z",
+  "lead_time": 22.577
+},
+{
+  "Unnamed: 0": 14,
+  "text": "“The effect of Hurricane Matthew on Haiti is catastrophic\" -food + water crisis... http:\/\/ln.is\/GSphX  by #WSJ via @c0nvey",
+  "label": 0,
+  "id": 15,
+  "annotator": 1,
+  "annotation_id": 15,
+  "created_at": "2026-03-04T05:27:48.704471Z",
+  "updated_at": "2026-03-04T05:27:48.704487Z",
+  "lead_time": 17.699
+},
+{
+  "Unnamed: 0": 15,
+  "text": "i understand everyone has to make a buck, i would encourage you to think if food delivery during a blizzard is the best choice.",
+  "label": [
+    {
+      "start": 67,
+      "end": 72,
+      "text": "think",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 12,
+      "text": "understand",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 16,
+  "annotator": 1,
+  "annotation_id": 16,
+  "created_at": "2026-03-04T05:28:15.431295Z",
+  "updated_at": "2026-03-05T17:16:03.049529Z",
+  "lead_time": 36.712
+},
+{
+  "Unnamed: 0": 16,
+  "text": "Yeah, but it's also unthinkable to tell hurricane refugees to \"have a great time,\" and to brag about the size of the crowd at shelter.",
+  "label": [
+    {
+      "start": 20,
+      "end": 31,
+      "text": "unthinkable",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 17,
+  "annotator": 1,
+  "annotation_id": 17,
+  "created_at": "2026-03-04T05:28:47.493351Z",
+  "updated_at": "2026-03-05T17:14:57.311000Z",
+  "lead_time": 52.15
+},
+{
+  "Unnamed: 0": 17,
+  "text": "Birds in a blizzard. We put out extra sunflower seeds since their usual food sources just got‚Ä¶ https:\/\/www.instagram.com\/p\/BBS2eYWgTbj\/¬†",
+  "label": 0,
+  "id": 18,
+  "annotator": 1,
+  "annotation_id": 18,
+  "created_at": "2026-03-04T05:28:58.138032Z",
+  "updated_at": "2026-03-04T05:28:58.138044Z",
+  "lead_time": 10.455
+},
+{
+  "Unnamed: 0": 18,
+  "text": "http:\/\/Findmytowedcar.com¬† for those that have had their cars towed due to the Hurricane in Houston. #hurricaneharvey",
+  "label": 0,
+  "id": 19,
+  "annotator": 1,
+  "annotation_id": 19,
+  "created_at": "2026-03-04T05:29:06.899273Z",
+  "updated_at": "2026-03-04T05:29:06.899291Z",
+  "lead_time": 8.578
+},
+{
+  "Unnamed: 0": 19,
+  "text": "At the 'Wet n Wild' water park, where half the rides are shut due to the wind from Hurricane Sandy; on a ride called 'Storm'! Ah, the irony.",
+  "label": [
+    {
+      "start": 124,
+      "end": 125,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 20,
+  "annotator": 1,
+  "annotation_id": 20,
+  "created_at": "2026-03-04T05:29:30.528291Z",
+  "updated_at": "2026-03-04T05:29:30.528306Z",
+  "lead_time": 23.435
+},
+{
+  "Unnamed: 0": 20,
+  "text": "All honeys that are gonna be affected by hurricane Matthew are welcome to come stay at 1505 W tharpe we have food,water and me",
+  "label": 0,
+  "id": 21,
+  "annotator": 1,
+  "annotation_id": 21,
+  "created_at": "2026-03-04T05:30:00.119675Z",
+  "updated_at": "2026-03-04T05:30:00.119690Z",
+  "lead_time": 29.363
+},
+{
+  "Unnamed: 0": 21,
+  "text": "Nambe. This stupid hurricane comes and goes I am still here waiting for it to take me car",
+  "label": 0,
+  "id": 22,
+  "annotator": 1,
+  "annotation_id": 22,
+  "created_at": "2026-03-04T05:30:46.895867Z",
+  "updated_at": "2026-03-04T05:30:46.895881Z",
+  "lead_time": 46.578
+},
+{
+  "Unnamed: 0": 22,
+  "text": "Drove thru NC last week & experienced my first tornado - went right in front of our vehicle, people on the hwy freaked out more than my kids",
+  "label": 0,
+  "id": 23,
+  "annotator": 1,
+  "annotation_id": 23,
+  "created_at": "2026-03-04T05:31:04.376965Z",
+  "updated_at": "2026-03-04T05:31:04.376980Z",
+  "lead_time": 17.263
+},
+{
+  "Unnamed: 0": 23,
+  "text": "*eats the medicine @mlp_twilight gives him* whats a solar flare anyways? does the sun explode?!",
+  "label": [
+    {
+      "start": 94,
+      "end": 95,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 24,
+  "annotator": 1,
+  "annotation_id": 24,
+  "created_at": "2026-03-04T05:31:27.189294Z",
+  "updated_at": "2026-03-04T05:31:27.189310Z",
+  "lead_time": 22.608
+},
+{
+  "Unnamed: 0": 24,
+  "text": "I wonder how many professors would accept my \"hurricane sandy got my car stuck\" excuse Monday.",
+  "label": [
+    {
+      "start": 29,
+      "end": 34,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 25,
+  "annotator": 1,
+  "annotation_id": 25,
+  "created_at": "2026-03-04T05:31:46.751760Z",
+  "updated_at": "2026-03-05T16:39:59.956757Z",
+  "lead_time": 28.078
+},
+{
+  "Unnamed: 0": 25,
+  "text": "I'm getting used to seeing a layer of ash on my car each morning - and I'm in AB. We've  only seen a red sun this week. The smoke is as far as Sask. \n\nBritish Columbia declares state of emergency as over 500 wildfires burn\n\nhttps:\/\/www.theguardian.com\/world\/2018\/aug\/16\/british-columbia-wildfires-state-of-emergency-declared?CMP=Share_AndroidApp_Tweet¬†‚Ä¶",
+  "label": 0,
+  "id": 26,
+  "annotator": 1,
+  "annotation_id": 26,
+  "created_at": "2026-03-04T05:32:05.140550Z",
+  "updated_at": "2026-03-04T05:32:05.140564Z",
+  "lead_time": 18.192
+},
+{
+  "Unnamed: 0": 26,
+  "text": "Cars melt, power down as wildfire turns California town into ‚Äòburning¬†hell‚Äô https:\/\/www.siasat.com\/news\/cars-melt-power-down-wildfire-turns-california-town-burning-hell-1430954\/¬†‚Ä¶pic.twitter.com\/MEE6HbXWCs",
+  "label": [
+    {
+      "start": 64,
+      "end": 71,
+      "text": "burning",
+      "labels": [
+        "adjectives"
+      ]
+    },
+    {
+      "start": 161,
+      "end": 168,
+      "text": "burning",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 27,
+  "annotator": 1,
+  "annotation_id": 27,
+  "created_at": "2026-03-04T05:32:39.374288Z",
+  "updated_at": "2026-03-04T05:32:39.374305Z",
+  "lead_time": 34.04
+},
+{
+  "Unnamed: 0": 27,
+  "text": "@SteveLayman I was able to salvage my Titans Superbowl football from Nashville flood. Lost my house & Car. I need Neil's autograph How Can I",
+  "label": 0,
+  "id": 28,
+  "annotator": 1,
+  "annotation_id": 28,
+  "created_at": "2026-03-04T05:33:00.894845Z",
+  "updated_at": "2026-03-04T05:33:00.894860Z",
+  "lead_time": 21.296
+},
+{
+  "Unnamed: 0": 28,
+  "text": "Dante Exum's knee injury could stem Jazz's hoped-for surge back to ... http:\/\/t.co\/8PIFutrB5U",
+  "label": [
+    {
+      "start": 25,
+      "end": 30,
+      "text": "could",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 48,
+      "text": "hoped",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 29,
+  "annotator": 1,
+  "annotation_id": 29,
+  "created_at": "2026-03-04T05:33:08.182158Z",
+  "updated_at": "2026-03-05T17:17:21.721595Z",
+  "lead_time": 24.816
+},
+{
+  "Unnamed: 0": 29,
+  "text": "White House tweet wrongly says #Obamacare led to fewer insurance options https:\/\/t.co\/oZAwbFNnl5 #ProtectOurCare #DemForce",
+  "label": 1,
+  "id": 30,
+  "annotator": 1,
+  "annotation_id": 30,
+  "created_at": "2026-03-04T05:33:37.751605Z",
+  "updated_at": "2026-03-04T05:33:37.751621Z",
+  "lead_time": 29.383
+},
+{
+  "Unnamed: 0": 30,
+  "text": "Many states along the Mid-Atlantic and the East Coast have shelters open in response to Hurricane Sandy. Search for an open shelter by...",
+  "label": 0,
+  "id": 31,
+  "annotator": 1,
+  "annotation_id": 31,
+  "created_at": "2026-03-04T05:33:45.835054Z",
+  "updated_at": "2026-03-04T05:33:45.835071Z",
+  "lead_time": 7.877
+},
+{
+  "Unnamed: 0": 31,
+  "text": "Thank you @CVS_Extra for making non-essential employees go in during a blizzard  I really wanted to try and not crash my car today",
+  "label": 0,
+  "id": 32,
+  "annotator": 1,
+  "annotation_id": 32,
+  "created_at": "2026-03-04T05:34:12.358000Z",
+  "updated_at": "2026-03-04T05:34:12.358016Z",
+  "lead_time": 26.328
+},
+{
+  "Unnamed: 0": 32,
+  "text": "Proud if Eastwood students organizing collections for Eclectic Shelter to help tornado victims",
+  "label": 0,
+  "id": 33,
+  "annotator": 1,
+  "annotation_id": 33,
+  "created_at": "2026-03-04T05:34:21.984585Z",
+  "updated_at": "2026-03-04T05:34:21.984600Z",
+  "lead_time": 9.43
+},
+{
+  "Unnamed: 0": 33,
+  "text": "Hurricane Harvey evacuees forced out of storm shelter https:\/\/goo.gl\/fb\/kqrQEm¬†",
+  "label": 0,
+  "id": 34,
+  "annotator": 1,
+  "annotation_id": 34,
+  "created_at": "2026-03-04T05:34:31.738733Z",
+  "updated_at": "2026-03-04T05:34:31.738750Z",
+  "lead_time": 9.562
+},
+{
+  "Unnamed: 0": 34,
+  "text": "As Hurricane Dorian Impacts East Coast, Food Lion Invites Customers to Make In-Store http:\/\/bit.ly\/2MXD1Xn  #green #csr #sustainability",
+  "label": 0,
+  "id": 35,
+  "annotator": 1,
+  "annotation_id": 35,
+  "created_at": "2026-03-04T05:34:40.851524Z",
+  "updated_at": "2026-03-04T05:34:40.851542Z",
+  "lead_time": 8.921
+},
+{
+  "Unnamed: 0": 35,
+  "text": "Un raggio di sole #AustraliaBurning  Rescued koala brings 'ray of sunshine after nightmare' on fire ground https:\/\/t.co\/Tf8wk7ikzg di @smh",
+  "label": 1,
+  "id": 36,
+  "annotator": 1,
+  "annotation_id": 36,
+  "created_at": "2026-03-04T05:34:53.571883Z",
+  "updated_at": "2026-03-04T05:34:53.571900Z",
+  "lead_time": 12.509
+},
+{
+  "Unnamed: 0": 36,
+  "text": "(1\/2) Health DG Datuk Dr Noor Hisham Abdullah Noor on Friday said the government is likely to draft a policy that will make it mandatory for Malaysians to be vaccinated against #Covid19 when a #vaccine is successfully developed.\n\nhttps:\/\/t.co\/TEWVSY0mui",
+  "label": [
+    {
+      "start": 84,
+      "end": 90,
+      "text": "likely",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 37,
+  "annotator": 1,
+  "annotation_id": 37,
+  "created_at": "2026-03-04T05:35:29.067165Z",
+  "updated_at": "2026-03-04T05:35:29.067177Z",
+  "lead_time": 35.296
+},
+{
+  "Unnamed: 0": 37,
+  "text": "Rocky Fire http:\/\/t.co\/wxhMp5ppjq",
+  "label": 0,
+  "id": 38,
+  "annotator": 1,
+  "annotation_id": 38,
+  "created_at": "2026-03-04T05:35:33.508041Z",
+  "updated_at": "2026-03-04T05:35:33.508057Z",
+  "lead_time": 4.242
+},
+{
+  "Unnamed: 0": 38,
+  "text": "$Johnn4y44 would definitely be grateful if I can recover from the loss of food due to surges and storms causing power outage for two days  from hurricane Dorian here in Florida.",
+  "label": [
+    {
+      "start": 45,
+      "end": 48,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 11,
+      "end": 16,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 39,
+  "annotator": 1,
+  "annotation_id": 39,
+  "created_at": "2026-03-04T05:35:47.452479Z",
+  "updated_at": "2026-03-05T16:39:32.587226Z",
+  "lead_time": 31.483000000000004
+},
+{
+  "Unnamed: 0": 39,
+  "text": "In Manatee County, evacuees rush to shelter from Hurricane Matthew http:\/\/www.bradenton.com\/news\/local\/article106551847.html …",
+  "label": 0,
+  "id": 40,
+  "annotator": 1,
+  "annotation_id": 40,
+  "created_at": "2026-03-04T05:35:53.271553Z",
+  "updated_at": "2026-03-04T05:35:53.271569Z",
+  "lead_time": 5.611
+},
+{
+  "Unnamed: 0": 60,
+  "text": "So want Sony QX portable lens - will double food pictures flood ;)",
+  "label": 0,
+  "id": 61,
+  "annotator": 1,
+  "annotation_id": 61,
+  "created_at": "2026-03-04T05:37:26.781224Z",
+  "updated_at": "2026-03-04T05:37:26.781239Z",
+  "lead_time": 21.151
+},
+{
+  "Unnamed: 0": 61,
+  "text": "I donated to this amazing organization helping the animals during the California wildfires - all I could do was imagine how I‚Äôd feel if something happened to Stella or Zodiac. Then I thought about how much I spend on pet food each week; glad to help someone else‚Äôs pet eat, too! https:\/\/twitter.com\/MichelleMeach16\/status\/1062425848886759429¬†‚Ä¶",
+  "label": [
+    {
+      "start": 281,
+      "end": 282,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 99,
+      "end": 104,
+      "text": "could",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 130,
+      "end": 134,
+      "text": "feel",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 112,
+      "end": 119,
+      "text": "imagine",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 62,
+  "annotator": 1,
+  "annotation_id": 62,
+  "created_at": "2026-03-04T05:38:26.900135Z",
+  "updated_at": "2026-03-05T17:14:00.363933Z",
+  "lead_time": 80.257
+},
+{
+  "Unnamed: 0": 62,
+  "text": "Someone parked their car in the living room because of Hurricane Matthew: http:\/\/on.mash.to\/2dXTaaW ",
+  "label": 0,
+  "id": 63,
+  "annotator": 1,
+  "annotation_id": 63,
+  "created_at": "2026-03-04T05:40:23.778072Z",
+  "updated_at": "2026-03-04T05:40:23.778089Z",
+  "lead_time": 116.647
+},
+{
+  "Unnamed: 0": 63,
+  "text": "No Food, No FEMA: Hurricane Michael’s Survivors Are Furious #SmartNews https:\/\/www.thedailybeast.com\/no-food-no-fema-hurricane-michaels-survivors-are-furious …",
+  "label": 0,
+  "id": 64,
+  "annotator": 1,
+  "annotation_id": 64,
+  "created_at": "2026-03-04T05:40:31.445864Z",
+  "updated_at": "2026-03-04T05:40:31.445881Z",
+  "lead_time": 7.437
+},
+{
+  "Unnamed: 0": 64,
+  "text": "Tesla remotely extends car batteries to help with Hurricane Michael https:\/\/ift.tt\/2QIDNoL ",
+  "label": [
+    {
+      "start": 40,
+      "end": 44,
+      "text": "help",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 65,
+  "annotator": 1,
+  "annotation_id": 65,
+  "created_at": "2026-03-04T05:40:41.408162Z",
+  "updated_at": "2026-03-05T16:43:32.348068Z",
+  "lead_time": 15.986999999999998
+},
+{
+  "Unnamed: 0": 65,
+  "text": "I was 1 of the info officers assigned to the shelter from the flood last wk. Evacuees were kind and grateful. Many helped. Amazing folks!",
+  "label": [
+    {
+      "start": 136,
+      "end": 137,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 100,
+      "end": 109,
+      "text": "grateful.",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 66,
+  "annotator": 1,
+  "annotation_id": 66,
+  "created_at": "2026-03-04T05:41:13.874844Z",
+  "updated_at": "2026-03-04T05:41:13.874861Z",
+  "lead_time": 32.276
+},
+{
+  "Unnamed: 0": 66,
+  "text": "NRG Center is now open as a relief shelter for Hurricane Harvey and is expecting up to 10,000 evacuees. There is... http:\/\/fb.me\/AdYfRirl¬†",
+  "label": [
+    {
+      "start": 71,
+      "end": 80,
+      "text": "expecting",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 67,
+  "annotator": 1,
+  "annotation_id": 67,
+  "created_at": "2026-03-04T05:41:22.006058Z",
+  "updated_at": "2026-03-05T16:43:48.945780Z",
+  "lead_time": 23.285
+},
+{
+  "Unnamed: 0": 67,
+  "text": "#Cars in the #News- Florida man parks Smart car in kitchen to save it from Hurricane Dorian https:\/\/www.autoblog.com\/2019\/09\/05\/hurricane-dorian-smart-car-in-kitchen\/ …",
+  "label": 0,
+  "id": 68,
+  "annotator": 1,
+  "annotation_id": 68,
+  "created_at": "2026-03-04T05:41:36.786303Z",
+  "updated_at": "2026-03-04T05:41:36.786319Z",
+  "lead_time": 14.587
+},
+{
+  "Unnamed: 0": 68,
+  "text": "We're ready for the hurricane and Stephen just left like tf are you doing????",
+  "label": [
+    {
+      "start": 57,
+      "end": 59,
+      "text": "tf",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 69,
+  "annotator": 1,
+  "annotation_id": 69,
+  "created_at": "2026-03-04T05:41:59.087601Z",
+  "updated_at": "2026-03-04T05:41:59.087616Z",
+  "lead_time": 22.095
+},
+{
+  "Unnamed: 0": 69,
+  "text": "\"Competition is good for the economy, but not good for your business when it comes to competing for hourly employees. Ride sharing services such as Uber are spreading across the US like wildfires and are in need of drivers.\" https:\/\/blog.workstream.is\/4-ways-to-compete-against-uber-for-hourly-workers-in-silicon-valley¬†‚Ä¶",
+  "label": 0,
+  "id": 70,
+  "annotator": 1,
+  "annotation_id": 70,
+  "created_at": "2026-03-04T05:42:30.975427Z",
+  "updated_at": "2026-03-04T05:42:30.975444Z",
+  "lead_time": 31.678
+},
+{
+  "Unnamed: 0": 70,
+  "text": "Cyclists attempt to ride their bikes through waist deep water in South Carolina after Hurricane Matthew made... http:\/\/fb.me\/1d7URf0KE ",
+  "label": 0,
+  "id": 71,
+  "annotator": 1,
+  "annotation_id": 71,
+  "created_at": "2026-03-04T05:42:46.099126Z",
+  "updated_at": "2026-03-04T05:42:46.099140Z",
+  "lead_time": 14.931
+},
+{
+  "Unnamed: 0": 71,
+  "text": "Latest: Highland Beach resident plans to ride out Hurricane Matthew https:\/\/goo.gl\/FDjmii ",
+  "label": 0,
+  "id": 72,
+  "annotator": 1,
+  "annotation_id": 72,
+  "created_at": "2026-03-04T05:43:27.427427Z",
+  "updated_at": "2026-03-04T05:43:27.427443Z",
+  "lead_time": 41.13
+},
+{
+  "Unnamed: 0": 72,
+  "text": "China's Stock Market Crash: Are There Gems In The Rubble?: ChinaÛªs stock market crash this summer has sparked ... http:\/\/t.co\/2OqSGZqlbz",
+  "label": 1,
+  "id": 73,
+  "annotator": 1,
+  "annotation_id": 73,
+  "created_at": "2026-03-04T05:43:44.773808Z",
+  "updated_at": "2026-03-04T05:43:44.773823Z",
+  "lead_time": 17.151
+},
+{
+  "Unnamed: 0": 73,
+  "text": "Irony just died a thousand deaths! ???? http:\/\/t.co\/dBU30ObDxz",
+  "label": [
+    {
+      "start": 33,
+      "end": 34,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 74,
+  "annotator": 1,
+  "annotation_id": 74,
+  "created_at": "2026-03-04T05:43:56.844444Z",
+  "updated_at": "2026-03-04T05:43:56.844463Z",
+  "lead_time": 11.88
+},
+{
+  "Unnamed: 0": 74,
+  "text": "Herman Cain, a former CEO and presidential candidate, has died after contracting coronavirus. \n\nHe was 74.\nhttps:\/\/t.co\/rAZgrjPv56",
+  "label": 1,
+  "id": 75,
+  "annotator": 1,
+  "annotation_id": 75,
+  "created_at": "2026-03-04T05:44:15.789320Z",
+  "updated_at": "2026-03-04T05:44:15.789334Z",
+  "lead_time": 18.739
+},
+{
+  "Unnamed: 0": 75,
+  "text": "Hurricane Matthew is now car 3 storm winds up to 125 mph movin very we may go love on Facebook that two days hurricane may hit fl",
+  "label": [
+    {
+      "start": 71,
+      "end": 74,
+      "text": "may",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 76,
+  "annotator": 1,
+  "annotation_id": 76,
+  "created_at": "2026-03-04T05:44:31.566228Z",
+  "updated_at": "2026-03-05T17:23:49.501738Z",
+  "lead_time": 24.606
+},
+{
+  "Unnamed: 0": 76,
+  "text": "Batteries, flashlights, cell phone battery pack, gas, cash, medicine, ice, water in the bathtub, bottled water, cooler, canned food and dry goods, pet food, toilet paper, paper plates, beverages of choice, and a book. That’s all I can think of. #Hurricane #Dorian",
+  "label": [
+    {
+      "start": 235,
+      "end": 240,
+      "text": "think",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 77,
+  "annotator": 1,
+  "annotation_id": 77,
+  "created_at": "2026-03-04T05:44:43.359174Z",
+  "updated_at": "2026-03-05T16:44:39.208357Z",
+  "lead_time": 21.065
+},
+{
+  "Unnamed: 0": 77,
+  "text": "Fuck a hurricane #sandy #food #love #enchiladas #mole #v8 #aguardiente #life #love #awesomeness #greatness # http:\/\/instagr.am\/p\/RY-oDiu5Ye\/ ",
+  "label": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Fuck",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 84,
+      "end": 95,
+      "text": "awesomeness",
+      "labels": [
+        "adjectives"
+      ]
+    },
+    {
+      "start": 97,
+      "end": 106,
+      "text": "greatness",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 78,
+  "annotator": 1,
+  "annotation_id": 78,
+  "created_at": "2026-03-04T05:45:13.700728Z",
+  "updated_at": "2026-03-04T05:45:13.700743Z",
+  "lead_time": 30.142
+},
+{
+  "Unnamed: 0": 78,
+  "text": "‘It Was Like the Taliban Had Come to Town': 'Trump Train' Caravan Targeted Black Communities Across U.S. Ahead of Election https:\/\/t.co\/t4jaiairI4 https:\/\/t.co\/gU0hukN7J2",
+  "label": 1,
+  "id": 79,
+  "annotator": 1,
+  "annotation_id": 79,
+  "created_at": "2026-03-04T05:45:41.822741Z",
+  "updated_at": "2026-03-04T05:45:41.822756Z",
+  "lead_time": 27.89
+},
+{
+  "Unnamed: 0": 79,
+  "text": "MT @TravelGov US citizens in #Jamaica: Routine consular services suspended October 3, 4; Shelter in place during Hurricane #Matthew. #hmrd v",
+  "label": 0,
+  "id": 80,
+  "annotator": 1,
+  "annotation_id": 80,
+  "created_at": "2026-03-04T05:46:00.164872Z",
+  "updated_at": "2026-03-04T05:46:00.164887Z",
+  "lead_time": 18.123
+},
+{
+  "Unnamed: 0": 100,
+  "text": "PRETTY FUNNY STUFF-MAKE SURE TO WATCH TO THE END.",
+  "label": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "PRETTY",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 12,
+      "text": "FUNNY",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 18,
+      "text": "STUFF",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 19,
+      "end": 23,
+      "text": "MAKE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 28,
+      "text": "SURE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 31,
+      "text": "TO",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 37,
+      "text": "WATCH",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 40,
+      "text": "TO",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 44,
+      "text": "THE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "text": "END",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 28,
+      "text": "SURE",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 101,
+  "annotator": 1,
+  "annotation_id": 101,
+  "created_at": "2026-03-04T05:47:18.236144Z",
+  "updated_at": "2026-03-05T17:22:43.753531Z",
+  "lead_time": 61.846
+},
+{
+  "Unnamed: 0": 101,
+  "text": "i jus hope tha tornado does come near here. i wanna sleep && dnt want my car to get damaged",
+  "label": [
+    {
+      "start": 6,
+      "end": 10,
+      "text": "hope",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 102,
+  "annotator": 1,
+  "annotation_id": 102,
+  "created_at": "2026-03-04T05:48:16.703340Z",
+  "updated_at": "2026-03-04T05:48:16.703355Z",
+  "lead_time": 58.227
+},
+{
+  "Unnamed: 0": 102,
+  "text": "=@erincargile news tip. Apparently every rental Car in Austin is booked due to floods. what is that doing to tourism? has this happened b4?",
+  "label": 0,
+  "id": 103,
+  "annotator": 1,
+  "annotation_id": 103,
+  "created_at": "2026-03-04T05:48:52.124754Z",
+  "updated_at": "2026-03-04T05:48:52.124768Z",
+  "lead_time": 35.189
+},
+{
+  "Unnamed: 0": 103,
+  "text": "Tornado warnings- welcome home Lauren. Take shelter Lexington!!",
+  "label": [
+    {
+      "start": 61,
+      "end": 63,
+      "text": "!!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 104,
+  "annotator": 1,
+  "annotation_id": 104,
+  "created_at": "2026-03-04T05:49:04.307643Z",
+  "updated_at": "2026-03-04T05:49:04.307658Z",
+  "lead_time": 11.959
+},
+{
+  "Unnamed: 0": 104,
+  "text": "My neighbor really washing all his cars rn. Does he know there's a hurricane passing through lol",
+  "label": 0,
+  "id": 105,
+  "annotator": 1,
+  "annotation_id": 105,
+  "created_at": "2026-03-04T05:49:26.842217Z",
+  "updated_at": "2026-03-04T05:49:26.842232Z",
+  "lead_time": 22.322
+},
+{
+  "Unnamed: 0": 105,
+  "text": "Here's the latest on Hurricane #Dorian. Please stay safe and seek shelter. \nhttps:\/\/weather.com\/storms\/hurricane\/news\/2019-09-05-hurricane-dorian-south-carolina-north-carolina-georgia-virginia …",
+  "label": 0,
+  "id": 106,
+  "annotator": 1,
+  "annotation_id": 106,
+  "created_at": "2026-03-04T05:49:41.148781Z",
+  "updated_at": "2026-03-04T05:49:41.148798Z",
+  "lead_time": 14.088
+},
+{
+  "Unnamed: 0": 106,
+  "text": "Philly-area natives ride out Hurricane Matthew in Orlando - http:\/\/PhillyVoice.com  http:\/\/dlvr.it\/MQ1L19 ",
+  "label": 0,
+  "id": 107,
+  "annotator": 1,
+  "annotation_id": 107,
+  "created_at": "2026-03-04T05:49:45.685947Z",
+  "updated_at": "2026-03-04T05:49:45.685961Z",
+  "lead_time": 4.335
+},
+{
+  "Unnamed: 0": 107,
+  "text": "Florida man parks Smart car inside kitchen so Hurricane Dorian won’t take it https:\/\/trib.al\/ptB0r5I ",
+  "label": 0,
+  "id": 108,
+  "annotator": 1,
+  "annotation_id": 108,
+  "created_at": "2026-03-04T05:49:53.503002Z",
+  "updated_at": "2026-03-04T05:49:53.503017Z",
+  "lead_time": 7.614
+},
+{
+  "Unnamed: 0": 108,
+  "text": "CRS teams standing ready to respond to Hurricane #Matthew in #Haiti. Likely assistance to include shelter, relief supplies, water. @CRSnews",
+  "label": [
+    {
+      "start": 69,
+      "end": 75,
+      "text": "Likely",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 109,
+  "annotator": 1,
+  "annotation_id": 109,
+  "created_at": "2026-03-04T05:50:08.595821Z",
+  "updated_at": "2026-03-04T05:50:08.595839Z",
+  "lead_time": 14.897
+},
+{
+  "Unnamed: 0": 109,
+  "text": "Great Article @ReneMiamiHerald. Our answer is EVACUATE! \n\nShould you ride out a hurricane in a high-rise? http:\/\/www.miamiherald.com\/news\/business\/real-estate-news\/article168905202.html¬†‚Ä¶",
+  "label": [
+    {
+      "start": 46,
+      "end": 54,
+      "text": "EVACUATE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "text": "! ",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 64,
+      "text": "Should",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 110,
+  "annotator": 1,
+  "annotation_id": 110,
+  "created_at": "2026-03-04T05:50:32.381466Z",
+  "updated_at": "2026-03-05T16:46:01.328823Z",
+  "lead_time": 33.994
+},
+{
+  "Unnamed: 0": 110,
+  "text": "Brave Car Says Enough Of This Blizzard, Catches Fire http:\/\/jalopnik.com\/brave-car-says-enough-of-this-blizzard-catches-fire-1754715716?utm_medium=sharefromsite&utm_source=Jalopnik_twitter¬†‚Ä¶",
+  "label": 0,
+  "id": 111,
+  "annotator": 1,
+  "annotation_id": 111,
+  "created_at": "2026-03-04T05:50:44.988282Z",
+  "updated_at": "2026-03-04T05:50:44.988299Z",
+  "lead_time": 12.368
+},
+{
+  "Unnamed: 0": 111,
+  "text": "This morning, I stood under the hatch of my rental car and talked about Hurricane Matthew on Facebook Live. https:\/\/www.facebook.com\/nytvideo\/videos\/1764092390474942\/ …",
+  "label": 0,
+  "id": 112,
+  "annotator": 1,
+  "annotation_id": 112,
+  "created_at": "2026-03-04T05:51:05.778925Z",
+  "updated_at": "2026-03-04T05:51:05.778939Z",
+  "lead_time": 20.589
+},
+{
+  "Unnamed: 0": 112,
+  "text": "No food, no FEMA: Hurricane Michael’s survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw …",
+  "label": 0,
+  "id": 113,
+  "annotator": 1,
+  "annotation_id": 113,
+  "created_at": "2026-03-04T05:51:17.580885Z",
+  "updated_at": "2026-03-04T05:51:17.580903Z",
+  "lead_time": 11.607
+},
+{
+  "Unnamed: 0": 113,
+  "text": "Photo Falsely Claims Obama Served Food To Hurricane Harvey Victims http:\/\/www.westernjournalism.com\/photo-falsely-claims-obama-served-food-hurricane-harvey-victims\/?utm_source=Twitter&utm_medium=PostTopSharingButtons&utm_content=2017-08-29&utm_campaign=websitesharingbuttons¬†‚Ä¶",
+  "label": 0,
+  "id": 114,
+  "annotator": 1,
+  "annotation_id": 114,
+  "created_at": "2026-03-04T05:51:38.682854Z",
+  "updated_at": "2026-03-04T05:51:38.682886Z",
+  "lead_time": 20.904
+},
+{
+  "Unnamed: 0": 114,
+  "text": "Mr. T stopped wearing gold chains in 2005 because he thought it would be an insult to the people who lost everything after Hurricane Katrina",
+  "label": 1,
+  "id": 115,
+  "annotator": 1,
+  "annotation_id": 115,
+  "created_at": "2026-03-04T05:51:51.748260Z",
+  "updated_at": "2026-03-04T05:51:51.748276Z",
+  "lead_time": 12.852
+},
+{
+  "Unnamed: 0": 115,
+  "text": "Pep nt takin this hurricane seriously bt most of my stuff is packed and my dogs things are packed so I can throw them in the car and go!",
+  "label": [
+    {
+      "start": 135,
+      "end": 136,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 116,
+  "annotator": 1,
+  "annotation_id": 116,
+  "created_at": "2026-03-04T05:52:23.805311Z",
+  "updated_at": "2026-03-04T05:52:23.805327Z",
+  "lead_time": 31.848
+},
+{
+  "Unnamed: 0": 116,
+  "text": "Guantanamo base to 'shelter in place' for Hurricane Irma http:\/\/a.msn.com\/01\/en-us\/AArm8cL?ocid=st¬†‚Ä¶",
+  "label": 0,
+  "id": 117,
+  "annotator": 1,
+  "annotation_id": 117,
+  "created_at": "2026-03-04T05:52:30.125339Z",
+  "updated_at": "2026-03-04T05:52:30.125355Z",
+  "lead_time": 6.109
+},
+{
+  "Unnamed: 0": 117,
+  "text": "Nearly had a heart attack just now; loud bang against window next to meÛ_turns out it was two birds flying into the glass.",
+  "label": 0,
+  "id": 118,
+  "annotator": 1,
+  "annotation_id": 118,
+  "created_at": "2026-03-04T05:54:20.057382Z",
+  "updated_at": "2026-03-04T05:54:20.057397Z",
+  "lead_time": 109.718
+},
+{
+  "Unnamed: 0": 118,
+  "text": "Angry Norwegian Cruise Line passengers said they had to sit in buses for hours without food or water after Hurricane Dorian forced their ship to change its final destination https:\/\/www.businessinsider.com\/norwegian-cruise-line-passengers-say-no-food-water-for-hours-2019-9?utm_source=twitter&utm_medium=referral&utm_content=topbar&utm_term=mobile&referrer=twitter … via @businessinsider",
+  "label": 0,
+  "id": 119,
+  "annotator": 1,
+  "annotation_id": 119,
+  "created_at": "2026-03-04T05:54:50.118132Z",
+  "updated_at": "2026-03-04T05:54:50.118148Z",
+  "lead_time": 29.841
+},
+{
+  "Unnamed: 0": 119,
+  "text": "From city-wide quarantines to infections aboard cruise ships to the cancellation of major international events, the global public health emergency caused by the coronavirus has been unfolding rapidly and dramatically. \n\nHere's how the outbreak has evolved. https:\/\/t.co\/Dg76bBdYP5",
+  "label": 1,
+  "id": 120,
+  "annotator": 1,
+  "annotation_id": 120,
+  "created_at": "2026-03-04T05:56:21.283897Z",
+  "updated_at": "2026-03-04T05:56:21.283913Z",
+  "lead_time": 90.959
+},
+{
+  "Unnamed: 0": 140,
+  "text": "Ferrari Gives Crazy Deal To Lawyer Who Ditched His Car In A Flood http:\/\/fb.me\/MWOObrFy¬†",
+  "label": 0,
+  "id": 141,
+  "annotator": 1,
+  "annotation_id": 141,
+  "created_at": "2026-03-04T05:57:08.951931Z",
+  "updated_at": "2026-03-04T05:57:08.951950Z",
+  "lead_time": 14.725
+},
+{
+  "Unnamed: 0": 141,
+  "text": "Trying to get back on track after long junk food filled blizzard weekend .. pic.twitter.com\/lYTKfOmx3D",
+  "label": 0,
+  "id": 142,
+  "annotator": 1,
+  "annotation_id": 142,
+  "created_at": "2026-03-04T05:57:19.995835Z",
+  "updated_at": "2026-03-04T05:57:19.995849Z",
+  "lead_time": 10.842
+},
+{
+  "Unnamed: 0": 142,
+  "text": "BREAKING: Authorities respond to Ocean fire http:\/\/t.co\/h31Knuwzz5",
+  "label": 0,
+  "id": 143,
+  "annotator": 1,
+  "annotation_id": 143,
+  "created_at": "2026-03-04T05:57:26.194421Z",
+  "updated_at": "2026-03-04T05:57:26.194438Z",
+  "lead_time": 5.982
+},
+{
+  "Unnamed: 0": 143,
+  "text": "Dr. Besser's 3 Tips to Ride Hurricane Sandy Out Safely http:\/\/abcn.ws\/RfpiU3 ",
+  "label": 0,
+  "id": 144,
+  "annotator": 1,
+  "annotation_id": 144,
+  "created_at": "2026-03-04T05:57:48.134003Z",
+  "updated_at": "2026-03-04T05:57:48.134023Z",
+  "lead_time": 21.744
+},
+{
+  "Unnamed: 0": 144,
+  "text": "Wildfires produce more co2 than all the vehicles in the country. Plus, every acre of forest offsets the emissions of about 3 cars, so the impact of every burned acre lasts for many years.",
+  "label": 0,
+  "id": 145,
+  "annotator": 1,
+  "annotation_id": 145,
+  "created_at": "2026-03-04T05:59:02.770783Z",
+  "updated_at": "2026-03-04T05:59:02.770798Z",
+  "lead_time": 74.432
+},
+{
+  "Unnamed: 0": 145,
+  "text": "Everyone's preparing for this hurricane and I'm getting my car inspected bc ya girl procrastinated and it's nearing the next month lol",
+  "label": 0,
+  "id": 146,
+  "annotator": 1,
+  "annotation_id": 146,
+  "created_at": "2026-03-04T06:01:11.032827Z",
+  "updated_at": "2026-03-04T06:01:11.032841Z",
+  "lead_time": 128.036
+},
+{
+  "Unnamed: 0": 146,
+  "text": "‘Pulwama Attack BJP Conspiracy  Like Godhra’: Ex-Guj CM  Vaghela https:\/\/t.co\/rjcYDWZmP2",
+  "label": 1,
+  "id": 147,
+  "annotator": 1,
+  "annotation_id": 147,
+  "created_at": "2026-03-04T06:01:20.860399Z",
+  "updated_at": "2026-03-04T06:01:20.860409Z",
+  "lead_time": 9.614
+},
+{
+  "Unnamed: 0": 147,
+  "text": "RT @THEmeaghan: Could the wind ever be strong enough to flip parked cars? < yea it's called a tornado.",
+  "label": [
+    {
+      "start": 16,
+      "end": 21,
+      "text": "Could",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 148,
+  "annotator": 1,
+  "annotation_id": 148,
+  "created_at": "2026-03-04T06:02:08.095716Z",
+  "updated_at": "2026-03-04T06:02:08.095732Z",
+  "lead_time": 47.019
+},
+{
+  "Unnamed: 0": 148,
+  "text": "Dr. Besser's 3 Tips to Ride Hurricane Sandy Out Safely - ABC News (blog) http:\/\/goo.gl\/fb\/M05wG ",
+  "label": 0,
+  "id": 149,
+  "annotator": 1,
+  "annotation_id": 149,
+  "created_at": "2026-03-04T06:02:13.143446Z",
+  "updated_at": "2026-03-04T06:02:13.143461Z",
+  "lead_time": 4.825
+},
+{
+  "Unnamed: 0": 149,
+  "text": "VIDEO: Insane ride through raging #flood waters in a Longmont Fire Truck ¬´ CBS Denver http:\/\/cbsloc.al\/19QGKsj¬† #cowx H\/T @WilliamMScherer",
+  "label": [
+    {
+      "start": 27,
+      "end": 33,
+      "text": "raging",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 150,
+  "annotator": 1,
+  "annotation_id": 150,
+  "created_at": "2026-03-04T06:02:44.711735Z",
+  "updated_at": "2026-03-04T06:02:44.711750Z",
+  "lead_time": 31.363
+},
+{
+  "Unnamed: 0": 150,
+  "text": "Floods are so bad cars were stranded in them, my little min still managed to power on with water up to the lights! pic.twitter.com\/xP0TtLAsMt",
+  "label": [
+    {
+      "start": 113,
+      "end": 114,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 151,
+  "annotator": 1,
+  "annotation_id": 151,
+  "created_at": "2026-03-04T06:03:03.545340Z",
+  "updated_at": "2026-03-04T06:03:03.545373Z",
+  "lead_time": 18.612
+},
+{
+  "Unnamed: 0": 151,
+  "text": "Researchers have turned to protein synthesis, genetics and hybrid viruses to develop a #coronavirus vaccine.\n\nIt is likely a mix of these approaches will be used to fight the virus.\n\nExplainer by a professor. https:\/\/t.co\/PfZBzEVNYR",
+  "label": [
+    {
+      "start": 116,
+      "end": 122,
+      "text": "likely",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 152,
+  "annotator": 1,
+  "annotation_id": 152,
+  "created_at": "2026-03-04T06:03:26.629745Z",
+  "updated_at": "2026-03-04T06:03:26.629759Z",
+  "lead_time": 22.858
+},
+{
+  "Unnamed: 0": 152,
+  "text": " Norovirus outbreak confirmed at California wildfire shelter #Today #News #Sports #Entertainment #Politics\nhttp:\/\/tinyurl.com\/y7r6fspf¬†",
+  "label": 0,
+  "id": 153,
+  "annotator": 1,
+  "annotation_id": 153,
+  "created_at": "2026-03-04T06:03:35.240003Z",
+  "updated_at": "2026-03-04T06:03:35.240018Z",
+  "lead_time": 8.401
+},
+{
+  "Unnamed: 0": 153,
+  "text": "Instead of posting pics of police cars why doesn’t our potus do something helpful like sending help for these areas destroyed by Hurricane Michael. https:\/\/twitter.com\/NPR\/status\/1050786928717484032 …",
+  "label": [
+    {
+      "start": 74,
+      "end": 81,
+      "text": "helpful",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 154,
+  "annotator": 1,
+  "annotation_id": 154,
+  "created_at": "2026-03-04T06:04:19.735785Z",
+  "updated_at": "2026-03-04T06:04:19.735797Z",
+  "lead_time": 44.311
+},
+{
+  "Unnamed: 0": 154,
+  "text": "A man helped my brother and me get home to our sick parents when our car got stuck in Blizzard of 96.  Every winter I help somebody shovel.",
+  "label": 0,
+  "id": 155,
+  "annotator": 1,
+  "annotation_id": 155,
+  "created_at": "2026-03-04T06:08:34.659643Z",
+  "updated_at": "2026-03-04T06:08:34.659659Z",
+  "lead_time": 254.72
+},
+{
+  "Unnamed: 0": 155,
+  "text": "#Police fire tear gas to disperse the crowd attacking a house in  #Bumburat. #Kalash\nRead:  https:\/\/t.co\/p0RmgtE6Y9 https:\/\/t.co\/z9PJdPzy2D",
+  "label": 1,
+  "id": 156,
+  "annotator": 1,
+  "annotation_id": 156,
+  "created_at": "2026-03-04T06:08:58.693115Z",
+  "updated_at": "2026-03-04T06:08:58.693130Z",
+  "lead_time": 23.831
+},
+{
+  "Unnamed: 0": 156,
+  "text": "Dear food lion fuckers: give me a hard time today and you will be under the blizzard",
+  "label": [
+    {
+      "start": 15,
+      "end": 22,
+      "text": "fuckers",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 157,
+  "annotator": 1,
+  "annotation_id": 157,
+  "created_at": "2026-03-04T06:10:00.828390Z",
+  "updated_at": "2026-03-04T06:10:00.828404Z",
+  "lead_time": 61.919
+},
+{
+  "Unnamed: 0": 157,
+  "text": "getting hit by Hurricane Matthew",
+  "label": 0,
+  "id": 158,
+  "annotator": 1,
+  "annotation_id": 158,
+  "created_at": "2026-03-04T06:10:08.340214Z",
+  "updated_at": "2026-03-04T06:10:08.340231Z",
+  "lead_time": 7.294
+},
+{
+  "Unnamed: 0": 158,
+  "text": "Breaking: Iran launched a series of missile attacks aimed at U.S. bases in Iraq, Iranian state television reported Tuesday. \nhttps:\/\/t.co\/BoYA017R6x",
+  "label": 1,
+  "id": 159,
+  "annotator": 1,
+  "annotation_id": 159,
+  "created_at": "2026-03-04T06:10:19.561372Z",
+  "updated_at": "2026-03-04T06:10:19.561388Z",
+  "lead_time": 11.026
+},
+{
+  "Unnamed: 0": 159,
+  "text": "Blizzard 2016 Update: MTA Shutting Down Buses and Access-a-Ride by Noon Today http:\/\/www.welcome2thebronx.com\/wordpress\/2016\/01\/23\/blizzard-2016-update-mta-shutting-down-buses-and-access-a-ride-by-noon-today\/¬†‚Ä¶",
+  "label": 0,
+  "id": 160,
+  "annotator": 1,
+  "annotation_id": 160,
+  "created_at": "2026-03-04T06:11:56.266115Z",
+  "updated_at": "2026-03-04T06:11:56.266131Z",
+  "lead_time": 96.498
+},
+{
+  "Unnamed: 0": 580,
+  "text": "First time im witnessing floods in my hood. Wow. Could literally see the water level up to my cars window. Was so freaked out.",
+  "label": [
+    {
+      "start": 49,
+      "end": 54,
+      "text": "Could",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 581,
+  "annotator": 1,
+  "annotation_id": 161,
+  "created_at": "2026-03-04T06:13:28.338382Z",
+  "updated_at": "2026-03-05T17:07:13.292063Z",
+  "lead_time": 57.169
+},
+{
+  "Unnamed: 0": 581,
+  "text": "Ready to ride! #skidoo #summit #800 #mbrp #blizzard #snowday #hashtag https:\/\/www.instagram.com\/p\/BBTHSgerb6E\/¬†",
+  "label": [
+    {
+      "start": 13,
+      "end": 14,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 582,
+  "annotator": 1,
+  "annotation_id": 162,
+  "created_at": "2026-03-04T06:13:45.012773Z",
+  "updated_at": "2026-03-04T06:13:45.012789Z",
+  "lead_time": 11.918
+},
+{
+  "Unnamed: 0": 582,
+  "text": ".@Judgenap: Samsung allowed British intelligence to spy on Americans through their televisions pic.twitter.com\/kHkNt0s8Ar  FOX & friends (@foxandfriends) March 9, 2017",
+  "label": 1,
+  "id": 583,
+  "annotator": 1,
+  "annotation_id": 163,
+  "created_at": "2026-03-04T06:14:14.643402Z",
+  "updated_at": "2026-03-04T06:14:14.643417Z",
+  "lead_time": 27.881
+},
+{
+  "Unnamed: 0": 583,
+  "text": "The UN climate change report \"describes a world of worsening food shortages and wildfires, and a mass die-off of coral reefs as soon as 2040 ‚Äî a period well within the lifetime of much of the global population\"  https:\/\/nyti.ms\/2Cw5MF8¬†",
+  "label": [
+    {
+      "start": 51,
+      "end": 60,
+      "text": "worsening",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 584,
+  "annotator": 1,
+  "annotation_id": 164,
+  "created_at": "2026-03-04T06:15:02.514146Z",
+  "updated_at": "2026-03-04T06:15:02.514164Z",
+  "lead_time": 45.83
+},
+{
+  "Unnamed: 0": 584,
+  "text": "After shooting event at the theater @Starbucks is giving FREE COFFEE to all first responders police &amp; firefighters. AntiochHickoryHollow#TN",
+  "label": [
+    {
+      "start": 57,
+      "end": 61,
+      "text": "FREE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 68,
+      "text": "COFFEE",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 585,
+  "annotator": 1,
+  "annotation_id": 165,
+  "created_at": "2026-03-04T06:15:38.684655Z",
+  "updated_at": "2026-03-04T06:15:38.684670Z",
+  "lead_time": 28.165
+},
+{
+  "Unnamed: 0": 585,
+  "text": "prayers for all of the islands in irmas path hurricanes are scary here and much scarier when you don't have forecasts or shelter\/anything",
+  "label": 0,
+  "id": 586,
+  "annotator": 1,
+  "annotation_id": 166,
+  "created_at": "2026-03-04T06:15:55.397604Z",
+  "updated_at": "2026-03-04T06:15:55.397621Z",
+  "lead_time": 15.393
+},
+{
+  "Unnamed: 0": 586,
+  "text": "Hurricane Dorian is approaching, now a CAT 5. With little to stop, I hope everyone in Carolina stays safe, and takes shelter.",
+  "label": [
+    {
+      "start": 69,
+      "end": 73,
+      "text": "hope",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 587,
+  "annotator": 1,
+  "annotation_id": 167,
+  "created_at": "2026-03-04T06:16:46.458557Z",
+  "updated_at": "2026-03-04T06:16:46.458571Z",
+  "lead_time": 48.722
+},
+{
+  "Unnamed: 0": 587,
+  "text": "Florida man parks Smart car in kitchen over fear Hurricane Dorian would blow it away\nhttps:\/\/replaye.com\/articles\/read\/florida-man-parks-smart-car-in-kitchen-over-fear-hurricane-dorian-would-blow-it-away_157.html …",
+  "label": [
+    {
+      "start": 66,
+      "end": 71,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 185,
+      "end": 190,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 588,
+  "annotator": 1,
+  "annotation_id": 168,
+  "created_at": "2026-03-04T06:16:58.337065Z",
+  "updated_at": "2026-03-05T16:51:04.019158Z",
+  "lead_time": 19.505000000000003
+},
+{
+  "Unnamed: 0": 588,
+  "text": "Hygiene kits, medicine and supplies being flown to Bahamas after Hurricane Dorian https:\/\/ift.tt\/2A0X0vy  #FoxNews #HurricaneWatch",
+  "label": 0,
+  "id": 589,
+  "annotator": 1,
+  "annotation_id": 169,
+  "created_at": "2026-03-04T06:19:56.365656Z",
+  "updated_at": "2026-03-04T06:19:56.365672Z",
+  "lead_time": 7.852
+},
+{
+  "Unnamed: 0": 589,
+  "text": "I'm hungry i have no food and there's flood outside it's dirty so no",
+  "label": 0,
+  "id": 590,
+  "annotator": 1,
+  "annotation_id": 170,
+  "created_at": "2026-03-04T06:20:09.849155Z",
+  "updated_at": "2026-03-04T06:20:09.849170Z",
+  "lead_time": 10.83
+},
+{
+  "Unnamed: 0": 590,
+  "text": "Hey @weatherchannel not a very safe image your reporter is portraying on live TV climbing around rail cars overturned by Hurricane Michael in Panama City. Where is your railroad safety escort? @olinational",
+  "label": 0,
+  "id": 591,
+  "annotator": 1,
+  "annotation_id": 171,
+  "created_at": "2026-03-04T06:20:38.084953Z",
+  "updated_at": "2026-03-04T06:20:38.084967Z",
+  "lead_time": 26.067
+},
+{
+  "Unnamed: 0": 591,
+  "text": "@BritishRedCross: After Hurricane Matthew hospitals are overflowing. Families need shelter &clean water. Help! http:\/\/bit.ly\/2dYOllm ",
+  "label": [
+    {
+      "start": 109,
+      "end": 110,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 592,
+  "annotator": 1,
+  "annotation_id": 172,
+  "created_at": "2026-03-04T06:20:58.394710Z",
+  "updated_at": "2026-03-04T06:20:58.394725Z",
+  "lead_time": 18.684
+},
+{
+  "Unnamed: 0": 592,
+  "text": "I wonder how @RoKhanna and @PramilaJayapal sleep at night when they have never once spoken out about what is being done to their Hindu sisters &amp; brothers in Pakistan. \nHindu girls are kidnapped, assaulted, lynchings of Hindu boys. Have they no conscience?! https:\/\/t.co\/pYPb9Ncn5H",
+  "label": 1,
+  "id": 593,
+  "annotator": 1,
+  "annotation_id": 173,
+  "created_at": "2026-03-04T06:21:37.055117Z",
+  "updated_at": "2026-03-04T06:21:37.055133Z",
+  "lead_time": 36.871
+},
+{
+  "Unnamed: 0": 593,
+  "text": "People can donate towards the animal relief efforts for Hurricane Dorian at the following organizations...\n\nGrand Bahama Humane Society: https:\/\/thekohnfoundation.org\/donate.php \n\nThe Abaco Shelter: http:\/\/abacoshelter.org ... https:\/\/www.facebook.com\/mannyotr\/posts\/1204466933095099 …",
+  "label": [
+    {
+      "start": 7,
+      "end": 10,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 594,
+  "annotator": 1,
+  "annotation_id": 174,
+  "created_at": "2026-03-04T06:21:52.676265Z",
+  "updated_at": "2026-03-05T16:52:07.767644Z",
+  "lead_time": 18.133
+},
+{
+  "Unnamed: 0": 594,
+  "text": "11 puncture wounds",
+  "label": 1,
+  "id": 595,
+  "annotator": 1,
+  "annotation_id": 175,
+  "created_at": "2026-03-04T06:21:56.960903Z",
+  "updated_at": "2026-03-04T06:21:56.960920Z",
+  "lead_time": 2.877
+},
+{
+  "Unnamed: 0": 595,
+  "text": "I liked a @YouTube video http:\/\/youtu.be\/ZXB0e0rCaEY?a  Hurricane Michael: Damage, 1,000's Missing, No Food, Water, Help? It's All Very",
+  "label": 0,
+  "id": 596,
+  "annotator": 1,
+  "annotation_id": 176,
+  "created_at": "2026-03-04T06:22:20.042614Z",
+  "updated_at": "2026-03-04T06:22:20.042629Z",
+  "lead_time": 21.874
+},
+{
+  "Unnamed: 0": 596,
+  "text": "One of my friends lost his car & the other lost his apartment.. This is the most devastating tornado we've ever had.",
+  "label": [
+    {
+      "start": 81,
+      "end": 92,
+      "text": "devastating",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 597,
+  "annotator": 1,
+  "annotation_id": 177,
+  "created_at": "2026-03-04T06:22:40.104419Z",
+  "updated_at": "2026-03-04T06:22:40.104430Z",
+  "lead_time": 18.326
+},
+{
+  "Unnamed: 0": 597,
+  "text": "@BldrCOSheriff says 2nd grenade found is 'younger' that WWII era grenade found earlier. They'll detonate it at 8:00 tonight. @CBSDenver",
+  "label": 0,
+  "id": 598,
+  "annotator": 1,
+  "annotation_id": 178,
+  "created_at": "2026-03-04T06:22:56.194633Z",
+  "updated_at": "2026-03-04T06:22:56.194647Z",
+  "lead_time": 14.748
+},
+{
+  "Unnamed: 0": 598,
+  "text": "He's really concerned about the Americans in the path of Hurricane Dorian, so he invited them all to join him to play golf there to ride out the storm. I guessed they missed the message...  Such a douche bag!",
+  "label": [
+    {
+      "start": 207,
+      "end": 208,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 197,
+      "end": 207,
+      "text": "douche bag",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 154,
+      "end": 161,
+      "text": "guessed",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 599,
+  "annotator": 1,
+  "annotation_id": 179,
+  "created_at": "2026-03-04T06:23:37.969225Z",
+  "updated_at": "2026-03-04T06:23:37.969240Z",
+  "lead_time": 39.973
+},
+{
+  "Unnamed: 0": 599,
+  "text": "Dr. Besser's 3 Tips to Ride Hurricane Sandy Out Safely - ABC News (blog) http:\/\/tw.qk1.us\/2PNgPc ",
+  "label": 0,
+  "id": 600,
+  "annotator": 1,
+  "annotation_id": 180,
+  "created_at": "2026-03-04T06:23:43.533761Z",
+  "updated_at": "2026-03-04T06:23:43.533780Z",
+  "lead_time": 3.418
+},
+{
+  "Unnamed: 0": 600,
+  "text": "Hurricane Michael, the third most intense storm on record to make landfall in the U.S., has caused widespread destruction, turning places like Mexico Beach, Florida, into a hellscape of broken homes and overturned cars. It will be a while before we... https:\/\/bit.ly\/2pSh5iX ",
+  "label": 0,
+  "id": 601,
+  "annotator": 1,
+  "annotation_id": 181,
+  "created_at": "2026-03-04T06:24:02.299033Z",
+  "updated_at": "2026-03-04T06:24:02.299048Z",
+  "lead_time": 17.245
+},
+{
+  "Unnamed: 0": 601,
+  "text": "New crime: knowing your rights. Punishable by death",
+  "label": 1,
+  "id": 602,
+  "annotator": 1,
+  "annotation_id": 182,
+  "created_at": "2026-03-04T06:24:17.652775Z",
+  "updated_at": "2026-03-04T06:24:17.652792Z",
+  "lead_time": 12.97
+},
+{
+  "Unnamed: 0": 602,
+  "text": "taking shelter from the tornado in the swim locker rooms during HBA= AWESOME!",
+  "label": [
+    {
+      "start": 69,
+      "end": 76,
+      "text": "AWESOME",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 603,
+  "annotator": 1,
+  "annotation_id": 183,
+  "created_at": "2026-03-04T06:24:40.956713Z",
+  "updated_at": "2026-03-04T06:24:40.956728Z",
+  "lead_time": 21.8
+},
+{
+  "Unnamed: 0": 603,
+  "text": "A young German stormtrooper engaged in the Battle of the Somme 1916. [800 ÌÑ 582 ] http:\/\/t.co\/yxvMifLvc4",
+  "label": 0,
+  "id": 604,
+  "annotator": 1,
+  "annotation_id": 184,
+  "created_at": "2026-03-04T06:24:49.951173Z",
+  "updated_at": "2026-03-04T06:24:49.951190Z",
+  "lead_time": 7.105
+},
+{
+  "Unnamed: 0": 604,
+  "text": "A new report from the @UN‚Äôs scientific panel on climate change describes a world of worsening food shortages and wildfires, and a mass die-off of coral reefs as soon as 2040 ‚Äî a period well within the lifetime of much of the global population. https:\/\/www.nytimes.com\/2018\/10\/07\/climate\/ipcc-climate-report-2040.html¬†‚Ä¶",
+  "label": [
+    {
+      "start": 86,
+      "end": 95,
+      "text": "worsening",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 605,
+  "annotator": 1,
+  "annotation_id": 185,
+  "created_at": "2026-03-04T06:25:16.792071Z",
+  "updated_at": "2026-03-04T06:25:16.792086Z",
+  "lead_time": 25.548
+},
+{
+  "Unnamed: 0": 605,
+  "text": "Social Media Thinks Trump Is “Deep Into His Degenerative Neurological Disease” After Resurfaced Video Shows Him Looking Lost And Disoriented https:\/\/t.co\/x83Dlho9tJ",
+  "label": [
+    {
+      "start": 13,
+      "end": 19,
+      "text": "Thinks",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 606,
+  "annotator": 1,
+  "annotation_id": 186,
+  "created_at": "2026-03-04T06:25:48.622819Z",
+  "updated_at": "2026-03-04T06:25:48.622835Z",
+  "lead_time": 29.937
+},
+{
+  "Unnamed: 0": 606,
+  "text": "@ElevationCycles where is good to ride after the floods? Keen to bust out my trek superfly!",
+  "label": [
+    {
+      "start": 90,
+      "end": 91,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 607,
+  "annotator": 1,
+  "annotation_id": 187,
+  "created_at": "2026-03-04T06:26:02.173578Z",
+  "updated_at": "2026-03-04T06:26:02.173592Z",
+  "lead_time": 12.153
+},
+{
+  "Unnamed: 0": 607,
+  "text": "#Harvey does something rare for major hurricane, & it could take #oil prices on an unusual ride http:\/\/cnb.cx\/2weJPGt¬† via (@TradingNation)",
+  "label": [
+    {
+      "start": 54,
+      "end": 59,
+      "text": "could",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 608,
+  "annotator": 1,
+  "annotation_id": 188,
+  "created_at": "2026-03-04T06:26:30.889308Z",
+  "updated_at": "2026-03-04T06:26:30.889324Z",
+  "lead_time": 27.226
+},
+{
+  "Unnamed: 0": 608,
+  "text": "The more people wear masks, the more protected we all are from #COVID19. \n\nSneezing, talking and coughing all spread germs through the air. Masks act like a barrier to help stop your germs from spreading. https:\/\/t.co\/EfGMpvlvkW #StayHomeMN",
+  "label": 1,
+  "id": 609,
+  "annotator": 1,
+  "annotation_id": 189,
+  "created_at": "2026-03-04T06:26:56.102109Z",
+  "updated_at": "2026-03-04T06:26:56.102124Z",
+  "lead_time": 23.953
+},
+{
+  "Unnamed: 0": 609,
+  "text": "Hello Emma, great to see that! It's spreading like wildfire! Hope the storage will be successfull and it will contribute to food and nutrition security and income. @oursweetpotato",
+  "label": [
+    {
+      "start": 29,
+      "end": 30,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 61,
+      "end": 65,
+      "text": "Hope",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 86,
+      "end": 97,
+      "text": "successfull",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 610,
+  "annotator": 1,
+  "annotation_id": 190,
+  "created_at": "2026-03-04T06:27:26.433326Z",
+  "updated_at": "2026-03-04T06:27:26.433341Z",
+  "lead_time": 28.833
+},
+{
+  "Unnamed: 0": 610,
+  "text": "The death toll from the #measles epidemic in #Samoa has risen to 32, of which 28 (87.5%) are children under four. This avoidable tragedy must serve as a wake-up call that #vaccine refusal and low immunization rates can have a devastating impact. https:\/\/t.co\/KfuLJX2Lqo",
+  "label": 1,
+  "id": 611,
+  "annotator": 1,
+  "annotation_id": 191,
+  "created_at": "2026-03-04T06:28:54.073191Z",
+  "updated_at": "2026-03-04T06:28:54.073205Z",
+  "lead_time": 86.438
+},
+{
+  "Unnamed: 0": 611,
+  "text": "Prime with one, boost with another. Depends on what the 'best' means: vaccination that allows mild infection and minimal transmission would be a good vaccine. Or come back with a better vaccine.!What if the First Coronavirus Vaccines Aren’t the Best? https:\/\/t.co\/EE8dvDfSaG",
+  "label": [
+    {
+      "start": 194,
+      "end": 195,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 134,
+      "end": 139,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 612,
+  "annotator": 1,
+  "annotation_id": 192,
+  "created_at": "2026-03-04T06:29:41.280159Z",
+  "updated_at": "2026-03-04T06:29:41.280175Z",
+  "lead_time": 45.275
+},
+{
+  "Unnamed: 0": 612,
+  "text": "TempHome is on alert & ready to find temporary housing for those impacted by Hurricane Matthew. Call 888-229-0631 http:\/\/www.temphome.com ",
+  "label": 0,
+  "id": 613,
+  "annotator": 1,
+  "annotation_id": 193,
+  "created_at": "2026-03-04T06:29:52.315331Z",
+  "updated_at": "2026-03-04T06:29:52.315347Z",
+  "lead_time": 9.134
+},
+{
+  "Unnamed: 0": 613,
+  "text": "Wildfire 07 participated in the Turkey Bowl presented by \"Neighbors Helping Neighbors\" over the Thanksgiving Weekend. It was a tremendous fundraiser with a ton of toys, food and winter coats donated - as well as some great soccer being played pic.twitter.com\/TgvHdALjlt",
+  "label": 0,
+  "id": 614,
+  "annotator": 1,
+  "annotation_id": 194,
+  "created_at": "2026-03-04T06:30:16.091394Z",
+  "updated_at": "2026-03-04T06:30:16.091409Z",
+  "lead_time": 20.707
+},
+{
+  "Unnamed: 0": 614,
+  "text": "Hurricane Matthew weakens off US coast as death toll rises: Georgia: Hurricane Matthew slammed into South Car... http:\/\/jftb.a.boysofts.com\/3p9w ",
+  "label": 0,
+  "id": 615,
+  "annotator": 1,
+  "annotation_id": 195,
+  "created_at": "2026-03-04T06:30:25.018427Z",
+  "updated_at": "2026-03-04T06:30:25.018442Z",
+  "lead_time": 7.593
+},
+{
+  "Unnamed: 0": 615,
+  "text": "The last huge Texas evacuation looked terrifying w\/motorist trapped in cars for miles & miles w\/fire n the air as the hurricane came ashore.",
+  "label": [
+    {
+      "start": 38,
+      "end": 48,
+      "text": "terrifying",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 616,
+  "annotator": 1,
+  "annotation_id": 196,
+  "created_at": "2026-03-04T06:30:44.894453Z",
+  "updated_at": "2026-03-04T06:30:44.894468Z",
+  "lead_time": 18.753
+},
+{
+  "Unnamed: 0": 616,
+  "text": "After sacrificing thousands of lawn mowers my car has gas. Fuck this hurricane warning.",
+  "label": [
+    {
+      "start": 59,
+      "end": 64,
+      "text": "Fuck ",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 617,
+  "annotator": 1,
+  "annotation_id": 197,
+  "created_at": "2026-03-04T06:31:09.607233Z",
+  "updated_at": "2026-03-04T06:31:09.607251Z",
+  "lead_time": 23.33
+},
+{
+  "Unnamed: 0": 617,
+  "text": "I think anybody that decided to ride this Hurricane out from  Padre Island, CC area to maybe Sargent, area is going to regret it! :-(",
+  "label": [
+    {
+      "start": 2,
+      "end": 7,
+      "text": "think",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 92,
+      "text": "maybe",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 618,
+  "annotator": 1,
+  "annotation_id": 198,
+  "created_at": "2026-03-04T06:31:34.587774Z",
+  "updated_at": "2026-03-05T17:23:12.373566Z",
+  "lead_time": 29.353
+},
+{
+  "Unnamed: 0": 618,
+  "text": "A 6-year-old was saving his money to go to Disney World. He spent it buying food for Hurricane Dorian evacuees instead.  https:\/\/www.cnn.com\/2019\/09\/04\/us\/boy-used-disney-money-to-feed-dorian-evacuees-trnd\/index.html …",
+  "label": 0,
+  "id": 619,
+  "annotator": 1,
+  "annotation_id": 199,
+  "created_at": "2026-03-04T06:31:42.974082Z",
+  "updated_at": "2026-03-04T06:31:42.974130Z",
+  "lead_time": 7.024
+},
+{
+  "Unnamed: 0": 619,
+  "text": "n #SFla - Pets cope with Hurricane Matthew at a storm shelter just for them http:\/\/ow.ly\/cixX505bR6B ",
+  "label": 0,
+  "id": 620,
+  "annotator": 1,
+  "annotation_id": 200,
+  "created_at": "2026-03-04T06:31:53.876161Z",
+  "updated_at": "2026-03-04T06:31:53.876179Z",
+  "lead_time": 8.184
+},
+{
+  "Unnamed: 0": 620,
+  "text": "TERRIFYING Visuals of Natures Fury from Dharamshala 😱😰😰 #Dharamshala #Mcleodganj https:\/\/t.co\/fnduJQSF05",
+  "label": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "TERRIFYING",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 10,
+      "text": "TERRIFYING",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 621,
+  "annotator": 1,
+  "annotation_id": 201,
+  "created_at": "2026-03-04T06:32:18.447045Z",
+  "updated_at": "2026-03-04T06:32:18.447061Z",
+  "lead_time": 22.558
+},
+{
+  "Unnamed: 0": 621,
+  "text": "Astonishing clip captures Great White shark leaping through the air in front of boat tour in Australia https:\/\/t.co\/CkqCMXHIqd https:\/\/t.co\/lDdWO7ovtG",
+  "label": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "Astonishing",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 622,
+  "annotator": 1,
+  "annotation_id": 202,
+  "created_at": "2026-03-04T06:32:31.239177Z",
+  "updated_at": "2026-03-04T06:32:31.239194Z",
+  "lead_time": 10.752
+},
+{
+  "Unnamed: 0": 622,
+  "text": "¡Desgraciados!  No food, no FEMA: Hurricane Michael’s survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw …",
+  "label": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "¡",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 14,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 623,
+  "annotator": 1,
+  "annotation_id": 203,
+  "created_at": "2026-03-04T06:32:52.739348Z",
+  "updated_at": "2026-03-04T06:32:52.739367Z",
+  "lead_time": 20.252
+},
+{
+  "Unnamed: 0": 623,
+  "text": "Chick masturbates a guy until she gets exploded on her face &gt; http:\/\/t.co\/5QhoeHE9hf",
+  "label": 0,
+  "id": 624,
+  "annotator": 1,
+  "annotation_id": 204,
+  "created_at": "2026-03-04T06:33:08.236223Z",
+  "updated_at": "2026-03-04T06:33:08.236241Z",
+  "lead_time": 14.234
+},
+{
+  "Unnamed: 0": 624,
+  "text": "#breakingnews Rly tragedy in MP: Some live to recount horror: ÛÏWhen I saw coaches of my train plunging into wa... http:\/\/t.co\/eYOrBmF3O3",
+  "label": 0,
+  "id": 625,
+  "annotator": 1,
+  "annotation_id": 205,
+  "created_at": "2026-03-04T06:33:36.577253Z",
+  "updated_at": "2026-03-04T06:33:36.577268Z",
+  "lead_time": 26.905
+},
+{
+  "Unnamed: 0": 625,
+  "text": "#WebQoof | A blueprint of the University of Virginia Hospital in the US is being shared with a false claim that the Sunni Waqf Borad has decided to construct \"Babri Hospital\" on the land allotted to them by the Supreme Court. \n\nhttps:\/\/t.co\/9USxP3xDMc",
+  "label": 1,
+  "id": 626,
+  "annotator": 1,
+  "annotation_id": 206,
+  "created_at": "2026-03-04T06:33:53.536015Z",
+  "updated_at": "2026-03-04T06:33:53.536031Z",
+  "lead_time": 15.587
+},
+{
+  "Unnamed: 0": 626,
+  "text": "#climate#warning \"A landmark report from the United Nations released Monday said the consequences of climate change could be far more dire and arrive sooner than anticipated: food shortages and wildfires, and a mass die-off of coral reefs as soon as 2040. @nytimes",
+  "label": [
+    {
+      "start": 116,
+      "end": 121,
+      "text": "could",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 627,
+  "annotator": 1,
+  "annotation_id": 207,
+  "created_at": "2026-03-04T06:34:20.429203Z",
+  "updated_at": "2026-03-04T06:34:20.429213Z",
+  "lead_time": 23.36
+},
+{
+  "Unnamed: 0": 627,
+  "text": "Tell me why or why not\nto adopt in this way\nmaybe I overlooked something\nfatal for me\n?whyor why not?",
+  "label": [
+    {
+      "start": 44,
+      "end": 49,
+      "text": "maybe",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 628,
+  "annotator": 1,
+  "annotation_id": 208,
+  "created_at": "2026-03-04T06:34:42.588802Z",
+  "updated_at": "2026-03-04T06:34:42.588817Z",
+  "lead_time": 20.725
+},
+{
+  "Unnamed: 0": 628,
+  "text": "After Patna SP Vinay Tiwari, investigating Sushant Singh Rajput's death, was quarantined in Mumbai, a social media claim falsely suggests that he was appointed by the CBI. #AltNewsFactCheck | @ArchitMeta \n\nhttps:\/\/t.co\/UYXJLgGZWJ",
+  "label": [
+    {
+      "start": 129,
+      "end": 137,
+      "text": "suggests",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 629,
+  "annotator": 1,
+  "annotation_id": 209,
+  "created_at": "2026-03-04T06:35:04.469914Z",
+  "updated_at": "2026-03-05T17:09:35.918324Z",
+  "lead_time": 24.782
+},
+{
+  "Unnamed: 0": 629,
+  "text": "So, Tobacco kills more than murder, car crashes, skydiving, floods and fires COMBINED.",
+  "label": [
+    {
+      "start": 77,
+      "end": 85,
+      "text": "COMBINED",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 630,
+  "annotator": 1,
+  "annotation_id": 210,
+  "created_at": "2026-03-04T06:35:20.130991Z",
+  "updated_at": "2026-03-04T06:35:20.131007Z",
+  "lead_time": 14.293
+},
+{
+  "Unnamed: 0": 630,
+  "text": "Ok we are being forced to seek shelter in the first floor hallway #Tornado",
+  "label": 0,
+  "id": 631,
+  "annotator": 1,
+  "annotation_id": 211,
+  "created_at": "2026-03-04T06:35:31.306943Z",
+  "updated_at": "2026-03-04T06:35:31.306958Z",
+  "lead_time": 10.025
+},
+{
+  "Unnamed: 0": 631,
+  "text": "So apparently we are going over to my aunts house to try and ride out hurricane Michael",
+  "label": [
+    {
+      "start": 3,
+      "end": 13,
+      "text": "apparently",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 632,
+  "annotator": 1,
+  "annotation_id": 212,
+  "created_at": "2026-03-04T06:35:52.068685Z",
+  "updated_at": "2026-03-04T06:35:52.068727Z",
+  "lead_time": 19.254
+},
+{
+  "Unnamed: 0": 632,
+  "text": "@FoxNews @deBlasioNYC Let's hope most people have shelter during the blizzard of '16.",
+  "label": [
+    {
+      "start": 28,
+      "end": 32,
+      "text": "hope",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 633,
+  "annotator": 1,
+  "annotation_id": 213,
+  "created_at": "2026-03-04T06:36:07.943335Z",
+  "updated_at": "2026-03-04T06:36:07.943353Z",
+  "lead_time": 14.45
+},
+{
+  "Unnamed: 0": 633,
+  "text": "Mulvaney says military aid to Ukraine was held up due to unspecified concerns about corruption. But the Pentagon already had declared Ukraine had met criteria on anti-corruption and the aid  — appropriated by Congress — would go forward.  https:\/\/t.co\/YtdM1qTRRL",
+  "label": [
+    {
+      "start": 220,
+      "end": 225,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 634,
+  "annotator": 1,
+  "annotation_id": 214,
+  "created_at": "2026-03-04T06:36:36.265286Z",
+  "updated_at": "2026-03-04T06:36:36.265301Z",
+  "lead_time": 25.874
+},
+{
+  "Unnamed: 0": 634,
+  "text": "The Trend: Pelican seeks shelter from Hurricane Matthew http:\/\/abc7ny.com\/entertainment\/the-trend-pelican-seeks-shelter-from-hurricane-matthew\/1544621\/ …",
+  "label": 0,
+  "id": 635,
+  "annotator": 1,
+  "annotation_id": 215,
+  "created_at": "2026-03-04T06:36:43.844043Z",
+  "updated_at": "2026-03-04T06:36:43.844057Z",
+  "lead_time": 6.447
+},
+{
+  "Unnamed: 0": 635,
+  "text": "In support of the tragic events of Hurricane Dorian, we are happy to announce we will donate $0.10 for every person who Shares this post to help spread awareness. ⁣\nDonations will be put towards food, water,… https:\/\/www.instagram.com\/p\/B2CcZkvB7gJ\/?igshid=10nedvbxtlhya …",
+  "label": 0,
+  "id": 636,
+  "annotator": 1,
+  "annotation_id": 216,
+  "created_at": "2026-03-04T06:37:17.975687Z",
+  "updated_at": "2026-03-04T06:37:17.975702Z",
+  "lead_time": 33.129
+},
+{
+  "Unnamed: 0": 636,
+  "text": "Wow... #Prayers #Prayers #Prayers  Five people burned alive in their cars in Northern California wildfire\nhttps:\/\/dailym.ai\/2PKRJ57¬†",
+  "label": 0,
+  "id": 637,
+  "annotator": 1,
+  "annotation_id": 217,
+  "created_at": "2026-03-04T06:37:31.046354Z",
+  "updated_at": "2026-03-04T06:37:31.046369Z",
+  "lead_time": 11.285
+},
+{
+  "Unnamed: 0": 637,
+  "text": "Hurricane Matthew (Pet friendly) shelter and evacuation information http:\/\/at.wftv.com\/2cVWgz3  via @WFTV",
+  "label": 0,
+  "id": 638,
+  "annotator": 1,
+  "annotation_id": 218,
+  "created_at": "2026-03-04T06:37:36.775670Z",
+  "updated_at": "2026-03-04T06:37:36.775686Z",
+  "lead_time": 4.602
+},
+{
+  "Unnamed: 0": 638,
+  "text": "Fearing Hurricane Matthew, Florida Family Parks Car in Living Room to Protect It https:\/\/www.yahoo.com\/gma\/fearing-hurricane-matthew-florida-family-parks-car-living-162406868--abc-news-topstories.html …",
+  "label": 0,
+  "id": 639,
+  "annotator": 1,
+  "annotation_id": 219,
+  "created_at": "2026-03-04T06:37:53.825823Z",
+  "updated_at": "2026-03-04T06:37:53.825839Z",
+  "lead_time": 15.258
+},
+{
+  "Unnamed: 0": 639,
+  "text": "Hurricane Matthew Hampton Roads Virginia. Flooded Cars And Roads Don't Drown Turn Around! https:\/\/goo.gl\/hXIHTE ",
+  "label": [
+    {
+      "start": 88,
+      "end": 89,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 640,
+  "annotator": 1,
+  "annotation_id": 220,
+  "created_at": "2026-03-04T06:38:19.996036Z",
+  "updated_at": "2026-03-04T06:38:19.996052Z",
+  "lead_time": 24.94
+},
+{
+  "Unnamed: 0": 640,
+  "text": "Your blizzard grocery list, managing food without power, winterizing your home, staying warm, and much more. http:\/\/fb.me\/24oZiczYn¬†",
+  "label": 0,
+  "id": 641,
+  "annotator": 1,
+  "annotation_id": 221,
+  "created_at": "2026-03-04T06:38:34.732121Z",
+  "updated_at": "2026-03-04T06:38:34.732137Z",
+  "lead_time": 12.378
+},
+{
+  "Unnamed: 0": 641,
+  "text": "Bald eagle rescued from car grill after Matthew passes - In the aftermath of Hurricane Matthew's path through F... http:\/\/ow.ly\/1JcY505gsNd ",
+  "label": 0,
+  "id": 642,
+  "annotator": 1,
+  "annotation_id": 222,
+  "created_at": "2026-03-04T06:38:44.961128Z",
+  "updated_at": "2026-03-04T06:38:44.961143Z",
+  "lead_time": 8.989
+},
+{
+  "Unnamed: 0": 642,
+  "text": "And two days after this report is released -- warning of an \"apocalyptic\" future with \"rising sea levels, disruptions in food productions and the spread of wildfires\" where \"no facet of life will be safe\" -- it's gone from the front page of Google News https:\/\/www.cbsnews.com\/news\/national-climate-assessments-most-shocking-climate-change-warnings\/¬†‚Ä¶pic.twitter.com\/U2MrRs4pfU",
+  "label": [
+    {
+      "start": 316,
+      "end": 324,
+      "text": "shocking",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 643,
+  "annotator": 1,
+  "annotation_id": 223,
+  "created_at": "2026-03-04T06:39:18.360744Z",
+  "updated_at": "2026-03-04T06:39:18.360759Z",
+  "lead_time": 32.177
+},
+{
+  "Unnamed: 0": 643,
+  "text": "during drag me down last night I was screaming 'shell of a mannequin' instead of 'shell of a man' and I think everyone hated me there",
+  "label": [
+    {
+      "start": 104,
+      "end": 109,
+      "text": "think",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 644,
+  "annotator": 1,
+  "annotation_id": 224,
+  "created_at": "2026-03-04T06:39:37.199283Z",
+  "updated_at": "2026-03-04T06:39:37.199301Z",
+  "lead_time": 17.776
+},
+{
+  "Unnamed: 0": 644,
+  "text": "China testing it's new autonomous electric train that does not need traditional tracks.  (New China) #Innovation #Transportation #EV https:\/\/t.co\/UsJx2XL3PI",
+  "label": 1,
+  "id": 645,
+  "annotator": 1,
+  "annotation_id": 225,
+  "created_at": "2026-03-04T06:39:47.160533Z",
+  "updated_at": "2026-03-04T06:39:47.160548Z",
+  "lead_time": 8.849
+},
+{
+  "Unnamed: 0": 645,
+  "text": "THE HURRICANE TOOK MY HOUSE AND CAR AND EVERYTHING I HAD LIKE FUCK IM WEARING A BRA",
+  "label": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "THE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 13,
+      "text": "HURRICANE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "text": "TOOK",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 19,
+      "end": 21,
+      "text": "MY",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 27,
+      "text": "HOUSE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "AND",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 35,
+      "text": "CAR",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "text": "AND",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "EVERYTHING",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "text": "I",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 56,
+      "text": "HAD",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 61,
+      "text": "LIKE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 66,
+      "text": "FUCK",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 67,
+      "end": 69,
+      "text": "IM",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 70,
+      "end": 77,
+      "text": "WEARING",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "text": "A",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 80,
+      "end": 83,
+      "text": "BRA",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 66,
+      "text": "FUCK",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 646,
+  "annotator": 1,
+  "annotation_id": 226,
+  "created_at": "2026-03-04T06:41:21.369260Z",
+  "updated_at": "2026-03-04T06:41:21.369277Z",
+  "lead_time": 93.173
+},
+{
+  "Unnamed: 0": 646,
+  "text": "RT @SEBHEUPDATE: Hurricane Matthew: Family rescued from car rooftop http:\/\/bbc.in\/2dDloMv  #SEBHEUPDATE",
+  "label": 0,
+  "id": 647,
+  "annotator": 1,
+  "annotation_id": 227,
+  "created_at": "2026-03-04T06:41:30.086889Z",
+  "updated_at": "2026-03-04T06:41:30.086904Z",
+  "lead_time": 7.419
+},
+{
+  "Unnamed: 0": 647,
+  "text": "If it looks like flood water it is bloody flood water so be a good chap and don't take a chance. Turn the motor car around Thanks awfully.",
+  "label": 0,
+  "id": 648,
+  "annotator": 1,
+  "annotation_id": 228,
+  "created_at": "2026-03-04T06:41:54.987871Z",
+  "updated_at": "2026-03-04T06:41:54.987887Z",
+  "lead_time": 21.689
+},
+{
+  "Unnamed: 0": 648,
+  "text": "Can it really be Classified as a Historical Blizzard&Snowfall when YOU CAN STILL SEE 1\/2 THE TIRES ON ALL THE PARKED CARS!",
+  "label": [
+    {
+      "start": 121,
+      "end": 122,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 67,
+      "end": 70,
+      "text": "YOU",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 74,
+      "text": "CAN",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 75,
+      "end": 80,
+      "text": "STILL",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 81,
+      "end": 84,
+      "text": "SEE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 89,
+      "end": 93,
+      "text": "THE ",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 93,
+      "end": 98,
+      "text": "TIRES",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 99,
+      "end": 101,
+      "text": "ON",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 102,
+      "end": 105,
+      "text": "ALL",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 106,
+      "end": 109,
+      "text": "THE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 110,
+      "end": 116,
+      "text": "PARKED",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "text": "CARS",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 649,
+  "annotator": 1,
+  "annotation_id": 229,
+  "created_at": "2026-03-04T06:42:48.966898Z",
+  "updated_at": "2026-03-04T06:42:48.966914Z",
+  "lead_time": 52.781
+},
+{
+  "Unnamed: 0": 649,
+  "text": "Dear bank and car company: Since this blizzard will likely destroy DC, feel free to forgive what I owe you. Thanks!",
+  "label": [
+    {
+      "start": 114,
+      "end": 115,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 75,
+      "text": "feel",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 650,
+  "annotator": 1,
+  "annotation_id": 230,
+  "created_at": "2026-03-04T06:43:07.813290Z",
+  "updated_at": "2026-03-05T17:13:02.684277Z",
+  "lead_time": 20.107
+},
+{
+  "Unnamed: 0": 650,
+  "text": "Holy crap, it's all happening.\n   Climate change, wildfires, hurricanes...\n   Dictatorships, mass shootings...\n   Fossil fuel supply, energy uncertainty...\n... all of which lead to food shortages, mass migration, refugees, civil unrest, civil war...\nGet ready! https:\/\/twitter.com\/cnnbrk\/status\/1060956850634539008¬†‚Ä¶",
+  "label": [
+    {
+      "start": 259,
+      "end": 260,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Holy crap",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 651,
+  "annotator": 1,
+  "annotation_id": 231,
+  "created_at": "2026-03-04T06:44:10.108120Z",
+  "updated_at": "2026-03-04T18:42:12.591183Z",
+  "lead_time": 91.673
+},
+{
+  "Unnamed: 0": 651,
+  "text": "http:\/\/www.cwcga.org\/index2.html #Tornado Hit Women's Shelter\/Safehouse It's preachy, But they've helped a lot of ppl @cspanwj @nprnews @AP",
+  "label": 0,
+  "id": 652,
+  "annotator": 1,
+  "annotation_id": 232,
+  "created_at": "2026-03-04T06:44:23.578501Z",
+  "updated_at": "2026-03-04T06:44:23.578518Z",
+  "lead_time": 12.245
+},
+{
+  "Unnamed: 0": 652,
+  "text": "Hurricane Matthew: Family rescued from car rooftop http:\/\/www.bbc.co.uk\/news\/world-us-canada-37602294 …",
+  "label": 0,
+  "id": 653,
+  "annotator": 1,
+  "annotation_id": 233,
+  "created_at": "2026-03-04T06:44:27.410533Z",
+  "updated_at": "2026-03-04T06:44:27.410553Z",
+  "lead_time": 2.5
+},
+{
+  "Unnamed: 0": 653,
+  "text": "Incredible footage - you are doing a major public service showing how bad an idea it is to ride out a major hurricane.",
+  "label": 0,
+  "id": 654,
+  "annotator": 1,
+  "annotation_id": 234,
+  "created_at": "2026-03-04T06:44:43.743590Z",
+  "updated_at": "2026-03-04T06:44:43.743605Z",
+  "lead_time": 15.162
+},
+{
+  "Unnamed: 0": 654,
+  "text": "Wholesome Florida man\n\nFlorida man parks Smart car in kitchen over fear Hurricane Dorian would blow it away https:\/\/www.nbcnews.com\/news\/us-news\/florida-man-parks-car-kitchen-concerned-it-would-blow-away-n1049676 …",
+  "label": [
+    {
+      "start": 89,
+      "end": 94,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 188,
+      "end": 193,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 655,
+  "annotator": 1,
+  "annotation_id": 235,
+  "created_at": "2026-03-04T06:44:54.463108Z",
+  "updated_at": "2026-03-05T16:55:10.442948Z",
+  "lead_time": 21.576
+},
+{
+  "Unnamed: 0": 655,
+  "text": "Of course Hillary cares about rape victims, unless they re tied to her husband, the serial pervert Hillary s ongoing war on women.Sounding like a schoolmarm disciplining a child, Hillary Clinton yelled down a heckler at a a rally in Dover. It turns out the woman who heckled Clinton was a GOP State Rep. from Derry. She was trying to ask about Juanita Broderrick s rape allegations against Bill Clinton.HERE S THE NASTY MOMENT:",
+  "label": [
+    {
+      "start": 403,
+      "end": 407,
+      "text": "HERE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 408,
+      "end": 409,
+      "text": "S",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 410,
+      "end": 413,
+      "text": "THE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 414,
+      "end": 419,
+      "text": "NASTY",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 420,
+      "end": 426,
+      "text": "MOMENT",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 656,
+  "annotator": 1,
+  "annotation_id": 236,
+  "created_at": "2026-03-04T06:45:48.397630Z",
+  "updated_at": "2026-03-04T06:45:48.397644Z",
+  "lead_time": 52.878
+},
+{
+  "Unnamed: 0": 656,
+  "text": "A video of Sikh protesters chanting pro-Pakistan slogans during a protest against the desecration of the Guru Granth Sahib in Kashmir has been falsely linked to the farmers' protest. #AltNewsFactCheck | @ArchitMeta \n\nhttps:\/\/t.co\/9FMJRBjLyq",
+  "label": 1,
+  "id": 657,
+  "annotator": 1,
+  "annotation_id": 237,
+  "created_at": "2026-03-04T06:46:01.234519Z",
+  "updated_at": "2026-03-04T06:46:01.234535Z",
+  "lead_time": 11.867
+},
+{
+  "Unnamed: 0": 657,
+  "text": "This is hysterical! I don t care who you support, this is NOT politics as usual! ",
+  "label": [
+    {
+      "start": 18,
+      "end": 19,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 61,
+      "text": "NOT",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 658,
+  "annotator": 1,
+  "annotation_id": 238,
+  "created_at": "2026-03-04T06:46:21.723406Z",
+  "updated_at": "2026-03-04T06:46:21.723421Z",
+  "lead_time": 19.426
+},
+{
+  "Unnamed: 0": 658,
+  "text": "#floods #ukfloods - Jamaicans take shelter ready for 155mph Hurricane Matthew: The country's gove... https:\/\/binged.it\/2dIjTYK  - #flooding",
+  "label": 0,
+  "id": 659,
+  "annotator": 1,
+  "annotation_id": 239,
+  "created_at": "2026-03-04T06:46:32.378681Z",
+  "updated_at": "2026-03-04T06:46:32.378697Z",
+  "lead_time": 8.829
+},
+{
+  "Unnamed: 0": 659,
+  "text": "Weapons: Twin Knives #OjouBot",
+  "label": 1,
+  "id": 660,
+  "annotator": 1,
+  "annotation_id": 240,
+  "created_at": "2026-03-04T06:46:36.067374Z",
+  "updated_at": "2026-03-04T06:46:36.067391Z",
+  "lead_time": 2.652
+},
+{
+  "Unnamed: 0": 660,
+  "text": "Hurricane Harvey: rescuers reach people trapped on vehicle roof as waters¬†rise http:\/\/bilgitorbasi.org\/hurricane-harvey-rescuers-reach-people-trapped-on-vehicle-roof-as-waters-rise\/¬†‚Ä¶",
+  "label": 0,
+  "id": 661,
+  "annotator": 1,
+  "annotation_id": 241,
+  "created_at": "2026-03-04T06:46:46.425390Z",
+  "updated_at": "2026-03-04T06:46:46.425403Z",
+  "lead_time": 9.398
+},
+{
+  "Unnamed: 0": 661,
+  "text": "The fact I gotta fly to Florida to drive my car back bc of hurricane Irma already drains me.",
+  "label": 0,
+  "id": 662,
+  "annotator": 1,
+  "annotation_id": 242,
+  "created_at": "2026-03-04T06:46:58.863873Z",
+  "updated_at": "2026-03-04T06:46:58.863891Z",
+  "lead_time": 11.377
+},
+{
+  "Unnamed: 0": 662,
+  "text": "I‚Äôve been close to a wildfire not this large scale but at least this intense. It can be compared to crawling inside a high wattage microwave while trying to flee inside your cars. It felt like hell on earth.",
+  "label": 0,
+  "id": 663,
+  "annotator": 1,
+  "annotation_id": 243,
+  "created_at": "2026-03-04T06:47:21.965191Z",
+  "updated_at": "2026-03-04T06:47:21.965207Z",
+  "lead_time": 22.084
+},
+{
+  "Unnamed: 0": 663,
+  "text": "In a slow, relentless advance, a catastrophic Hurricane Dorian kept pounding at the northern Bahamas early Monday, as one of the strongest Atlantic storms ever recorded left wrecked homes, shredded roofs, tumbled cars and toppled power poles. http:\/\/bit.ly\/2lrU9YQ ",
+  "label": [
+    {
+      "start": 11,
+      "end": 21,
+      "text": "relentless",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 664,
+  "annotator": 1,
+  "annotation_id": 244,
+  "created_at": "2026-03-04T06:47:47.767823Z",
+  "updated_at": "2026-03-04T06:47:47.767854Z",
+  "lead_time": 24.731
+},
+{
+  "Unnamed: 0": 664,
+  "text": "Pets cope with Hurricane Matthew at a storm shelter just for them http:\/\/ln.is\/www.miamiherald.com\/wX4LR …",
+  "label": 0,
+  "id": 665,
+  "annotator": 1,
+  "annotation_id": 245,
+  "created_at": "2026-03-04T06:47:54.657640Z",
+  "updated_at": "2026-03-04T06:47:54.657653Z",
+  "lead_time": 5.755
+},
+{
+  "Unnamed: 0": 665,
+  "text": "@Health_for_you Dr. Besser's 3 Tips to Ride Hurricane Sandy Out Safely - ABC News (blog) http:\/\/abcn.ws\/XHdyPR ",
+  "label": 0,
+  "id": 666,
+  "annotator": 1,
+  "annotation_id": 246,
+  "created_at": "2026-03-04T06:47:59.248645Z",
+  "updated_at": "2026-03-04T06:47:59.248662Z",
+  "lead_time": 3.277
+},
+{
+  "Unnamed: 0": 666,
+  "text": "After PM Modi's video with peacocks surfaced online, several individuals began sharing his pictures with ducks. Congress also shared one such photo from 2012 in an attempt to criticise PM Modi for PR during COVID-19. #AltNewsFactCheck | @Pooja_Chaudhuri https:\/\/t.co\/SLTCYaHttD",
+  "label": 1,
+  "id": 667,
+  "annotator": 1,
+  "annotation_id": 247,
+  "created_at": "2026-03-04T06:48:15.254887Z",
+  "updated_at": "2026-03-04T06:48:15.254919Z",
+  "lead_time": 15.064
+},
+{
+  "Unnamed: 0": 667,
+  "text": "“@billboard: Hurricane Sandy: 15 Songs to Ride Out the Storm – http:\/\/blbrd.co\/Sou0D7  #sandy” #lol #tuneIn @hidzir @RafiDean",
+  "label": 0,
+  "id": 668,
+  "annotator": 1,
+  "annotation_id": 248,
+  "created_at": "2026-03-04T06:48:31.749130Z",
+  "updated_at": "2026-03-04T06:48:31.749146Z",
+  "lead_time": 14.444
+},
+{
+  "Unnamed: 0": 668,
+  "text": "After battling car sickness, torrential downpours, flash flood warnings, and arena madness, I'm ready for a house party! #HousePartyTour",
+  "label": [
+    {
+      "start": 119,
+      "end": 120,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 669,
+  "annotator": 1,
+  "annotation_id": 249,
+  "created_at": "2026-03-04T06:48:43.629620Z",
+  "updated_at": "2026-03-04T06:48:43.629638Z",
+  "lead_time": 10.631
+},
+{
+  "Unnamed: 0": 669,
+  "text": "real floridians gunna ride this hurricane out if you evacuate ima boonk gang your crib",
+  "label": 0,
+  "id": 670,
+  "annotator": 1,
+  "annotation_id": 250,
+  "created_at": "2026-03-04T06:49:09.546062Z",
+  "updated_at": "2026-03-04T06:49:09.546081Z",
+  "lead_time": 24.63
+},
+{
+  "Unnamed: 0": 670,
+  "text": "No food, no FEMA: Hurricane Michael’s survivors are furious - The Daily Beast\/\nThis is what the President  #RepublicanParty #Republicans #GOP have to offer?\n#VoteBlue #VoteNovember6th https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw …",
+  "label": 0,
+  "id": 671,
+  "annotator": 1,
+  "annotation_id": 251,
+  "created_at": "2026-03-04T06:49:35.233772Z",
+  "updated_at": "2026-03-04T06:49:35.233788Z",
+  "lead_time": 24.452
+},
+{
+  "Unnamed: 0": 671,
+  "text": "No, the person who slapped Hardik Patel is not a Congressman\n\nhttps:\/\/t.co\/O7xWndY3TJ",
+  "label": 1,
+  "id": 672,
+  "annotator": 1,
+  "annotation_id": 252,
+  "created_at": "2026-03-04T06:49:44.769105Z",
+  "updated_at": "2026-03-04T06:49:44.769121Z",
+  "lead_time": 8.326
+},
+{
+  "Unnamed: 0": 672,
+  "text": "Apparently this protester believes Americans should think twice before putting an accused serial rapist back into our White House:Protestor on Fox & Friends shouts \"Bill Clinton is a rapist!\" #BasementDwellers pic.twitter.com\/9DPsTLanQu  Asa J   (@asamjulian) October 1, 2016Hillary has a different name for these women that most of us consider  victims :",
+  "label": [
+    {
+      "start": 189,
+      "end": 190,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Apparently",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 45,
+      "end": 51,
+      "text": "should",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 34,
+      "text": "believes",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 336,
+      "end": 344,
+      "text": "consider",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 52,
+      "end": 57,
+      "text": "think",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 673,
+  "annotator": 1,
+  "annotation_id": 253,
+  "created_at": "2026-03-04T06:50:34.619293Z",
+  "updated_at": "2026-03-05T17:15:37.044259Z",
+  "lead_time": 75.45599999999999
+},
+{
+  "Unnamed: 0": 673,
+  "text": "Ashes 4th Test: 10 Hilarious Twitter Reactions to Australia's collapse http:\/\/t.co\/6DznEjuVD3 by @Absolut_Sumya15",
+  "label": 1,
+  "id": 674,
+  "annotator": 1,
+  "annotation_id": 254,
+  "created_at": "2026-03-04T06:50:47.882131Z",
+  "updated_at": "2026-03-04T06:50:47.882149Z",
+  "lead_time": 9.606
+},
+{
+  "Unnamed: 0": 674,
+  "text": "@MHARMON03 @twe091097 \nFlorida man parks Smart car in kitchen so it won't blow away during Hurricane Dorian https:\/\/abc11.com\/weather\/man-parks-smart-car-in-kitchen-so-it-wont-blow-away-during-dorian\/5516320\/ … via @ABC11_WTVD",
+  "label": 0,
+  "id": 675,
+  "annotator": 1,
+  "annotation_id": 255,
+  "created_at": "2026-03-04T06:50:56.472996Z",
+  "updated_at": "2026-03-04T06:50:56.473012Z",
+  "lead_time": 7.382
+},
+{
+  "Unnamed: 0": 675,
+  "text": "USGS reports a M1.94 #earthquake 5km S of Volcano Hawaii on 8\/6\/15 @ 1:04:01 UTC http:\/\/t.co\/Njd28pg9Xv #quake",
+  "label": 0,
+  "id": 676,
+  "annotator": 1,
+  "annotation_id": 256,
+  "created_at": "2026-03-04T18:45:18.121030Z",
+  "updated_at": "2026-03-04T18:45:18.121045Z",
+  "lead_time": 140.804
+},
+{
+  "Unnamed: 0": 676,
+  "text": "To all my friends and contacts on the East Coast, -- Take care and find shelter looks like a direct hit by Hurricane Sandy !",
+  "label": [
+    {
+      "start": 123,
+      "end": 124,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 677,
+  "annotator": 1,
+  "annotation_id": 257,
+  "created_at": "2026-03-04T18:45:30.826409Z",
+  "updated_at": "2026-03-04T18:45:30.826423Z",
+  "lead_time": 11.456
+},
+{
+  "Unnamed: 0": 677,
+  "text": "@blazerfan not everyone can see ignoranceshe is Latinoand that is All she can ever benothing morebut an attack dog 4 a hate group GOP",
+  "label": [
+    {
+      "start": 24,
+      "end": 27,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 74,
+      "end": 77,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 678,
+  "annotator": 1,
+  "annotation_id": 258,
+  "created_at": "2026-03-04T18:45:59.917265Z",
+  "updated_at": "2026-03-05T16:56:50.201355Z",
+  "lead_time": 38.308
+},
+{
+  "Unnamed: 0": 678,
+  "text": "Someone parked their car in the living room because of Hurricane Matthew http:\/\/ift.tt\/2dRMVnJ  via Martha Tesema #FollowBack #MGWV",
+  "label": 0,
+  "id": 679,
+  "annotator": 1,
+  "annotation_id": 259,
+  "created_at": "2026-03-04T18:46:12.158904Z",
+  "updated_at": "2026-03-04T18:46:12.158920Z",
+  "lead_time": 10.439
+},
+{
+  "Unnamed: 0": 679,
+  "text": "I'm servicin in my section I'm lurkin I'm with my weapon",
+  "label": 1,
+  "id": 680,
+  "annotator": 1,
+  "annotation_id": 260,
+  "created_at": "2026-03-04T18:46:34.116027Z",
+  "updated_at": "2026-03-04T18:46:34.116042Z",
+  "lead_time": 19.817
+},
+{
+  "Unnamed: 0": 680,
+  "text": "HereÛªs how media in Pakistan covered the capture of terrorist Mohammed Naved http:\/\/t.co\/3MtWh0jJns",
+  "label": 0,
+  "id": 681,
+  "annotator": 1,
+  "annotation_id": 261,
+  "created_at": "2026-03-04T19:08:15.941607Z",
+  "updated_at": "2026-03-04T19:08:15.941624Z",
+  "lead_time": 1299.572
+},
+{
+  "Unnamed: 0": 681,
+  "text": "Looter? Story behind viral photo of dog carrying bag of food after Hurricane Harvey http:\/\/dlvr.it\/Phwnrr¬†  via @BizPacReviewpic.twitter.com\/NyGS1noGQg",
+  "label": 0,
+  "id": 682,
+  "annotator": 1,
+  "annotation_id": 262,
+  "created_at": "2026-03-04T19:08:35.599326Z",
+  "updated_at": "2026-03-04T19:08:35.599342Z",
+  "lead_time": 18.526
+},
+{
+  "Unnamed: 0": 682,
+  "text": "Former GOP presidential candidate Herman Cain dies at age 74 after battling coronavirus— Anita Vogel reports on his life tonight on @FoxNews #SpecialReport https:\/\/t.co\/Jku7gXRxOJ",
+  "label": 1,
+  "id": 683,
+  "annotator": 1,
+  "annotation_id": 263,
+  "created_at": "2026-03-04T20:41:00.737513Z",
+  "updated_at": "2026-03-04T20:41:00.737529Z",
+  "lead_time": 5541.578
+},
+{
+  "Unnamed: 0": 683,
+  "text": "'We need to understand the art of living with corona. That art of living is very important as it is not a natural virus,' said the union minister in a TV interview https:\/\/t.co\/wrKVlQKIk0",
+  "label": [
+    {
+      "start": 12,
+      "end": 22,
+      "text": "understand",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 684,
+  "annotator": 1,
+  "annotation_id": 264,
+  "created_at": "2026-03-04T20:43:54.306065Z",
+  "updated_at": "2026-03-05T17:16:14.945349Z",
+  "lead_time": 179.599
+},
+{
+  "Unnamed: 0": 684,
+  "text": "#Trump’s bombast can’t mask his declining support. His threat to mobilize the army against the people was not idle. Ending the threat will require a conscious movement of the working class for socialism. #TrumpRallyFail https:\/\/t.co\/WQAORPryJz",
+  "label": [
+    {
+      "start": 32,
+      "end": 41,
+      "text": "declining",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 685,
+  "annotator": 1,
+  "annotation_id": 265,
+  "created_at": "2026-03-04T20:59:46.366700Z",
+  "updated_at": "2026-03-04T20:59:46.366716Z",
+  "lead_time": 950.771
+},
+{
+  "Unnamed: 0": 685,
+  "text": "Hurricane Matthew self-evacuation shelter list http:\/\/www.wfxg.com\/story\/33327575\/hurricane-matthew-self-evacuation-shelter-list …",
+  "label": 0,
+  "id": 686,
+  "annotator": 1,
+  "annotation_id": 266,
+  "created_at": "2026-03-04T21:00:05.238439Z",
+  "updated_at": "2026-03-04T21:00:05.238455Z",
+  "lead_time": 17.522
+},
+{
+  "Unnamed: 0": 686,
+  "text": "The City of White Plains has declared a state of emergency due to Hurricane Sandy.  The city has opened a shelter... http:\/\/fb.me\/2eEDuHfqa ",
+  "label": 0,
+  "id": 687,
+  "annotator": 1,
+  "annotation_id": 267,
+  "created_at": "2026-03-04T21:00:15.187268Z",
+  "updated_at": "2026-03-04T21:00:15.187282Z",
+  "lead_time": 8.872
+},
+{
+  "Unnamed: 0": 687,
+  "text": "@MayorofLondon pls reduce cyclist deaths with a compulsory highway code test as with EVERY OTHER VEHICLE that uses a road. #notrocketscience",
+  "label": [
+    {
+      "start": 85,
+      "end": 90,
+      "text": "EVERY",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 91,
+      "end": 96,
+      "text": "OTHER",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 97,
+      "end": 104,
+      "text": "VEHICLE",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 688,
+  "annotator": 1,
+  "annotation_id": 268,
+  "created_at": "2026-03-04T21:01:41.923184Z",
+  "updated_at": "2026-03-04T21:01:41.923199Z",
+  "lead_time": 85.565
+},
+{
+  "Unnamed: 0": 688,
+  "text": "Tyson Foods Provides Relief from Hurricane Michael - https:\/\/bit.ly\/2ykpT5y?utm_medium=social&utm_source=twitter_KNWAnews … #NWArk #NWAnews",
+  "label": 0,
+  "id": 689,
+  "annotator": 1,
+  "annotation_id": 269,
+  "created_at": "2026-03-04T21:02:19.988813Z",
+  "updated_at": "2026-03-04T21:02:19.988830Z",
+  "lead_time": 4.502
+},
+{
+  "Unnamed: 0": 689,
+  "text": "Re suburbs\/fire: at least the 2nd or 3rd car could be cut, with just having one car per household as a backup. Also, there might be pooling options, which might be even enforced during emergencies like a wildfire -> less crowded road, faster escape",
+  "label": [
+    {
+      "start": 45,
+      "end": 50,
+      "text": "could",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 123,
+      "end": 128,
+      "text": "might",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 155,
+      "end": 160,
+      "text": "might",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 690,
+  "annotator": 1,
+  "annotation_id": 270,
+  "created_at": "2026-03-04T21:03:37.741162Z",
+  "updated_at": "2026-03-05T17:08:58.046089Z",
+  "lead_time": 112.55799999999999
+},
+{
+  "Unnamed: 0": 690,
+  "text": "A 'Bhoomi Pujan' ceremony for the proposed #temple will be held on August 5 and is likely to be witnessed by a small group of attendees, including Prime Minister #NarendraModi \n\nhttps:\/\/t.co\/vZfuslnvZR",
+  "label": [
+    {
+      "start": 83,
+      "end": 89,
+      "text": "likely",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 691,
+  "annotator": 1,
+  "annotation_id": 271,
+  "created_at": "2026-03-04T21:04:13.979092Z",
+  "updated_at": "2026-03-04T21:04:13.979108Z",
+  "lead_time": 35.134
+},
+{
+  "Unnamed: 0": 691,
+  "text": "Carolina Marines Ride Out Hurricane Dorian - USNI News\nhttps:\/\/news.usni.org\/2019\/09\/05\/carolina-marines-ride-out-hurricane-dorian …pic.twitter.com\/gzaHHbt3IB",
+  "label": 0,
+  "id": 692,
+  "annotator": 1,
+  "annotation_id": 272,
+  "created_at": "2026-03-04T21:04:20.899495Z",
+  "updated_at": "2026-03-04T21:04:20.899515Z",
+  "lead_time": 5.885
+},
+{
+  "Unnamed: 0": 692,
+  "text": "Get comfy!! It's gonna be a rough ride!! (@ Frankenstorm Apocalypse - Hurricane Sandy w\/ 1779 others) http:\/\/4sq.com\/Q0bwJS ",
+  "label": [
+    {
+      "start": 9,
+      "end": 11,
+      "text": "!!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 40,
+      "text": "!!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 693,
+  "annotator": 1,
+  "annotation_id": 273,
+  "created_at": "2026-03-04T21:04:46.402323Z",
+  "updated_at": "2026-03-04T21:04:46.402339Z",
+  "lead_time": 24.232
+},
+{
+  "Unnamed: 0": 693,
+  "text": "It looks bad! RT @TORNADOHUNT: Scariest tornado I've seen on radar all day. Take shelter in La Fayette & LaGrange http:\/\/twitpic.com\/4qci50",
+  "label": [
+    {
+      "start": 12,
+      "end": 13,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 694,
+  "annotator": 1,
+  "annotation_id": 274,
+  "created_at": "2026-03-04T21:05:19.784811Z",
+  "updated_at": "2026-03-04T21:05:19.784825Z",
+  "lead_time": 32.015
+},
+{
+  "Unnamed: 0": 694,
+  "text": "So relived my Favorite went to Tennessee to ride out the Hurricane.  I was worried!",
+  "label": [
+    {
+      "start": 82,
+      "end": 83,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 695,
+  "annotator": 1,
+  "annotation_id": 275,
+  "created_at": "2026-03-04T21:05:34.377258Z",
+  "updated_at": "2026-03-04T21:05:34.377273Z",
+  "lead_time": 13.358
+},
+{
+  "Unnamed: 0": 695,
+  "text": "after the Z car was submerged in the floods it now starts ... I am excited, just need to see if the rest is salvageable.",
+  "label": 0,
+  "id": 696,
+  "annotator": 1,
+  "annotation_id": 276,
+  "created_at": "2026-03-04T21:08:03.644485Z",
+  "updated_at": "2026-03-04T21:08:03.644502Z",
+  "lead_time": 148.196
+},
+{
+  "Unnamed: 0": 696,
+  "text": "Listening to Blowers and Tuffers on the Aussie batting collapse at Trent Bridge reminds me why I love @bbctms! Wonderful stuff! #ENGvAUS",
+  "label": [
+    {
+      "start": 109,
+      "end": 110,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 697,
+  "annotator": 1,
+  "annotation_id": 277,
+  "created_at": "2026-03-04T21:08:33.051256Z",
+  "updated_at": "2026-03-04T21:08:33.051272Z",
+  "lead_time": 28.1
+},
+{
+  "Unnamed: 0": 697,
+  "text": "I liked a @YouTube video http:\/\/youtu.be\/jSeBzPYAgUU?a  Hurricane Michael Emergency Prep...Food and Water Going Fast!",
+  "label": [
+    {
+      "start": 116,
+      "end": 117,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 698,
+  "annotator": 1,
+  "annotation_id": 278,
+  "created_at": "2026-03-04T21:08:44.996936Z",
+  "updated_at": "2026-03-04T21:08:44.996953Z",
+  "lead_time": 10.769
+},
+{
+  "Unnamed: 0": 698,
+  "text": "We evacuated for hurricane Rita and you know my 4 person family fit 2 cats, 2 dogs, and a bird in the car",
+  "label": 0,
+  "id": 699,
+  "annotator": 1,
+  "annotation_id": 279,
+  "created_at": "2026-03-04T21:09:08.858887Z",
+  "updated_at": "2026-03-04T21:09:08.858906Z",
+  "lead_time": 14.985
+},
+{
+  "Unnamed: 0": 699,
+  "text": "Cruise Ship Reroutes Trip To Deliver Food To Bahamas After Hurricane Dorian https:\/\/www.scarymommy.com\/cruise-food-bahamas-hurricane-dorian\/ …",
+  "label": 0,
+  "id": 700,
+  "annotator": 1,
+  "annotation_id": 280,
+  "created_at": "2026-03-04T21:10:04.156943Z",
+  "updated_at": "2026-03-04T21:10:04.156957Z",
+  "lead_time": 54.133
+},
+{
+  "Unnamed: 0": 700,
+  "text": "All of Ellis County engulfed in severe storm and a tornado is near I-45 headed toward Bristol. Take shelter.",
+  "label": 0,
+  "id": 701,
+  "annotator": 1,
+  "annotation_id": 281,
+  "created_at": "2026-03-04T21:10:41.268834Z",
+  "updated_at": "2026-03-04T21:10:41.268849Z",
+  "lead_time": 35.151
+},
+{
+  "Unnamed: 0": 701,
+  "text": "@petereallen @HuffPostUK @bbc5live How significant do you think the iconic pic of Church (maybe) ruins and less substantial efforts razed?",
+  "label": [
+    {
+      "start": 58,
+      "end": 63,
+      "text": "think",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 95,
+      "text": "maybe",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 702,
+  "annotator": 1,
+  "annotation_id": 282,
+  "created_at": "2026-03-04T21:11:14.731800Z",
+  "updated_at": "2026-03-04T21:11:14.731815Z",
+  "lead_time": 32.022
+},
+{
+  "Unnamed: 0": 702,
+  "text": "Hurricane Michael aftermath: Waffle House opens food truck in Panama City https:\/\/www.palmbeachpost.com\/news\/hurricane-michael-aftermath-waffle-house-opens-food-truck-panama-city\/Hhzdsmsuyol9JbJzf451EI\/ …",
+  "label": 0,
+  "id": 703,
+  "annotator": 1,
+  "annotation_id": 283,
+  "created_at": "2026-03-04T21:11:23.018781Z",
+  "updated_at": "2026-03-04T21:11:23.018798Z",
+  "lead_time": 6.825
+},
+{
+  "Unnamed: 0": 703,
+  "text": "URGENT NEED FOR VOLUNTEERS \nAT NRG CENTER\n\nNRG Center is now open as a relief shelter for Hurricane Harvey and is... http:\/\/fb.me\/283MsVuF3¬†",
+  "label": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "URGENT",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 11,
+      "text": "NEED",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "FOR",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 26,
+      "text": "VOLUNTEERS",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 30,
+      "text": "AT",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "text": "CENTER",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 704,
+  "annotator": 1,
+  "annotation_id": 284,
+  "created_at": "2026-03-04T21:11:52.768260Z",
+  "updated_at": "2026-03-04T21:11:52.768275Z",
+  "lead_time": 28.707
+},
+{
+  "Unnamed: 0": 704,
+  "text": "Do you need to evacuate because of Hurricane Dorian and need a lift to the nearest shelter? Uber representatives say you can get a free ride: https:\/\/twitter.com\/WPLGLocal10\/status\/1168348033504989184 …",
+  "label": 0,
+  "id": 705,
+  "annotator": 1,
+  "annotation_id": 285,
+  "created_at": "2026-03-04T21:12:50.582352Z",
+  "updated_at": "2026-03-04T21:12:50.582369Z",
+  "lead_time": 56.711
+},
+{
+  "Unnamed: 0": 705,
+  "text": "Parkview Elementary @ 9 in the am for more collection and distribution of food, etc. to tornado victims.",
+  "label": 0,
+  "id": 706,
+  "annotator": 1,
+  "annotation_id": 286,
+  "created_at": "2026-03-04T21:14:14.660432Z",
+  "updated_at": "2026-03-04T21:14:14.660447Z",
+  "lead_time": 83.039
+},
+{
+  "Unnamed: 0": 706,
+  "text": "Large sinkhole swallows entire pond in Lowndes County Georgia: Large sinkholeÛ_ http:\/\/t.co\/bCLDQmMEHg #Occasion2B",
+  "label": 0,
+  "id": 707,
+  "annotator": 1,
+  "annotation_id": 287,
+  "created_at": "2026-03-04T21:14:52.611838Z",
+  "updated_at": "2026-03-04T21:14:52.611855Z",
+  "lead_time": 36.602
+},
+{
+  "Unnamed: 0": 707,
+  "text": "If you're reading this go accidentally fall off a cliff mate",
+  "label": 1,
+  "id": 708,
+  "annotator": 1,
+  "annotation_id": 288,
+  "created_at": "2026-03-04T21:15:06.118689Z",
+  "updated_at": "2026-03-04T21:15:06.118705Z",
+  "lead_time": 12.408
+},
+{
+  "Unnamed: 0": 708,
+  "text": "Food And Wine Top story: Hurricane Sandy: View From Above http:\/\/www.nytimes.com\/interactive\/2012\/10\/28\/nyregion\/nyt-webcam.html …, see more http:\/\/tweetedtimes.com\/The_CityOfRoses\/food …",
+  "label": 0,
+  "id": 709,
+  "annotator": 1,
+  "annotation_id": 289,
+  "created_at": "2026-03-04T21:15:13.954922Z",
+  "updated_at": "2026-03-04T21:15:13.954937Z",
+  "lead_time": 6.787
+},
+{
+  "Unnamed: 0": 709,
+  "text": "My pops had to fly back in for hurricane Dorian. First stop at a gas station after I picked him up from the airport and dude causes a scene we almost got in a fight.  never a dull moment when your in the car with Mike James",
+  "label": 0,
+  "id": 710,
+  "annotator": 1,
+  "annotation_id": 290,
+  "created_at": "2026-03-04T21:15:47.123376Z",
+  "updated_at": "2026-03-04T21:15:47.123389Z",
+  "lead_time": 32.061
+},
+{
+  "Unnamed: 0": 710,
+  "text": "Emergency Services Committee and Personnel Committee Meeting on Thursday Night http:\/\/t.co\/DrBcRyPj4p",
+  "label": 1,
+  "id": 711,
+  "annotator": 1,
+  "annotation_id": 291,
+  "created_at": "2026-03-04T21:15:52.001651Z",
+  "updated_at": "2026-03-04T21:15:52.001665Z",
+  "lead_time": 3.779
+},
+{
+  "Unnamed: 0": 711,
+  "text": "Shirtless man lounges in the middle of the ocean during Hurricane Matthew: Richard Neal decided to ride out t... http:\/\/cnn.it\/2dJxCPp ",
+  "label": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Shirtless",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 712,
+  "annotator": 1,
+  "annotation_id": 292,
+  "created_at": "2026-03-04T21:18:00.034539Z",
+  "updated_at": "2026-03-04T21:18:00.034554Z",
+  "lead_time": 126.093
+},
+{
+  "Unnamed: 0": 712,
+  "text": "Unlikely hurricane hero takes over chaotic Texas storm shelter: http:\/\/aol.it\/2wiRz8I¬† via @AOL\nI only hope the water is cleaner then NOLAs",
+  "label": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Unlikely",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 104,
+      "end": 108,
+      "text": "hope",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 713,
+  "annotator": 1,
+  "annotation_id": 293,
+  "created_at": "2026-03-04T21:20:58.680968Z",
+  "updated_at": "2026-03-04T21:20:58.680985Z",
+  "lead_time": 177.482
+},
+{
+  "Unnamed: 0": 713,
+  "text": "London Life: photos of a beautiful bombed-out Britain http:\/\/t.co\/2RAcaiVFfq #arts",
+  "label": 1,
+  "id": 714,
+  "annotator": 1,
+  "annotation_id": 294,
+  "created_at": "2026-03-04T21:21:08.723675Z",
+  "updated_at": "2026-03-04T21:21:08.723690Z",
+  "lead_time": 7.638
+},
+{
+  "Unnamed: 0": 714,
+  "text": "This medicine may cause: sneezing, coughing, car accidents, floods, leprosy, tornados, and death. \nBut your sore throats gone...so it's cool",
+  "label": [
+    {
+      "start": 14,
+      "end": 17,
+      "text": "may",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 715,
+  "annotator": 1,
+  "annotation_id": 295,
+  "created_at": "2026-03-04T21:22:38.039077Z",
+  "updated_at": "2026-03-05T17:24:18.332068Z",
+  "lead_time": 93.072
+},
+{
+  "Unnamed: 0": 715,
+  "text": ".@LEGO_Group has donated four million dollars in support of #BlackLivesMatter to “organizations dedicated to supporting black children and educating all children about racial equality.” https:\/\/t.co\/7xvOsNClhG",
+  "label": 1,
+  "id": 716,
+  "annotator": 1,
+  "annotation_id": 296,
+  "created_at": "2026-03-04T21:25:13.584645Z",
+  "updated_at": "2026-03-04T21:25:13.584662Z",
+  "lead_time": 153.717
+},
+{
+  "Unnamed: 0": 716,
+  "text": "'No house, no food, no water, no life'\n\nThe death toll from Hurricane Dorian in the Bahamas will be \"staggering\", the country's government has warned as aid efforts are being stepped up. https:\/\/www.bbc.co.uk\/news\/video_and_audio\/headlines\/49602614\/hurricane-dorian-devastation-leaves-surreal-landscape-in-bahamas …",
+  "label": [
+    {
+      "start": 101,
+      "end": 111,
+      "text": "staggering",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 717,
+  "annotator": 1,
+  "annotation_id": 297,
+  "created_at": "2026-03-04T21:27:18.415663Z",
+  "updated_at": "2026-03-04T21:27:18.415679Z",
+  "lead_time": 123.555
+},
+{
+  "Unnamed: 0": 717,
+  "text": "Twitter iTunes Royal Wedding Gasoline Cars Money Bieber Obama Politics Religion Tornado Insurance Medicine BULLSHIT #BotBait",
+  "label": [
+    {
+      "start": 107,
+      "end": 115,
+      "text": "BULLSHIT",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 107,
+      "end": 115,
+      "text": "BULLSHIT",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 718,
+  "annotator": 1,
+  "annotation_id": 298,
+  "created_at": "2026-03-04T21:27:31.290941Z",
+  "updated_at": "2026-03-04T21:27:42.339940Z",
+  "lead_time": 22.631
+},
+{
+  "Unnamed: 0": 718,
+  "text": "New Tornado WARNINGS out now.  Warnings for Burke, Caldwell, McDowell, Catawba, & Alexander Counties until 4am.  Seek Shelter NOW.",
+  "label": [
+    {
+      "start": 12,
+      "end": 20,
+      "text": "WARNINGS",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 126,
+      "end": 129,
+      "text": "NOW",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 719,
+  "annotator": 1,
+  "annotation_id": 299,
+  "created_at": "2026-03-04T21:28:19.848814Z",
+  "updated_at": "2026-03-04T21:28:19.848848Z",
+  "lead_time": 35.287
+},
+{
+  "Unnamed: 0": 719,
+  "text": "Horowitz: CDC Director Redfield says masks are better than a vaccine. But the virus is still spreading in masked-up places. https:\/\/t.co\/O6FbbMhmid",
+  "label": 1,
+  "id": 720,
+  "annotator": 1,
+  "annotation_id": 300,
+  "created_at": "2026-03-04T21:30:07.512141Z",
+  "updated_at": "2026-03-04T21:30:07.512156Z",
+  "lead_time": 106.25
+},
+{
+  "Unnamed: 0": 720,
+  "text": "Hurricane Matthew: Family rescued from car rooftop http:\/\/dlvr.it\/MQXWPW ",
+  "label": 0,
+  "id": 721,
+  "annotator": 1,
+  "annotation_id": 301,
+  "created_at": "2026-03-04T21:31:18.944489Z",
+  "updated_at": "2026-03-04T21:31:18.944505Z",
+  "lead_time": 70.569
+},
+{
+  "Unnamed: 0": 721,
+  "text": "Aww lmao “you need to die” the only pplwho say shit like that on social media are 11 year old white boys with no love at home get a life\n\nWhat you so mad for ? you came for bcu while lookin like that\n\nBig ass nose could’ve been used as a shelter during hurricane Dorian ",
+  "label": [
+    {
+      "start": 4,
+      "end": 8,
+      "text": "lmao",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "text": "shit",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 205,
+      "end": 208,
+      "text": "ass",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 214,
+      "end": 219,
+      "text": "could",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 722,
+  "annotator": 1,
+  "annotation_id": 302,
+  "created_at": "2026-03-04T21:32:46.121794Z",
+  "updated_at": "2026-03-04T21:32:46.121810Z",
+  "lead_time": 83.799
+},
+{
+  "Unnamed: 0": 722,
+  "text": "He can ride out the \"fake\" hurricane in Key West...",
+  "label": [
+    {
+      "start": 3,
+      "end": 6,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 723,
+  "annotator": 1,
+  "annotation_id": 303,
+  "created_at": "2026-03-04T21:32:53.559840Z",
+  "updated_at": "2026-03-05T16:59:07.740858Z",
+  "lead_time": 9.619
+},
+{
+  "Unnamed: 0": 723,
+  "text": "RT AbbsWinston: #Zionist #Terrorist kidnapped 15 #Palestinians in overnight terror on Palestinian Villages Û_ http:\/\/t.co\/J5mKcbKcov",
+  "label": 0,
+  "id": 724,
+  "annotator": 1,
+  "annotation_id": 304,
+  "created_at": "2026-03-04T21:33:02.494078Z",
+  "updated_at": "2026-03-04T21:33:02.494095Z",
+  "lead_time": 6.582
+},
+{
+  "Unnamed: 0": 724,
+  "text": "Same-Sex Marriages, 10 Years LaterDGR @DebbersGar Writer producer creative director wife of a lady mom to two master of a pup. Not necessarily in that order.The Backstory: Our 5 yo daughter had no costume. We said: How about HRC? Daughter: Nope. Son: Well someone s gotta be Hillary!",
+  "label": [
+    {
+      "start": 282,
+      "end": 283,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 725,
+  "annotator": 1,
+  "annotation_id": 305,
+  "created_at": "2026-03-04T21:34:15.350827Z",
+  "updated_at": "2026-03-04T21:34:15.350842Z",
+  "lead_time": 71.5
+},
+{
+  "Unnamed: 0": 725,
+  "text": "People of Florida, Mar-A-Lago is open as a public shelter during the hurricane. Please feel free to shit on the floors. #hurricaneirma2017",
+  "label": [
+    {
+      "start": 100,
+      "end": 104,
+      "text": "shit",
+      "labels": [
+        "unk"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 91,
+      "text": "feel",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 726,
+  "annotator": 1,
+  "annotation_id": 306,
+  "created_at": "2026-03-04T21:34:33.381021Z",
+  "updated_at": "2026-03-05T17:13:13.544048Z",
+  "lead_time": 22.525
+},
+{
+  "Unnamed: 0": 726,
+  "text": "Yesterday, the Intergovernmental Panel on Climate Change, a group of scientists convened by the UN, released a report that describes a world of food shortages and wildfires, and a mass die-off of coral reefs as soon as 2040- by the time babies born this year turn 21 years old.",
+  "label": 0,
+  "id": 727,
+  "annotator": 1,
+  "annotation_id": 307,
+  "created_at": "2026-03-04T21:35:16.038186Z",
+  "updated_at": "2026-03-04T21:35:16.038202Z",
+  "lead_time": 39.396
+},
+{
+  "Unnamed: 0": 727,
+  "text": "#Tesla to unlock extra range and free Supercharging for cars in Hurricane Dorian’s path | TESLARATI https:\/\/www.teslarati.com\/tesla-unlocks-free-supercharging-extra-range-hurricane-dorian\/ … via @Teslarati",
+  "label": 0,
+  "id": 728,
+  "annotator": 1,
+  "annotation_id": 308,
+  "created_at": "2026-03-04T21:35:55.600733Z",
+  "updated_at": "2026-03-04T21:35:55.600748Z",
+  "lead_time": 38.39
+},
+{
+  "Unnamed: 0": 728,
+  "text": "realsnownyctalk: how much food gets wasted\/thrown out from folks' blizzard-related \"emergency\" (binge) purchases?",
+  "label": 0,
+  "id": 729,
+  "annotator": 1,
+  "annotation_id": 309,
+  "created_at": "2026-03-04T21:36:15.204961Z",
+  "updated_at": "2026-03-04T21:36:15.204973Z",
+  "lead_time": 18.513
+},
+{
+  "Unnamed: 0": 729,
+  "text": "Tornado warning is in effect until 1:45am Wednesday. Sirens continue to sound. Get to shelter",
+  "label": 0,
+  "id": 730,
+  "annotator": 1,
+  "annotation_id": 310,
+  "created_at": "2026-03-04T21:36:34.896979Z",
+  "updated_at": "2026-03-04T21:36:34.896995Z",
+  "lead_time": 18.546
+},
+{
+  "Unnamed: 0": 730,
+  "text": "F5 destroying Tuscaloosa. #soulsick RT @LAmeetsDC: OH MY GOD! TUSCALOOSA TAKE SHELTER: VIDEO OF TORNADO: http:\/\/bit.ly\/m30hjq",
+  "label": [
+    {
+      "start": 51,
+      "end": 53,
+      "text": "OH",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "text": "MY",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 60,
+      "text": "GOD",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 72,
+      "text": "TUSCALOOSA",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 77,
+      "text": "TAKE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 78,
+      "end": 85,
+      "text": "SHELTER",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 92,
+      "text": "VIDEO",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 93,
+      "end": 95,
+      "text": "OF",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 96,
+      "end": 103,
+      "text": "TORNADO",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 731,
+  "annotator": 1,
+  "annotation_id": 311,
+  "created_at": "2026-03-04T21:37:26.016468Z",
+  "updated_at": "2026-03-04T21:37:26.016483Z",
+  "lead_time": 49.883
+},
+{
+  "Unnamed: 0": 731,
+  "text": "Driverless cars work great in sunny California. But how about in a blizzard? http:\/\/wpo.st\/DIb71¬†",
+  "label": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Driverless",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 732,
+  "annotator": 1,
+  "annotation_id": 312,
+  "created_at": "2026-03-04T21:41:27.530995Z",
+  "updated_at": "2026-03-04T21:41:27.531031Z",
+  "lead_time": 240.216
+},
+{
+  "Unnamed: 0": 732,
+  "text": "US evacuates Guantanamo over Hurricane Matthew: A spokesman said in a statement: \"The remaining mili... http:\/\/bit.ly\/2dhL5ls  #shelter",
+  "label": 0,
+  "id": 733,
+  "annotator": 1,
+  "annotation_id": 313,
+  "created_at": "2026-03-04T21:41:35.766542Z",
+  "updated_at": "2026-03-04T21:41:35.766558Z",
+  "lead_time": 6.561
+},
+{
+  "Unnamed: 0": 733,
+  "text": "A viral message claims that women can use 9833312222 as the 'Nirbhaya' safety helpline number. This is a hoax. The number is a now-defunct helpline of GRP, Mumbai. | @thoughtbuoy \n\nhttps:\/\/t.co\/eTKCtBNXrp",
+  "label": [
+    {
+      "start": 34,
+      "end": 37,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 734,
+  "annotator": 1,
+  "annotation_id": 314,
+  "created_at": "2026-03-04T21:41:58.200061Z",
+  "updated_at": "2026-03-05T16:59:36.351984Z",
+  "lead_time": 31.464
+},
+{
+  "Unnamed: 0": 734,
+  "text": "Wild Horses of North Carolina's Outer Banks Will Ride Out Hurricane Dorian 'Butts to the Wind'.\n\nhttps:\/\/news.yahoo.com\/wild-horses-north-carolinas-outer-175048942.html# …",
+  "label": [
+    {
+      "start": 76,
+      "end": 81,
+      "text": "Butts",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 735,
+  "annotator": 1,
+  "annotation_id": 315,
+  "created_at": "2026-03-04T21:42:30.599705Z",
+  "updated_at": "2026-03-04T21:42:30.599720Z",
+  "lead_time": 31.159
+},
+{
+  "Unnamed: 0": 735,
+  "text": "Dozens of shelter pets were transported from Tulsa to Oregon on Thursday so there's room in Tulsa for dogs and cats displaced by Hurricane Dorian.\n\nStory from @fox12oregon.https:\/\/ktul.com\/news\/local\/shelter-pets-moved-from-tulsa-to-oregon-to-make-room-for-pets-impacted-by-dorian …",
+  "label": 0,
+  "id": 736,
+  "annotator": 1,
+  "annotation_id": 316,
+  "created_at": "2026-03-04T21:43:03.574963Z",
+  "updated_at": "2026-03-04T21:43:03.574980Z",
+  "lead_time": 31.966
+},
+{
+  "Unnamed: 0": 736,
+  "text": "Pets cope with Hurricane Matthew at a storm shelter just for them: At 10 years old, Little One has been through a… http:\/\/m.tbnn.it\/MPkYn1 ",
+  "label": 0,
+  "id": 737,
+  "annotator": 1,
+  "annotation_id": 317,
+  "created_at": "2026-03-04T21:43:16.917739Z",
+  "updated_at": "2026-03-04T21:43:16.917755Z",
+  "lead_time": 11.948
+},
+{
+  "Unnamed: 0": 737,
+  "text": "this is disgusting. as horrible as they are they don't deserve to be turned away from a shelter in a hurricane?????? https:\/\/twitter.com\/polkcosheriff\/status\/905438093527928834¬†‚Ä¶",
+  "label": [
+    {
+      "start": 8,
+      "end": 18,
+      "text": "disgusting",
+      "labels": [
+        "adjectives"
+      ]
+    },
+    {
+      "start": 23,
+      "end": 31,
+      "text": "horrible",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 738,
+  "annotator": 1,
+  "annotation_id": 318,
+  "created_at": "2026-03-04T21:45:01.403709Z",
+  "updated_at": "2026-03-04T21:45:01.403725Z",
+  "lead_time": 103.135
+},
+{
+  "Unnamed: 0": 738,
+  "text": "Holy smokes, thank you all for the great response on the new episode of Bankrupt! It’s such a crazy story! In other news my flight out of Florida has been pushed to later this week, so I’m staying to ride out whatever Hurricane Dorian turns out to be. Obviously I’ll be filming it",
+  "label": [
+    {
+      "start": 80,
+      "end": 81,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 739,
+  "annotator": 1,
+  "annotation_id": 319,
+  "created_at": "2026-03-04T21:45:32.205399Z",
+  "updated_at": "2026-03-04T21:45:32.205410Z",
+  "lead_time": 29.739
+},
+{
+  "Unnamed: 0": 739,
+  "text": "Where's Super Hero Kanye when you need him...\n\nNo Food, No FEMA: Hurricane Michael’s Survivors Are Furious https:\/\/thebea.st\/2IV0u6C?source=twitter&via=desktop … via @thedailybeast",
+  "label": 0,
+  "id": 740,
+  "annotator": 1,
+  "annotation_id": 320,
+  "created_at": "2026-03-04T21:45:43.485587Z",
+  "updated_at": "2026-03-04T21:45:43.485604Z",
+  "lead_time": 10.147
+},
+{
+  "Unnamed: 0": 740,
+  "text": "Thank you @covidiencareers for providing us with life-saving medical supplies for #Colorado flood survivors! http:\/\/j.mp\/18g1XwD¬†",
+  "label": [
+    {
+      "start": 107,
+      "end": 108,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 60,
+      "text": "life-saving",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 741,
+  "annotator": 1,
+  "annotation_id": 321,
+  "created_at": "2026-03-04T21:46:10.754320Z",
+  "updated_at": "2026-03-04T21:46:10.754336Z",
+  "lead_time": 26.265
+},
+{
+  "Unnamed: 0": 741,
+  "text": "Saddle with accountable information explosion tips pro preferable financial top brass: tawFMCAw",
+  "label": [
+    {
+      "start": 55,
+      "end": 65,
+      "text": "preferable",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 742,
+  "annotator": 1,
+  "annotation_id": 322,
+  "created_at": "2026-03-04T21:46:23.682723Z",
+  "updated_at": "2026-03-05T17:20:14.248940Z",
+  "lead_time": 15.628
+},
+{
+  "Unnamed: 0": 742,
+  "text": "According to a news report up to 20% of hospital patients in England may have contracted #COVID19 while already in hospital for another illness. The #SARSCoV2 #virus #infection may have been transmitted by both hospital staff and other patients.\n\nhttps:\/\/t.co\/LbPhGCTkDl",
+  "label": [
+    {
+      "start": 69,
+      "end": 72,
+      "text": "may",
+      "labels": [
+        "hedging"
+      ]
+    },
+    {
+      "start": 177,
+      "end": 180,
+      "text": "may",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 743,
+  "annotator": 1,
+  "annotation_id": 323,
+  "created_at": "2026-03-04T21:47:18.918492Z",
+  "updated_at": "2026-03-04T21:47:18.918507Z",
+  "lead_time": 54.221
+},
+{
+  "Unnamed: 0": 743,
+  "text": "Looks like Dorian is no joke. Hope all in its path r prepared.\n\nWonder when the climate change clowns will emerge & tell we caused another hurricane because of our cars & cows...\n\nFox News - Hurricane Dorian's path: What you need to know \nhttps:\/\/www.foxnews.com\/us\/hurricane-dorian-forecast-track …",
+  "label": [
+    {
+      "start": 30,
+      "end": 34,
+      "text": "Hope",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 744,
+  "annotator": 1,
+  "annotation_id": 324,
+  "created_at": "2026-03-04T21:47:50.237937Z",
+  "updated_at": "2026-03-04T21:47:50.237953Z",
+  "lead_time": 30.236
+},
+{
+  "Unnamed: 0": 744,
+  "text": "Weaving roses and hoping for a chance: For some homeless Jacksonville residents, Hurricane #Dorian comes with a bright side, a shelter with a roof and a few meals. http:\/\/bit.ly\/2ZuNZtW ",
+  "label": [
+    {
+      "start": 48,
+      "end": 56,
+      "text": "homeless",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 745,
+  "annotator": 1,
+  "annotation_id": 325,
+  "created_at": "2026-03-04T21:48:27.468323Z",
+  "updated_at": "2026-03-04T21:48:27.468339Z",
+  "lead_time": 36.01
+},
+{
+  "Unnamed: 0": 745,
+  "text": "If you can't have the roar of the waves a rainstorm &amp; some rollingÛ_ https:\/\/t.co\/DlVYFvnQee",
+  "label": [
+    {
+      "start": 7,
+      "end": 10,
+      "text": "can",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 746,
+  "annotator": 1,
+  "annotation_id": 326,
+  "created_at": "2026-03-04T21:48:38.141641Z",
+  "updated_at": "2026-03-05T17:01:01.410971Z",
+  "lead_time": 20.455
+},
+{
+  "Unnamed: 0": 746,
+  "text": "#EvacuateFLPrisons URGENT: Hurricane Dorian Phone Zap.\n\nDemands-\n\n1. Immediate evacuation of all prisoners.\n2. Stockpiling of Water and Food at every facility.\n\nhttps:\/\/fighttoxicprisons.wordpress.com\/2019\/08\/29\/evacuateflprisons-urgent-hurricane-dorian-phone-zap\/ …",
+  "label": [
+    {
+      "start": 19,
+      "end": 25,
+      "text": "URGENT",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 747,
+  "annotator": 1,
+  "annotation_id": 327,
+  "created_at": "2026-03-04T21:49:09.102272Z",
+  "updated_at": "2026-03-04T21:49:09.102289Z",
+  "lead_time": 29.752
+},
+{
+  "Unnamed: 0": 747,
+  "text": "Hi @WallacePJW what super car are you getting to replace the hurricane",
+  "label": 0,
+  "id": 748,
+  "annotator": 1,
+  "annotation_id": 328,
+  "created_at": "2026-03-04T21:49:18.394474Z",
+  "updated_at": "2026-03-04T21:49:18.394488Z",
+  "lead_time": 8.35
+},
+{
+  "Unnamed: 0": 748,
+  "text": "It's not easy living in Houston without a car. And Hurricane Harvey destroyed up to a million of them http:\/\/wrd.cm\/2wDVPBo¬†",
+  "label": 0,
+  "id": 749,
+  "annotator": 1,
+  "annotation_id": 329,
+  "created_at": "2026-03-04T21:49:30.017810Z",
+  "updated_at": "2026-03-04T21:49:30.017846Z",
+  "lead_time": 10.575
+},
+{
+  "Unnamed: 0": 749,
+  "text": "#WebQoof | Several Indian news outlets including India TV and News Nation shared a misleading claim stating that Patanjali's 'Coronil' has been recognised as a medicine for COVID-19 by WHO. Read our fact-check here. #CoronavirusFacts \n\nhttps:\/\/t.co\/3yVYxZpxUv",
+  "label": [
+    {
+      "start": 83,
+      "end": 93,
+      "text": "misleading",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 750,
+  "annotator": 1,
+  "annotation_id": 330,
+  "created_at": "2026-03-04T21:49:59.068209Z",
+  "updated_at": "2026-03-04T21:49:59.068225Z",
+  "lead_time": 27.9
+},
+{
+  "Unnamed: 0": 750,
+  "text": "Hurricane Dorian & Smart Space Radiation Medicine: Solar Storm Forecast 08-31-2019 https:\/\/youtu.be\/7gyhXawY8lE  via @YouTube",
+  "label": 0,
+  "id": 751,
+  "annotator": 1,
+  "annotation_id": 331,
+  "created_at": "2026-03-04T21:50:15.067226Z",
+  "updated_at": "2026-03-04T21:50:15.067242Z",
+  "lead_time": 14.792
+},
+{
+  "Unnamed: 0": 751,
+  "text": "Gerard Butler shares selfie where he‚Äôs standing in front of his burned down house and car destroyed by the California¬†wildfires http:\/\/dopetv.ng\/life\/dope\/gerard-butler-shares-selfie-where-hes-standing-in-front-of-his-burned-down-house-and-car-destroyed-by-the-california-wildfires\/¬†‚Ä¶pic.twitter.com\/UVfI3xVJrx",
+  "label": 0,
+  "id": 752,
+  "annotator": 1,
+  "annotation_id": 332,
+  "created_at": "2026-03-04T21:51:54.829366Z",
+  "updated_at": "2026-03-04T21:51:54.829379Z",
+  "lead_time": 98.697
+},
+{
+  "Unnamed: 0": 752,
+  "text": "Stocking up on wine, Baileys, and food because apparently we're getting hit with by a blizzard this weekend. ",
+  "label": [
+    {
+      "start": 47,
+      "end": 57,
+      "text": "apparently",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 753,
+  "annotator": 1,
+  "annotation_id": 333,
+  "created_at": "2026-03-04T21:52:19.905756Z",
+  "updated_at": "2026-03-04T21:52:19.905792Z",
+  "lead_time": 24.02
+},
+{
+  "Unnamed: 0": 753,
+  "text": "If hurricane cleanup isn't ur thing, take food to cleanup crews. I was given of an ICE cold water bottle and a cookie, and it was heavenly!",
+  "label": [
+    {
+      "start": 138,
+      "end": 139,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 83,
+      "end": 86,
+      "text": "ICE",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 754,
+  "annotator": 1,
+  "annotation_id": 334,
+  "created_at": "2026-03-04T21:52:49.712320Z",
+  "updated_at": "2026-03-04T21:52:49.712339Z",
+  "lead_time": 28.696
+},
+{
+  "Unnamed: 0": 754,
+  "text": "Airbnb Activates Program To Connect Hurricane Dorian Evacuees With Free Housing https:\/\/www.bisnow.com\/south-florida\/news\/economy\/airbnb-open-homes-hurricane-evacuees-dorian-100622#.XW5UiPMqvxc.twitter … #property #proptech #realestate #cretech #realestateinvesting #realestateinvestor #goldenvisa #investmentvisa #cretech #estateagent #sales #primelandview",
+  "label": 0,
+  "id": 755,
+  "annotator": 1,
+  "annotation_id": 335,
+  "created_at": "2026-03-04T21:53:08.492100Z",
+  "updated_at": "2026-03-04T21:53:08.492115Z",
+  "lead_time": 17.552
+},
+{
+  "Unnamed: 0": 755,
+  "text": "Due to all of the issues with Hurricane Michael, we will not be hosting the group ride this afternoon. It will be rescheduled ASAP  We hope everyone is getting power back and staying safe!",
+  "label": [
+    {
+      "start": 187,
+      "end": 188,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 135,
+      "end": 139,
+      "text": "hope",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 756,
+  "annotator": 1,
+  "annotation_id": 336,
+  "created_at": "2026-03-04T21:53:41.865540Z",
+  "updated_at": "2026-03-04T21:53:41.865555Z",
+  "lead_time": 32.406
+},
+{
+  "Unnamed: 0": 756,
+  "text": "Our Hurricane Dorian updates continue. Thursday evening walk produced some scary sights. Had to be extra careful with so many HOT wires on the ground - wrapped around trees, sidewalks and even cars. We are in for… https:\/\/www.instagram.com\/p\/B2C4dZShasj\/?igshid=11uau8c7kb6zx …",
+  "label": [
+    {
+      "start": 126,
+      "end": 129,
+      "text": "HOT",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 757,
+  "annotator": 1,
+  "annotation_id": 337,
+  "created_at": "2026-03-04T21:54:08.246830Z",
+  "updated_at": "2026-03-04T21:54:08.246847Z",
+  "lead_time": 24.893
+},
+{
+  "Unnamed: 0": 757,
+  "text": "There's always a tweet\n\nA tweet that Donald Trump posted in January in praise of China’s response to the #CoronavirusOutbreak has already come back to haunt him https:\/\/t.co\/MFMWTrsTDe",
+  "label": 1,
+  "id": 758,
+  "annotator": 1,
+  "annotation_id": 338,
+  "created_at": "2026-03-04T21:54:29.390854Z",
+  "updated_at": "2026-03-04T21:54:29.390864Z",
+  "lead_time": 20.144
+},
+{
+  "Unnamed: 0": 758,
+  "text": "This is a bit surprising, this is the FL pan-handel, the trumpiest of trump-country!\nNo Food, No FEMA: Hurricane Michael’s Survivors Are Furious https:\/\/thebea.st\/2IV0u6C?source=twitter&via=desktop … via @thedailybeast",
+  "label": [
+    {
+      "start": 83,
+      "end": 84,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 759,
+  "annotator": 1,
+  "annotation_id": 339,
+  "created_at": "2026-03-04T21:55:03.103703Z",
+  "updated_at": "2026-03-04T21:55:03.103718Z",
+  "lead_time": 32.011
+},
+{
+  "Unnamed: 0": 759,
+  "text": "The Riddler would be the best early-exit primary presidential wannabe ever all certain of his chances until he gets wrecked by a rich guy",
+  "label": [
+    {
+      "start": 12,
+      "end": 17,
+      "text": "would",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 760,
+  "annotator": 1,
+  "annotation_id": 340,
+  "created_at": "2026-03-04T21:55:26.924875Z",
+  "updated_at": "2026-03-04T21:55:26.924911Z",
+  "lead_time": 22.249
+},
+{
+  "Unnamed: 0": 760,
+  "text": "Bahamians rescued victims of Hurricane Dorian with jet skis and a bulldozer as the U.S. Coast Guard, Britain's Royal Navy and a handful of aid groups tried to get food and medicine to survivors and take the most desperate people to safety. https:\/\/chippewa.com\/news\/national\/photos-total-devastation-in-bahamas-as-hurricane-dorian-heads-for\/collection_0fc1df77-e0d2-554c-aea3-9190d71ffbe9.html#utm_campaign=blox&utm_source=twitter&utm_medium=social …",
+  "label": 0,
+  "id": 761,
+  "annotator": 1,
+  "annotation_id": 341,
+  "created_at": "2026-03-04T21:57:23.622033Z",
+  "updated_at": "2026-03-04T21:57:23.622049Z",
+  "lead_time": 115.368
+},
+{
+  "Unnamed: 0": 761,
+  "text": "No Food, No FEMA: Hurricane Michael’s Survivors Are Furious https:\/\/www.thedailybeast.com\/no-food-no-fema-hurricane-michaels-survivors-are-furious?via=FB_Page&source=TDB …",
+  "label": 0,
+  "id": 762,
+  "annotator": 1,
+  "annotation_id": 342,
+  "created_at": "2026-03-04T21:57:27.619158Z",
+  "updated_at": "2026-03-04T21:57:27.619177Z",
+  "lead_time": 2.896
+},
+{
+  "Unnamed: 0": 762,
+  "text": "Thanks to all for your care & concern re: Hurricane Dorian. I don't have much battery power left on my phone so may be out of touch. Know that I am safe, have lots of food & drink as well as a good book plus a… https:\/\/www.instagram.com\/p\/B2KY57cnnlM\/?igshid=g3qj6bfq6n29 …",
+  "label": [
+    {
+      "start": 112,
+      "end": 115,
+      "text": "may",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 763,
+  "annotator": 1,
+  "annotation_id": 343,
+  "created_at": "2026-03-04T21:57:43.234608Z",
+  "updated_at": "2026-03-05T17:24:32.269339Z",
+  "lead_time": 23.491
+},
+{
+  "Unnamed: 0": 763,
+  "text": "JUST IN: @ABC reports that President Trump left President-elect Joe Biden a note in the Oval Office.\n\nHistory of the tradition: https:\/\/t.co\/cFQcOyaAR8 https:\/\/t.co\/FNyLpRDqSw",
+  "label": 1,
+  "id": 764,
+  "annotator": 1,
+  "annotation_id": 344,
+  "created_at": "2026-03-04T21:58:01.923593Z",
+  "updated_at": "2026-03-04T21:58:01.923608Z",
+  "lead_time": 17.702
+},
+{
+  "Unnamed: 0": 764,
+  "text": "Okay not sure the word 'mass murder' applies during this war but it was horrendous none the less. https:\/\/t.co\/Sb3rjQqzIX",
+  "label": [
+    {
+      "start": 9,
+      "end": 13,
+      "text": "sure",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 765,
+  "annotator": 1,
+  "annotation_id": 345,
+  "created_at": "2026-03-04T21:58:32.082590Z",
+  "updated_at": "2026-03-04T21:58:32.082609Z",
+  "lead_time": 29.166
+},
+{
+  "Unnamed: 0": 765,
+  "text": "Car defeated by waves of Hurricane Dorian draws a crowd https:\/\/www.thechestnutpost.com\/news\/car-defeated-by-waves-of-hurricane-dorian-draws-a-crowd\/ …",
+  "label": 0,
+  "id": 766,
+  "annotator": 1,
+  "annotation_id": 346,
+  "created_at": "2026-03-04T21:58:52.608390Z",
+  "updated_at": "2026-03-04T21:58:52.608404Z",
+  "lead_time": 19.352
+},
+{
+  "Unnamed: 0": 766,
+  "text": "A man a woman Romance &amp; South Afrikaan Trouble - on # sale PreOrder #theBargain - http:\/\/t.co\/UMl5jZTmcB",
+  "label": 1,
+  "id": 767,
+  "annotator": 1,
+  "annotation_id": 347,
+  "created_at": "2026-03-04T21:59:04.063097Z",
+  "updated_at": "2026-03-04T21:59:04.063109Z",
+  "lead_time": 10.441
+},
+{
+  "Unnamed: 0": 767,
+  "text": "In Face of Hurricane Sandy, Soldier Guards Tomb of the Unknown Solider. The Old Guard refuses shelter. http:\/\/bit.ly\/S9JDvH ”\n\nThe REAL Guard",
+  "label": [
+    {
+      "start": 131,
+      "end": 135,
+      "text": "REAL",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 768,
+  "annotator": 1,
+  "annotation_id": 348,
+  "created_at": "2026-03-04T21:59:13.593649Z",
+  "updated_at": "2026-03-04T21:59:13.593666Z",
+  "lead_time": 8.447
+},
+{
+  "Unnamed: 0": 768,
+  "text": "Airbnb Activates Program To Connect Hurricane Dorian Evacuees With Free Housing http:\/\/ow.ly\/z5gi30ptbZA  #PerimeterChamber #Dunwoody",
+  "label": 0,
+  "id": 769,
+  "annotator": 1,
+  "annotation_id": 349,
+  "created_at": "2026-03-04T21:59:19.503495Z",
+  "updated_at": "2026-03-04T21:59:19.503511Z",
+  "lead_time": 4.825
+},
+{
+  "Unnamed: 0": 769,
+  "text": "The trouble in one of Buffett's favorite sectors http:\/\/t.co\/J4dqPFLMkR",
+  "label": 1,
+  "id": 770,
+  "annotator": 1,
+  "annotation_id": 350,
+  "created_at": "2026-03-04T21:59:27.590291Z",
+  "updated_at": "2026-03-04T21:59:27.590309Z",
+  "lead_time": 7.083
+},
+{
+  "Unnamed: 0": 770,
+  "text": "GOOD IDEA! RT @tfft: Using Brokhaven as my tornado shelter. Beer... check food... check. All set.",
+  "label": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "GOOD",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "IDEA",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 771,
+  "annotator": 1,
+  "annotation_id": 351,
+  "created_at": "2026-03-04T22:02:17.707678Z",
+  "updated_at": "2026-03-04T22:02:17.707694Z",
+  "lead_time": 168.373
+},
+{
+  "Unnamed: 0": 771,
+  "text": "#Myanmar  Displaced #Rohingya at #Sittwe point of no return http:\/\/t.co\/cgf61fPmR0  #Prison like conditions #genocide IHHen MSF Refugees",
+  "label": 0,
+  "id": 772,
+  "annotator": 1,
+  "annotation_id": 352,
+  "created_at": "2026-03-04T22:02:32.073196Z",
+  "updated_at": "2026-03-04T22:02:32.073213Z",
+  "lead_time": 13.263
+},
+{
+  "Unnamed: 0": 772,
+  "text": "BOOM was able to confirm from a source in Twitter that the screenshots of the tweets are fake. #BOOMFactCheck #FakeNews #SushantSinghRajput @aajtak @indiacom @newstracklive \n\nhttps:\/\/t.co\/8u9pSjICwP",
+  "label": 1,
+  "id": 773,
+  "annotator": 1,
+  "annotation_id": 353,
+  "created_at": "2026-03-04T22:02:52.795729Z",
+  "updated_at": "2026-03-04T22:02:52.795744Z",
+  "lead_time": 19.582
+},
+{
+  "Unnamed: 0": 773,
+  "text": "We’ve partnered with @DirectRelief to help people affected by Hurricane Michael get their medicine.",
+  "label": [
+    {
+      "start": 38,
+      "end": 42,
+      "text": "help",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 774,
+  "annotator": 1,
+  "annotation_id": 354,
+  "created_at": "2026-03-04T22:03:03.106997Z",
+  "updated_at": "2026-03-04T22:03:03.107013Z",
+  "lead_time": 9.013
+},
+{
+  "Unnamed: 0": 774,
+  "text": "Ok, so now we're getting e-mails about how to seek shelter during a tornado? Dude, just send us home!!!",
+  "label": [
+    {
+      "start": 100,
+      "end": 103,
+      "text": "!!!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 775,
+  "annotator": 1,
+  "annotation_id": 355,
+  "created_at": "2026-03-04T22:03:24.621365Z",
+  "updated_at": "2026-03-04T22:03:24.621380Z",
+  "lead_time": 20.457
+},
+{
+  "Unnamed: 0": 775,
+  "text": "Somewhere in South Florida is a person saying they're going to stay and ride out a CAT-5 hurricane. \n\nDon't be a dumb ass, GET OUT!  #Irmapic.twitter.com\/iBmSyMa42R",
+  "label": [
+    {
+      "start": 123,
+      "end": 126,
+      "text": "GET",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 127,
+      "end": 130,
+      "text": "OUT",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 118,
+      "end": 121,
+      "text": "ass",
+      "labels": [
+        "unk"
+      ]
+    }
+  ],
+  "id": 776,
+  "annotator": 1,
+  "annotation_id": 356,
+  "created_at": "2026-03-04T22:04:10.344225Z",
+  "updated_at": "2026-03-04T22:04:10.344240Z",
+  "lead_time": 43.336
+},
+{
+  "Unnamed: 0": 776,
+  "text": "Video of US strike killing top Iranian commander?\n\nFalse: this footage has been taken from a video game. 🎮\nhttps:\/\/t.co\/BQ6uRXIa8k",
+  "label": 1,
+  "id": 777,
+  "annotator": 1,
+  "annotation_id": 357,
+  "created_at": "2026-03-04T22:04:33.471018Z",
+  "updated_at": "2026-03-04T22:04:33.471033Z",
+  "lead_time": 17.446
+},
+{
+  "Unnamed: 0": 777,
+  "text": "Requesting ⁦@CPDelhi⁩ to take immediate cognisance of the affidavit sworn in SC by DCP Legal Cell PHQ &amp; take strict action if it is based on a doctored clip👎\n\nClipped video shared to claim Harsh Mander instigated violence in Jamia speech - Alt News  https:\/\/t.co\/yQ9GXrpXpY",
+  "label": 1,
+  "id": 778,
+  "annotator": 1,
+  "annotation_id": 358,
+  "created_at": "2026-03-04T22:05:29.029450Z",
+  "updated_at": "2026-03-04T22:05:29.029463Z",
+  "lead_time": 54.221
+},
+{
+  "Unnamed: 0": 778,
+  "text": "We are so lucky to live in this great city - 35 #Bristol restaurants (and one bakery) make it into The Good Food Guide 2019 - see them all here \nhttps:\/\/www.bristol247.com\/food-and-drink\/news-food-and-drink\/35-bristol-restaurants-one-bakery-good-food-guide-2019\/¬†‚Ä¶ #bristol247 #foodanddrinkpic.twitter.com\/bsGMwfsZP3",
+  "label": 0,
+  "id": 779,
+  "annotator": 1,
+  "annotation_id": 359,
+  "created_at": "2026-03-04T22:05:48.053206Z",
+  "updated_at": "2026-03-04T22:05:48.053221Z",
+  "lead_time": 18.041
+},
+{
+  "Unnamed: 0": 779,
+  "text": "Paul Pogba has ‘quit’ playing for France following comments from the French President Macron saying Islam was the source of international terrorism..\nIndeed your religion first before anything else.❤\nGod is with you. https:\/\/t.co\/6zBrHmxXhx",
+  "label": 1,
+  "id": 780,
+  "annotator": 1,
+  "annotation_id": 360,
+  "created_at": "2026-03-04T22:06:04.987285Z",
+  "updated_at": "2026-03-04T22:06:04.987302Z",
+  "lead_time": 15.93
+},
+{
+  "Unnamed: 0": 780,
+  "text": "Don’t be fooled: President Trump donating his salary is meaningless, compared to the millions he’s made off of the presidency, both from taxpayer spending at his properties and from constantly using his position to boost his businesses. \n\nhttps:\/\/t.co\/BQWEjabMjX",
+  "label": [
+    {
+      "start": 56,
+      "end": 67,
+      "text": "meaningless",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 781,
+  "annotator": 1,
+  "annotation_id": 361,
+  "created_at": "2026-03-04T22:07:35.347406Z",
+  "updated_at": "2026-03-04T22:07:35.347420Z",
+  "lead_time": 89.201
+},
+{
+  "Unnamed: 0": 781,
+  "text": "It should outrage us that nearly 50 million children are acutely malnourished — that's 7.3 percent of all children under the age of five.  #WorldFoodDay #ZeroHungerWorld @momsrising \n https:\/\/t.co\/ThDBm0FJiK",
+  "label": [
+    {
+      "start": 3,
+      "end": 9,
+      "text": "should",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 782,
+  "annotator": 1,
+  "annotation_id": 362,
+  "created_at": "2026-03-04T22:07:59.491333Z",
+  "updated_at": "2026-03-04T22:07:59.491350Z",
+  "lead_time": 22.197
+},
+{
+  "Unnamed: 0": 782,
+  "text": "@morganjpalmer and I just ran for our lives. I'm 90% positive we were just in a tornado, stuck in @Betsybeckyy 's car. #nojoke #scurred",
+  "label": 0,
+  "id": 783,
+  "annotator": 1,
+  "annotation_id": 363,
+  "created_at": "2026-03-04T22:08:16.313646Z",
+  "updated_at": "2026-03-04T22:08:16.313661Z",
+  "lead_time": 15.851
+},
+{
+  "Unnamed: 0": 783,
+  "text": "Not only that. But it's gonna be impossible to get resources such as food and water to Jamaica with that Hurricane right above it.",
+  "label": [
+    {
+      "start": 33,
+      "end": 43,
+      "text": "impossible",
+      "labels": [
+        "adjectives"
+      ]
+    }
+  ],
+  "id": 784,
+  "annotator": 1,
+  "annotation_id": 364,
+  "created_at": "2026-03-04T22:08:32.028822Z",
+  "updated_at": "2026-03-04T22:09:08.847404Z",
+  "lead_time": 51.352
+},
+{
+  "Unnamed: 0": 784,
+  "text": "A viral message claiming Livfavir a branded variant of the generic Favipiravir, manufactured by Livealth Biopharma is cheaper than Glenmark Pharmaceuticals' branded drug Fabiflu, is misleading. #BOOMFactCheck #FakeNews #Glenmark #FabiFlu\n\nhttps:\/\/t.co\/ymAy9h0txK",
+  "label": 1,
+  "id": 785,
+  "annotator": 1,
+  "annotation_id": 365,
+  "created_at": "2026-03-04T22:09:36.225854Z",
+  "updated_at": "2026-03-04T22:09:36.225873Z",
+  "lead_time": 26.092
+},
+{
+  "Unnamed: 0": 785,
+  "text": "Oh that’s interesting, THERE IS NO CURE \n\n#China says 8.2% of #coronavirus patients are cured https:\/\/t.co\/VwpAKVchCT",
+  "label": [
+    {
+      "start": 23,
+      "end": 28,
+      "text": "THERE",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 31,
+      "text": "IS",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 34,
+      "text": "NO",
+      "labels": [
+        "all_caps"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "text": "CURE",
+      "labels": [
+        "all_caps"
+      ]
+    }
+  ],
+  "id": 786,
+  "annotator": 1,
+  "annotation_id": 366,
+  "created_at": "2026-03-04T22:09:57.925723Z",
+  "updated_at": "2026-03-04T22:09:57.925738Z",
+  "lead_time": 20.768
+},
+{
+  "Unnamed: 0": 786,
+  "text": "What a shame Mrs Mnuchin isn't going along for the ride. Bet she has cool hurricane shoes too.",
+  "label": 0,
+  "id": 787,
+  "annotator": 1,
+  "annotation_id": 367,
+  "created_at": "2026-03-04T22:10:18.474478Z",
+  "updated_at": "2026-03-04T22:10:18.474496Z",
+  "lead_time": 19.283
+},
+{
+  "Unnamed: 0": 787,
+  "text": "Fear has a way of making us see danger where there is none. Contemplating the logic behind the situation and find the courage to engage it",
+  "label": 1,
+  "id": 788,
+  "annotator": 1,
+  "annotation_id": 368,
+  "created_at": "2026-03-04T22:10:33.674923Z",
+  "updated_at": "2026-03-04T22:10:33.674939Z",
+  "lead_time": 13.265
+},
+{
+  "Unnamed: 0": 788,
+  "text": "Bravo, ⁦⁦@CelebrityCruise⁩! And the Equinox passengers too! #BahamasRelief\nAfter Hurricane Dorian, Celebrity cruise ship in Bahamas reroutes to deliver food, aid https:\/\/www.nbcnews.com\/news\/world\/after-hurricane-dorian-celebrity-cruise-ship-bahamas-reroutes-deliver-food-n1050796 …",
+  "label": [
+    {
+      "start": 26,
+      "end": 27,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "text": "!",
+      "labels": [
+        "exclamation_marks"
+      ]
+    }
+  ],
+  "id": 789,
+  "annotator": 1,
+  "annotation_id": 369,
+  "created_at": "2026-03-04T22:10:52.662251Z",
+  "updated_at": "2026-03-04T22:10:52.662266Z",
+  "lead_time": 17.855
+},
+{
+  "Unnamed: 0": 789,
+  "text": "Why your flood insurance premium may be going up: Food-insurance reform law kicks in, so long to subsidies: http:\/\/ow.ly\/pcmoE¬† @pspotts",
+  "label": [
+    {
+      "start": 33,
+      "end": 36,
+      "text": "may",
+      "labels": [
+        "hedging"
+      ]
+    }
+  ],
+  "id": 790,
+  "annotator": 1,
+  "annotation_id": 370,
+  "created_at": "2026-03-04T22:11:16.559533Z",
+  "updated_at": "2026-03-04T22:11:16.559550Z",
+  "lead_time": 22.931
+}
+]
