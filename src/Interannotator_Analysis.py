@@ -6,11 +6,16 @@ from statsmodels.stats.inter_rater import fleiss_kappa
 from sklearn.metrics import cohen_kappa_score
 
 
-def calculate_agreement(df):
+def calculate_fleiss(df, include_gemini=True):
     """
     Calculate Fleiss' Kappa for each annotation feature using statsmodels.
+    Optionally exclude Gemini's annotations from the calculation.
     """
-    print("\n--- Fleiss' Kappa (Overall Agreement) ---")
+    if not include_gemini:
+        df = df[df['Annotator'] != 'Gemini'].copy()
+        print("\n--- Fleiss' Kappa (Overall Agreement - Excluding Gemini) ---")
+    else:
+        print("\n--- Fleiss' Kappa (Overall Agreement - Including Gemini) ---")
     
     # Features to analyze (excluding text and ID)
     features = ['all_caps', 'exclamation_marks', 'hedging', 'adjectives', 'unk']
@@ -29,22 +34,44 @@ def calculate_agreement(df):
         complete_cases = pivot_df.dropna(thresh=2)
         
         if len(complete_cases) < 2:
+            # print(f"  No complete cases found for {feature}")
             continue
         
         # Get all unique categories
         all_values = complete_cases.values.flatten()
-        categories = sorted(list(set(all_values)))
+        # Filter out 'nan' strings if any appeared
+        categories = sorted(list(set([v for v in all_values if v != 'nan'])))
         
         # Create contingency table for statsmodels fleiss_kappa
+        # Rows = items, Columns = categories
         contingency_table = np.zeros((len(complete_cases), len(categories)))
         
         for i, (idx, row) in enumerate(complete_cases.iterrows()):
+            # count only the actual values, ignoring NaNs
+            found_count = 0
             for value in row.values:
-                cat_idx = categories.index(value)
-                contingency_table[i, cat_idx] += 1
+                if value in categories:
+                    cat_idx = categories.index(value)
+                    contingency_table[i, cat_idx] += 1
+                    found_count += 1
+            
+            # Fleiss' Kappa in statsmodels requires every row to sum to the same number of raters.
+            # Since some items were seen by 2 raters, some by 3, etc., 
+            # we need to skip any row that doesn't have the MAX number of raters for this feature,
+            # OR we need to only use items seen by exactly N raters.
+            
+        # Standardize: statsmodels fleiss_kappa expects all items to have the same number of ratings.
+        # We will filter complete_cases to only those items that have the maximum number of ratings found in this subset.
+        row_sums = contingency_table.sum(axis=1)
+        max_raters = int(row_sums.max())
         
+        final_contingency_table = contingency_table[row_sums == max_raters]
+        
+        if len(final_contingency_table) < 2:
+            continue
+
         # Calculate Fleiss' Kappa using statsmodels
-        kappa = fleiss_kappa(contingency_table)
+        kappa = fleiss_kappa(final_contingency_table)
         
         # Interpretation
         if kappa < 0:
@@ -109,9 +136,10 @@ def calculate_pairwise_agreement(df):
                     pivot_pair[col] = pivot_pair[col].apply(lambda x: str(sorted(x)) if isinstance(x, list) else str(x))
 
                 # Drop rows where AT LEAST ONE of the annotators has a missing value.
-                # In this specific case, pivot should have produced strings or '[]' for everything in our cleaned files.
-                # However, if IDs don't match exactly, pivot results in NaN.
-                aligned_data = pivot_pair.dropna()
+                # In this specific case, pivot produced strings or 'nan' for the IDs that don't match exactly.
+                # However, pivot usually results in NaN (float) for missing columns/rows which dropna handles.
+                # We need to drop rows effectively.
+                aligned_data = pivot_pair.replace('nan', np.nan).dropna()
 
                 # If there are fewer than 2 overlapping items, Kappa is not meaningful
                 if len(aligned_data) < 2:
@@ -205,8 +233,13 @@ if __name__ == "__main__":
     # Get the annotation data
     df = get_dataframe()
     
-    # Calculate inter-annotator agreement using Fleiss' Kappa (all  annotators)
-    fleiss_results = calculate_agreement(df)
+    # Calculate inter-annotator agreement using Fleiss' Kappa (including Gemini)
+    fleiss_results = calculate_fleiss(df, include_gemini=True)
+    
+    # Calculate inter-annotator agreement using Fleiss' Kappa (excluding Gemini)
+    human_only_results = calculate_fleiss(df, include_gemini=False)
+    
+
     
     # Calculate pairwise agreement using Cohen's Kappa (all pairs of annotators)
     pairwise_results = calculate_pairwise_agreement(df)
