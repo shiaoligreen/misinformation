@@ -1,7 +1,6 @@
-from read_json import json_to_list
-import os 
-import pandas as pd
+import os
 import glob
+import pandas as pd
 import numpy as np
 from statsmodels.stats.inter_rater import fleiss_kappa
 from sklearn.metrics import cohen_kappa_score
@@ -22,18 +21,15 @@ def calculate_agreement(df):
         # Pivot data: rows = items (ID), columns = annotators
         pivot_df = df.pivot(index='ID', columns='Annotator', values=feature)
         
-        # Check if we have enough data
-        complete_cases = pivot_df.dropna()
+        # Ensure we are comparing strings (especially for lists)
+        for col in pivot_df.columns:
+            pivot_df[col] = pivot_df[col].apply(lambda x: str(sorted(x)) if isinstance(x, list) else str(x))
+
+        # Check if we have enough data (at least 2 annotators having data for the same ID)
+        complete_cases = pivot_df.dropna(thresh=2)
         
-        if len(complete_cases) == 0:
-            # print(f"  No complete cases found for {feature}")
+        if len(complete_cases) < 2:
             continue
-        
-        # Handle list values by normalizing them (sort to ignore order)
-        if isinstance(complete_cases.iloc[0, 0], list):
-            # Sort lists so order doesn't matter, then convert to string
-            for col in complete_cases.columns:
-                complete_cases[col] = complete_cases[col].apply(lambda x: str(sorted(x)) if isinstance(x, list) else str(x))
         
         # Get all unique categories
         all_values = complete_cases.values.flatten()
@@ -86,102 +82,116 @@ def calculate_pairwise_agreement(df):
     """
     print("\n--- Cohen's Kappa (Pairwise Agreement) ---")
 
-    # Features to analyze
     features = ['all_caps', 'exclamation_marks', 'hedging', 'adjectives', 'unk']
-
-    # Get unique annotators
     annotators = sorted(df['Annotator'].unique())
     
-    # Initialize a dictionary to hold results for each feature
+    if len(annotators) < 2:
+        print("Not enough annotators to calculate pairwise agreement.")
+        return pd.DataFrame()
+
     pairwise_results = {feature: {} for feature in features}
 
-    # --- CORRECTED LOGIC: Find common items for each pair FIRST ---
-    common_items_map = {}
+    # Iterate through each unique pair of annotators
     for i in range(len(annotators)):
         for j in range(i + 1, len(annotators)):
             ann1, ann2 = annotators[i], annotators[j]
-            
-            # Get the set of unique IDs each annotator worked on
-            ids1 = set(df[df['Annotator'] == ann1]['ID'])
-            ids2 = set(df[df['Annotator'] == ann2]['ID'])
-            
-            # Find the intersection (common IDs)
-            common_ids = ids1.intersection(ids2)
-            common_items_map[f"{ann1} & {ann2}"] = list(common_ids)
+            pair_key = f"{ann1} & {ann2}"
 
-    for feature in features:
-        # Pivot data for the current feature
-        pivot_df = df.pivot(index='ID', columns='Annotator', values=feature)
+            # Filter the original DataFrame to just the data for this pair
+            df_pair = df[df['Annotator'].isin([ann1, ann2])]
 
-        # Handle list values by normalizing them
-        if len(pivot_df) > 0 and isinstance(pivot_df.iloc[0, 0], list):
-            for col in pivot_df.columns:
-                pivot_df[col] = pivot_df[col].apply(
-                    lambda x: str(sorted(x)) if isinstance(x, list) else str(x)
-                )
+            for feature in features:
+                # Pivot the pair's data to align their annotations by item ID
+                pivot_pair = df_pair.pivot(index='ID', columns='Annotator', values=feature)
 
-        # --- CORRECTED LOGIC: Calculate Kappa based on pre-calculated common items ---
-        for i in range(len(annotators)):
-            for j in range(i + 1, len(annotators)):
-                ann1, ann2 = annotators[i], annotators[j]
-                pair_key = f"{ann1} & {ann2}"
+                # Normalize list values to strings for comparison
+                for col in pivot_pair.columns:
+                    pivot_pair[col] = pivot_pair[col].apply(lambda x: str(sorted(x)) if isinstance(x, list) else str(x))
+
+                # Drop rows where AT LEAST ONE of the annotators has a missing value.
+                # In this specific case, pivot should have produced strings or '[]' for everything in our cleaned files.
+                # However, if IDs don't match exactly, pivot results in NaN.
+                aligned_data = pivot_pair.dropna()
+
+                # If there are fewer than 2 overlapping items, Kappa is not meaningful
+                if len(aligned_data) < 2:
+                    pairwise_results[feature][pair_key] = np.nan
+                    continue
+
+                # Extract the two columns of annotations to compare
+                col1 = aligned_data[ann1]
+                col2 = aligned_data[ann2]
                 
-                common_ids_for_pair = common_items_map[pair_key]
-
-                if not common_ids_for_pair:
-                    pairwise_results[feature][pair_key] = np.nan
-                    continue
-
-                # Filter the pivot table to only the common IDs for this pair
-                pair_data = pivot_df.loc[common_ids_for_pair][[ann1, ann2]].dropna()
-
-                if len(pair_data) < 2: # Not enough overlapping data for a meaningful score
-                    pairwise_results[feature][pair_key] = np.nan
-                    continue
-
-                # Calculate Cohen's Kappa
-                kappa = cohen_kappa_score(pair_data[ann1], pair_data[ann2])
+                # Calculate Cohen's Kappa for the aligned annotations
+                kappa = cohen_kappa_score(col1, col2)
                 pairwise_results[feature][pair_key] = kappa
 
-    # Convert the results dictionary to a DataFrame and print it
-    if pairwise_results:
-        results_df = pd.DataFrame(pairwise_results).T # Transpose to have features as rows
-        results_df.index.name = 'Feature'
-        print(results_df.to_string(float_format="%.3f"))
-    else:
-        print("No pairwise results to display.")
+    # Convert results to a DataFrame
+    results_df = pd.DataFrame(pairwise_results).T
+    results_df.index.name = 'Feature'
     
+    if results_df.isnull().all().all():
+        print("No overlapping data found for any annotator pairs to calculate Kappa.")
+        # Return an empty frame so the notebook doesn't try to plot nulls
+        return pd.DataFrame()
+
+    print(results_df.to_string(float_format="%.3f"))
     return results_df
 
 def get_dataframe():
-    #build list of files in order to build dataframe
-    #Default constants:
-    PARENT = ".."
-    DATA = "data"
-    PREPROCESSED = "preprocessed"
-    
-
-    #Set path information:
-    # Get the absolute path to the directory where this script is located (the 'src' folder)
+    """
+    Reads all preprocessed '*_annotations_cleaned.json' files from the 
+    '../data/preprocessed' directory, combines them into a single DataFrame,
+    and assigns annotator names based on the filenames.
+    """
+    # --- Define Paths ---
     script_dir = os.path.dirname(os.path.abspath(__file__))
+    preprocessed_dir = os.path.abspath(os.path.join(script_dir, '..', 'data', 'preprocessed'))
 
-    #Build the absolute path to the 'data/raw' folder
-    data_preproc_dir = os.path.join(script_dir, PARENT, DATA, PREPROCESSED)
-
-    files = glob.glob(os.path.join(data_preproc_dir, "*annotations.json"))
-    print(data_preproc_dir)
-    print(files)
-
-    all_annotations= pd.DataFrame()
+    # --- Find Preprocessed Files ---
+    cleaned_files = glob.glob(os.path.join(preprocessed_dir, "*_annotations_cleaned.json"))
     
-    for i, file in enumerate(files):
-        annotation = pd.DataFrame(json_to_list(file, "Annotator " + str(i)), columns=['Annotator', 'ID', 'Text', 'all_caps', 'exclamation_marks', 'hedging', 'adjectives', 'unk'])
-        all_annotations = pd.concat([all_annotations, annotation])
+    if not cleaned_files:
+        print(f"Warning: No '*_annotations_cleaned.json' files found in {preprocessed_dir}")
+        return pd.DataFrame()
+        
+    print(f"Found {len(cleaned_files)} cleaned annotation files.")
 
-    # Drop duplicate rows where all columns are identical
-    all_annotations = all_annotations.drop_duplicates(subset=['Annotator', 'ID', 'Text'])
+    all_annotations_df = pd.DataFrame()
     
-    return all_annotations
+    # --- Process Each Cleaned File ---
+    for filepath in cleaned_files:
+        # Read the cleaned JSON file directly into a DataFrame
+        temp_df = pd.read_json(filepath, orient='records')
+        
+        # Extract the annotator's name from the filename
+        base_name = os.path.basename(filepath)
+        annotator_name = base_name.replace('_annotations_cleaned.json', '').replace('_annotations.json', '')
+        
+        # Add the 'Annotator' column
+        temp_df['Annotator'] = annotator_name
+
+        # Standardize ID and Text columns in case they were not cleaned properly
+        for col in ['id', 'ID', 'Unnamed: 0']:
+            if col in temp_df.columns:
+                temp_df.rename(columns={col: 'ID'}, inplace=True)
+                break
+        for col in ['text', 'Text']:
+            if col in temp_df.columns:
+                temp_df.rename(columns={col: 'Text'}, inplace=True)
+                break
+        
+        # Append to the main DataFrame
+        all_annotations_df = pd.concat([all_annotations_df, temp_df], ignore_index=True)
+
+    print("All cleaned files have been loaded and combined.")
+
+    # --- Final Cleanup ---
+    if not all_annotations_df.empty:
+        # Deduplicate across the final combined dataset
+        all_annotations_df.drop_duplicates(subset=['Annotator', 'ID', 'Text'], keep='first', inplace=True)
+    
+    return all_annotations_df
 
 
     
