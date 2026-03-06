@@ -14,3 +14,5 @@ dependencies:
   - nltk
   - fastapi
   - streamlit
+  - scikit-learn
+  - statsmodels
