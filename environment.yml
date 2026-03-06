@@ -12,4 +12,5 @@ dependencies:
   - jupyterlab-spellchecker
   - matplotlib
   - nltk
-
+  - fastapi
+  - streamlit
