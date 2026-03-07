@@ -12,18 +12,21 @@ def get_row_majority_vote(group, rankings_df):
     features = ['all_caps', 'exclamation_marks', 'hedging', 'adjectives', 'unk']
     
     def get_annotator_combined(row):
-        # Combine all values from all features into one list
+        # only grab text-like strings
         combined = []
         for f in features:
-            combined.extend(row[f])
-        # Order by start character to ensure same order for comparison
-        combined.sort(key=lambda x: x[1] if len(x) > 1 else 0)
-        return tuple(tuple(item) for item in combined)
+            # Handle both list of lists and simple list of strings
+            vals = [item[0] if isinstance(item, list) and len(item) > 0 else item for item in row[f]]
+            combined.extend(vals)
+        
+        # sort alphabetically
+        combined.sort()
+        return tuple(combined)
 
-    # 1. Generate the 'combined' labels for every row in this ID group
+    # Generate the 'combined' labels for every row in this ID group
     group['combined'] = group.apply(get_annotator_combined, axis=1)
     
-    # 2. Check for agreement
+    # Check for agreement
     counts = Counter(group['combined'])
     most_common, count = counts.most_common(1)[0]
     
@@ -32,6 +35,7 @@ def get_row_majority_vote(group, rankings_df):
         winning_row = group[group['combined'] == most_common].iloc[0].copy()
     else:
         # Fallback to highest Cohen's Kappa ranking
+        # Ensure name casing matches rankings_df
         group['Annotator'] = pd.Categorical(
             group['Annotator'], 
             categories=rankings_df["Annotator"], 
@@ -42,22 +46,24 @@ def get_row_majority_vote(group, rankings_df):
     return winning_row
 
 def main():
-    # 1. Load the data and clean IDs
+    # Load the data and clean IDs
     print("Loading data...")
     df = get_dataframe()
+    # Ensure ID starts at 0 and is an integer
     df['ID'] = df['ID'].fillna(0).astype(int)
 
-    # 2. Calculate Pairwise Agreement rankings
+    # Standardize annotator names
+    df['Annotator'] = df['Annotator'].str.lower()
+    annotators = ['jasmine', 'jennifer', 'nicole', 'rachelle', 'shiao-li']
+
+    # Calculate rankings
     print("Calculating inter-annotator rankings...")
     pairwise_results_df = calculate_pairwise_agreement(df)
-    
-    annotators = ['Jasmine', 'Jennifer', 'nicole', 'rachelle', 'shiao-li']
     human_averages = {}
     
     for person in annotators:
-        # Calculate the average for each person across all human pairs
         cols = [col for col in pairwise_results_df.columns 
-                if person in col.split(' & ') and 'Gemini' not in col]
+                if person in col.lower().split(' & ') and 'gemini' not in col.lower()]
         
         if cols:
             mean_val = pairwise_results_df[cols].values.mean()
@@ -67,7 +73,7 @@ def main():
     average_df = pd.DataFrame(list(human_averages.items()), columns=['Annotator', 'Average Kappa (No Gemini)'])
     average_df = average_df.sort_values(by='Average Kappa (No Gemini)', ascending=False).reset_index(drop=True)
 
-    # 3. Apply Majority Voting to IDs 0-40
+    # majority vote
     print("Consolidating IDs 0-40 (Majority Vote)...")
     consolidated_df = (
         df[df['ID'].between(0, 40)].groupby('ID', group_keys=False)
@@ -75,12 +81,12 @@ def main():
         .reset_index(drop=True)
     )
     consolidated_df["Annotator"] = "Majority Vote"
-    consolidated_df = consolidated_df.drop(columns=['combined'])
+    if 'combined' in consolidated_df.columns:
+        consolidated_df = consolidated_df.drop(columns=['combined'])
 
-    # 4. Apply Ranked Selection for remaining IDs (41+)
+    # ranking by cohen's kappa
     print("Consolidating IDs 41+ (Ranked Selection)...")
-    human_priority = average_df['Annotator'].tolist()
-    full_priority = human_priority + ['Gemini']
+    full_priority = average_df['Annotator'].tolist() + ['gemini']
 
     best_kappa = df[df['ID'] >= 41].copy()
     best_kappa['Annotator'] = pd.Categorical(
@@ -89,15 +95,14 @@ def main():
         ordered=True
     )
 
-    # Sort and keep the highest-ranked annotator for each ID
     best_kappa = (
         best_kappa.sort_values(['ID', 'Annotator'])
         .drop_duplicates(subset=['ID'], keep='first')
     )
 
-    # 5. Finalize and Export
+    # Finalize and Export
     print("Finalizing and exporting...")
-    final_df = pd.concat([consolidated_df, best_kappa], ignore_index=True)
+    final_df = pd.concat([consolidated_df, best_kappa], ignore_index=False)
     final_df = final_df.drop(columns=['ID'])
 
     # Setup export directory and path
@@ -108,6 +113,7 @@ def main():
     # Save to JSON
     final_df.to_json(output_path, orient='records', indent=2)
     print(f"Export complete: {output_path}")
+    print(len(final_df))
 
 if __name__ == "__main__":
     main()
