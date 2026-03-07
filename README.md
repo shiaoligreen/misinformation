@@ -21,11 +21,11 @@ This repository contains all code, data, documentation, and reports for the Misi
 
 | Sprint | Code | Data | Notes |
 |--------|------|------|-------|
-| Sprint 1 | [`src/News_Scraper.py`](src/News_Scraper.py) | [`data/raw/`](data/raw/) | [`weekly_minutes/`](weekly_minutes/) |
-| Sprint 2 | [`src/Dataset_Builder.py`](src/Dataset_Builder.py), [`src/Pilot_Dataset_Builder.py`](src/Pilot_Dataset_Builder.py)  | [`data/preprocessed/`](data/preprocessed/) | [`weekly_minutes/`](weekly_minutes/) |
-| Sprint 3 | *(add link)* | *(add link)* | [`weekly_minutes/`](weekly_minutes/) |
-| Sprint 4 | *(add link)* | *(add link)* | [`weekly_minutes/`](weekly_minutes/) |
-| Sprint 5 | *(add link)* | *(add link)* | [`weekly_minutes/`](weekly_minutes/) |
+| Sprint 1 | [`src/News_Scraper.py`](src/News_Scraper.py) | [`data/raw/`](data/raw/) | [`weekly_minutes/`](weekly_minutes/sprint1) |
+| Sprint 2 | [`src/Dataset_Builder.py`](src/Dataset_Builder.py), [`src/Pilot_Dataset_Builder.py`](src/Pilot_Dataset_Builder.py)  | [`data/preprocessed/`](data/preprocessed/) | [`weekly_minutes/`](weekly_minutes/sprint2) |
+| Sprint 3 | [`src/Dataset_Cleaner.py`](src/Dataset_Cleaner.py), [`src/read_json.py`](src/read_json.py), [`src/text_length_distribution.py`](src/text_length_distribution.py), [`src/Interannotator_Analysis.py`](src/Interannotator_Analysis.py) | [`data/preprocessed/Gemini_annotations_cleaned.json`](data/preprocessed/Gemini_annotations_cleaned.json), [`data/preprocessed/Jasmine_annotations_cleaned.json`](data/preprocessed/Jasmine_annotations_cleaned.json), [`data/preprocessed/Jennifer_annotations_cleaned.json`](data/preprocessed/Jennifer_annotations_cleaned.json), [`data/preprocessed/nicole_annotations_cleaned.json`](data/preprocessed/nicole_annotations_cleaned.json), [`data/preprocessed/rachelle_annotations_cleaned.json`](data/preprocessed/rachelle_annotations_cleaned.json), [`data/preprocessed/shiao-li_annotations_cleaned.json`](data/preprocessed/shiao-li_annotations_cleaned.json) | [`weekly_minutes/`](weekly_minutes/sprint3) |
+| Sprint 4 | *(add link)* | *(add link)* | [`weekly_minutes/`](weekly_minutes/sprint4) |
+| Sprint 5 | *(add link)* | *(add link)* | [`weekly_minutes/`](weekly_minutes/sprint5) |
 
 ---
 
