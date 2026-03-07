@@ -24,10 +24,15 @@ def preprocess_raw_data():
                 if "value" in res and "labels" in res["value"]:
                     for label in res["value"]["labels"]:
                         if label in vals:
-                            vals[label].append(res["value"].get("text", ""))
+                            val_text = res["value"].get("text", "")
+                            start = res["value"].get("start")
+                            end = res["value"].get("end")
+                            
+                            vals[label].append((val_text, start, end))
             records.append({
                 "ID": item_data.get("Unnamed: 0") or item_data.get("id") or item_data.get("ID"),
                 "Text": item_data.get("text") or item_data.get("Text"),
+                "misinformation_label": item_data.get("label"),
                 "all_caps": vals["all_caps"],
                 "exclamation_marks": vals["exclamation_marks"],
                 "hedging": vals["hedging"],

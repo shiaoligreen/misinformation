@@ -2,6 +2,7 @@
   {
     "ID":null,
     "Text":"No Food, No FEMA: Hurricane Michael\u2019s Survivors Are Furious https:\/\/thebea.st\/2CIXNoz\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -21,11 +22,16 @@
   {
     "ID":1.0,
     "Text":"Would-be looter in Hurricane Michael-ravaged Florida shot, killed after trying to steal law enforcement vehicle: report\n\nhttps:\/\/www.foxnews.com\/us\/would-be-looter-in-hurricane-michael-ravaged-florida-shot-killed-after-trying-to-steal-law-enforcement-vehicle-report\u00a0\u2026\n... All looters need to be handled the same way!",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        315,
+        316
+      ]
     ],
     "hedging":[
 
@@ -40,6 +46,7 @@
   {
     "ID":2.0,
     "Text":"His argument is correct. Hurricane Rita killed over 100 people on the road, drowned them in their own cars. pic.twitter.com\/kulwIZW2EI",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -59,6 +66,7 @@
   {
     "ID":3.0,
     "Text":"im praying for all of my friends down in the Caribbean who have no where else to go and are forced to ride through the hurricane. be strong https:\/\/twitter.com\/ttrogdon\/status\/905205124699750401\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -78,11 +86,20 @@
   {
     "ID":4.0,
     "Text":"To all my Texas streamers: PLEASE be safe if the hurricane comes to you! I\u201a\u00c4\u00f4d hate to lose...family...don\u201a\u00c4\u00f4t be a hero. Take shelter. pic.twitter.com\/jDPPdMTHwN",
+    "misinformation_label":0,
     "all_caps":[
-      "PLEASE"
+      [
+        "PLEASE",
+        27,
+        33
+      ]
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        71,
+        72
+      ]
     ],
     "hedging":[
 
@@ -97,6 +114,7 @@
   {
     "ID":5.0,
     "Text":"RT @Stacy_Spencer: There is a Tornado warning. Service is canceled. Get to shelter and be safe. \u00ac\u00b4 praying for memphis.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -116,6 +134,7 @@
   {
     "ID":6.0,
     "Text":"WTF? \u00bb No food, no FEMA: Hurricane Michael\u2019s survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -129,12 +148,17 @@
 
     ],
     "unk":[
-      "WTF"
+      [
+        "WTF",
+        0,
+        3
+      ]
     ]
   },
   {
     "ID":7.0,
     "Text":"The aftermath of a hurricane is horrific. The heat\/humidity is excruciating, no water\/ice, no bathing, complete darkness, bugs, no warm food",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -145,7 +169,11 @@
 
     ],
     "adjectives":[
-      "excruciating"
+      [
+        "excruciating",
+        63,
+        75
+      ]
     ],
     "unk":[
 
@@ -154,6 +182,7 @@
   {
     "ID":8.0,
     "Text":"No food, no FEMA: Hurricane Michael's survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -173,9 +202,18 @@
   {
     "ID":9.0,
     "Text":"You know they hate you at work when the TV manager picks you to go out with a camera and operate the LIVE DRIVE car in a tornado.",
+    "misinformation_label":0,
     "all_caps":[
-      "LIVE",
-      "DRIVE"
+      [
+        "LIVE",
+        101,
+        105
+      ],
+      [
+        "DRIVE",
+        106,
+        111
+      ]
     ],
     "exclamation_marks":[
 
@@ -193,6 +231,7 @@
   {
     "ID":10.0,
     "Text":"@john19071969 It's unwise to flood the food supply and environment with new plant varieties. Good science requires more prudence.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -212,6 +251,7 @@
   {
     "ID":11.0,
     "Text":"Someone parked their car in the living room because of Hurricane Matthew http:\/\/dlvr.it\/MPzpS1\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -231,6 +271,7 @@
   {
     "ID":12.0,
     "Text":"President Trump Gives Permission for US Troops to Stay at Trump Hotel in Washington DC https:\/\/t.co\/PTHILtJqh3 via @gatewaypundit",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -250,6 +291,7 @@
   {
     "ID":13.0,
     "Text":"Motorcyclist bicyclist injured in Denver collision on Broadway: At least two people were taken to a local\u0089\u00db_ http:\/\/t.co\/ozK1QHJVfh",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -269,6 +311,7 @@
   {
     "ID":14.0,
     "Text":"\u201cThe effect of Hurricane Matthew on Haiti is catastrophic\" -food + water crisis... http:\/\/ln.is\/GSphX\u00a0 by #WSJ via @c0nvey",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -288,6 +331,7 @@
   {
     "ID":15.0,
     "Text":"i understand everyone has to make a buck, i would encourage you to think if food delivery during a blizzard is the best choice.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -295,9 +339,21 @@
 
     ],
     "hedging":[
-      "understand",
-      "would",
-      "think"
+      [
+        "understand",
+        2,
+        12
+      ],
+      [
+        "would",
+        44,
+        49
+      ],
+      [
+        "think",
+        67,
+        72
+      ]
     ],
     "adjectives":[
 
@@ -309,6 +365,7 @@
   {
     "ID":16.0,
     "Text":"Yeah, but it's also unthinkable to tell hurricane refugees to \"have a great time,\" and to brag about the size of the crowd at shelter.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -328,6 +385,7 @@
   {
     "ID":17.0,
     "Text":"Birds in a blizzard. We put out extra sunflower seeds since their usual food sources just got\u201a\u00c4\u00b6 https:\/\/www.instagram.com\/p\/BBS2eYWgTbj\/\u00ac\u2020",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -347,6 +405,7 @@
   {
     "ID":18.0,
     "Text":"http:\/\/Findmytowedcar.com\u00ac\u2020 for those that have had their cars towed due to the Hurricane in Houston. #hurricaneharvey",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -366,11 +425,16 @@
   {
     "ID":19.0,
     "Text":"At the 'Wet n Wild' water park, where half the rides are shut due to the wind from Hurricane Sandy; on a ride called 'Storm'! Ah, the irony.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        124,
+        125
+      ]
     ],
     "hedging":[
 
@@ -385,6 +449,7 @@
   {
     "ID":20.0,
     "Text":"All honeys that are gonna be affected by hurricane Matthew are welcome to come stay at 1505 W tharpe we have food,water and me",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -404,6 +469,7 @@
   {
     "ID":21.0,
     "Text":"Nambe. This stupid hurricane comes and goes I am still here waiting for it to take me car",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -423,6 +489,7 @@
   {
     "ID":22.0,
     "Text":"Drove thru NC last week & experienced my first tornado - went right in front of our vehicle, people on the hwy freaked out more than my kids",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -442,11 +509,16 @@
   {
     "ID":23.0,
     "Text":"*eats the medicine @mlp_twilight gives him* whats a solar flare anyways? does the sun explode?!",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        94,
+        95
+      ]
     ],
     "hedging":[
 
@@ -461,6 +533,7 @@
   {
     "ID":24.0,
     "Text":"I wonder how many professors would accept my \"hurricane sandy got my car stuck\" excuse Monday.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -468,7 +541,11 @@
 
     ],
     "hedging":[
-      "would"
+      [
+        "would",
+        29,
+        34
+      ]
     ],
     "adjectives":[
 
@@ -480,6 +557,7 @@
   {
     "ID":25.0,
     "Text":"I'm getting used to seeing a layer of ash on my car each morning - and I'm in AB. We've  only seen a red sun this week. The smoke is as far as Sask. \n\nBritish Columbia declares state of emergency as over 500 wildfires burn\n\nhttps:\/\/www.theguardian.com\/world\/2018\/aug\/16\/british-columbia-wildfires-state-of-emergency-declared?CMP=Share_AndroidApp_Tweet\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -499,6 +577,7 @@
   {
     "ID":26.0,
     "Text":"Cars melt, power down as wildfire turns California town into \u201a\u00c4\u00f2burning\u00ac\u2020hell\u201a\u00c4\u00f4 https:\/\/www.siasat.com\/news\/cars-melt-power-down-wildfire-turns-california-town-burning-hell-1430954\/\u00ac\u2020\u201a\u00c4\u00b6pic.twitter.com\/MEE6HbXWCs",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -518,6 +597,7 @@
   {
     "ID":27.0,
     "Text":"@SteveLayman I was able to salvage my Titans Superbowl football from Nashville flood. Lost my house & Car. I need Neil's autograph How Can I",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -525,7 +605,11 @@
 
     ],
     "hedging":[
-      "Can"
+      [
+        "Can",
+        135,
+        138
+      ]
     ],
     "adjectives":[
 
@@ -537,6 +621,7 @@
   {
     "ID":28.0,
     "Text":"Dante Exum's knee injury could stem Jazz's hoped-for surge back to ... http:\/\/t.co\/8PIFutrB5U",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -544,7 +629,11 @@
 
     ],
     "hedging":[
-      "could"
+      [
+        "could",
+        25,
+        30
+      ]
     ],
     "adjectives":[
 
@@ -556,6 +645,7 @@
   {
     "ID":29.0,
     "Text":"White House tweet wrongly says #Obamacare led to fewer insurance options https:\/\/t.co\/oZAwbFNnl5 #ProtectOurCare #DemForce",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -575,6 +665,7 @@
   {
     "ID":30.0,
     "Text":"Many states along the Mid-Atlantic and the East Coast have shelters open in response to Hurricane Sandy. Search for an open shelter by...",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -594,6 +685,7 @@
   {
     "ID":31.0,
     "Text":"Thank you @CVS_Extra for making non-essential employees go in during a blizzard  I really wanted to try and not crash my car today",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -613,6 +705,7 @@
   {
     "ID":32.0,
     "Text":"Proud if Eastwood students organizing collections for Eclectic Shelter to help tornado victims",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -632,6 +725,7 @@
   {
     "ID":33.0,
     "Text":"Hurricane Harvey evacuees forced out of storm shelter https:\/\/goo.gl\/fb\/kqrQEm\u00ac\u2020",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -651,6 +745,7 @@
   {
     "ID":34.0,
     "Text":"As Hurricane Dorian Impacts East Coast, Food Lion Invites Customers to Make In-Store http:\/\/bit.ly\/2MXD1Xn\u00a0 #green #csr #sustainability",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -670,6 +765,7 @@
   {
     "ID":35.0,
     "Text":"Un raggio di sole #AustraliaBurning  Rescued koala brings 'ray of sunshine after nightmare' on fire ground https:\/\/t.co\/Tf8wk7ikzg di @smh",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -689,6 +785,7 @@
   {
     "ID":36.0,
     "Text":"(1\/2) Health DG Datuk Dr Noor Hisham Abdullah Noor on Friday said the government is likely to draft a policy that will make it mandatory for Malaysians to be vaccinated against #Covid19 when a #vaccine is successfully developed.\n\nhttps:\/\/t.co\/TEWVSY0mui",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -696,7 +793,11 @@
 
     ],
     "hedging":[
-      "likely"
+      [
+        "likely",
+        84,
+        90
+      ]
     ],
     "adjectives":[
 
@@ -708,6 +809,7 @@
   {
     "ID":37.0,
     "Text":"Rocky Fire http:\/\/t.co\/wxhMp5ppjq",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -727,6 +829,7 @@
   {
     "ID":38.0,
     "Text":"$Johnn4y44 would definitely be grateful if I can recover from the loss of food due to surges and storms causing power outage for two days  from hurricane Dorian here in Florida.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -734,10 +837,18 @@
 
     ],
     "hedging":[
-      "can"
+      [
+        "can",
+        45,
+        48
+      ]
     ],
     "adjectives":[
-      "grateful"
+      [
+        "grateful",
+        31,
+        39
+      ]
     ],
     "unk":[
 
@@ -746,6 +857,7 @@
   {
     "ID":39.0,
     "Text":"In Manatee County, evacuees rush to shelter from Hurricane Matthew http:\/\/www.bradenton.com\/news\/local\/article106551847.html\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -765,6 +877,7 @@
   {
     "ID":40.0,
     "Text":"BF wasn't a floridian, but still. Warrants can be for something as stupid as forgetting a ticket. That will bar you from hurricane shelter?",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -772,7 +885,11 @@
 
     ],
     "hedging":[
-      "can"
+      [
+        "can",
+        43,
+        46
+      ]
     ],
     "adjectives":[
 
@@ -784,6 +901,7 @@
   {
     "ID":41.0,
     "Text":"Have you read this awesome book yet?  The Two Trillion Dollar Meltdown  http:\/\/t.co\/jPA6sajFE3",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -803,6 +921,7 @@
   {
     "ID":42.0,
     "Text":"The U.S. bombed Hiroshima 70 years ago today. A look at how war has changed since: http:\/\/t.co\/UQnj6nk9y3 http:\/\/t.co\/QLnnMxzFqK",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -822,6 +941,7 @@
   {
     "ID":43.0,
     "Text":"Hey all. Currently being evacuated from my work as there is a wildfire basically across the street. We havent made it far from the area due to lots of cars and road closures. \n\nI'm hoping\u201a\u00c4\u00b6 https:\/\/www.instagram.com\/p\/Bp8Dwr-DNKd\/?utm_source=ig_twitter_share&igshid=1ke2im06c1e67\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -829,8 +949,16 @@
 
     ],
     "hedging":[
-      "basically",
-      "hoping"
+      [
+        "basically",
+        71,
+        80
+      ],
+      [
+        "hoping",
+        181,
+        187
+      ]
     ],
     "adjectives":[
 
@@ -842,6 +970,7 @@
   {
     "ID":44.0,
     "Text":"Tired: hurricane dorian \nWired: seasonal complimentary car wash",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -861,6 +990,7 @@
   {
     "ID":45.0,
     "Text":"Social Media Claims Pastor Joel Osteen Won't Open Megachurch To Shelter Hurricane Victims http:\/\/dld.bz\/gcmuK\u00ac\u2020",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -880,6 +1010,7 @@
   {
     "ID":46.0,
     "Text":"As Floridians rush to fuel up cars and generators before Hurricane Dorian, gas stations across the state are running dry | @WFLAVictoria with a closer lookhttp:\/\/bit.ly\/2NHV5EA\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -899,9 +1030,18 @@
   {
     "ID":47.0,
     "Text":"JUST IN: Trump on delayed response to Charlottesville: \"I like to wait for the facts\" https:\/\/t.co\/ikGBl1W3Gw https:\/\/t.co\/dnYYBqW6ok",
+    "misinformation_label":1,
     "all_caps":[
-      "JUST",
-      "IN"
+      [
+        "JUST",
+        0,
+        4
+      ],
+      [
+        "IN",
+        5,
+        7
+      ]
     ],
     "exclamation_marks":[
 
@@ -919,11 +1059,16 @@
   {
     "ID":48.0,
     "Text":"Lately I been stressing make me wanna put a fuck nigga on a stretcher!",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        69,
+        70
+      ]
     ],
     "hedging":[
 
@@ -932,18 +1077,31 @@
 
     ],
     "unk":[
-      "fuck",
-      "nigga"
+      [
+        "fuck",
+        44,
+        48
+      ],
+      [
+        "nigga",
+        49,
+        54
+      ]
     ]
   },
   {
     "ID":49.0,
     "Text":"Why are so many cars and buses stranded on the highway?  Stay off the highway in a blizzard!",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        91,
+        92
+      ]
     ],
     "hedging":[
 
@@ -958,9 +1116,18 @@
   {
     "ID":50.0,
     "Text":"I've had THE WORST luck. A broken windshield, dropped my phone in the flood tonight, and lost my car key all in just two days. Awesome.",
+    "misinformation_label":0,
     "all_caps":[
-      "THE",
-      "WORST"
+      [
+        "THE",
+        9,
+        12
+      ],
+      [
+        "WORST",
+        13,
+        18
+      ]
     ],
     "exclamation_marks":[
 
@@ -978,6 +1145,7 @@
   {
     "ID":51.0,
     "Text":"Shelter & warm clothing especially needed in blizzard areas. Open your hearts.   https:\/\/twitter.com\/PalestinaSummer\/status\/689179516879634433\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -997,6 +1165,7 @@
   {
     "ID":52.0,
     "Text":"Death Toll In California Wildfires Climbs To At Least 31\n\n    As the Camp Fire burns nearby, a scorched car rests by gas pumps on Sunday near Pulga, Calif., a community located... https:\/\/news.immitate.com\/2018\/11\/12\/death-toll-in-california-wildfires-climbs-to-at-least-31\/\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1016,6 +1185,7 @@
   {
     "ID":53.0,
     "Text":"Famine: extreme scarcity of food.\n\nGrocery store shelves emptied for Hurricane Harvey and Hurricane Irma.\n\nNorth Korea, Brexit, Syria, etc..",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1035,6 +1205,7 @@
   {
     "ID":54.0,
     "Text":".@FaizaPatelBCJ w\/ crucial context for Trump claim that 300 refugees now subjects of counterterrorism investigations https:\/\/t.co\/KZM6vj2xYr https:\/\/t.co\/UBzSXWjPTr",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1054,12 +1225,21 @@
   {
     "ID":55.0,
     "Text":"@jihettly @esd2000 good morning! Yes I'm in the middle of the blizzard. I have plenty of food so I'm happy! Lol. Stay warm.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!",
-      "!"
+      [
+        "!",
+        31,
+        32
+      ],
+      [
+        "!",
+        106,
+        107
+      ]
     ],
     "hedging":[
 
@@ -1074,6 +1254,7 @@
   {
     "ID":56.0,
     "Text":"Hurricane Sandy & Seamless Food Ordering | The Delivery Bag http:\/\/blog.seamless.com\/2012\/10\/hurricane-sandy-seamless-food-ordering\/\u00a0\u2026 via @Seamless",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1084,7 +1265,11 @@
 
     ],
     "adjectives":[
-      "Seamless"
+      [
+        "Seamless",
+        18,
+        26
+      ]
     ],
     "unk":[
 
@@ -1093,6 +1278,7 @@
   {
     "ID":57.0,
     "Text":"When I breathe it sounds like a windstorm. Haha cool",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1112,14 +1298,23 @@
   {
     "ID":58.0,
     "Text":"Due to the poor air quality from the wildfires, our teams' Ride to Conquer Cancer was cut short yesterday. Big shout out to the Ski Cellar for still hosting our team for a BBQ yesterday so they could celebrate their training and fundraising successes together! #therideABpic.twitter.com\/76gLiXP37q",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        259,
+        260
+      ]
     ],
     "hedging":[
-      "could"
+      [
+        "could",
+        194,
+        199
+      ]
     ],
     "adjectives":[
 
@@ -1131,11 +1326,16 @@
   {
     "ID":59.0,
     "Text":"Re: Hurricane Matthew: All of the @ASUTennis Student-Athletes are on their way to safety. Thanks to @ASU_Housing for arranging a safe place!",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        139,
+        140
+      ]
     ],
     "hedging":[
 
@@ -1150,6 +1350,7 @@
   {
     "ID":60.0,
     "Text":"So want Sony QX portable lens - will double food pictures flood ;)",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1169,20 +1370,45 @@
   {
     "ID":61.0,
     "Text":"I donated to this amazing organization helping the animals during the California wildfires - all I could do was imagine how I\u201a\u00c4\u00f4d feel if something happened to Stella or Zodiac. Then I thought about how much I spend on pet food each week; glad to help someone else\u201a\u00c4\u00f4s pet eat, too! https:\/\/twitter.com\/MichelleMeach16\/status\/1062425848886759429\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        281,
+        282
+      ]
     ],
     "hedging":[
-      "could",
-      "imagine",
-      "feel",
-      "thought"
+      [
+        "could",
+        99,
+        104
+      ],
+      [
+        "imagine",
+        112,
+        119
+      ],
+      [
+        "feel",
+        130,
+        134
+      ],
+      [
+        "thought",
+        185,
+        192
+      ]
     ],
     "adjectives":[
-      "amazing"
+      [
+        "amazing",
+        18,
+        25
+      ]
     ],
     "unk":[
 
@@ -1191,6 +1417,7 @@
   {
     "ID":62.0,
     "Text":"Someone parked their car in the living room because of Hurricane Matthew: http:\/\/on.mash.to\/2dXTaaW\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1210,6 +1437,7 @@
   {
     "ID":63.0,
     "Text":"No Food, No FEMA: Hurricane Michael\u2019s Survivors Are Furious #SmartNews https:\/\/www.thedailybeast.com\/no-food-no-fema-hurricane-michaels-survivors-are-furious\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1229,6 +1457,7 @@
   {
     "ID":64.0,
     "Text":"Tesla remotely extends car batteries to help with Hurricane Michael https:\/\/ift.tt\/2QIDNoL\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1248,6 +1477,7 @@
   {
     "ID":101.0,
     "Text":"i jus hope tha tornado does come near here. i wanna sleep && dnt want my car to get damaged",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1255,7 +1485,11 @@
 
     ],
     "hedging":[
-      "hope"
+      [
+        "hope",
+        6,
+        10
+      ]
     ],
     "adjectives":[
 
@@ -1267,6 +1501,7 @@
   {
     "ID":102.0,
     "Text":"=@erincargile news tip. Apparently every rental Car in Austin is booked due to floods. what is that doing to tourism? has this happened b4?",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1274,7 +1509,11 @@
 
     ],
     "hedging":[
-      "Apparently"
+      [
+        "Apparently",
+        24,
+        34
+      ]
     ],
     "adjectives":[
 
@@ -1286,11 +1525,16 @@
   {
     "ID":103.0,
     "Text":"Tornado warnings- welcome home Lauren. Take shelter Lexington!!",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!!"
+      [
+        "!!",
+        61,
+        63
+      ]
     ],
     "hedging":[
 
@@ -1305,6 +1549,7 @@
   {
     "ID":104.0,
     "Text":"My neighbor really washing all his cars rn. Does he know there's a hurricane passing through lol",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1324,6 +1569,7 @@
   {
     "ID":105.0,
     "Text":"Here's the latest on Hurricane #Dorian. Please stay safe and seek shelter. \nhttps:\/\/weather.com\/storms\/hurricane\/news\/2019-09-05-hurricane-dorian-south-carolina-north-carolina-georgia-virginia\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1343,6 +1589,7 @@
   {
     "ID":106.0,
     "Text":"Philly-area natives ride out Hurricane Matthew in Orlando - http:\/\/PhillyVoice.com\u00a0 http:\/\/dlvr.it\/MQ1L19\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1362,6 +1609,7 @@
   {
     "ID":107.0,
     "Text":"Florida man parks Smart car inside kitchen so Hurricane Dorian won\u2019t take it https:\/\/trib.al\/ptB0r5I\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1381,6 +1629,7 @@
   {
     "ID":108.0,
     "Text":"CRS teams standing ready to respond to Hurricane #Matthew in #Haiti. Likely assistance to include shelter, relief supplies, water. @CRSnews",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1388,7 +1637,11 @@
 
     ],
     "hedging":[
-      "Likely"
+      [
+        "Likely",
+        69,
+        75
+      ]
     ],
     "adjectives":[
 
@@ -1400,14 +1653,27 @@
   {
     "ID":109.0,
     "Text":"Great Article @ReneMiamiHerald. Our answer is EVACUATE! \n\nShould you ride out a hurricane in a high-rise? http:\/\/www.miamiherald.com\/news\/business\/real-estate-news\/article168905202.html\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
-      "EVACUATE"
+      [
+        "EVACUATE",
+        46,
+        54
+      ]
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        54,
+        55
+      ]
     ],
     "hedging":[
-      "Should"
+      [
+        "Should",
+        58,
+        64
+      ]
     ],
     "adjectives":[
 
@@ -1419,6 +1685,7 @@
   {
     "ID":110.0,
     "Text":"Brave Car Says Enough Of This Blizzard, Catches Fire http:\/\/jalopnik.com\/brave-car-says-enough-of-this-blizzard-catches-fire-1754715716?utm_medium=sharefromsite&utm_source=Jalopnik_twitter\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1438,6 +1705,7 @@
   {
     "ID":111.0,
     "Text":"This morning, I stood under the hatch of my rental car and talked about Hurricane Matthew on Facebook Live. https:\/\/www.facebook.com\/nytvideo\/videos\/1764092390474942\/\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1457,6 +1725,7 @@
   {
     "ID":112.0,
     "Text":"No food, no FEMA: Hurricane Michael\u2019s survivors are furious - The Daily Beast https:\/\/apple.news\/APp4E5UMtQT2ULJVMPM0ovw\u00a0\u2026",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1476,6 +1745,7 @@
   {
     "ID":121.0,
     "Text":"Freshman: I wish Hurricane Dorian would come our way.\n\nMe, a senior: we had Harvey two years ago.\n\nFish: but no school\n\nMe: we flooded for days, fell behind school, housing was destroyed, people had their boats out to scout what remained, but yeah no school.\n\nI hate Freshman.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1483,7 +1753,11 @@
 
     ],
     "hedging":[
-      "would"
+      [
+        "would",
+        34,
+        39
+      ]
     ],
     "adjectives":[
 
@@ -1495,6 +1769,7 @@
   {
     "ID":122.0,
     "Text":"Florida stork finds shelter from Hurricane Matthew in bathroom: A big bird told us the best way to stay safe ... http:\/\/nydn.us\/2dy5JLP\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1514,6 +1789,7 @@
   {
     "ID":123.0,
     "Text":" I know what I m doing. I m prepared to wear the consequences of the conflict but my family s innocent. During an exclusive interview, Wikileaks founder Julian Assange gets emotional while telling Sean Hannity about the effect his virtual imprisonment has had on his family, especially his children. I know what I m doing, but my family is innocent they didn t sign up for that fight. ",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1533,11 +1809,16 @@
   {
     "ID":124.0,
     "Text":"Just a reminder for anyone who wants to come to our Grand Re-Opening event after recovering from the October wildfires, it's tomorrow night from 4-7pm. Local food, local wine, and live music by The Awesome Hotcakes! See details below. :) pic.twitter.com\/95fxSNcs1U",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        214,
+        215
+      ]
     ],
     "hedging":[
 
@@ -1552,16 +1833,33 @@
   {
     "ID":125.0,
     "Text":"Oh dear!!!!!!! Lizzard in Blizzard! Hahahahaha!\nI hope the sign didn't cause any car accident.\n#2016snowstormhttps:\/\/twitter.com\/amnewyork\/status\/691009251125399552\u00ac\u2020\u201a\u00c4\u00b6",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!!!!!!!",
-      "!",
-      "!"
+      [
+        "!!!!!!!",
+        7,
+        14
+      ],
+      [
+        "!",
+        34,
+        35
+      ],
+      [
+        "!",
+        46,
+        47
+      ]
     ],
     "hedging":[
-      "hope"
+      [
+        "hope",
+        50,
+        54
+      ]
     ],
     "adjectives":[
 
@@ -1573,6 +1871,7 @@
   {
     "ID":126.0,
     "Text":"The Latest: More homes razed by Northern California wildfire: The latest on wildfires burning in California and\u0089\u00db_ http:\/\/t.co\/0Keh2TReNy",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1592,6 +1891,7 @@
   {
     "ID":127.0,
     "Text":"No Food, No FEMA: Hurricane Michael\u2019s Survivors Are Furious https:\/\/thebea.st\/2IV0u6C?source=twitter&via=desktop\u00a0\u2026 via @thedailybeast",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1611,6 +1911,7 @@
   {
     "ID":128.0,
     "Text":"Violent Storm Causes Damage Flooding in Watertown - http:\/\/t.co\/3ZASZ6wxjJ",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1630,6 +1931,7 @@
   {
     "ID":129.0,
     "Text":"Pro-Russia party wins Latvia election https:\/\/t.co\/FrsB9c9pdo",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1649,6 +1951,7 @@
   {
     "ID":130.0,
     "Text":"Fake-Poll Alert: Proof Biden Is Not Winning\n\nBy \u2066@WayneRoot\u2069 \n\nBy the way, Biden and vice presidential nominee Kamala Harris had an event in Arizona on Thursday. Eight people showed up.\n\nVia \u2066@townhallcom\u2069  https:\/\/t.co\/0w7pqkNj0o",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1668,6 +1971,7 @@
   {
     "ID":131.0,
     "Text":"As you know that Covid 19 has spread in India, our immune system must be strong to defeat it. I have some #TipsToBoostImmunity. \nSuch as do Meditation regularly,\nTake protein rich foods, \nTake food full of Vitamin C.\nCan anyone tell me some more tips ?\n\nhttps:\/\/t.co\/3kYCiFGaId",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1675,7 +1979,11 @@
 
     ],
     "hedging":[
-      "Can"
+      [
+        "Can",
+        217,
+        220
+      ]
     ],
     "adjectives":[
 
@@ -1687,6 +1995,7 @@
   {
     "ID":132.0,
     "Text":"Florida Sheriff\u201a\u00c4\u00f4s Warning: We\u201a\u00c4\u00f4ll jail any fugitives who seek shelter from Hurricane Irma http:\/\/wp.me\/p5MgeL-1HDG\u00ac\u2020",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1706,6 +2015,7 @@
   {
     "ID":141.0,
     "Text":"Trying to get back on track after long junk food filled blizzard weekend .. pic.twitter.com\/lYTKfOmx3D",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1725,8 +2035,13 @@
   {
     "ID":142.0,
     "Text":"BREAKING: Authorities respond to Ocean fire http:\/\/t.co\/h31Knuwzz5",
+    "misinformation_label":0,
     "all_caps":[
-      "BREAKING"
+      [
+        "BREAKING",
+        0,
+        8
+      ]
     ],
     "exclamation_marks":[
 
@@ -1744,6 +2059,7 @@
   {
     "ID":143.0,
     "Text":"Dr. Besser's 3 Tips to Ride Hurricane Sandy Out Safely http:\/\/abcn.ws\/RfpiU3\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1763,6 +2079,7 @@
   {
     "ID":144.0,
     "Text":"Wildfires produce more co2 than all the vehicles in the country. Plus, every acre of forest offsets the emissions of about 3 cars, so the impact of every burned acre lasts for many years.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1782,6 +2099,7 @@
   {
     "ID":145.0,
     "Text":"Everyone's preparing for this hurricane and I'm getting my car inspected bc ya girl procrastinated and it's nearing the next month lol",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1801,6 +2119,7 @@
   {
     "ID":146.0,
     "Text":"\u2018Pulwama Attack BJP Conspiracy  Like Godhra\u2019: Ex-Guj CM  Vaghela https:\/\/t.co\/rjcYDWZmP2",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1820,6 +2139,7 @@
   {
     "ID":147.0,
     "Text":"RT @THEmeaghan: Could the wind ever be strong enough to flip parked cars? < yea it's called a tornado.",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1827,7 +2147,11 @@
 
     ],
     "hedging":[
-      "Could"
+      [
+        "Could",
+        16,
+        21
+      ]
     ],
     "adjectives":[
 
@@ -1839,6 +2163,7 @@
   {
     "ID":148.0,
     "Text":"Dr. Besser's 3 Tips to Ride Hurricane Sandy Out Safely - ABC News (blog) http:\/\/goo.gl\/fb\/M05wG\u00a0",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
@@ -1858,8 +2183,13 @@
   {
     "ID":149.0,
     "Text":"VIDEO: Insane ride through raging #flood waters in a Longmont Fire Truck \u00ac\u00b4 CBS Denver http:\/\/cbsloc.al\/19QGKsj\u00ac\u2020 #cowx H\/T @WilliamMScherer",
+    "misinformation_label":0,
     "all_caps":[
-      "VIDEO"
+      [
+        "VIDEO",
+        0,
+        5
+      ]
     ],
     "exclamation_marks":[
 
@@ -1868,7 +2198,11 @@
 
     ],
     "adjectives":[
-      "raging"
+      [
+        "raging",
+        27,
+        33
+      ]
     ],
     "unk":[
 
@@ -1877,11 +2211,16 @@
   {
     "ID":150.0,
     "Text":"Floods are so bad cars were stranded in them, my little min still managed to power on with water up to the lights! pic.twitter.com\/xP0TtLAsMt",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
     "exclamation_marks":[
-      "!"
+      [
+        "!",
+        113,
+        114
+      ]
     ],
     "hedging":[
 
@@ -1896,6 +2235,7 @@
   {
     "ID":151.0,
     "Text":"Researchers have turned to protein synthesis, genetics and hybrid viruses to develop a #coronavirus vaccine.\n\nIt is likely a mix of these approaches will be used to fight the virus.\n\nExplainer by a professor. https:\/\/t.co\/PfZBzEVNYR",
+    "misinformation_label":1,
     "all_caps":[
 
     ],
@@ -1903,7 +2243,11 @@
 
     ],
     "hedging":[
-      "likely"
+      [
+        "likely",
+        116,
+        122
+      ]
     ],
     "adjectives":[
 
@@ -1915,6 +2259,7 @@
   {
     "ID":152.0,
     "Text":" Norovirus outbreak confirmed at California wildfire shelter #Today #News #Sports #Entertainment #Politics\nhttp:\/\/tinyurl.com\/y7r6fspf\u00ac\u2020",
+    "misinformation_label":0,
     "all_caps":[
 
     ],
