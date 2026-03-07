@@ -86,12 +86,11 @@ def main():
 
     # ranking by cohen's kappa
     print("Consolidating IDs 41+ (Ranked Selection)...")
-    full_priority = average_df['Annotator'].tolist() + ['gemini']
 
     best_kappa = df[df['ID'] >= 41].copy()
     best_kappa['Annotator'] = pd.Categorical(
         best_kappa['Annotator'], 
-        categories=full_priority, 
+        categories=average_df['Annotator'].tolist(), 
         ordered=True
     )
 
