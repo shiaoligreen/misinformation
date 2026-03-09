@@ -1493,20 +1493,15 @@
     ],
     "adjectives":[
       [
-        "grateful",
+        "grateful.",
         100,
-        108
-      ],
-      [
-        "Amazing",
-        123,
-        130
+        109
       ]
     ],
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"NRG Center is now open as a relief shelter for Hurricane Harvey and is expecting up to 10,000 evacuees. There is... http:\/\/fb.me\/AdYfRirl\u00ac\u2020",
@@ -1518,7 +1513,11 @@
 
     ],
     "hedging":[
-
+      [
+        "expecting",
+        71,
+        80
+      ]
     ],
     "adjectives":[
 
@@ -1526,7 +1525,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"#Cars in the #News- Florida man parks Smart car in kitchen to save it from Hurricane Dorian https:\/\/www.autoblog.com\/2019\/09\/05\/hurricane-dorian-smart-car-in-kitchen\/\u00a0\u2026",
@@ -1546,7 +1545,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"We're ready for the hurricane and Stephen just left like tf are you doing????",
@@ -1570,7 +1569,7 @@
         59
       ]
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"\"Competition is good for the economy, but not good for your business when it comes to competing for hourly employees. Ride sharing services such as Uber are spreading across the US like wildfires and are in need of drivers.\" https:\/\/blog.workstream.is\/4-ways-to-compete-against-uber-for-hourly-workers-in-silicon-valley\u00ac\u2020\u201a\u00c4\u00b6",
@@ -1590,7 +1589,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Cyclists attempt to ride their bikes through waist deep water in South Carolina after Hurricane Matthew made... http:\/\/fb.me\/1d7URf0KE\u00a0",
@@ -1610,7 +1609,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Latest: Highland Beach resident plans to ride out Hurricane Matthew https:\/\/goo.gl\/FDjmii\u00a0",
@@ -1630,7 +1629,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"China's Stock Market Crash: Are There Gems In The Rubble?: China\u0089\u00db\u00aas stock market crash this summer has sparked ... http:\/\/t.co\/2OqSGZqlbz",
@@ -1650,7 +1649,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Irony just died a thousand deaths! ???? http:\/\/t.co\/dBU30ObDxz",
@@ -1659,7 +1658,11 @@
 
     ],
     "exclamation_marks":[
-
+      [
+        "!",
+        33,
+        34
+      ]
     ],
     "hedging":[
 
@@ -1670,7 +1673,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Herman Cain, a former CEO and presidential candidate, has died after contracting coronavirus. \n\nHe was 74.\nhttps:\/\/t.co\/rAZgrjPv56",
@@ -1690,7 +1693,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Hurricane Matthew is now car 3 storm winds up to 125 mph movin very we may go love on Facebook that two days hurricane may hit fl",
@@ -1706,11 +1709,6 @@
         "may",
         71,
         74
-      ],
-      [
-        "may",
-        119,
-        122
       ]
     ],
     "adjectives":[
@@ -1719,7 +1717,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Batteries, flashlights, cell phone battery pack, gas, cash, medicine, ice, water in the bathtub, bottled water, cooler, canned food and dry goods, pet food, toilet paper, paper plates, beverages of choice, and a book. That\u2019s all I can think of. #Hurricane #Dorian",
@@ -1735,11 +1733,6 @@
         "think",
         235,
         240
-      ],
-      [
-        "can",
-        231,
-        234
       ]
     ],
     "adjectives":[
@@ -1748,7 +1741,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Fuck a hurricane #sandy #food #love #enchiladas #mole #v8 #aguardiente #life #love #awesomeness #greatness # http:\/\/instagr.am\/p\/RY-oDiu5Ye\/\u00a0",
@@ -1763,7 +1756,16 @@
 
     ],
     "adjectives":[
-
+      [
+        "awesomeness",
+        84,
+        95
+      ],
+      [
+        "greatness",
+        97,
+        106
+      ]
     ],
     "unk":[
       [
@@ -1772,7 +1774,7 @@
         4
       ]
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"\u2018It Was Like the Taliban Had Come to Town': 'Trump Train' Caravan Targeted Black Communities Across U.S. Ahead of Election https:\/\/t.co\/t4jaiairI4 https:\/\/t.co\/gU0hukN7J2",
@@ -1792,7 +1794,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"MT @TravelGov US citizens in #Jamaica: Routine consular services suspended October 3, 4; Shelter in place during Hurricane #Matthew. #hmrd v",
@@ -1812,7 +1814,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"23 Killed, Cars Melt, Power Down as Wildfire Turns California Town Into \u201a\u00c4\u00f2Burning\u00ac\u2020Hell\u201a\u00c4\u00f4 https:\/\/en.dhwanionline.com\/23-killed-cars-melt-power-down-as-wildfire-turns-california-town-into-burning-hell\/\u00ac\u2020\u201a\u00c4\u00b6",
@@ -1827,16 +1829,12 @@
 
     ],
     "adjectives":[
-      [
-        "Burning",
-        75,
-        82
-      ]
+
     ],
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Don't Panik! #KelbyTomlinson to the rescue! http:\/\/t.co\/hujvgsFLUs",
@@ -1845,16 +1843,7 @@
 
     ],
     "exclamation_marks":[
-      [
-        "!",
-        11,
-        12
-      ],
-      [
-        "!",
-        42,
-        43
-      ]
+
     ],
     "hedging":[
 
@@ -1865,7 +1854,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Genius idea or not? Patrick Eldridge parked his smart car in his kitchen to protect it from Hurricane Dorian.  https:\/\/wtop.com\/trending-now\/2019\/09\/florida-man-parks-smart-car-in-kitchen-so-it-wont-blow-away\/\u00a0\u2026",
@@ -1885,7 +1874,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Grocery employees in DC region are working their asses off to make sure folks have food\/supplies ahead of blizzard. MVPs.\n\n#blizzard2016",
@@ -1903,13 +1892,9 @@
 
     ],
     "unk":[
-      [
-        "asses",
-        49,
-        54
-      ]
+
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"In preparation for Hurricane Dorian, Airbnb's Open Homes Program offers free temporary housing for displaced residents and relief workers. https:\/\/trib.al\/yr5M08t\u00a0",
@@ -1929,7 +1914,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"@optich3cz #askH3cz i'm jealous now. Bc i wanted a elgato hd for my bday so i can record videos but i didnt have the money for it.",
@@ -1941,11 +1926,7 @@
 
     ],
     "hedging":[
-      [
-        "can",
-        78,
-        81
-      ]
+
     ],
     "adjectives":[
 
@@ -1953,7 +1934,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"@RealJamesWoods\n#JimAcosta and #CNN Reporter gets read at the #Hurricane Shelter in #Houston Karma so Sweet #MAGA\nhttp:\/\/truepundit.com\/video-hurricane-victim-snaps-after-cnn-reporter-terrorizes-woman-and-her-children-at-houston-shelter\/\u00ac\u2020\u201a\u00c4\u00b6",
@@ -1973,7 +1954,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Rapidly developing strong tornado over Clanton, AL crossing I-65. Take shelter in Rockford!",
@@ -1982,11 +1963,7 @@
 
     ],
     "exclamation_marks":[
-      [
-        "!",
-        90,
-        91
-      ]
+
     ],
     "hedging":[
 
@@ -1997,7 +1974,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Woman trapped in submerged car during floods grateful for last-moment rescue http:\/\/bit.ly\/1jW014n\u00ac\u2020 via @timescall",
@@ -2012,21 +1989,12 @@
 
     ],
     "adjectives":[
-      [
-        "gratefu",
-        45,
-        52
-      ],
-      [
-        "grateful",
-        45,
-        53
-      ]
+
     ],
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Yay now I get to ride my bike to school through ass crack of hurricane Matthew. I can hear wind howling from inside my house.",
@@ -2038,23 +2006,15 @@
 
     ],
     "hedging":[
-      [
-        "can",
-        82,
-        85
-      ]
+
     ],
     "adjectives":[
 
     ],
     "unk":[
-      [
-        "ass",
-        48,
-        51
-      ]
+
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Due to hurricane Matthew the Jacksonville workshop is being postponed due to the venue being used as a shelter. Stay safe Florida!",
@@ -2063,11 +2023,7 @@
 
     ],
     "exclamation_marks":[
-      [
-        "!",
-        129,
-        130
-      ]
+
     ],
     "hedging":[
 
@@ -2078,7 +2034,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Unemployment is a political choice. We can abolish it with a Jobs Guarantee. \nUnemployment is a political choice. We can abolish it with a Jobs Guarantee. \nUnemployment is a political choice. We can abolish it with a Jobs Guarantee. https:\/\/t.co\/Hk17RMNzgC",
@@ -2090,21 +2046,7 @@
 
     ],
     "hedging":[
-      [
-        "can",
-        39,
-        42
-      ],
-      [
-        "can",
-        117,
-        120
-      ],
-      [
-        "can",
-        195,
-        198
-      ]
+
     ],
     "adjectives":[
 
@@ -2112,7 +2054,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Hurricane Harvey Donation Fund For Bellaire Texas Psychiatrist Rachel Angel Long - Rent Food Bills Gas #hurricaneHr\u201a\u00c4\u00b6https:\/\/www.pscp.tv\/w\/bHR2_DF4TlFheERKTnlYRWJ8MU1ZeE5YWFhvb3BHd7K4FAn6ZFMZe8FK0vmGV1SIgPfgc-ucAaWSgZMBO21x\u00ac\u2020\u201a\u00c4\u00b6",
@@ -2132,7 +2074,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Video from Pakistan shared to falsely depict Indian police brutality on Kashmiris | @Pooja_Chaudhuri \n\nhttps:\/\/t.co\/YJI8SnvdMi",
@@ -2152,7 +2094,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"please tornado dont take my car. i need to get back to cali :\/",
@@ -2172,7 +2114,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"@colinhoffman29 I hope he does. And I hope you die in the explosion too",
@@ -2184,16 +2126,7 @@
 
     ],
     "hedging":[
-      [
-        "hope",
-        18,
-        22
-      ],
-      [
-        "hope",
-        38,
-        42
-      ]
+
     ],
     "adjectives":[
 
@@ -2201,7 +2134,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"This BBC story informs us that vaccines prevent disease, not infection and onward transmission of the infection to others. Until we have more vaccine data, assume you can be infected and infect others even you have been vaccinated.\nhttps:\/\/t.co\/1clQwDXFfg",
@@ -2213,11 +2146,7 @@
 
     ],
     "hedging":[
-      [
-        "can",
-        167,
-        170
-      ]
+
     ],
     "adjectives":[
 
@@ -2225,7 +2154,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Via http:\/\/axsomreport.com\u00ac\u2020 Social Media Claims Pastor Joel Osteen Won't Open Megachurch To Shelter Hurricane Vict\u201a\u00c4\u00b6 http:\/\/ift.tt\/2wjDBDs\u00ac\u2020",
@@ -2245,7 +2174,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"A striking image released by NASA from the picture-perfect landing of the Mars rover Perseverance shows the car-sized space vehicle being lowered to Martian soil https:\/\/t.co\/VPK4IuI6ec https:\/\/t.co\/MmI7qc7hIR",
@@ -2260,16 +2189,12 @@
 
     ],
     "adjectives":[
-      [
-        "striking",
-        2,
-        10
-      ]
+
     ],
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"@Lehigh389 @TPEconomy How many Coloradans will need food stamps because of the floods? #Republicansarehypocritesbecause",
@@ -2289,7 +2214,7 @@
     "unk":[
 
     ],
-    "Annotator":"jennifer"
+    "Annotator":"rachelle"
   },
   {
     "Text":"PRETTY FUNNY STUFF-MAKE SURE TO WATCH TO THE END.",
@@ -2350,7 +2275,11 @@
 
     ],
     "hedging":[
-
+      [
+        "SURE",
+        24,
+        28
+      ]
     ],
     "adjectives":[
 
@@ -2358,7 +2287,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"i jus hope tha tornado does come near here. i wanna sleep && dnt want my car to get damaged",
@@ -2646,7 +2575,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Mr. T stopped wearing gold chains in 2005 because he thought it would be an insult to the people who lost everything after Hurricane Katrina",
@@ -2658,11 +2587,7 @@
 
     ],
     "hedging":[
-      [
-        "would",
-        64,
-        69
-      ]
+
     ],
     "adjectives":[
 
@@ -2670,7 +2595,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Pep nt takin this hurricane seriously bt most of my stuff is packed and my dogs things are packed so I can throw them in the car and go!",
@@ -2679,14 +2604,14 @@
 
     ],
     "exclamation_marks":[
-
+      [
+        "!",
+        135,
+        136
+      ]
     ],
     "hedging":[
-      [
-        "can",
-        103,
-        106
-      ]
+
     ],
     "adjectives":[
 
@@ -2694,7 +2619,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Guantanamo base to 'shelter in place' for Hurricane Irma http:\/\/a.msn.com\/01\/en-us\/AArm8cL?ocid=st\u00ac\u2020\u201a\u00c4\u00b6",
@@ -2714,7 +2639,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Nearly had a heart attack just now; loud bang against window next to me\u0089\u00db_turns out it was two birds flying into the glass.",
@@ -2734,7 +2659,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Angry Norwegian Cruise Line passengers said they had to sit in buses for hours without food or water after Hurricane Dorian forced their ship to change its final destination https:\/\/www.businessinsider.com\/norwegian-cruise-line-passengers-say-no-food-water-for-hours-2019-9?utm_source=twitter&utm_medium=referral&utm_content=topbar&utm_term=mobile&referrer=twitter\u00a0\u2026 via @businessinsider",
@@ -2754,7 +2679,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"From city-wide quarantines to infections aboard cruise ships to the cancellation of major international events, the global public health emergency caused by the coronavirus has been unfolding rapidly and dramatically. \n\nHere's how the outbreak has evolved. https:\/\/t.co\/Dg76bBdYP5",
@@ -2774,7 +2699,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Got stuck in flood.. Car trouble with @yosheei #bromomentpic.twitter.com\/jkWaSSQxz0",
@@ -2794,7 +2719,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Freshman: I wish Hurricane Dorian would come our way.\n\nMe, a senior: we had Harvey two years ago.\n\nFish: but no school\n\nMe: we flooded for days, fell behind school, housing was destroyed, people had their boats out to scout what remained, but yeah no school.\n\nI hate Freshman.",
@@ -3079,26 +3004,12 @@
 
     ],
     "adjectives":[
-      [
-        "failing",
-        68,
-        75
-      ],
-      [
-        "spinning",
-        122,
-        130
-      ],
-      [
-        "tanking",
-        144,
-        151
-      ]
+
     ],
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Today is Corii Siren's birthday! Spoil her now: http:\/\/t.co\/l3GizRUCy4 #wishlist http:\/\/t.co\/HgEDwxTDJN",
@@ -3107,11 +3018,7 @@
 
     ],
     "exclamation_marks":[
-      [
-        "!",
-        31,
-        32
-      ]
+
     ],
     "hedging":[
 
@@ -3122,7 +3029,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":".@exxonmobil just announced that it will invest $50 billion in the U.S. over the next 5 years. What does that mean for Americans? #jobsjobsjobs https:\/\/t.co\/KOOOpu9Ton",
@@ -3142,7 +3049,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Proud of my boss @TerronJernigan and 2 team members @IHXRex and @IhxBrownie for heading to the Panama City area to provide charging resources water\/food and additonal wireless options for those affected by Hurricane Michael!   #givingpays #ihxhttps:\/\/twitter.com\/IHXRex\/status\/1050770676825632769\u00a0\u2026",
@@ -3157,16 +3064,12 @@
 
     ],
     "adjectives":[
-      [
-        "wireless",
-        167,
-        175
-      ]
+
     ],
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Motor'n | Half Million Cars Lost In Hurricane Harvey http:\/\/fb.me\/1deJDqzwI\u00ac\u2020",
@@ -3186,7 +3089,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"More than a crush ???????????? WCE @nykaeD_ ?????????? http:\/\/t.co\/mkJO8x2dKo",
@@ -3206,7 +3109,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"#Cars in the #News- Jeep goes way offroad in the churning surf of Hurricane Dorian https:\/\/www.autoblog.com\/2019\/09\/05\/jeep-on-beach-south-carolina-hurricane-dorian\/\u00a0\u2026",
@@ -3221,16 +3124,12 @@
 
     ],
     "adjectives":[
-      [
-        "churning",
-        49,
-        57
-      ]
+
     ],
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Ferrari Gives Crazy Deal To Lawyer Who Ditched His Car In A Flood http:\/\/fb.me\/MWOObrFy\u00ac\u2020",
@@ -3250,7 +3149,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Trying to get back on track after long junk food filled blizzard weekend .. pic.twitter.com\/lYTKfOmx3D",
@@ -3538,7 +3437,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"A man helped my brother and me get home to our sick parents when our car got stuck in Blizzard of 96.  Every winter I help somebody shovel.",
@@ -3558,7 +3457,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"#Police fire tear gas to disperse the crowd attacking a house in  #Bumburat. #Kalash\nRead:  https:\/\/t.co\/p0RmgtE6Y9 https:\/\/t.co\/z9PJdPzy2D",
@@ -3578,7 +3477,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Dear food lion fuckers: give me a hard time today and you will be under the blizzard",
@@ -3602,7 +3501,7 @@
         22
       ]
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"getting hit by Hurricane Matthew",
@@ -3622,7 +3521,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Breaking: Iran launched a series of missile attacks aimed at U.S. bases in Iraq, Iranian state television reported Tuesday. \nhttps:\/\/t.co\/BoYA017R6x",
@@ -3642,7 +3541,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Blizzard 2016 Update: MTA Shutting Down Buses and Access-a-Ride by Noon Today http:\/\/www.welcome2thebronx.com\/wordpress\/2016\/01\/23\/blizzard-2016-update-mta-shutting-down-buses-and-access-a-ride-by-noon-today\/\u00ac\u2020\u201a\u00c4\u00b6",
@@ -3662,7 +3561,7 @@
     "unk":[
 
     ],
-    "Annotator":"shiao-li"
+    "Annotator":"rachelle"
   },
   {
     "Text":"https:\/\/www.youtube.com\/watch?time_continue=1&v=NeqMSI6OR5Q",
@@ -13553,7 +13452,11 @@
 
     ],
     "hedging":[
-
+      [
+        "Could",
+        49,
+        54
+      ]
     ],
     "adjectives":[
 
@@ -13561,7 +13464,7 @@
     "unk":[
 
     ],
-    "Annotator":"nicole"
+    "Annotator":"rachelle"
   },
   {
     "Text":"Ready to ride! #skidoo #summit #800 #mbrp #blizzard #snowday #hashtag https:\/\/www.instagram.com\/p\/BBTHSgerb6E\/\u00ac\u2020",
