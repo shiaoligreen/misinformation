@@ -13,6 +13,12 @@ dependencies:
   - matplotlib
   - nltk
   - fastapi
-  - streamlit
   - scikit-learn
   - statsmodels
+  - whoosh
+  - pip
+  - pip:
+    - protobuf<=3.20.3
+    - altair<5
+    - streamlit>=1.28
+
