@@ -29,7 +29,7 @@ st.markdown(f"<style>{css.read_text()}</style>", unsafe_allow_html=True)
 
 
 
-# BACKEND
+# BACKEND call to fastapi
 
 BACKEND_URL = "http://localhost:8000"
 
@@ -55,11 +55,12 @@ def _to_entry(result: dict) -> dict:
     }
 
 
-def call_backend(query: str, annotated_only: bool = True) -> list[dict]:
-    """Call the backend /search endpoint and return results in app format."""
+def call_backend(query: str, annotated_only: bool = True, show_ai: bool = False) -> tuple[list[dict], list[dict]]:
+    """Call the backend /search endpoint and return (main_results, ai_results) in app format."""
     params = {
-        "query":  query,
-        "source": "annotated" if annotated_only else "all",
+        "query":   query,
+        "source":  "annotated" if annotated_only else "all",
+        "show_ai": show_ai,
     }
     try:
         resp = requests.get(f"{BACKEND_URL}/search", params=params, timeout=10)
@@ -67,8 +68,11 @@ def call_backend(query: str, annotated_only: bool = True) -> list[dict]:
         data = resp.json()
     except requests.exceptions.RequestException as e:
         st.error(f"Backend unavailable: {e}")
-        return []
-    return [_to_entry(r) for r in data.get("main_results", [])]
+        return [], []
+    return (
+        [_to_entry(r) for r in data.get("main_results", [])],
+        [_to_entry(r) for r in data.get("ai_results", [])],
+    )
 
 
 
@@ -82,7 +86,7 @@ if "search_query" not in st.session_state:
 
 # HEADER
 
-col_title, col_badge = st.columns([4, 1])
+col_title, col_badge = st.columns([5, 1])
 
 with col_title:
     st.markdown(
@@ -101,8 +105,10 @@ with col_title:
 
 with col_badge:
     st.markdown(
-        '<div style="text-align:right; padding-top:6px;">'
-        '<span class="fleiss-badge">Fleiss\' κ <span class="kappa">0.71</span></span>'
+        '<div style="padding-top:6px; display:flex; flex-direction:column; gap:4px; align-items:flex-start;">'
+        '<span style="font-family:\'EB Garamond\',serif; font-size:1.1rem; font-style:italic; font-weight:600; color:#c0392b;">Fleiss\'s κ</span>'
+        '<span style="font-family:\'JetBrains Mono\',monospace; font-size:0.78rem; color:#999;">Humans only &nbsp; 0.739</span>'
+        '<span style="font-family:\'JetBrains Mono\',monospace; font-size:0.78rem; color:#999;">Humans + AI &nbsp; 0.575</span>'
         '</div>',
         unsafe_allow_html=True,
     )
@@ -126,7 +132,11 @@ with search_col:
 with btn_col:
     search_clicked = st.button("SEARCH", use_container_width=True)
 
-annotated_only = st.checkbox("Annotated examples only", value=True)
+chk_col1, chk_col2, _ = st.columns([1, 2, 3])
+with chk_col1:
+    annotated_only = st.checkbox("Annotated examples only", value=True)
+with chk_col2:
+    show_ai = st.checkbox("Show AI (Gemini) annotations", value=False)
 
 if search_clicked or query != st.session_state.search_query:
     st.session_state.search_query = query
@@ -135,7 +145,7 @@ if search_clicked or query != st.session_state.search_query:
 
 # SEARCH
 
-all_results = call_backend(st.session_state.search_query, annotated_only)
+all_results, ai_results = call_backend(st.session_state.search_query, annotated_only, show_ai)
 
 active_tag = st.session_state.active_tag
 if active_tag == "ALL":
@@ -199,6 +209,16 @@ if filtered:
         st.markdown(render_card(entry, st.session_state.active_tag), unsafe_allow_html=True)
 else:
     st.info("No results found. Try a different search term or filter.")
+
+if show_ai:
+    st.markdown("<hr style='border:none;border-top:1px solid #e0e0e0;margin:24px 0 0;'>", unsafe_allow_html=True)
+    st.markdown('<div class="subsection-title">AI (Gemini) Annotations</div>', unsafe_allow_html=True)
+    ai_filtered = ai_results if active_tag == "ALL" else [r for r in ai_results if active_tag in r["tags"]]
+    if ai_filtered:
+        for entry in ai_filtered:
+            st.markdown(render_card(entry, st.session_state.active_tag), unsafe_allow_html=True)
+    else:
+        st.info("No AI results found.")
 
 
 # TAG DISTRIBUTION BAR CHART

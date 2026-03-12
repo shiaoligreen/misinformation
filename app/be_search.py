@@ -14,6 +14,7 @@ from whoosh.analysis import StandardAnalyzer
 from whoosh.qparser import QueryParser
 from whoosh.query import Every, Term, And, Or
 
+#add prefixes for current path, so that other things can be found relative to where this file exists
 _HERE = Path(__file__).parent
 _ROOT = _HERE.parent
 

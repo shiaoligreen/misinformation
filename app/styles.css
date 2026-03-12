@@ -33,15 +33,11 @@ html, body, [class*="css"] {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    border: 1.5px solid #ccc;
-    border-radius: 6px;
-    padding: 4px 14px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.9rem;
-    color: #333;
-    background: white;
+    color: #c0392b;
 }
-.fleiss-badge .kappa { font-weight: 700; color: #1a1a1a; font-size: 1.05rem; }
+.fleiss-badge .kappa { font-weight: 700; color: #c0392b; font-size: 1.05rem; }
 
 /* Filter tag buttons  */
 .stButton > button {
