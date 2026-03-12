@@ -17,4 +17,3 @@ dependencies:
   - scikit-learn
   - statsmodels
   - whoosh
-  - contextlib
