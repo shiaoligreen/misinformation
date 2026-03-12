@@ -16,3 +16,5 @@ dependencies:
   - streamlit
   - scikit-learn
   - statsmodels
+  - whoosh
+  - contextlib
