@@ -14,7 +14,8 @@ from whoosh.analysis import StandardAnalyzer
 from whoosh.qparser import QueryParser
 from whoosh.query import Every, Term, And, Or
 
-#add prefixes for current path, so that other things can be found relative to where this file exists
+#add prefixes for current path, so that other things can be found relative to 
+# where this file exists
 _HERE = Path(__file__).parent
 _ROOT = _HERE.parent
 
@@ -59,7 +60,11 @@ def make_schema():
 
 def build_or_load_index():
     ''' 
-    docstring
+    Loads the Whoosh index from disk or builds it from scratch if not found.
+    
+    Uses a 'Split-Set' approach during indexing to ensure the primary results 
+    contain unique entries while allowing Gemini annotations to overlap for 
+    comparison. 
     '''
     global ix
 
@@ -72,20 +77,24 @@ def build_or_load_index():
 
 def build_index():
     '''
-    docstring
+    Builds the Whoosh index by coordinating different data loaders.
     '''
     #create folder, don't throw error if folder already exists
     os.makedirs(INDEX_DIR, exist_ok=True)
     ix = create_in(INDEX_DIR, make_schema())
     writer = ix.writer()
 
-    # track and avoid duplicates
-    seen = set()
+    # 1. Main set: shared between human annotations and main corpus
+    # prevents duplicates in main results
+    seen_main = set()
+    # 2. AI set: for Gemini/AI dataset only
+    # ensures Gemini examples indexed even if they overlap with main set
+    seen_ai = set()
 
-    # pass writer and seen set to every function
-    annotations_count = add_annotations(writer, seen)
-    gemini_count = add_ai_annotations(writer, seen)
-    corpus_count = add_corpus_docs(writer, seen)
+    # pass writer and appropriate set to each function
+    annotations_count = add_annotations(writer, seen_main)
+    gemini_count = add_ai_annotations(writer, seen_ai)
+    corpus_count = add_corpus_docs(writer, seen_main)
 
     writer.commit()
     print("Index built successfully!")
@@ -95,13 +104,13 @@ def build_index():
     return ix
 
 
-def add_annotations(writer, seen):
+def add_annotations(writer, seen_main):
     '''
     Adds human-annotated examples to the index
 
     Parameters:
         writer: Whoosh IndexWriter object
-        seen: set of cleaned text strings, preventing duplication
+        seen_main: set of cleaned text strings, preventing duplication
     
     Returns:
         int: total number of unique annotated examples added to index
@@ -113,9 +122,9 @@ def add_annotations(writer, seen):
 
     for i, example in enumerate(examples):
         text = example.get("Text","").strip()
-        if not text or clean(text) in seen:
+        if not text or clean(text) in seen_main:
             continue
-        seen.add(clean(text))
+        seen_main.add(clean(text))
         # present_tags = per example flattened list of present tags
         # for whoosh search filtering
         present_tags = []
@@ -143,13 +152,13 @@ def add_annotations(writer, seen):
     return count
 
 
-def add_ai_annotations(writer, seen):
+def add_ai_annotations(writer, seen_ai):
     '''
     Adds AI-generated annotations to the index.
 
     Parameters:
         writer: Whoosh IndexWriter object
-        seen: set of cleaned text strings, preventing duplication
+        seen_ai: set of cleaned text strings, preventing duplication
     
     Returns:
         int: total number of AI-annotated examples added to index 
@@ -161,9 +170,9 @@ def add_ai_annotations(writer, seen):
 
     for i, example in enumerate(examples):
         text = example.get("Text","").strip()
-        if not text or clean(text) in seen:
+        if not text or clean(text) in seen_ai:
             continue
-        seen.add(clean(text))
+        seen_ai.add(clean(text))
         # present_tags = per example flattened list of present tags
         # for whoosh search filtering
         present_tags = []
@@ -190,13 +199,13 @@ def add_ai_annotations(writer, seen):
 
     return count
 
-def add_corpus_docs(writer, seen):
+def add_corpus_docs(writer, seen_main):
     ''' 
     Adds main corpus examples to the index.
 
     Parameters:
         writer: Whoosh IndexWriter object
-        seen: set of cleaned text strings, preventing duplication
+        seen_main: set of cleaned text strings, preventing duplication
     
     Returns:
         int: total number of corpus examples added to index 
@@ -213,9 +222,9 @@ def add_corpus_docs(writer, seen):
         for row in reader:
             text = row.get("text", "").strip()
             # use clean() helper to skip duplicates
-            if not text or clean(text) in seen:
+            if not text or clean(text) in seen_main:
                 continue
-            seen.add(clean(text))
+            seen_main.add(clean(text))
 
             # Handle unnamed ID column in main corpus (cleaned_dataset.csv)
             # if ID column is empty, fall back on to count
