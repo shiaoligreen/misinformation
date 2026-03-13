@@ -4,7 +4,16 @@
 /* Global resets  */
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
-    background: #fafaf8;
+}
+
+/* Page background */
+html, body,
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stMainBlockContainer"],
+section.main {
+    background: #f5f5f3 !important;
 }
 
 /* Header area  */
@@ -203,6 +212,23 @@ code.inline-code {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.82rem;
     color: #333;
+}
+
+/* Search input — white background */
+[data-testid="stTextInput"] input,
+[data-testid="stTextInput"] > div {
+    background: white !important;
+}
+
+/* SEARCH button — red, targeting the unique 2-column search row */
+[data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"]:nth-child(2):last-child) [data-testid="stColumn"]:last-child .stButton > button {
+    background: #c0392b !important;
+    border-color: #c0392b !important;
+    color: white !important;
+}
+[data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"]:nth-child(2):last-child) [data-testid="stColumn"]:last-child .stButton > button:hover {
+    background: #a93226 !important;
+    border-color: #a93226 !important;
 }
 
 /* hide Streamlit chrome */
