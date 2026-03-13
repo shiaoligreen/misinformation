@@ -8,4 +8,5 @@ protobuf<=3.20.3
 altair<5
 streamlit>=1.28
 uvicorn
-Whoosh
+whoosh
+requests
