@@ -32,7 +32,9 @@ st.markdown(f"<style>{css.read_text()}</style>", unsafe_allow_html=True)
 import os
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
+
 ALL_TAGS = ["ADJECTIVES", "ALL_CAPS", "EXCLAMATION_MARKS", "HEDGING", "UNK"]
+
 
 
 def _to_entry(result: dict) -> dict:
@@ -121,7 +123,7 @@ search_col, btn_col = st.columns([5, 1])
 
 with search_col:
     query = st.text_input(
-        label="",
+        label="Search query",
         value=st.session_state.search_query,
         placeholder="Search terms...",
         key="search_input",
