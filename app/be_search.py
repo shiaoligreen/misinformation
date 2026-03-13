@@ -16,17 +16,15 @@ from whoosh.query import Every, Term, And, Or
 
 #add prefixes for current path, so that other things can be found relative to 
 # where this file exists
-_HERE = Path(__file__).parent
-_ROOT = _HERE.parent
 
 # main corpus, cleaned, with no annotations
-CSV_PATH = _ROOT / "data/preprocessed/cleaned_dataset.csv"
+CSV_PATH = "data/cleaned_dataset.csv"
 # annotated examples
-ANNOTATIONS_PATH = _ROOT / "data/preprocessed/consolidated_annotations.json"
+ANNOTATIONS_PATH = "data/consolidated_annotations.json"
 # AI annotations (Gemini)
-AI_PATH = _ROOT / "data/preprocessed/Gemini_annotations_cleaned.json"
+AI_PATH = "data/Gemini_annotations_cleaned.json"
 # whoosh index directory
-INDEX_DIR = str(_HERE / "whoosh_index")
+INDEX_DIR = "whoosh_index"
 # list of annotation tags
 ALL_TAGS = ["all_caps", "exclamation_marks", "hedging", "adjectives", "unk"]
 # index placeholder
@@ -185,9 +183,8 @@ def add_ai_annotations(writer, seen_ai):
             raw_tags[tag] = spans
             if spans:
                 present_tags.append(tag)
-    
         writer.add_document(
-            doc_id = f"ai_{int(example.get('ID', count))}",
+            doc_id = f”ai_{int(example.get(‘ID’) or count)}“,
             text = text,
             source = "gemini",
             tags = " ".join(present_tags),
