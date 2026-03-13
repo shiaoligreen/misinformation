@@ -151,7 +151,7 @@ active_tags = st.session_state.active_tags
 if not active_tags:
     filtered = all_results
 else:
-    filtered = [r for r in all_results if any(t in r["tags"] for t in active_tags)]
+    filtered = [r for r in all_results if all(t in r["tags"] for t in active_tags)]
 
 
 # RESULTS COUNT + TAG FILTER BUTTONS
@@ -261,7 +261,7 @@ st.markdown(
 if filtered:
     ai_by_text = {}
     if show_ai:
-        ai_filtered = ai_results if not active_tags else [r for r in ai_results if any(t in r["tags"] for t in active_tags)]
+        ai_filtered = ai_results if not active_tags else [r for r in ai_results if all(t in r["tags"] for t in active_tags)]
         ai_by_text = {r["text"].strip().lower(): r for r in ai_filtered}
 
     for entry in filtered:
