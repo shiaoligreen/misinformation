@@ -1,0 +1,210 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap');
+
+/* Global resets  */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    background: #fafaf8;
+}
+
+/* Header area  */
+.header-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.1rem;
+    line-height: 1.2;
+}
+.header-title em {
+    font-style: italic;
+    color: #c0392b;
+}
+.header-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    color: #888;
+    letter-spacing: 0.02em;
+}
+.header-meta span { margin: 0 6px; }
+
+/* Fleiss k badge */
+.fleiss-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    color: #c0392b;
+}
+.fleiss-badge .kappa { font-weight: 700; color: #c0392b; font-size: 1.05rem; }
+
+/* Filter tag buttons  */
+.stButton > button {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.70rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.01em !important;
+    border-radius: 4px !important;
+    padding: 3px 8px !important;
+    border: 1.5px solid #ccc !important;
+    background: white !important;
+    color: #444 !important;
+    transition: all 0.15s ease !important;
+    white-space: nowrap !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.stButton > button:hover {
+    border-color: #888 !important;
+    color: #111 !important;
+}
+[data-testid="baseButton-primary"] {
+    background: #1a1a1a !important;
+    color: white !important;
+    border-color: #1a1a1a !important;
+}
+[data-testid="baseButton-primary"]:hover {
+    background: #333 !important;
+    border-color: #333 !important;
+    color: white !important;
+}
+.stButton > button[kind="primary"],
+[data-testid="baseButton-primary"] {
+    background: #111 !important;
+    color: #fff !important;
+    border-color: #111 !important;
+}
+.stButton > button[kind="primary"]:hover,
+.stButton > button[kind="primary"]:active,
+[data-testid="baseButton-primary"]:hover,
+[data-testid="baseButton-primary"]:active {
+    background: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+}
+.stButton > button:active,
+.stButton > button:focus-visible {
+    background: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+}
+
+/* Result cards */
+.result-card {
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+    background: white;
+    font-family: 'Inter', sans-serif;
+}
+.result-id {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-bottom: 6px;
+}
+.result-text { font-size: 0.95rem; line-height: 1.6; color: #222; }
+
+/* Highlight colours — one per annotation tag */
+.hl-orange { color: #e67e22; font-weight: 700; text-transform: uppercase; } /* ALL_CAPS */
+.hl-red    { color: #c0392b; font-weight: 600; }                            /* EXCLAMATION_MARKS */
+.hl-green  { color: #27ae60; font-weight: 600; }                            /* HEDGING */
+.hl-blue   { color: #2980b9; font-weight: 600; }                            /* ADJECTIVES */
+.hl-purple { color: #8e44ad; font-weight: 600; }                            /* UNK */
+.hl-yellow-green { color: #8aab00; }
+
+/* Annotation tag pills */
+.tag-container {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.tag-pill {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-top: 8px;
+    min-width: 120px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tag-ALL_CAPS      { background:#fde8c8; color:#b5500a; }
+.tag-EXCLAMATION_MARKS { background:#fcd6d6; color:#a01010; }
+.tag-HEDGING       { background:#d4edda; color:#1a6632; }
+.tag-ADJECTIVES    { background:#cce5ff; color:#004085; }
+.tag-UNK           { background:#e2d4f0; color:#5a2d82; }
+
+/* Section headers */
+.section-header {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888;
+    margin: 2rem 0 1rem;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 1.5rem;
+}
+.subsection-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+.subsection-desc { font-size: 0.82rem; color: #999; margin-bottom: 1rem; }
+
+/*Bar chart labels*/
+.bar-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: #555;
+    text-align: right;
+    padding-right: 8px;
+}
+
+/*Annotation tag legend  */
+.legend-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 14px;
+    font-size: 0.88rem;
+    color: #333;
+    line-height: 1.5;
+}
+.legend-pill {
+    min-width: 160px;
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 4px 14px;
+    border-radius: 4px;
+}
+code.inline-code {
+    background: #f0f0f0;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: #333;
+}
+
+/* hide Streamlit chrome */
+#MainMenu, footer, header { visibility: hidden; }
+.block-container { padding-top: 2rem !important; padding-left: 3rem !important; padding-right: 3rem !important; }

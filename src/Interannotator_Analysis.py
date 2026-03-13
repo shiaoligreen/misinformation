@@ -103,6 +103,76 @@ def calculate_fleiss(df, include_gemini=True):
     return results_df
 
 
+def overall_fleiss_kappa(df, include_gemini=True):
+    """
+    Calculate a single overall Fleiss' Kappa across all features combined.
+
+    Each (item, feature) pair is treated as one binary rating task: annotators
+    either flagged the tag (1) or did not (0).  All such rows are stacked into
+    one contingency table and a single kappa is returned.
+    """
+    if not include_gemini:
+        df = df[df['Annotator'] != 'Gemini'].copy()
+
+    features = ['all_caps', 'exclamation_marks', 'hedging', 'adjectives', 'unk']
+
+    def _is_present(x):
+        if x is None:
+            return False
+        if isinstance(x, float) and np.isnan(x):
+            return False
+        if isinstance(x, list):
+            return len(x) > 0
+        if isinstance(x, str):
+            return x not in ('[]', '', 'nan', 'None')
+        return bool(x)
+
+    rows = []
+    for feature in features:
+        pivot_df = df.pivot(index='ID', columns='Annotator', values=feature)
+        # keep only items with at least 2 annotators
+        complete = pivot_df.dropna(thresh=2)
+        # standardise to the most common rater count so all rows sum to the same n
+        rater_counts = complete.notna().sum(axis=1)
+        max_raters = int(rater_counts.max())
+        complete = complete[rater_counts == max_raters]
+
+        for _, row in complete.iterrows():
+            yes = sum(_is_present(v) for v in row if not (isinstance(v, float) and np.isnan(v)))
+            no  = max_raters - yes
+            rows.append([no, yes])
+
+    if len(rows) < 2:
+        print("Not enough data for overall Fleiss' Kappa.")
+        return None
+
+    contingency_table = np.array(rows)
+    # drop any rows whose sum differs from the majority (edge cases)
+    row_sums = contingency_table.sum(axis=1)
+    mode_n = int(pd.Series(row_sums).mode()[0])
+    contingency_table = contingency_table[row_sums == mode_n]
+
+    kappa = fleiss_kappa(contingency_table)
+
+    if kappa < 0:
+        interpretation = "Poor"
+    elif kappa < 0.20:
+        interpretation = "Slight"
+    elif kappa < 0.40:
+        interpretation = "Fair"
+    elif kappa < 0.60:
+        interpretation = "Moderate"
+    elif kappa < 0.80:
+        interpretation = "Substantial"
+    else:
+        interpretation = "Almost Perfect"
+
+    label = "Excluding Gemini" if not include_gemini else "Including Gemini"
+    print(f"\n--- Overall Fleiss' Kappa ({label}) ---")
+    print(f"  κ = {kappa:.3f}  ({interpretation})  [{len(contingency_table)} item-feature pairs]")
+    return kappa
+
+
 def calculate_pairwise_agreement(df):
     """
     Calculate Cohen's Kappa for all pairs of annotators on their overlapping data.
@@ -241,6 +311,10 @@ if __name__ == "__main__":
     
 
     
+    # Calculate overall Fleiss' Kappa (single value across all features)
+    overall_fleiss_kappa(df, include_gemini=True)
+    overall_fleiss_kappa(df, include_gemini=False)
+
     # Calculate pairwise agreement using Cohen's Kappa (all pairs of annotators)
     pairwise_results = calculate_pairwise_agreement(df)
 
