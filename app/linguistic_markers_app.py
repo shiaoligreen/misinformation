@@ -30,8 +30,8 @@ st.markdown(f"<style>{css.read_text()}</style>", unsafe_allow_html=True)
 
 
 # BACKEND call to fastapi
-
-BACKEND_URL = "http://localhost:8000"
+import os
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 ALL_TAGS = ["ALL_CAPS", "EXCLAMATION_MARKS", "HEDGING", "ADJECTIVES", "UNK"]
 
@@ -122,7 +122,7 @@ search_col, btn_col = st.columns([5, 1])
 
 with search_col:
     query = st.text_input(
-        label="",
+        label="Search query",
         value=st.session_state.search_query,
         placeholder="Search terms...",
         key="search_input",
