@@ -29,15 +29,15 @@ TAG_BG = {
 }
 
 
-def compute_highlights(text: str, active_tag: str, tag_words: dict) -> str:
-    """Highlight words in text based on the active tag button.
+def compute_highlights(text: str, active_tags: set, tag_words: dict) -> str:
+    """Highlight words in text based on the active tag selection.
 
     tag_words maps tag name → list of matched strings from the annotation data.
-    When active_tag is 'ALL', all tags are highlighted; otherwise only the selected tag.
+    When active_tags is empty, all tags are highlighted; otherwise only the selected tags.
     When ALL_CAPS overlaps with another tag, the word gets an orange underline plus the
     other tag's text color.
     """
-    tags_to_apply = list(TAG_CSS.keys()) if active_tag == "ALL" else [active_tag]
+    tags_to_apply = list(TAG_CSS.keys()) if not active_tags else [t for t in TAG_CSS if t in active_tags]
 
     # Collect all tags that apply to each (start, end) span
     span_tags: dict = {}
@@ -57,7 +57,12 @@ def compute_highlights(text: str, active_tag: str, tag_words: dict) -> str:
         word = text[start:end]
         tags = span_tags[(start, end)]
 
-        if "ALL_CAPS" in tags and len(tags) > 1:
+        all_caps_combo = (
+            "ALL_CAPS" in tags
+            and len(tags) > 1
+            and (not active_tags or ("ALL_CAPS" in active_tags and len(active_tags) > 1))
+        )
+        if all_caps_combo:
             other_tag = next(t for t in tags if t != "ALL_CAPS")
             bg = TAG_BG.get(other_tag, "#fff3e0")
             span = (
@@ -73,22 +78,55 @@ def compute_highlights(text: str, active_tag: str, tag_words: dict) -> str:
     return result
 
 
-def render_card(entry: dict, active_tag: str = "ALL") -> str:
-    """Build the HTML for one result card."""
-    text = compute_highlights(entry["text"], active_tag, entry.get("tag_words", {}))
+_BADGE = (
+    'font-family:\'JetBrains Mono\',monospace; font-size:0.65rem; '
+    'color:white; background:#aaa; border-radius:3px; padding:2px 6px;'
+)
+
+
+def render_card(entry: dict, active_tags: set = frozenset(), source: str | None = None) -> str:
+    """Build the HTML for one result card.
+
+    source: optional label shown above the annotation ID, e.g. 'Human' or 'AI (Gemini)'.
+    """
+    text = compute_highlights(entry["text"], active_tags, entry.get("tag_words", {}))
 
     tag_html = "".join(
         f'<span class="tag-pill tag-{t}">{t}</span>'
         for t in entry["tags"]
     )
 
-    return f"""
-    <div class="result-card">
-        <div class="result-id">{entry['id']}</div>
-        <div class="result-text">{text}</div>
-        <div class="tag-container">{tag_html}</div>
-    </div>
-    """
+    source_line = f'<div style="margin-bottom:4px;"><span style="{_BADGE}">{source}</span></div>' if source else ''
+    return (
+        f'<div class="result-card">'
+        f'{source_line}'
+        f'<div class="result-id">{entry["id"]}</div>'
+        f'<div class="result-text">{text}</div>'
+        f'<div class="tag-container">{tag_html}</div>'
+        f'</div>'
+    )
+
+
+def render_combined_card(human_entry: dict, ai_entry: dict, active_tags: set = frozenset()) -> str:
+    """Build a single card showing human and AI entries stacked with no divider."""
+    human_text = compute_highlights(human_entry["text"], active_tags, human_entry.get("tag_words", {}))
+    ai_text = compute_highlights(ai_entry["text"], active_tags, ai_entry.get("tag_words", {}))
+
+    human_tags = "".join(f'<span class="tag-pill tag-{t}">{t}</span>' for t in human_entry["tags"])
+    ai_tags = "".join(f'<span class="tag-pill tag-{t}">{t}</span>' for t in ai_entry["tags"])
+
+    return (
+        f'<div class="result-card">'
+        f'<div style="margin-bottom:4px;"><span style="{_BADGE}">Human</span></div>'
+        f'<div class="result-id">{human_entry["id"]}</div>'
+        f'<div class="result-text">{human_text}</div>'
+        f'<div class="tag-container">{human_tags}</div>'
+        f'<div style="margin-top:14px; margin-bottom:4px;"><span style="{_BADGE}">AI (Gemini)</span></div>'
+        f'<div class="result-id">{ai_entry["id"]}</div>'
+        f'<div class="result-text">{ai_text}</div>'
+        f'<div class="tag-container">{ai_tags}</div>'
+        f'</div>'
+    )
 
 
 def render_bar_chart(tag_counts: dict) -> str:
