@@ -81,7 +81,7 @@ def call_backend(query: str, annotated_only: bool = True, show_ai: bool = False)
 if "active_tag" not in st.session_state:
     st.session_state.active_tag = "ALL"
 if "search_query" not in st.session_state:
-    st.session_state.search_query = "absolutely"
+    st.session_state.search_query = "terrifying"
 
 
 # HEADER
