@@ -96,7 +96,7 @@ with col_title:
     )
     st.markdown(
         '<div class="header-meta">'
-        'Search over 1 million examples'
+        'Search over 100,000 examples'
         '<span>·</span> 5 human annotators'
         '<span>·</span> 1 AI annotator'
         '<span>·</span> 1,000 annotated examples'
