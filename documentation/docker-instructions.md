@@ -1,149 +1,97 @@
-# Docker Instructions — Linguistic Misinformation Markers
+# Docker Setup Instructions
 
-## Prerequisites
+## Overview
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running on your machine
-- A terminal (macOS/Linux) or PowerShell / Command Prompt (Windows)
+This project uses a single `Dockerfile` to build both the frontend (Streamlit) and backend (FastAPI) services. Orchestration between the two is handled by `docker-compose.yml`, which overrides the default entrypoint for the backend service at runtime.
 
 ---
 
-## Project Structure Expected
-
-Before building, your project folder should look like this:
+## Project Structure
 
 ```
-your-project/
-├── be_search.py
-├── be_fast.py
-├── linguistic_markers_app.py
-├── templates.py
-├── styles.css
-├── Dockerfile
-├── environment.yml          
+COLX_523_misinformation/
+├── app/
+│   ├── data/
+│   ├── testing/
+│   ├── whoosh_index/
+│   ├── be_fast.py                  
+│   ├── be_search.py                
+│   ├── docker-compose.yml
+│   ├── Dockerfile
+│   ├── linguistic_markers_app.py   
+│   ├── requirements.txt
+│   ├── styles.css
+│   └── templates.py
 ├── data/
-│   ├── annotations.json
-│   ├── ai_annotations.json
-│   └── corpus.csv
+├── documentation/
+├── img/
+├── reports/
+├── src/
+├── weekly_minutes/
+├── environment.yml
+├── LICENSE
+├── linguistic_markers_app.tar
+└── README.md
 ```
 
 ---
 
-## Option A — Pull from Docker Hub (Recommended)
+## How It Works
 
-If the image has been uploaded to Docker Hub:
+**`Dockerfile`** builds a single image based on `python:3.12-slim`. By default, its entrypoint runs the Streamlit app on port `8501`.
 
-```bash
-docker pull <team-name>/linguistic-misinformation-markers:latest
-docker run -p 8000:8000 -p 8501:8501 <team-name>/linguistic-misinformation-markers:latest
-```
+**`docker-compose.yml`** spins up two services from that same image:
 
-Then open your browser and go to **http://localhost:8501**
+| Service | Port | Description |
+|---|---|---|
+| `frontend` | `8501` | Runs the Streamlit app (uses the default Dockerfile entrypoint) |
+| `backend` | `8000` | Runs the FastAPI app (overrides the entrypoint to use `uvicorn`) |
 
----
-
-## Option B — Build Locally from Source
-
-### Step 1 — Create the Dockerfile
-
-In your project root, create a file named `Dockerfile` with the following contents:
-
-```dockerfile
-FROM python:3.12-slim
-
-WORKDIR /app
-
-# Install system dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy and install Python dependencies
-COPY environment.yml ./
-RUN pip install --no-cache-dir \
-    pandas numpy fastapi uvicorn whoosh requests streamlit
-
-# Copy application code and data
-COPY be_search.py be_fast.py linguistic_markers_app.py templates.py styles.css ./
-COPY data/ ./data/
-
-# Expose backend (FastAPI) and frontend (Streamlit) ports
-EXPOSE 8000 8501
-
-# Start both services using a simple shell script
-COPY start.sh ./
-RUN chmod +x start.sh
-CMD ["./start.sh"]
-```
-
-### Step 2 — Create the startup script
-
-Create a file named `start.sh` in your project root:
-
-```bash
-#!/bin/sh
-# Start FastAPI backend in the background
-uvicorn be_fast:app --host 0.0.0.0 --port 8000 &
-
-# Start Streamlit frontend in the foreground
-streamlit run linguistic_markers_app.py \
-    --server.port 8501 \
-    --server.address 0.0.0.0 \
-    --server.headless true
-```
-
-### Step 3 — Build the image
-
-From your project root, run:
-
-```bash
-docker build -t linguistic-misinformation-markers .
-```
-
-This may take a few minutes the first time while dependencies are downloaded.
-
-### Step 4 — Run the container
-
-```bash
-docker run -p 8000:8000 -p 8501:8501 linguistic-misinformation-markers
-```
-
-### Step 5 — Open the app
-
-Once you see output like `You can now view your Streamlit app in your browser`, open:
-
-**http://localhost:8501**
-
-The backend API is also accessible at **http://localhost:8000/health** if you want to confirm it is running.
+The `frontend` service is configured with a `BACKEND_URL` environment variable pointing to the backend container, and waits for the backend to start via `depends_on`.
 
 ---
 
-## Stopping the App
+## Running the App
 
-Press `Ctrl+C` in the terminal to stop the container. To remove it entirely:
+From the project root, run:
 
 ```bash
-docker ps                         
-docker stop <container-id>
-docker rm <container-id>
+docker-compose up --build
+```
+
+Once running, open your browser to:
+
+- **Frontend (Streamlit):** http://localhost:8501
+- **Backend (FastAPI):** http://localhost:8000
+
+To stop the services:
+
+```bash
+docker-compose down
 ```
 
 ---
 
-## Troubleshooting
+## Sharing with Peers (via `.tar`)
 
-**Port already in use** — If port 8501 or 8000 is taken by another process, map to different local ports:
+The project is distributed as a `.tar` archive. To get it running:
+
+**1. Extract the archive**
+
 ```bash
-docker run -p 9000:8000 -p 9501:8501 linguistic-misinformation-markers
-```
-Then access the app at **http://localhost:9501**
-
-**App loads but shows "Backend unavailable"** — The Streamlit frontend cannot reach the FastAPI backend. This usually means the backend failed to start. Check the terminal output for errors from `uvicorn`.
-
-**Index build takes a long time on first run** — This is expected. The Whoosh index is built from the corpus on first startup. Subsequent runs will be faster if you mount the index directory as a volume:
-```bash
-docker run -p 8000:8000 -p 8501:8501 \
-    -v $(pwd)/whoosh_index:/app/whoosh_index \
-    linguistic-misinformation-markers
+tar -xf linguistic_markers_app.tar
 ```
 
-**On Windows**, replace `$(pwd)` with `%cd%` in Command Prompt or `${PWD}` in PowerShell.
+**2. Navigate into the project directory**
+
+```bash
+cd linguistic_markers_app/app
+```
+
+**3. Build and start the services**
+
+```bash
+docker-compose up --build
+```
+
+> **Prerequisites:** Peers will need [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed. No Python environment or dependency installation is required — everything runs inside the containers.
