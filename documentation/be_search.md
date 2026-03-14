@@ -24,15 +24,18 @@ The index is built once at startup and held in a module-level variable (`ix`), s
 
 **`build_or_load_index()`** — Called by `be_fast.py` at startup. Opens an existing index at `whoosh_index/` if present; otherwise calls `build_index()`.
 
-**`build_index()`** — Creates the index and takes in all three sources in order: human annotations → AI annotations → corpus. Annotated examples are indexed first so duplicate texts retain their annotation spans.
+**`build_index()`** — Creates the index and takes in all three sources in order: human annotations → AI annotations → corpus. AUses two separate deduplication sets: `seen_main` (shared between human annotations and corpus) and `seen_ai` (used only by the AI annotations). This split allows the same text to appear in both the main results and the AI results, so users can directly compare human and AI annotation versions of the same example.
 
-**`add_annotations(writer, seen)`** / **`add_ai_annotations(writer, seen)`** / **`add_corpus_docs(writer, seen)`** — Each reads its respective file, skips empty or already-seen texts (checked via `clean()`), and writes documents to the index. Return the count of documents added.
+***`add_annotations(writer, seen_main)`** / **`add_corpus_docs(writer, seen_main)`** — Share the `seen_main` set, so a text that appears in both the human-annotated data and the main corpus is only indexed once in the main results. Each reads its respective file, skips empty or already-seen texts (checked via `clean()`), and writes documents to the index. Returns the count of documents added.
+
+**`add_ai_annotations(writer, seen_ai)`** — Uses its own separate `seen_ai` set, independent of `seen_main`. This means a text that also exists in the human annotations or corpus is still indexed under the `gemini` source, allowing it to surface alongside the equivalent main-results entry for side-by-side annotation comparison. Returns the count of documents added.
 
 **`clean(text)`** — Lowercases and collapses whitespace. Used for duplicate detection.
 
 **`search(query, source, show_ai, tags, misinformation_filter, limit=50)`** — Public search function. Parses the query string into a Whoosh query object (or `Every()` if empty), then calls `fetch_results()`. If `show_ai=True`, runs a second parallel search against the `gemini` source.
 
 **`fetch_results(searcher, text_query, source, tags, misinformation_filter, limit)`** — Compiles Boolean filter conditions and executes the search. All active conditions are combined with `And()` and passed as the `filter` argument to `searcher.search()`.
+
 
 | Filter | Whoosh query |
 |---|---|
