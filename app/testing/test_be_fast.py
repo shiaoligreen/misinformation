@@ -1,8 +1,15 @@
 """Tests for be_fast.py"""
 
+import os
+import sys
 import pytest
 from unittest.mock import patch, MagicMock
 from fastapi.testclient import TestClient
+
+# ---------------------------------------------------------------------------
+# Path fix: test file lives in app/testing/, be_fast.py lives in app/
+# ---------------------------------------------------------------------------
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 # Client fixture — function-scoped (not module-scoped) so each test gets a
 # fresh app instance with its own startup/shutdown cycle. This prevents
