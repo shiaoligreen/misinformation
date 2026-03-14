@@ -184,7 +184,7 @@ def add_ai_annotations(writer, seen_ai):
             if spans:
                 present_tags.append(tag)
         writer.add_document(
-            doc_id = f”ai_{int(example.get(‘ID’) or count)}“,
+            doc_id = f"ai_{int(example.get('ID') or count)}",
             text = text,
             source = "gemini",
             tags = " ".join(present_tags),
