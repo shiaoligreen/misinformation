@@ -4,9 +4,10 @@ import json
 import csv
 import os
 import pytest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 
 from whoosh.index import create_in
+from whoosh import index
 
 import be_search
 from be_search import clean, make_schema, build_or_load_index, search, ALL_TAGS
@@ -65,7 +66,10 @@ def populated_ix(fresh_ix):
     for d in docs:
         writer.add_document(**d)
     writer.commit()
-    return fresh_ix
+    # Reopen after commit so the index object reflects the committed state
+    reopened = index.open_dir(fresh_ix.storage.folder)
+    be_search.ix = reopened
+    return reopened
 
 
 # clean()
@@ -105,7 +109,8 @@ class TestBuildOrLoadIndex:
         os.makedirs(tmp_index_dir, exist_ok=True)
         create_in(tmp_index_dir, make_schema()).close()
         with patch("be_search.index.open_dir") as mock_open:
-            mock_open.return_value = object()
+            # Use MagicMock so attribute access (e.g. .latest_generation()) doesn't raise
+            mock_open.return_value = MagicMock()
             build_or_load_index()
             mock_open.assert_called_once_with(tmp_index_dir)
 
@@ -117,7 +122,7 @@ class TestIngestion:
     def test_annotations_deduplication_and_tag_recording(self, fresh_ix, tmp_path):
         annotations = [
             _make_annotation("unique text", "1", tags={"hedging": [["maybe", 0, 5]]}),
-            _make_annotation("unique text", "1"),   
+            _make_annotation("unique text", "1"),
         ]
         ann_file = tmp_path / "annotations.json"
         ann_file.write_text(json.dumps(annotations), encoding="utf-8")
@@ -129,7 +134,10 @@ class TestIngestion:
             writer.commit()
 
         assert count == 1
-        with fresh_ix.searcher() as s:
+
+        # Reopen the index from disk after commit to avoid ReaderClosed errors
+        reopened = index.open_dir(fresh_ix.storage.folder)
+        with reopened.searcher() as s:
             results = list(s.search(be_search.Every()))
         assert "hedging" in results[0]["tags"]
 
@@ -174,7 +182,10 @@ class TestIngestion:
             writer.commit()
 
         assert count == 1
-        with fresh_ix.searcher() as s:
+
+        # Reopen the index from disk after commit to avoid ReaderClosed errors
+        reopened = index.open_dir(fresh_ix.storage.folder)
+        with reopened.searcher() as s:
             raw_tags = json.loads(list(s.search(be_search.Every()))[0]["raw_tags"])
         assert set(raw_tags.keys()) == set(ALL_TAGS)
         assert all(v == [] for v in raw_tags.values())
