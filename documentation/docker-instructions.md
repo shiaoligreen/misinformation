@@ -14,11 +14,11 @@ COLX_523_misinformation/
 │   ├── data/
 │   ├── testing/
 │   ├── whoosh_index/
-│   ├── be_fast.py                  
-│   ├── be_search.py                
+│   ├── be_fast.py                  # FastAPI backend
+│   ├── be_search.py                # Search backend logic
 │   ├── docker-compose.yml
 │   ├── Dockerfile
-│   ├── linguistic_markers_app.py   
+│   ├── linguistic_markers_app.py   # Streamlit frontend
 │   ├── requirements.txt
 │   ├── styles.css
 │   └── templates.py
@@ -76,22 +76,54 @@ docker-compose down
 
 The project is distributed as a `.tar` archive. To get it running:
 
-**1. Extract the archive**
+> **Prerequisites:** Peers will need [Docker Desktop](https://docs.docker.com/get-docker/) installed. No Python environment or dependency installation is required — everything runs inside the containers.
+
+**1. Download the archive**
+
+Download the `linguistic_markers_app.tar` file from the repository root.
+
+**2. Extract the archive**
 
 ```bash
-tar -xf linguistic_markers_app.tar
+tar -xvf linguistic_markers_app.tar
 ```
 
-**2. Navigate into the project directory**
+This will extract the contents into a folder. The `Dockerfile` and `docker-compose.yml` are located inside the `app/` subdirectory.
+
+**3. Open Docker Desktop**
+
+Make sure Docker Desktop is open and running before proceeding — the `docker-compose` command requires the Docker daemon to be active.
+
+**4. Navigate into the `app` directory**
 
 ```bash
 cd linguistic_markers_app/app
 ```
 
-**3. Build and start the services**
+**5. Build and start the services**
 
 ```bash
 docker-compose up --build
 ```
 
-> **Prerequisites:** Peers will need [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed. No Python environment or dependency installation is required — everything runs inside the containers.
+**6. Open the app in your browser**
+
+Once the services are running, the app is accessible at:
+
+- **Frontend (Streamlit):** http://localhost:8501
+
+To stop the services:
+
+```bash
+docker-compose down
+```
+
+---
+
+## Things to Try
+
+Once the app is running, here are a few things worth exploring:
+
+- **AI vs. human disagreements** — can you find an item where the AI (Gemini) and human annotations don't match? Enable *Show AI (Gemini) annotations* in the search bar to compare side by side.
+- **Tag density** — what's the most tags a single annotation has?
+- **Empty tag results** — note that some annotated items had no content that fell into any tag category, so not every result will have tags.
