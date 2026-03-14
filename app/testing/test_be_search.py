@@ -8,6 +8,7 @@ from unittest.mock import patch, MagicMock
 
 from whoosh.index import create_in
 from whoosh import index
+from whoosh.query import Every
 
 import be_search
 from be_search import clean, make_schema, build_or_load_index, search, ALL_TAGS
@@ -109,8 +110,11 @@ class TestBuildOrLoadIndex:
         os.makedirs(tmp_index_dir, exist_ok=True)
         create_in(tmp_index_dir, make_schema()).close()
         with patch("be_search.index.open_dir") as mock_open:
-            # Use MagicMock so attribute access (e.g. .latest_generation()) doesn't raise
-            mock_open.return_value = MagicMock()
+            # FIX: configure numeric return values for any int comparisons
+            # made on the index object inside build_or_load_index()
+            mock_ix = MagicMock()
+            mock_ix.latest_generation.return_value = 1
+            mock_open.return_value = mock_ix
             build_or_load_index()
             mock_open.assert_called_once_with(tmp_index_dir)
 
@@ -119,7 +123,10 @@ class TestBuildOrLoadIndex:
 # (one test per source type, same logic)
 class TestIngestion:
 
-    def test_annotations_deduplication_and_tag_recording(self, fresh_ix, tmp_path):
+    # FIX: accept tmp_index_dir fixture so the patched INDEX_DIR path is in
+    # scope, then reopen from that path (not the stale fresh_ix handle) and
+    # use the locally-imported Every() instead of be_search.Every().
+    def test_annotations_deduplication_and_tag_recording(self, fresh_ix, tmp_path, tmp_index_dir):
         annotations = [
             _make_annotation("unique text", "1", tags={"hedging": [["maybe", 0, 5]]}),
             _make_annotation("unique text", "1"),
@@ -135,10 +142,10 @@ class TestIngestion:
 
         assert count == 1
 
-        # Reopen the index from disk after commit to avoid ReaderClosed errors
-        reopened = index.open_dir(fresh_ix.storage.folder)
+        # Reopen from the patched INDEX_DIR path after commit
+        reopened = index.open_dir(tmp_index_dir)
         with reopened.searcher() as s:
-            results = list(s.search(be_search.Every()))
+            results = list(s.search(Every()))
         assert "hedging" in results[0]["tags"]
 
     def test_ai_annotations_indexed_independently_of_main(self, fresh_ix, tmp_path):
@@ -186,7 +193,7 @@ class TestIngestion:
         # Reopen the index from disk after commit to avoid ReaderClosed errors
         reopened = index.open_dir(fresh_ix.storage.folder)
         with reopened.searcher() as s:
-            raw_tags = json.loads(list(s.search(be_search.Every()))[0]["raw_tags"])
+            raw_tags = json.loads(list(s.search(Every()))[0]["raw_tags"])
         assert set(raw_tags.keys()) == set(ALL_TAGS)
         assert all(v == [] for v in raw_tags.values())
 
