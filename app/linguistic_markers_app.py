@@ -17,6 +17,7 @@ from templates import render_card, render_combined_card, render_bar_chart
 
 st.set_page_config(
     page_title="Linguistic Misinformation Markers",
+     page_icon=":memo:",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
