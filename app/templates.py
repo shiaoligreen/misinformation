@@ -55,7 +55,7 @@ def compute_highlights(text: str, active_tags: set, tag_words: dict) -> str:
         if start < pos:
             continue
         word = text[start:end]
-        tags = span_tags[(start, end)]
+        tags = list(dict.fromkeys(span_tags[(start, end)]))
 
         all_caps_combo = (
             "ALL_CAPS" in tags
