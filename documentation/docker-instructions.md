@@ -127,3 +127,10 @@ Once the app is running, here are a few things worth exploring:
 - **AI vs. human disagreements** — can you find an item where the AI (Gemini) and human annotations don't match? Enable *Show AI (Gemini) annotations* in the search bar to compare side by side.
 - **Tag density** — what's the most tags a single annotation has?
 - **Empty tag results** — note that some annotated items had no content that fell into any tag category, so not every result will have tags.
+
+---
+
+## Noteworthy Mentions
+
+- **Restrictions:** No notable restrictions found.
+- **Considerations:** Our team chose not to include the classification labels (misinformation vs. fact) to prioritize human annotation insights. 
