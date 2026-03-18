@@ -95,52 +95,38 @@ The app renders top-to-bottom in a single column (wide layout). Each section re-
 Two-column layout:
 
 - **Left:** App title and subtitle (count of examples, annotator counts).
-- **Right:** Fleiss's κ scores for humans-only and humans + AI.
+- **Right:** Fleiss's κ scores for humans-only annotations and humans + AI annotations.
 
 ### Search Bar
 
 Two-column layout:
 
-- **Left:** `st.text_input` for the search query.
+- **Left:** search input box for the search query.
 - **Right:** `SEARCH` button.
 
 Two checkboxes below:
 
-- **Annotated examples only** — controls the `source` parameter sent to the backend.
-- **Show AI (Gemini) annotations** — triggers a parallel backend search and renders a paired results section.
+- **Annotated examples only** — allows the user to restrict their search to examples from the corpus that are annotated. 
+- **Show AI (Gemini) annotations** — allows the user to view AI annotated examples when available, below each human annotated example for comparison. 
 
 A search re-run is triggered when either the button is clicked or the query text changes.
 
 ### Tag Filter Buttons
 
-One button per tag (`ALL`, ADJECTIVES`,` ALL_CAPS`,` EXCLAMATION_MARKS`,` HEDGING`,` UNK`). The active button is styled using a dynamically injected CSS block keyed to` st.session_state.active_tag`. Clicking a button sets` active_tag`in session state and calls`st.rerun()`.
-
-Client-side filtering is applied through and logic after the backend call:
-
-```python
-filtered = [r for r in all_results if all(t in r["tags"] for t in active_tags)]
-```
+One button per tag (`ALL`, `ADJECTIVES`, `ALL_CAPS`, `EXCLAMATION_MARKS`, `HEDGING`, `UNK`). The active button is highlighted in its tag colour.
 
 ### Annotation Tags Legend
 
-Static reference section at the bottom of the page. Lists all five tags with descriptions and colour swatches. The `ALL_CAPS + TAG` overlap rendering rule is also explained here with an inline example.
+This reference section lists all five tags with descriptions and colour swatches. The `ALL_CAPS + TAG` overlap rendering rule is also explained here with an inline example.
 
 ### Result Cards
 
-Each result in `filtered` is rendered via `templates.render_card(entry, active_tag)` and take `st.markdown(unsafe_allow_html=True)`. If no results match, an info message is shown.
-
-Results are limited to 50 items.
+Each result is rendered in a result card. If no results match, an info message is shown. Results are limited to 50 items.
 
 ### AI-Paired Results Section
 
-Rendered only when `show_ai` is checked. Applies the same tag filter to `ai_results` and renders the result in the same corresponding item as the human annotation.
+These appear when the `Show AI (Gemini) annotations` check-box is selected. The same tag filter is applied to both the human and corresponding AI annotated search results.
 
 ### Tag Distribution Bar Chart
 
-Always rendered below the result cards. Counts are computed over the **unfiltered** `all_results` list (not `filtered`), so the chart always reflects the full search result distribution regardless of the active tag button.
-
-```python
-tag_counts = {t: sum(1 for r in all_results if t in r["tags"]) for t in ALL_TAGS}
-```
-
-Chart is rendered via `templates.render_bar_chart(tag_counts)`.
+Below the result cards is a tag distribution chart. Counts are computed over the **unfiltered** search results (not filtered by tag), so the chart always reflects the full search result distribution for each tag, regardless of the active tag button.
