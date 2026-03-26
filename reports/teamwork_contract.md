@@ -32,7 +32,7 @@ Work will be distributed during the ~~Monday~~ Tuesday sprint planning meeting. 
 
 Each week, one of us takes on the scrum leader role. This person keeps the team on track, runs the Monday planning meeting, and ensures we meet our Thursday deadline. The rotation order is:
 
-**Rotation:** Sprint 1: Shiao-li → Sprint 2: → Sprint 3: → Sprint 4:
+**Rotation:** Sprint 1: → Sprint 2: → Sprint 3: → Sprint 4:
 
 ## Code Review
 
@@ -40,10 +40,10 @@ Code reviews will be completed by end of day Friday each week. There are two rol
 
 | Sprint | Primary  | Secondary |
 |--------|----------|-----------|
-| 1      |          | Shiao-li  |
+| 1      |          |  |
 | 2      |          |           |
 | 3      |          |           |
-| 4      | Shiao-li |           |
+| 4      |  |           |
 
 ## Quality of Work
 
