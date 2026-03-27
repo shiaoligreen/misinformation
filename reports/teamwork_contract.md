@@ -49,6 +49,10 @@ Code reviews will be completed by end of day Friday each week. There are two rol
 
 We all want to be proud of what we produce! Team members will write clean, well-documented code and test before submitting for review. If a member is struggling with a task, they will raise it early.
 
+## Disagreement Resolution (added clause for 581 project)
+
+If consensus is not reached by the team regarding any aspect of the project, then a majority vote rule is implemented. If the vote is evenly split, then the scrum leader makes the final decision. 
+
 ## Availability
 
 Life happens - any regular unavailability:
@@ -78,7 +82,7 @@ By signing below, we agree to uphold this contract and support each other throug
 
 | Name     | Signature      | Date              |
 |----------|----------------|-------------------|
-| Jennifer | Jennifer Flake | Feb 19, 2026      |
-| Nicole   | Nicole Shantz  | February 20, 2025 |
-| Shiao-li | S F Green      | Feb 18, 2026      |
-| Rachelle | RDJ            | Feb 20, 2026      |
+| Jennifer | Jennifer Flake |      |
+| Nicole   | Nicole Shantz  |  |
+| Shiao-li | S F Green      |       |
+| Rachelle | RDJ            |       |
