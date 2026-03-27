@@ -19,8 +19,8 @@ Our main hub for communication will be Slack. We ask that everyone does their be
 The team will meet three times per week:
 
 -   ~~**Monday**~~ **Tuesday** — Brief sprint planning meeting to align on goals and distribute work for the coming week. Meeting time after the morning lecture block. Attendance in-person or via slack call.
--   **Wednesday afternoon** — In-person co-working session. Members who cannot attend in person may join online.
--   ~~**Thursday** — Stakeholder meeting and sprint submission deadline.~~
+-   **Wednesday afternoon** — ~~In-person co-working session. Members who cannot attend in person may join online.~~
+-   **Thursday** — ~~Stakeholder meeting and sprint submission deadline.~~ In-person co-working session. Members who cannot attend in person may join online.
 
 Brief minutes from ~~Monday's~~ Tuesday's meeting will be recorded and stored in the shared repository. These will be jointly edited in Slack and uploaded as a README file to the repo.
 
