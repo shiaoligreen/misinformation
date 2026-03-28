@@ -16,11 +16,11 @@ Our main hub for communication will be Slack. We ask that everyone does their be
 
 ## Meetings
 
-The team will meet three times per week:
+The team will meet ~~three~~ two times per week:
 
 -   ~~**Monday**~~ **Tuesday** — Brief sprint planning meeting to align on goals and distribute work for the coming week. Meeting time after the morning lecture block. Attendance in-person or via slack call.
--   **Wednesday afternoon** — In-person co-working session. Members who cannot attend in person may join online.
--   ~~**Thursday** — Stakeholder meeting and sprint submission deadline.~~
+-   **Wednesday afternoon** — ~~In-person co-working session. Members who cannot attend in person may join online.~~
+-   **Thursday** — ~~Stakeholder meeting and sprint submission deadline.~~ In-person co-working session. Members who cannot attend in person may join online.
 
 Brief minutes from ~~Monday's~~ Tuesday's meeting will be recorded and stored in the shared repository. These will be jointly edited in Slack and uploaded as a README file to the repo.
 
@@ -32,7 +32,7 @@ Work will be distributed during the ~~Monday~~ Tuesday sprint planning meeting. 
 
 Each week, one of us takes on the scrum leader role. This person keeps the team on track, runs the Monday planning meeting, and ensures we meet our Thursday deadline. The rotation order is:
 
-**Rotation:** Sprint 1: Shiao-li → Sprint 2: → Sprint 3: → Sprint 4:
+**Rotation:** Sprint 1: Nicole → Sprint 2: Shiao-li → Sprint 3: Rachelle → Sprint 4: Jennifer
 
 ## Code Review
 
@@ -40,14 +40,22 @@ Code reviews will be completed by end of day Friday each week. There are two rol
 
 | Sprint | Primary  | Secondary |
 |--------|----------|-----------|
-| 1      |          | Shiao-li  |
-| 2      |          |           |
-| 3      |          |           |
-| 4      | Shiao-li |           |
+| 1      | Shiao-li | Nicole |
+| 2      | Rachelle | Shiao-li |
+| 3      | Jennifer | Rachelle |
+| 4      | Nicole | Jennifer |
+
+## Final Report
+
+The team will strive as a group to complete the report by Thursday, April 23rd, 2026 to account for any necessary edits to produce a fully cohesive project and report by the final deadline. 
 
 ## Quality of Work
 
 We all want to be proud of what we produce! Team members will write clean, well-documented code and test before submitting for review. If a member is struggling with a task, they will raise it early.
+
+## Disagreement Resolution (added clause for 581 project)
+
+If consensus is not reached by the team regarding any aspect of the project, then a majority vote rule is implemented. If the vote is evenly split, then the scrum leader makes the final decision. 
 
 ## Availability
 
@@ -78,7 +86,7 @@ By signing below, we agree to uphold this contract and support each other throug
 
 | Name     | Signature      | Date              |
 |----------|----------------|-------------------|
-| Jennifer | Jennifer Flake | Feb 19, 2026      |
-| Nicole   | Nicole Shantz  | February 20, 2025 |
-| Shiao-li | S F Green      | Feb 18, 2026      |
-| Rachelle | RDJ            | Feb 20, 2026      |
+| Jennifer | Jennifer Flake |      |
+| Nicole   | Nicole Shantz  |  |
+| Shiao-li | S F Green      |       |
+| Rachelle | RDJ            |       |
