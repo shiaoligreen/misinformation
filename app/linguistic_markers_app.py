@@ -12,7 +12,7 @@ import requests
 
 from templates import render_card, render_combined_card, render_bar_chart
 
-
+# The entire front end of this app had a lot of assistance from Claude
 # PAGE CONFIG — this has to be the first call
 
 st.set_page_config(
