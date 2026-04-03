@@ -1,5 +1,5 @@
 # FastAPI
-
+# Code written with support from Claude AI
 
 from fastapi import FastAPI, Query
 from contextlib import asynccontextmanager

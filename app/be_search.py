@@ -1,5 +1,6 @@
 # Corpus loading and keyword search
 # index built once at startup
+# Code written with support from Claude AI
 
 
 import os
