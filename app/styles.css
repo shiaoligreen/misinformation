@@ -1,6 +1,8 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap');
 
+
+/* We used Claude extensively in the implementation of the front end of this app, including the styles.css file */
 /* Global resets  */
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;

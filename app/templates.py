@@ -4,6 +4,10 @@ HTML rendering helpers for the Linguistic Misinformation Markers app.
 
 import re
 
+
+#Claude contributed to the design and implementation of the front end of the app, including templates.py
+
+
 BAR_COLORS = {
     "ALL_CAPS":          "#e67e22",
     "EXCLAMATION_MARKS": "#c0392b",
