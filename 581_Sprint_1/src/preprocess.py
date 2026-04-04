@@ -1,7 +1,7 @@
 """
 Tweet preprocessing pipeline.
 
-Steps (in order):
+Steps:
    tweet-preprocessor tokenize() — replaces with special tokens:
        @mention   → $MENTION$
        URL        → $URL$
@@ -25,7 +25,10 @@ import re
 import preprocessor as p
 from nltk.tokenize import TweetTokenizer
 
+#learned about the existence of TweetTokenizer from Gemini. 
 _tokenizer   = TweetTokenizer(reduce_len=True)
+
+#regex help from Gemini
 _STRIP_DOLLARS = re.compile(r'\$([A-Z]+)\$')
 
 
