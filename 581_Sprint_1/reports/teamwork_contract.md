@@ -14,6 +14,9 @@ We're here to do great work, learn, and support each other along the way. This c
 
 Our main hub for communication will be Slack. We ask that everyone does their best to respond to messages within 24 hours. If someone hasn't replied after that point, we may follow up with a call, or a quick in-person check-in.
 
+If desired, PRs can be used as a form of proposal or feedback request to facilitate communication. In some circumstances, team members may feel more comfortable communicating their ideas in words;  in other circumstances, they may feel more comfortable communicating in code. Both forms of communication are ok. A PR or its acceptance does not represent the final iteration on any topic. It can be the beginning of the conversation or the middle of the conversation, too. It is an invitation to collaborate.
+
+
 ## Meetings
 
 The team will meet ~~three~~ two times per week:
@@ -87,6 +90,6 @@ By signing below, we agree to uphold this contract and support each other throug
 | Name     | Signature      | Date              |
 |----------|----------------|-------------------|
 | Jennifer | Jennifer Flake |  April 2, 2026    |
-| Nicole   | Nicole Shantz  |  April 2, 2026 |
-| Shiao-li | S F Green      |  April 2, 2026      |
-| Rachelle | RDJ            |  April 2, 2026     |
+| Nicole   | Nicole Shantz  |  April 2, 2026|
+| Shiao-li | S F Green      |   April 2, 2026    |
+| Rachelle | RDJ            |   April 2, 2026    |
