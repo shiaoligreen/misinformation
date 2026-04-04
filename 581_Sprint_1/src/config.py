@@ -4,14 +4,19 @@ Update paths and hyperparameters here — nothing else needs to change.
 """
 
 from pathlib import Path
+from huggingface_hub import hf_hub_download
 
 # PATH info
 _BASE = Path(__file__).resolve().parent
 
 DATA_DIR      = _BASE.parents[1] / "data" / "final_splits"
 
-#required for CNN fasttext embeddings
-FASTTEXT_PATH = _BASE.parents[2] / "cc.en.300.vec"
+# FastText vectors — downloaded from HuggingFace and cached locally on first run
+FASTTEXT_PATH = hf_hub_download(
+    repo_id="COLX523/fasttext-cc-en-300",
+    filename="cc.en.300.vec",
+    repo_type="dataset",
+)
 
 # Reproducibility seed
 SEED = 581
