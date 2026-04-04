@@ -1,0 +1,275 @@
+id,text,misinformation_label,opinion_label,all_caps,exclamation_marks,hedging,adjectives,unk,annotator,exclamation_marks_bin,all_caps_bin,hedging_bin,adjectives_bin,unk_bin,jennifer,nicole,rachelle,shiao-li,split
+11,Someone parked their car in the living room because of Hurricane Matthew http://dlvr.it/MPzpS1 ,0,0,[],[],[],[],[],Majority Vote,0,0,0,0,0,0,0,0,0,test
+23,*eats the medicine @mlp_twilight gives him* whats a solar flare anyways? does the sun explode?!,0,0,[],"[['!', 94, 95]]",[],[],[],Majority Vote,1,0,0,0,0,0,0,0,0,test
+26,"Cars melt, power down as wildfire turns California town into ‚Äòburning¬†hell‚Äô https://www.siasat.com/news/cars-melt-power-down-wildfire-turns-california-town-burning-hell-1430954/¬†‚Ä¶pic.twitter.com/MEE6HbXWCs",0,0,[],[],[],[],[],Majority Vote,0,0,0,0,0,0,0,0,0,test
+27,@SteveLayman I was able to salvage my Titans Superbowl football from Nashville flood. Lost my house & Car. I need Neil's autograph How Can I,0,0,[],[],[],[],[],Majority Vote,0,0,0,0,0,0,0,0,0,test
+34,"As Hurricane Dorian Impacts East Coast, Food Lion Invites Customers to Make In-Store http://bit.ly/2MXD1Xn  #green #csr #sustainability",0,0,[],[],[],[],[],Majority Vote,0,0,0,0,0,0,0,0,0,test
+38,$Johnn4y44 would definitely be grateful if I can recover from the loss of food due to surges and storms causing power outage for two days  from hurricane Dorian here in Florida.,0,1,[],[],"[['can', 45, 48]]","[['grateful', 31, 39]]",[],Majority Vote,0,0,1,1,0,0,0,0,0,test
+41,Have you read this awesome book yet?  The Two Trillion Dollar Meltdown  http://t.co/jPA6sajFE3,1,1,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+45,Social Media Claims Pastor Joel Osteen Won't Open Megachurch To Shelter Hurricane Victims http://dld.bz/gcmuK¬†,0,0,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+46,"As Floridians rush to fuel up cars and generators before Hurricane Dorian, gas stations across the state are running dry | @WFLAVictoria with a closer lookhttp://bit.ly/2NHV5EA ",0,0,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+48,Lately I been stressing make me wanna put a fuck nigga on a stretcher!,1,1,[],"[['!', 69, 70]]",[],[],"[['fuck', 44, 48], ['nigga', 49, 54]]",jasmine,1,0,0,0,1,0,0,0,0,test
+58,"Due to the poor air quality from the wildfires, our teams' Ride to Conquer Cancer was cut short yesterday. Big shout out to the Ski Cellar for still hosting our team for a BBQ yesterday so they could celebrate their training and fundraising successes together! #therideABpic.twitter.com/76gLiXP37q",0,0,[],"[['!', 259, 260]]","[['could', 194, 199]]",[],[],jasmine,1,0,1,0,0,0,0,0,0,test
+60,So want Sony QX portable lens - will double food pictures flood ;),0,0,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+69,"""Competition is good for the economy, but not good for your business when it comes to competing for hourly employees. Ride sharing services such as Uber are spreading across the US like wildfires and are in need of drivers."" https://blog.workstream.is/4-ways-to-compete-against-uber-for-hourly-workers-in-silicon-valley¬†‚Ä¶",0,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+72,China's Stock Market Crash: Are There Gems In The Rubble?: ChinaÛªs stock market crash this summer has sparked ... http://t.co/2OqSGZqlbz,1,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+75,Hurricane Matthew is now car 3 storm winds up to 125 mph movin very we may go love on Facebook that two days hurricane may hit fl,0,0,[],[],"[['may', 71, 74]]",[],[],rachelle,0,0,1,0,0,0,0,1,0,test
+77,Fuck a hurricane #sandy #food #love #enchiladas #mole #v8 #aguardiente #life #love #awesomeness #greatness # http://instagr.am/p/RY-oDiu5Ye/ ,0,1,[],[],[],"[['awesomeness', 84, 95], ['greatness', 97, 106]]","[['Fuck', 0, 4]]",rachelle,0,0,0,1,1,0,0,1,0,test
+79,"MT @TravelGov US citizens in #Jamaica: Routine consular services suspended October 3, 4; Shelter in place during Hurricane #Matthew. #hmrd v",0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+82,Genius idea or not? Patrick Eldridge parked his smart car in his kitchen to protect it from Hurricane Dorian.  https://wtop.com/trending-now/2019/09/florida-man-parks-smart-car-in-kitchen-so-it-wont-blow-away/ …,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+89,Yay now I get to ride my bike to school through ass crack of hurricane Matthew. I can hear wind howling from inside my house.,0,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+90,Due to hurricane Matthew the Jacksonville workshop is being postponed due to the venue being used as a shelter. Stay safe Florida!,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+91,"Unemployment is a political choice. We can abolish it with a Jobs Guarantee. 
+Unemployment is a political choice. We can abolish it with a Jobs Guarantee. 
+Unemployment is a political choice. We can abolish it with a Jobs Guarantee. https://t.co/Hk17RMNzgC",1,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+93,"Video from Pakistan shared to falsely depict Indian police brutality on Kashmiris | @Pooja_Chaudhuri 
+
+https://t.co/YJI8SnvdMi",1,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+95,@colinhoffman29 I hope he does. And I hope you die in the explosion too,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+96,"This BBC story informs us that vaccines prevent disease, not infection and onward transmission of the infection to others. Until we have more vaccine data, assume you can be infected and infect others even you have been vaccinated.
+https://t.co/1clQwDXFfg",1,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+99,@Lehigh389 @TPEconomy How many Coloradans will need food stamps because of the floods? #Republicansarehypocritesbecause,0,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+107,Florida man parks Smart car inside kitchen so Hurricane Dorian won’t take it https://trib.al/ptB0r5I ,0,0,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+111,"This morning, I stood under the hatch of my rental car and talked about Hurricane Matthew on Facebook Live. https://www.facebook.com/nytvideo/videos/1764092390474942/ …",0,0,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+120,Got stuck in flood.. Car trouble with @yosheei #bromomentpic.twitter.com/jkWaSSQxz0,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+122,Florida stork finds shelter from Hurricane Matthew in bathroom: A big bird told us the best way to stay safe ... http://nydn.us/2dy5JLP ,0,0,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+124,"Just a reminder for anyone who wants to come to our Grand Re-Opening event after recovering from the October wildfires, it's tomorrow night from 4-7pm. Local food, local wine, and live music by The Awesome Hotcakes! See details below. :) pic.twitter.com/95fxSNcs1U",0,0,[],"[['!', 214, 215]]",[],[],[],jasmine,1,0,0,0,0,0,0,0,0,test
+142,BREAKING: Authorities respond to Ocean fire http://t.co/h31Knuwzz5,0,0,"[['BREAKING', 0, 8]]",[],[],[],[],jasmine,0,1,0,0,0,0,0,0,0,test
+146,‘Pulwama Attack BJP Conspiracy  Like Godhra’: Ex-Guj CM  Vaghela https://t.co/rjcYDWZmP2,1,1,[],[],[],[],[],jasmine,0,0,0,0,0,0,0,0,0,test
+147,RT @THEmeaghan: Could the wind ever be strong enough to flip parked cars? < yea it's called a tornado.,0,0,[],[],"[['Could', 16, 21]]",[],[],jasmine,0,0,1,0,0,0,0,0,0,test
+165,"@harry_styles trapped in shelter for hurricane sandy, thank god we still have power bc 'little things' is really calming us down #thanks",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+170,"Freeport: Bahamians have rescued victims of Hurricane Dorian with jet skis and a bulldozer as the US Coast Guard, Britain's Royal Navy and a handful of aid groups tried to get food and medicine to survivors and take the most desperate people to safety.... http://bit.ly/2k0vL01 ",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+180,Just bought another @meinlcymbals 18' medium crash!! Hey @meinlcymbals what about an endorsement! Starting to get expensive!,1,1,[],"[['!!', 50, 52], ['!', 96, 97], ['!', 123, 124]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+198,U.S. coronavirus vaccination drive heads to nursing homes https://t.co/0kajmVmVbd,1,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+203,People in the Carolina's facing hurricane Dorian hurry up and strap windmills to your cars and get out. Might as well add a few solar panels to your hood and trunk. https://twitter.com/JulianCastro/status/1169360323033337857 …,0,1,[],[],"[['Might', 104, 109]]",[],[],jennifer,0,0,1,0,0,1,0,0,0,test
+217,The Next Financial Crash. 'The Writing is on the Wall'. Don't Say 'You Weren't Warned' http://t.co/H7lDx29aba,1,1,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+218,"It is interesting to see what people buy when stocking up for blizzard...lots of junk food and instant cocoa, pop tarts",0,1,[],[],[],"[['interesting', 6, 17]]",[],jennifer,0,0,0,1,0,1,0,0,0,test
+224,"#As Hurricane Dorian cleaned up house tops, broken walls, Survivors describe, waves crashing through their home.The Bahamas' death toll is rising as 70,000 residents left homeless by Hurricane Dorian seek food and shelter
+
+https://www.cnn.com/2019/09/07/us/hurricane-dorian-bahamas-saturday-wxc/index.html …",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+227,Wild Horses of North Carolina's Outer Banks Will Ride Out Hurricane Dorian 'Butts to the Wind' - http://PEOPLE.com  https://people.com/pets/outer-banks-wild-horses-ride-out-hurricane-dorian/ … via @GoogleNews,0,0,[],[],[],[],"[['Butts', 76, 81]]",jennifer,0,0,0,0,1,1,0,0,0,test
+230,Spending the whole weekend at my boos house during the hurricane and eating up all his food ,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+231,Scientists identify six different types of Covid-19 with differing symptoms https://t.co/PTQlVkKVgY,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+241,It's alil twister at Tha end to! I was like oh nah ??,0,1,[],"[['!', 31, 32]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+243,@eyewitnessnyc  mayor is reducing/closing hurricane sandy shelter locations down to 15. Does channel 7 know the 15 locations?,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+247,"...Like ""A blizzard is coming!"" ""Okay! I'm going to get my eyebrows done and wash my car.""",0,0,[],"[['!', 29, 30], ['!', 37, 38]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+251,"#Protest visuals from #Bhubaneswar, where different organisations are holding rallies against #CAA_NRC #Odisha @IndiaAheadNews https://t.co/7pGpd9PyLX",1,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+252,Drivers form human chain to save elderly man trapped in car by Hurricane Harvey floodwaters http://www.telegraph.co.uk/news/2017/08/31/drivers-form-human-chain-save-elderly-man-trapped-car-hurricane/¬†‚Ä¶,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+253,This video brilliantly dispels every one of Hillary s false claims and throws them right back in her face Absolutely brilliant!,1,1,[],"[['!', 126, 127]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+261,Shark boy and lava girl for the third time today. I guess this is what having kids feelings like. ??????,1,1,[],[],"[['guess', 52, 57], ['feelings', 83, 91]]",[],[],jennifer,0,0,1,0,0,1,0,0,0,test
+262,"""Get me out of here!""
+
+This driver in California had to navigate his car through wildfires in low visibility.
+
+More on the #CaliforniaFires here: http://po.st/ZCVIp2¬† pic.twitter.com/bkq9zbUWfM",0,0,[],"[['!', 19, 20]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+263,"#RT @MiamiHerald: Wild horses on NC islands were able to ride out Hurricane Dorian, rescue groups say https://hrld.us/34sO40l ",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+269,Austin Pets Alive is the evacuation center for shelter pets in the path of Hurricane Harvey! Pls donate $ &... http://fb.me/6yb4Mg6Y0¬†,0,0,[],"[['!', 91, 92]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+281,After surviving hurricane Matthew it's too bad that Alamo car rental couldn't hold my reservation for 2 hrs. #Alamosucks,0,1,[],[],"[[""couldn't"", 69, 77]]",[],[],jennifer,0,0,1,0,0,1,0,0,0,test
+282,"I love this project!! As we prepare for the blizzard, make sure you have plenty of your pup's foods and meds on... http://fb.me/NZxsTvfC¬†",0,1,[],"[['!!', 19, 21]]","[['sure', 59, 63]]",[],[],jennifer,1,0,1,0,0,1,0,0,0,test
+283,who wants to make my dreams come tru and buy me an inflatable Millenium Falcon to ride out hurricanes on when Climate Change gets real bad,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+290,"RT @TweetWorcester: Blizzard of '78 Party Fri Feb 5 5-8pm @WorcesterCommon Oval. Live music, food trucks & skating! pic.twitter.com/hWZ4IPi6TY",0,0,[],"[['!', 114, 115]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+295,"It's directly in the Lucid Hurricane videos, you can hear it and you can see the car sped up after the pole hit the bumper + cracked bumper.",0,0,[],[],"[['can', 49, 52], ['can', 69, 72]]",[],[],jennifer,0,0,1,0,0,1,0,0,0,test
+298,"Nice!/ After Hurricane Dorian, Celebrity cruise ship in Bahamas reroutes to deliver food, aid https://www.nbcnews.com/news/world/after-hurricane-dorian-celebrity-cruise-ship-bahamas-reroutes-deliver-food-n1050796?cid=eml_nbn_20190907 … https://www.nbcnews.com/news/world/after-hurricane-dorian-celebrity-cruise-ship-bahamas-reroutes-deliver-food-n1050796 …",0,1,[],"[['!', 4, 5]]",[],[],[],jennifer,1,0,0,0,0,1,0,0,0,test
+310,"A massive storm surge in the Bahamas killed about 220 dogs and 50 cats in an animal shelter during Hurricane Dorian, according to staffers at the shelter https://cnn.it/2UIQqDu ",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+318,"ICYMI: Why the new coronavirus variant is such a worry -- a clear look at the alarmingly simple math behind the prospect of exponential growth in transmission. via @zeynep
+
+https://t.co/JdwtG9IH9V https://t.co/jPequ77k0T",1,1,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+319,@ChrisDanielShow Nearly-Fatal Pee in San Francisco http://t.co/1tvlFrhm1m,1,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+320,How low is your I.Q because why else would ya think the hawk will seek refuge in your car due to a hurricane ya twat... https://twitter.com/nbcnews/status/901548735381065728¬†‚Ä¶,0,1,[],[],"[['would', 37, 42], ['think', 46, 51]]",[],"[['twat', 112, 116]]",jennifer,0,0,1,0,1,1,0,0,0,test
+325,"Wildfires, tornado warnings, golfsize hail, a 52 car pileup outside of dallas, a whole town evacuated because of fire, prayers to all in tx.",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+328,"No food, no FEMA: Hurricane Michael's survivors are furious - The Daily Beast #FEMA #ClimateChange https://apple.news/APp4E5UMtQT2ULJVMPM0ovw …",0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+338,"SIMPLE MATH:
+If Trump won 74M votes, then that leaves only 67.5M votes remaining for Biden.
+This means 13 MILLION DUPLICATE or made-up ballots were CREATED &amp; COUNTED for Biden!
+
+QUESTION: do you think this gives merit to a serious federal investigation?🤔
+ https://t.co/X2VEyMNliL",1,1,"[['SIMPLE', 0, 6], ['MATH', 7, 11], ['QUESTION', 182, 190], ['MILLION', 106, 113], ['DUPLICATE', 114, 123], ['CREATED', 148, 155], ['COUNTED', 162, 169]]","[['!', 179, 180]]",[],[],[],jennifer,1,1,0,0,0,1,0,0,0,test
+340,Shout out to @averycorrine for saving no telling how much money in the flood today with people's cars #softside,0,1,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+343,Topix: Tornado shuts down St Louis' airport: ...  tossed cars and knocked out power. 1 of 1 US - A shuttle bus h... http://bit.ly/fMYxJ6,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+354,"Criticising the ""pseudoscience"" of ""let it rip merchants"" calling for herd immunity, @CMOIreland said many of the young people who would pick up #Covid19 in such a plan are essential health workers | https://t.co/a2PV4SZqL2 https://t.co/v3whYqSgGb",1,1,[],[],"[['would', 131, 136]]",[],[],jennifer,0,0,1,0,0,1,0,0,0,test
+358,NASA reports mostly minor damage to Kennedy Space Center following Hurricane Matthew including damage to office building roof and parked car,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+362,potential blizzard means a house full of food. ,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+364,Looks like a war zone outside. What's going on?,0,1,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+365,Please tell me someone didn't sink there car on Jones road with the flood... Bc that's what it looks like mad fire trucks and ambulances.,0,0,[],[],[],[],[],jennifer,0,0,0,0,0,1,0,0,0,test
+372,Being at Food Lion when the power goes out is a great way to spend a hurricane. #Matthew,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+373,Shelter animals evacuate #Florida ahead of Hurricane #Dorian - Sep 2 @ 11:30 AM ET [video onsite!] https://oddcrimes.com/static/2019/09/02/Shelter-animals-evacuate-Florida-ahead-of-Hurricane-Dorian.php …,0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+378,"#FarmersProtest | “I have spent my life fighting injustice but this time I am not fighting injustice, I am fighting betrayal,” said Jai Karan, district secretary of the All India Krishak Khet Majdoor Sangathan.
+
+@NidhiSuresh_ reports.
+
+https://t.co/ukafm0M1zV",1,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+389,Donald Trump: With fifty people dead and perhaps more ultimately and dozens more wounded we cannot afford to talk around issues anymore. We have to address these issues head on. I called for a ban after San Bernardino and it was met with great scorn and anger. And now many are saying although the pause is temporary we must find out what is going on. We have to do it. ,1,1,[],[],"[['cannot', 92, 98]]",[],[],nicole,0,0,1,0,0,0,1,0,0,test
+390,"Hurricane Dorian’s forecast shifts, putting the Carolinas and Georgia in play along with Florida - CNN.  It’s insane how many poor people are here in harms way that can’t AFFORD Evac plans or to stock up on supplies. Not even gas money to run! Food! Water! https://apple.news/AukMIEMjTTf6IHM__wW0uRQ …",0,1,"[['AFFORD', 171, 177]]","[['!', 242, 243], ['!', 248, 249], ['!', 255, 256]]","[['can’t', 165, 170]]",[],[],nicole,1,1,1,0,0,0,1,0,0,test
+393,It better not flood my car will be fucked,0,1,[],[],[],[],"[['fucked', 35, 41]]",nicole,0,0,0,0,1,0,1,0,0,test
+397,Day two of Cross Florida Bike ride. So far hurricane Sandy has been kind to us. Little breezy this am. http://www.teamc2c.org ,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+398,I hope everyone in the path of hurricane dorian stays safe!!  Don’t hesitate to evacuate if need be and if you are staying inside please remember to stock up on food and water.  Sending love to everyone.,0,0,"[['!!', 58, 60]]",[],"[['hope', 2, 6]]",[],[],nicole,0,1,1,0,0,0,1,0,0,test
+399,Hurricane Dorian: NASA team set to ride out storm at Kennedy Space Center https://www.paperspy.com/2019/09/03/hurricane-dorian-nasa-team-set-to-ride-out-storm-at-kennedy-space-center/ …,0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+410,Crushed the gym then crushed a butterfinger flurry clearly my priorities are straight ??,1,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+413,"So after these long tests, stuck in d building cuz of tornado and that also means no food from aunt! Just like yesterday! Fuckn tornado!!!",0,0,[],"[['!', 99, 100], ['!', 120, 121], ['!!!', 135, 138]]",[],[],"[['Fuckn', 122, 127]]",nicole,1,0,0,0,1,0,1,0,0,test
+414,well hurricane Michael best stay away..our car is dead broke busted..cant leave damn state lol,0,0,[],[],"[['cant', 69, 73]]",[],"[['damn', 80, 84]]",nicole,0,0,1,0,1,0,1,0,0,test
+418,US Census Bureau Confirms HUGE CONFLICT in Total Number of Voters in 2020 Election https://t.co/jVdnyUp8E4,1,0,"[['HUGE', 26, 30], ['CONFLICT', 31, 39]]",[],[],[],[],nicole,0,1,0,0,0,0,1,0,0,test
+423,Florida man parks Smart car in kitchen so it won't blow away during Hurricane Dorian https://www.fox5dc.com/news/florida-man-parks-smart-car-in-kitchen-so-it-wont-blow-away-during-hurricane-dorian …,0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+424,Don‚Äôt feel bad about ordering food during a blizzard. Just tip well. How well? This well: http://bit.ly/1V8EzaK¬†pic.twitter.com/i8iHDVhvIU,0,1,[],[],"[['feel', 8, 12]]",[],[],nicole,0,0,1,0,0,0,1,0,0,test
+431,collapsed the moment i got home last night lol,1,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+434,Disney defends decision to keep employees on private island to ride out Hurricane Dorian https://york.run/news/disney-defends-decision-to-keep-employees-on-private-island-to-ride-out-hurricane-dorian/ …pic.twitter.com/3BdhPzC3gR,0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+438,"Housing, food, water priorities in Bahamas after Hurricane Matthew
+Details: http://bit.ly/2e5cLK7 ",0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+439,"For vehicles with OnStar, the company is offering a one month free subscription for survivors of Hurricane Michael.
+To set-up, press the OnStar button in your vehicle two times then follow the prompt to speak with an agent who will activate service.",0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+440,"Waited out confirmed tornado in basement of a bar with @savetherobot. Tree fell on my car, minor damage. Pix of campus: http://goo.gl/PZOEC",0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+442,@AbbigaleBailey Come to my house !! Or I'll ride that damn tornado to come get you!! Your choice :),0,0,[],"[['!!', 33, 35], ['!!', 82, 84]]",[],[],"[['damn', 54, 58]]",nicole,1,0,0,0,1,0,1,0,0,test
+449,I lost my car in the hurricane. Its hard to get around Houston without wheels.  My boss took me to the grocery store today. #Grateful,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+461,Bravo Sheriff Clarke! Registered Democrat Sheriff David Clarke is the only person in a position of authority in law enforcement who is brave enough to call the Black Lives Matter movement what it truly is. He is also one of the only black leaders in America who is willing to say why we are seeing a race war and war against cops in America today. He is truly a breath of fresh air and deserves to be applauded for his courage and dedication to truth. The idea that he s a Democrat is enough to make liberal heads explode!Watch his epic news conference here:,1,1,[],"[['!', 20, 21], ['!', 521, 522]]",[],[],[],nicole,1,0,0,0,0,0,1,0,0,test
+468,With the snow outside who would like to see an inside blizzard instead? Klienjan Chiropractic and Sports Medicine... http://fb.me/1ZSdT6pFd¬†,0,0,[],[],"[['would', 26, 31]]",[],[],nicole,0,0,1,0,0,0,1,0,0,test
+472,Yeeeaaah that flash flood warning scared the shit out of me in the car,0,0,[],[],[],[],"[['shit', 45, 49]]",nicole,0,0,0,0,1,0,1,0,0,test
+474,A 455 Horsepower V8 Camaro On Snow Tires Is The Best Worst Blizzard Car‚Ä¶ http://bit.ly/1PIezFd¬† free article dir http://warpeddesignz.com¬†,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+477,"An image of procedural blood draw is viral as first dose of Bharat Biotech's COVID vaccine 'Covaxin' taken by company's Vice President. Not only is this false but Covaxin cannot be administered intravenously. 
+@Neurophysik @free_thinker
+ #AltNewsSciCheck
+  https://t.co/JgWnhXzS4C",1,0,[],[],"[['cannot', 171, 177]]",[],[],nicole,0,0,1,0,0,0,1,0,0,test
+482,This car slammed up so hard against this SE Austin house in the floods this morning that it ripped into the brick. pic.twitter.com/J7lDbzMyV8,0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+483,Trump's FEMA failing again - Citizens without water and food for days from Hurricane Michael https://www.dailykos.com/story/2018/10/14/1804277/-Trump-s-FEMA-failing-again-Citizens-without-water-and-food-for-days-from-Hurricane-Michael …,0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+503,". #Trumpland - you see, there ARE some situations in which #EXPERIENCEMATTERS
+No Food, No FEMA: Hurricane Michael’s Survivors Are Furious
+Miles&miles of Florida are obliterated&residents have been left to fend for themselves w little help fr the government https://apple.news/APp4E5UMtQT2ULJVMPM0ovw …",0,1,"[['ARE', 30, 33], ['EXPERIENCEMATTERS', 60, 77]]",[],[],[],[],nicole,0,1,0,0,0,0,1,0,0,test
+513,"Hurricane Kit FAIL! #SMH 
+Mine resembles the one w/the generator, but w/more food&water &my tub full of water. Thewon't flush itself pic.twitter.com/RaNypLAWxy",0,1,"[['FAIL', 14, 18], ['SMH', 21, 24]]","[['!', 18, 19]]",[],[],[],nicole,1,1,0,0,0,0,1,0,0,test
+519,"Please remember that over 25% of the families impacted by Hurricane Dorian are also dealing with a family member with special needs or extraordinary challenges. There can be severe consequences to life in such times of emergency, anything from safety to medicines is affected.",0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+527,"lit cigarette can set a car on fire
+In some specific areas on a car, a spark can make it explode
+Though guy with lousy car and good insurance might torch his own...
+ Without evidence of fraud, yes, I see wildfire as reasonable",0,1,[],[],"[['can', 14, 17], ['can', 77, 80], ['might', 142, 147]]",[],[],nicole,0,0,1,0,0,0,1,0,0,test
+535,My heart goes out to the Florida residents that decided to ride out Hurricane Matthew. http://ow.ly/PCcS304Y76n  #nickimicheaux #disaster,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+538,"Kingston, Jamaica 5am. Just came from the store - got some water and tin food. Hurricane Matthew… https://www.instagram.com/p/BLBKiDOj-Wx/ ",0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+541,"Blizzard Of 2016: 8 Healthy Comfort Food Recipes, Without A Side Of Guilt http://bit.ly/1SCcfzz¬† #health #child",0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+542,You gotta be a special type of trash to tow cars in a blizzard,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+547,"#Earthquake M5.4 Laos (Thailand) 7mins ago 20 Nov 21:04 UTC - report/info: 
+https://t.co/jJwH1S4G86",1,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+553,"This wonderful lady is so right and so dead on in her description of Donald Trump s mission You will Love her!  Democrats FAILED, they care about the inner city when its election time ",1,1,"[['FAILED', 122, 128]]",[],[],"[['wonderful', 5, 14]]",[],nicole,0,1,0,1,0,0,1,0,0,test
+562,Blizzard Rule #1. Never wait until the last minute to shovel your car out. I see a lot of cold and frustrated folks this morning.,0,1,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+567,"""Today, my dad decided to start preparing for Hurricane Sandy by buying $300 worth of long-life and canned food. We live in Australia. FML""",0,0,[],[],[],[],[],nicole,0,0,0,0,0,0,1,0,0,test
+581,Ready to ride! #skidoo #summit #800 #mbrp #blizzard #snowday #hashtag https://www.instagram.com/p/BBTHSgerb6E/¬†,0,1,[],"[['!', 13, 14]]",[],[],[],rachelle,1,0,0,0,0,0,0,1,0,test
+584,After shooting event at the theater @Starbucks is giving FREE COFFEE to all first responders police &amp; firefighters. AntiochHickoryHollow#TN,0,0,"[['FREE', 57, 61], ['COFFEE', 62, 68]]",[],[],[],[],rachelle,0,1,0,0,0,0,0,1,0,test
+596,One of my friends lost his car & the other lost his apartment.. This is the most devastating tornado we've ever had.,0,1,[],[],[],"[['devastating', 81, 92]]",[],rachelle,0,0,0,1,0,0,0,1,0,test
+601,New crime: knowing your rights. Punishable by death,1,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+603,A young German stormtrooper engaged in the Battle of the Somme 1916. [800 ÌÑ 582 ] http://t.co/yxvMifLvc4,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+613,"Wildfire 07 participated in the Turkey Bowl presented by ""Neighbors Helping Neighbors"" over the Thanksgiving Weekend. It was a tremendous fundraiser with a ton of toys, food and winter coats donated - as well as some great soccer being played pic.twitter.com/TgvHdALjlt",0,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+614,Hurricane Matthew weakens off US coast as death toll rises: Georgia: Hurricane Matthew slammed into South Car... http://jftb.a.boysofts.com/3p9w ,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+616,After sacrificing thousands of lawn mowers my car has gas. Fuck this hurricane warning.,0,1,[],[],[],[],"[['Fuck ', 59, 64]]",rachelle,0,0,0,0,1,0,0,1,0,test
+619,n #SFla - Pets cope with Hurricane Matthew at a storm shelter just for them http://ow.ly/cixX505bR6B ,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+623,Chick masturbates a guy until she gets exploded on her face &gt; http://t.co/5QhoeHE9hf,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+634,The Trend: Pelican seeks shelter from Hurricane Matthew http://abc7ny.com/entertainment/the-trend-pelican-seeks-shelter-from-hurricane-matthew/1544621/ …,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+645,THE HURRICANE TOOK MY HOUSE AND CAR AND EVERYTHING I HAD LIKE FUCK IM WEARING A BRA,0,1,"[['THE', 0, 3], ['HURRICANE', 4, 13], ['TOOK', 14, 18], ['MY', 19, 21], ['HOUSE', 22, 27], ['AND', 28, 31], ['CAR', 32, 35], ['AND', 36, 39], ['EVERYTHING', 40, 50], ['I', 51, 52], ['HAD', 53, 56], ['LIKE', 57, 61], ['FUCK', 62, 66], ['IM', 67, 69], ['WEARING', 70, 77], ['A', 78, 79], ['BRA', 80, 83]]",[],[],[],"[['FUCK', 62, 66]]",rachelle,0,1,0,0,1,0,0,1,0,test
+652,Hurricane Matthew: Family rescued from car rooftop http://www.bbc.co.uk/news/world-us-canada-37602294 …,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+653,Incredible footage - you are doing a major public service showing how bad an idea it is to ride out a major hurricane.,0,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+661,The fact I gotta fly to Florida to drive my car back bc of hurricane Irma already drains me.,0,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+676,"To all my friends and contacts on the East Coast, -- Take care and find shelter looks like a direct hit by Hurricane Sandy !",0,1,[],"[['!', 123, 124]]",[],[],[],rachelle,1,0,0,0,0,0,0,1,0,test
+685,Hurricane Matthew self-evacuation shelter list http://www.wfxg.com/story/33327575/hurricane-matthew-self-evacuation-shelter-list …,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+686,The City of White Plains has declared a state of emergency due to Hurricane Sandy.  The city has opened a shelter... http://fb.me/2eEDuHfqa ,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+699,Cruise Ship Reroutes Trip To Deliver Food To Bahamas After Hurricane Dorian https://www.scarymommy.com/cruise-food-bahamas-hurricane-dorian/ …,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+700,All of Ellis County engulfed in severe storm and a tornado is near I-45 headed toward Bristol. Take shelter.,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+708,"Food And Wine Top story: Hurricane Sandy: View From Above http://www.nytimes.com/interactive/2012/10/28/nyregion/nyt-webcam.html …, see more http://tweetedtimes.com/The_CityOfRoses/food …",0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+711,Shirtless man lounges in the middle of the ocean during Hurricane Matthew: Richard Neal decided to ride out t... http://cnn.it/2dJxCPp ,0,0,[],[],[],"[['Shirtless', 0, 9]]",[],rachelle,0,0,0,1,0,0,0,1,0,test
+713,London Life: photos of a beautiful bombed-out Britain http://t.co/2RAcaiVFfq #arts,1,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+724,"Same-Sex Marriages, 10 Years LaterDGR @DebbersGar Writer producer creative director wife of a lady mom to two master of a pup. Not necessarily in that order.The Backstory: Our 5 yo daughter had no costume. We said: How about HRC? Daughter: Nope. Son: Well someone s gotta be Hillary!",1,0,[],"[['!', 282, 283]]",[],[],[],rachelle,1,0,0,0,0,0,0,1,0,test
+731,Driverless cars work great in sunny California. But how about in a blizzard? http://wpo.st/DIb71¬†,0,0,[],[],[],"[['Driverless', 0, 10]]",[],rachelle,0,0,0,1,0,0,0,1,0,test
+732,"US evacuates Guantanamo over Hurricane Matthew: A spokesman said in a statement: ""The remaining mili... http://bit.ly/2dhL5ls  #shelter",0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+734,"Wild Horses of North Carolina's Outer Banks Will Ride Out Hurricane Dorian 'Butts to the Wind'.
+
+https://news.yahoo.com/wild-horses-north-carolinas-outer-175048942.html# …",0,0,[],[],[],[],"[['Butts', 76, 81]]",rachelle,0,0,0,0,1,0,0,1,0,test
+735,"Dozens of shelter pets were transported from Tulsa to Oregon on Thursday so there's room in Tulsa for dogs and cats displaced by Hurricane Dorian.
+
+Story from @fox12oregon.https://ktul.com/news/local/shelter-pets-moved-from-tulsa-to-oregon-to-make-room-for-pets-impacted-by-dorian …",0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+750,Hurricane Dorian & Smart Space Radiation Medicine: Solar Storm Forecast 08-31-2019 https://youtu.be/7gyhXawY8lE  via @YouTube,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+754,Airbnb Activates Program To Connect Hurricane Dorian Evacuees With Free Housing https://www.bisnow.com/south-florida/news/economy/airbnb-open-homes-hurricane-evacuees-dorian-100622#.XW5UiPMqvxc.twitter … #property #proptech #realestate #cretech #realestateinvesting #realestateinvestor #goldenvisa #investmentvisa #cretech #estateagent #sales #primelandview,0,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+757,"There's always a tweet
+
+A tweet that Donald Trump posted in January in praise of China’s response to the #CoronavirusOutbreak has already come back to haunt him https://t.co/MFMWTrsTDe",1,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+759,The Riddler would be the best early-exit primary presidential wannabe ever all certain of his chances until he gets wrecked by a rich guy,1,1,[],[],"[['would', 12, 17]]",[],[],rachelle,0,0,1,0,0,0,0,1,0,test
+764,Okay not sure the word 'mass murder' applies during this war but it was horrendous none the less. https://t.co/Sb3rjQqzIX,0,1,[],[],"[['sure', 9, 13]]",[],[],rachelle,0,0,1,0,0,0,0,1,0,test
+767,"In Face of Hurricane Sandy, Soldier Guards Tomb of the Unknown Solider. The Old Guard refuses shelter. http://bit.ly/S9JDvH ”
+
+The REAL Guard",0,0,"[['REAL', 131, 135]]",[],[],[],[],rachelle,0,1,0,0,0,0,0,1,0,test
+769,The trouble in one of Buffett's favorite sectors http://t.co/J4dqPFLMkR,1,0,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+773,We’ve partnered with @DirectRelief to help people affected by Hurricane Michael get their medicine.,0,0,[],[],"[['help', 38, 42]]",[],[],rachelle,0,0,1,0,0,0,0,1,0,test
+779,"Paul Pogba has ‘quit’ playing for France following comments from the French President Macron saying Islam was the source of international terrorism..
+Indeed your religion first before anything else.❤
+God is with you. https://t.co/6zBrHmxXhx",1,1,[],[],[],[],[],rachelle,0,0,0,0,0,0,0,1,0,test
+785,"Oh that’s interesting, THERE IS NO CURE 
+
+#China says 8.2% of #coronavirus patients are cured https://t.co/VwpAKVchCT",1,1,"[['THERE', 23, 28], ['IS', 29, 31], ['NO', 32, 34], ['CURE', 35, 39]]",[],[],[],[],rachelle,0,1,0,0,0,0,0,1,0,test
+793,This food better be good. @_SpinnAround gott me out here in the great flood for some dominos lol jesus aint tell me to build a boat,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+794,Hurricane Harvey Likely To Destroy More Cars Than Katrina: &quot;This Is Bad; Real Bad&quot; https://goo.gl/fb/muqca1¬†,0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+797,California wildfires: Five people found dead in cars caught up in Paradise¬†fire https://www.comocomprodesdevenezuela.com/california-wildfires-five-people-found-dead-in-cars-caught-up-in-paradise-fire/¬†‚Ä¶,0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+798,"@WaltDisneyWorld 
+Boy donates savings for Disney trip to buy food for Hurricane Dorian evacuees http://www.fox13news.com/news/boy-donates-savings-for-disney-trip-to-buy-food-for-hurricane-dorian-evacuees …",0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+800,The best thing about having to ride out a hurricane/bad tropical storm is seeing people come together. We need more of that. https://twitter.com/bennyjohnson/status/901955142890729473¬†‚Ä¶,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+804,Vehicle blamed for deadly California¬†wildfire https://wsoe.org/vehicle-blamed-for-deadly-california-wildfire/¬†‚Ä¶,0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+805,@HeyImBeeYT its like theres fire in my skin and im drowning from within ????,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+807,"Hurricane Matthew charges toward Jamaica, Haiti, Cuba: Islanders stock up on food, water and other supplies a... http://bit.ly/2dOYIap ",0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+821,He better than Sean bro. I can admit that Sean is flames now. But he better than Sean https://t.co/aomQ1RYKmJ,1,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+824,#JimBakker one of the top #charlatans says #hurricanes are Gods judgement buy his food. Don't give to charlatans http://www.huffingtonpost.com/entry/jim-bakker-hurricane-doomsday-food_us_59af847be4b0354e440d93dd?ncid=engmodushpmg00000004¬†‚Ä¶,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+825,"...used his military to block humanitarian aid to Venezuelans desperate for food and medicine. It is also the face of Kim Campbell who rooted for the destructive fury of Category 5 Hurricane Dorian to descend on the people of Florida. Soulless. Power ""By any means necessary.""",0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+828,"GUN BACKGROUND CHECKS
+Poll says 97% of Americans support them.
+
+Yet Bills to strengthen them go no where.
+
+AMERICA, YOUR VOICE HAS BEEN SILENCED
+
+Who is Congress listening to instead? 
+
+Get Big Money out of politics.
+
+https://t.co/SZeKY5eAaI",0,1,"[['GUN', 0, 3], ['BACKGROUND', 4, 14], ['CHECKS', 15, 21], ['AMERICA', 107, 114], ['YOUR', 116, 120], ['VOICE', 121, 126], ['HAS', 127, 130], ['BEEN', 131, 135], ['SILENCED', 136, 144]]",[],[],[],[],shiao-li,0,1,0,0,0,0,0,0,1,test
+831, it's a whole flood in my car...FML!!,0,1,[],"[['!!', 35, 37]]",[],[],"[['FML', 32, 35]]",shiao-li,1,0,0,0,1,0,0,0,1,test
+837,Our thoughts are with all of you in the line of Hurricane Sandy. Find shelter near you during this storm: http://rdcrss.org/TqduCz ,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+854,"""'I don't have anything left': Hurricane Michael survivors scramble for food, water as death toll rises"" https://www.usatoday.com/story/news/nation/2018/10/13/hurricane-michael-survivors-scramble-food-crews-search-missing/1628842002/ … #HurricaneMichael #destruction",0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+856,Hello Calgary!! Important news!! Please be advised!!! http://t.co/ARKTJ9Qn4S,0,1,[],"[['!!', 30, 32], ['!!', 13, 15], ['!!!', 50, 53]]",[],[],[],shiao-li,1,0,0,0,0,0,0,0,1,test
+865,"A week after my car gets flooded and I get a new engine, a school bus slams into me and a hurricane is on the way.",0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+866,"Yes it is,say dat whn u see da first car fly RT @NoVaselineSmh: RT @NiNiBadd: Is It Bout To Be A Tornado (cont) http://tl.gd/a4u014",0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+867,"New rule. No more fucking rallies or campaign events–by anyone–until these people get the help they need.
+
+No Food, No FEMA: Hurricane Michael’s Survivors Are Furious https://thebea.st/2IV0u6C?source=twitter&via=desktop … via @thedailybeast",0,1,[],[],[],[],"[['fucking', 18, 25]]",shiao-li,0,0,0,0,1,0,0,0,1,test
+869,"Hurricane Dorian strikes Bahamas: Homes severely damaged, cars overturned, power lines down https://fxn.ws/2ZEPIbz  #FoxNews",0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+871,@FoxNewsInsider All Obama is doing is giving a false time schedule on Iran testing there first bomb      Bomb = Nuclear Suicide Vest,1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+873,@FunkyLilShack @mariaf30 I want a full on bitch slapping guns blazing cake throwing Charles showdown!! Now THAT will be worth the wait ????,1,1,[],"[['!!', 100, 102]]",[],[],[],shiao-li,1,0,0,0,0,0,0,0,1,test
+908,I'm crying that song just ended setting myself on fire  https://t.co/i2El5aCrRW,1,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+922,"#WWIII: #IndonesianNavy submarine KRI #Nanggala with 53 crew members aboard &amp; taking part in torpedo drill goes missing mysteriously off Bali coast. Indonesia calls on Australia &amp; Singapore for help in rescue. Submarine is feared to have sunk 700-mtr-deep.
+https://t.co/pzU8BUZEwr https://t.co/DRFkIkovHr",1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+924,AJE News : Horrors left by Hurricane Matthew become clear in Haiti: Fears of cholera outbreak and food shorta... http://bit.ly/2dZuMWc ,0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+926,ÛÏYou see the devastation &amp; itÛªs shocking.ÛÏ  Firefighters continue to battle flames in California. benstracy reports Û_,0,1,[],[],"[['shocking', 40, 48]]",[],[],shiao-li,0,0,1,0,0,0,0,0,1,test
+928,@thoutaylorbrown I feel like accidents are just drawn to you but I'm happy you've survived all of them. Hope you're okay!!!,1,1,[],"[['!!!', 120, 123]]",[],[],[],shiao-li,1,0,0,0,0,0,0,0,1,test
+932,"A video from 2018 was shared as CAA protesters setting ablaze photos of Hindu deities. Among those who circulated it was BJP spokesperson Sambit Patra. #AltNewsFactCheck #CAA_NRC_Protests. | @ArchitMeta 
+
+https://t.co/2CjBnQogls",1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+933,@JoannaCoon1 sorry my food arrived... I didn't get a chance to shop bc of the blizzard so ughh,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+938,"Vijay Goel, former president of BJP's Delhi unit, shared this photo with the claim that it showed a recent water crisis under the #ArvindKejriwal-led government.
+#FactCheck #DelhiNews #ViralPhoto
+
+https://t.co/xMtHjzOPIL",1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+953,Tornado missed our shelter in St Louis - the staff and kids are ok,0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+962,"Sorry, that's stupid.
+You don't pack up your whole life, you pack up important stuff you can throw in a car quickly. We've temporarily evacuated twice in Colorado due to the possibility of wildfire spreading into town, and we'll do it every time if it happens again.",0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+969,"It looks like we re not the only ones who are 100% FED UP! with people protesting to defend lawbreakers in our country Watch:Wow. Nasty Trump supporters in Iowa tear up a Latino protestor s sign. RT @GoodSam10 @DREAMIowa pic.twitter.com/G5R6H1lLe8   Gabe! Ort z (@TUSK81) September 12, 2015Here are the comments on the Twitter account where this video was posted:",1,1,"[['FED', 51, 54], ['UP', 55, 57]]","[['!', 57, 58]]",[],[],[],shiao-li,1,1,0,0,0,0,0,0,1,test
+971,"@realDonaldTrump - Do your fvcking job! 
+No Food, No FEMA: Hurricane Michael’s Survivors Are Furious https://www.thedailybeast.com/no-food-no-fema-hurricane-michaels-survivors-are-furious …",0,1,[],"[['!', 38, 39]]",[],[],"[['fvcking', 27, 34]]",shiao-li,1,0,0,0,1,0,0,0,1,test
+979,The fact people are still joking about Hurricane Matthew... People houses and cars are being flooded and it's not even here yet,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+984,@canagal Good to hear it's back.. that storm's been given you guys trouble though :( ^SJ,0,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+993,"#CCP
+#Taiwan
+Taiwan has reportedly shot-down a Chinese Air Force Su-35 aircraft that supposedly violated its airspace
+https://t.co/1cJyw2TZD2",1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+996,"THR: DESTRUCTIVE TORNADO RIPPING THROUGH TUSCALOOSA, AL NOW! TAKE SHELTER NOW!!! #severe http://dlvr.it/PwRS5 (BN) #tcot",0,1,"[['DESTRUCTIVE', 5, 16], ['TORNADO', 17, 24], ['RIPPING', 25, 32], ['THROUGH', 33, 40], ['TUSCALOOSA', 41, 51], ['NOW', 56, 59], ['TAKE', 61, 65], ['SHELTER', 66, 73], ['NOW', 74, 77]]","[['!!!', 77, 80], ['!', 59, 60]]",[],[],[],shiao-li,1,1,0,0,0,0,0,0,1,test
+1000,"NASA: RT NASAKennedy: With Hurricane Dorian forecast to bring hurricane conditions to the Kennedy Space Center in just a few hours, 120 members of the “Ride Out Team” reported to the Launch Control Center to monitor and mitigate possible damage to spacef… pic.twitter.com/cyqhcMPXRM",0,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+1002,Julie + R is the apocalypse version of Romeo + Juliet #warmbodies,1,1,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+1038,"A new wild-eyed conspiracy theory about radioactive ballot tracking as part of a DHS sting operation ""proving"" that the Democratic Party is ""stealing the vote"" is -- yes, you guessed it -- disinformation:
+
+https://t.co/Gf2Aro4IT6",1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+1049,Wait until i tell my college friend who reafs bloody mary too about the drama cd,1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+1060,"Nancy Astor, Viscountess Astor, was elected in a by-election for the constituency of Plymouth Sutton in November 1919 following her husband's elevation to the Lords. @Jacqui1918 's blog explores Astor's role as mother inside and outisde Parliament. 
+📝 https://t.co/gHBn41GHUs",1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+1082,@TanSlash waiting for an ambulance,1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
+1096,@michelleellle ?? shut up freshman its past ur curfew. u need some sleep!! u spend too much of ur time watching tv instead of going outside ??,1,1,[],"[['!!', 72, 74]]",[],[],[],shiao-li,1,0,0,0,0,0,0,0,1,test
+1099,@carolinagutierr grande twister!!!,1,0,[],"[['!!!', 31, 34]]",[],[],[],shiao-li,1,0,0,0,0,0,0,0,1,test
+1103,The cool kids asked me if I wanted to hang out after school so I had a panic attack and had to go to the hospital #autismawareness,1,0,[],[],[],[],[],shiao-li,0,0,0,0,0,0,0,0,1,test
