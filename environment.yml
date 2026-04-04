@@ -26,3 +26,4 @@ dependencies:
     - streamlit>=1.28
     - torch>=2.0
     - tweet-preprocessor
+    - huggingface_hub
