@@ -9,7 +9,7 @@ All functions accept  Python lists (ints/floats), so they should work with any m
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, classification_report
 
 
-def compute_metrics(preds: list[int], labels: list[int], probs: list[float])
+def compute_metrics(preds: list[int], labels: list[int], probs: list[float]):
    
     """
     Compute classification metrics.
@@ -86,7 +86,7 @@ def print_sklearn_report(preds: list[int], labels: list[int]) :
     ))
 
 
-def error_analysis( raw_rows: list[dict], preds: list[int], labels: list[int], n: int = 5) 
+def error_analysis( raw_rows: list[dict], preds: list[int], labels: list[int], n: int = 5) :
     """Print raw text for up to n false positives and n false negatives.
     Parameters: 
     raw_rows: list of dictionaries that you get from load_csv(), to get original data
