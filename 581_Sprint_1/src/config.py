@@ -9,7 +9,7 @@ from huggingface_hub import hf_hub_download
 # PATH info
 _BASE = Path(__file__).resolve().parent
 
-DATA_DIR      = _BASE.parents[1] / "data" / "sets"
+DATA_DIR      = _BASE.parents[0] / "data" / "sets"
 
 # FastText vectors — downloaded from HuggingFace and cached locally on first run
 FASTTEXT_PATH = hf_hub_download(
