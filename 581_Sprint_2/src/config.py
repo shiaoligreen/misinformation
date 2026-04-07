@@ -1,5 +1,5 @@
 """
-Central configuration for all baseline models.
+Central configuration for any models that want to keep params separate and central.
 Update paths and hyperparameters here — nothing else needs to change.
 """
 
@@ -19,6 +19,7 @@ FASTTEXT_PATH = hf_hub_download(
 )
 
 # Targets — both labels are treated equally during training
+
 TARGETS = ["opinion_label", "misinformation_label"]
 
 # Reproducibility seed

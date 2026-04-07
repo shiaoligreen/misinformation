@@ -241,6 +241,7 @@ class OpinionDataset(Dataset):
             #get integers
             ids    = torch.tensor(vocab.encode(tokens), dtype=torch.long)
             # store one label tensor per target — keyed by column name
+            #Updated from Sprint 1 to use multiple targets
             labels = {t: torch.tensor(int(row[t]), dtype=torch.float) for t in TARGETS}
             self.samples.append((ids, labels))
 
@@ -269,6 +270,8 @@ def _collate(batch):
     padded = pad_sequence(seqs, batch_first=True, padding_value=0)
 
     # stack each target's labels into its own tensor: {target: (B,)}
+    #updated from Sprint 1 to handle multiple targets with help from Claude
+
     labels = {t: torch.stack([d[t] for d in label_dicts]) for t in TARGETS}
 
     return padded, labels
@@ -338,8 +341,10 @@ class TextCNN(nn.Module):
         #It will be turned off during evaluation/inference time.
         self.drop = nn.Dropout(CONFIG["dropout"])
 
+        #Help from Claude on the implementation to be able to share the CNN backbone with 2 targets
         # One linear head per target. The shared CNN backbone feeds into each head independently.
         # ModuleDict registers them as model parameters so PyTorch tracks their gradients.
+
         self.classifiers = nn.ModuleDict({
             t: nn.Linear(num_filters * len(CONFIG["filter_sizes"]), 1)
             for t in TARGETS
@@ -368,6 +373,7 @@ class TextCNN(nn.Module):
         cat = torch.cat(pooled, dim=1)               # (B, num_filters * 3)
 
         shared = self.drop(cat)
+        #Help from Claude on list comprehension 
         # each head produces one logit per example — returns {target: (B,)}
         return {t: self.classifiers[t](shared).squeeze(1) for t in TARGETS}
 
@@ -382,11 +388,15 @@ def train_model( model: nn.Module, train_loader: DataLoader, dev_loader: DataLoa
         dev_loader: development DataLoader
         train_rows: list[dict] containing raw training rows
         device: torch.device
+
         train_targets: which targets to train on. Defaults to all TARGETS (multi-task).
             Pass a single-element list for single-task mode, e.g. ["opinion_label"].
             All targets are treated equally — early stopping uses average F1 across
             all active targets.
 
+    Training model with multiple targets is new in Sprint 2 and implemented with guidance
+    from Claude.
+    
     Train with BCEWithLogitsLoss (pos_weight for class imbalance)
     and early stopping on average dev macro-F1 across active targets.
 
