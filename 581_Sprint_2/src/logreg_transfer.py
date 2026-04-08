@@ -1,11 +1,10 @@
 """
-logreg_baseline.py
+logreg_transfer.py
 ──────────────────
-Logistic Regression baseline for COLX 523 / COLX 581 Sprint 1.
+Logistic Regression baseline with transfer learning from FastText embeddings for COLX 581 Sprint 2.
 
-Concepts and code templates were used from past lecture notes (DSCI 572 lecture 2; DSCI 571 lecture 6, 8; COLX 521 lecture 4, 7). 
-In addition, Claude was used in the implementation of the code and to supplement my existing knowledge of concepts, when needed. 
-These citations have been noted and all comments are my own. 
+logreg_baseline.py used with FastText embeddings functions from cnn_baseline.py and TF-IDF weighting.
+Gemini used to help with the two new functions: _get_tfidf_weighted_embeddings, _get_embeddings
 
 Two tasks:
 opinion_label        (0 = not-opinion, 1 = opinion)
