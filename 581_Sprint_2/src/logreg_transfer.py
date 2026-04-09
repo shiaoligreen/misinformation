@@ -34,8 +34,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-# additional preprocess import
-from preprocess import preprocess
+# additional re import
+import re
 from config import CONFIG, FASTTEXT_PATH
 
 # Match the project seed from config.py
@@ -168,7 +168,7 @@ class Vocabulary:
         """
         return len(self.idx2token)
 
-def build_vocab(rows: list[dict], tokenize_fn=preprocess):
+def build_vocab(rows: list[dict], tokenize_fn=lambda text: re.findall(r"\w+", text.lower())):
     """
     Wrapper function to build vocabulary from training rows only.
     Takes raw CSV rows and handles instantiation of Vocabulary object
@@ -261,7 +261,7 @@ def load_fasttext_vectors(path: Path, vocab: Vocabulary, embed_dim: int = CONFIG
     return np.array(matrix, dtype=np.float32)
 
 # relied on Gemini for this helper function
-def _get_embeddings(texts: list[str], vocab: Vocabulary, embed_matrix: np.ndarray, tokenize_fn=preprocess) -> np.ndarray:
+def _get_embeddings(texts: list[str], vocab: Vocabulary, embed_matrix: np.ndarray, tokenize_fn=lambda text: re.findall(r"\w+", text.lower())) -> np.ndarray:
     """
     Calculates document-level embeddings by tokenizing, getting FastText vectors 
     for each token, and averaging them (mean pooling).
@@ -289,7 +289,7 @@ def _get_tfidf_weighted_embeddings(
     embed_matrix: np.ndarray, 
     tfidf_vectorizer: TfidfVectorizer,
     tfidf_matrix: csr_matrix,
-    tokenize_fn=preprocess
+    tokenize_fn=lambda text: re.findall(r"\w+", text.lower())
 ) -> np.ndarray:
     """
     Calculates document-level embeddings by taking a weighted average 
@@ -364,7 +364,7 @@ def _build_features(
     eval_tfidf  = tfidf.transform(_extract_texts(eval_rows))
 
     # FastText embeddings
-    vocab = build_vocab(train_rows)
+    vocab = build_vocab(train_rows, tokenize_fn=lambda t: re.findall(r"\w+", t.lower()))
     embed_matrix = load_fasttext_vectors(FASTTEXT_PATH, vocab)
         
     # train_embeddings = _get_embeddings(_extract_texts(train_rows), vocab, embed_matrix)
