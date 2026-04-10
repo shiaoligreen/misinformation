@@ -602,6 +602,30 @@ def main():
         evaluate_model(model, dev_loader, dev_rows, device,
                        name=f"TextCNN — Dev Set ({target})", target=target)
 
+def run(
+    train_rows: list[dict],
+    dev_rows:   list[dict],
+    task:       str = "opinion_label",
+) -> tuple[list[int], list[int], list[float]]:
+    """
+    Wrapper for use in standalone scripts and ensembling.
+    Returns (preds, labels, probs).
+    """
+    device = torch.device(
+        "mps"  if torch.backends.mps.is_available() else
+        "cuda" if torch.cuda.is_available()          else
+        "cpu"
+    )
+
+    vocab        = build_vocab(train_rows, preprocess)
+    embed_matrix = load_fasttext_vectors(FASTTEXT_PATH, vocab)
+    train_loader = make_loader(train_rows, vocab, shuffle=True,  tokenize_fn=preprocess)
+    dev_loader   = make_loader(dev_rows,   vocab, shuffle=False, tokenize_fn=preprocess)
+    cnn_model    = TextCNN(len(vocab), embed_matrix).to(device)
+    cnn_model    = train_model(cnn_model, train_loader, dev_loader, train_rows, device)
+
+    return predict(cnn_model, dev_loader, device, target=task)
+
 
 if __name__ == "__main__":
     main()
