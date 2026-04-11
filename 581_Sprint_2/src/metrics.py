@@ -6,7 +6,7 @@ All functions accept  Python lists (ints/floats), so they should work with any m
 """
 
 #Using sklearn for all metrics
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, classification_report, fbeta_score
+from sklearn.metrics import f1_score, roc_auc_score, classification_report, fbeta_score
 
 
 def compute_metrics(preds: list[int], labels: list[int], probs: list[float]):
