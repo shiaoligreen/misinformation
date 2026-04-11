@@ -6,7 +6,7 @@ All functions accept  Python lists (ints/floats), so they should work with any m
 """
 
 #Using sklearn for all metrics
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, classification_report, fbeta_score
+from sklearn.metrics import f1_score, roc_auc_score, classification_report, fbeta_score
 
 
 def compute_metrics(preds: list[int], labels: list[int], probs: list[float]):
@@ -20,7 +20,7 @@ def compute_metrics(preds: list[int], labels: list[int], probs: list[float]):
         probs:  Predicted probabilities for class 1. Needed for AUC-ROC.
 
     Returns:
-        Dict with accuracy, macro_f1, f1_class0, f1_class1, 
+        Dict with macro_f1, f1_class0, f1_class1, 
         f1.5_class1 and auc_roc (if probs are passed as a parameter).
     """
     #Calculate f1
@@ -28,7 +28,6 @@ def compute_metrics(preds: list[int], labels: list[int], probs: list[float]):
 
     #Create the dictionary of metrics
     metrics = {
-        "accuracy":  accuracy_score(labels, preds),
         "macro_f1":  f1_score(labels, preds, average="macro"),
         "f1_class0": f1s[0],
         "f1_class1": f1s[1],
@@ -50,7 +49,6 @@ def print_report(metrics: dict, name: str = ""):
     #Print results
     header = f"── {name} ──" if name else "── Results ──"
     print(header)
-    print(f"  Accuracy:         {metrics['accuracy']:.4f}")
     print(f"  Macro F1:         {metrics['macro_f1']:.4f}")
     print(f"  F1 (not-opinion): {metrics['f1_class0']:.4f}")
     print(f"  F1 (opinion):     {metrics['f1_class1']:.4f}")
