@@ -26,7 +26,7 @@ Pre-computed linguistic binary features:
     adjectives_bin, unk_bin, text_length (scaled)
 
 
-Usage in baseline_notebook.ipynb:
+Usage in Sprint_3.ipynb:
     import logreg_mtl_cascaded_pos as lr_mtl
     results["LogReg-MTL-Opinion"] = lr_mtl.run(train_rows, dev_rows, task="opinion_label")
     results["LogReg-MTL-Misinfo"] = lr_mtl.run(train_rows, dev_rows, task="misinformation_label")
