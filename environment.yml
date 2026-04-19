@@ -28,3 +28,4 @@ dependencies:
     - tweet-preprocessor
     - huggingface_hub
     - iterative-stratification
+    - spacy
