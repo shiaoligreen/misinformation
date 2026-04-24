@@ -1,0 +1,251 @@
+id,text,misinformation_label,opinion_label,all_caps,exclamation_marks,hedging,adjectives,unk,annotator,exclamation_marks_bin,all_caps_bin,hedging_bin,adjectives_bin,unk_bin,jennifer,nicole,rachelle,shiao-li,split
+100001,"man fuck this heat, it's like 110 out here in LA and I'm literally dying. idk how anyone survives this shit without AC. stay safe ppl.",0,1,[],[],[],"[['dying', 74, 79]]","[['fuck', 4, 8], ['shit', 108, 112]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100002,The proportion of residents without power in Dade County has doubled since 4 PM. Are the grids failing or just...,0,0,[],[],[],"[['failing', 101, 108]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100003,JUST IN: Massive explosion reported at a chemical plant in Houston. Residents told to shelter in place.,0,0,"[['JUST', 0, 4], ['IN', 5, 7]]",[],[],"[['reported', 26, 34]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100004,"idc what the news says, that sky looks weird as hell tonight. reminds me of the 2018 fires. staysafe #BCfire",0,1,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100005,"Reports of ""black rain"" in Tokyo after the factory fire are being investigated by environmental agencies.",0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100006,My car is covered in like two inches of ash this morning... feels like the apocalypse out here in Oregon.,0,1,[],[],"[['feels', 61, 66]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100007,"5 dead, dozens injured after a series of tornadoes ripped through rural Alabama late last night. #ALwx",0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100008,tbh the govt response to the floods in Kentucky has been fucking pathetic. ppl are losing everything.,0,1,[],[],[],"[['losing', 86, 92]]","[['fucking', 61, 68]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100009,WATCH: Dashcam footage shows the moment the hillside collapsed onto Highway 1 during the storm.,0,0,"[['WATCH', 0, 5]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100010,idk if I should leave or stay... the wind is getting crazy but the roads are already flooded.,0,1,[],[],"[['should', 9, 15]]","[['getting', 39, 46], ['flooded', 79, 86]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100011,Update: The #InsurrectionAct has NOT been invoked by the President. Stop spreading old rumors.,0,0,"[['NOT', 32, 35]]",[],[],"[['spreading', 71, 80]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100012,ffs the sirens just went off again. 3rd time tonight. I'm over this shit. #KSwx,0,1,[],[],[],[],"[['ffs', 0, 3], ['shit', 61, 65]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100013,"Air quality in the Bay Area hits ""Hazardous"" levels as smoke from the Camp Fire drifts south.",0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100014,I'm unsure if the shelter at the community center is still taking people. Does anyone have info??,0,1,[],[],"[['unsure', 4, 10]]","[['taking', 61, 67]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100015,BREAKING: At least 200 homes destroyed as fast-moving brush fire jumps the 405 freeway.,0,0,"[['BREAKING', 0, 8]]",[],[],"[['moving', 48, 54]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100016,"URGENT: The white ash falling in Seattle isn't from the fires, it's actually biological weapons! SHARE!",1,0,"[['URGENT', 0, 6], ['SHARE', 98, 103]]","[['!', 97, 98], ['!', 103, 104]]",[],"[['falling', 17, 24]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100017,"Doctors are saying that the ""smoke"" is actually a sedative used to keep the public calm during the riots.",1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100018,I reckon the government is using the hurricane to clear out the homeless in Florida. It's too convenient.,1,1,[],[],"[['reckon', 2, 8]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100019,THE UN IS BUILDING CAMPS IN THE DESERT UNDER THE GUISE OF DISASTER RELIEF. DON'T BE FOOLED!!,1,0,"[['THE', 0, 3], ['IS', 7, 9], ['BUILDING', 10, 18], ['CAMPS', 19, 24], ['IN', 25, 27], ['THE', 28, 31], ['DESERT', 32, 38], ['UNDER', 39, 44], ['THE', 45, 48], ['GUISE', 49, 54], ['OF', 55, 57], ['DISASTER', 58, 66], ['RELIEF', 67, 73]]","[['!', 91, 92], ['!', 92, 93]]",[],"[['BUILDING', 10, 18]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100020,Maybe the reason the power is out is because they're installing 6G towers that cause seizures. think about it.,1,1,[],[],"[['Maybe', 0, 5], ['think', 97, 102]]","[['installing', 51, 61]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100021,Leaked video: The fire in Hawaii was started by a blue laser from a satellite. Look at the beam!,1,0,[],"[['!', 94, 95]]",[],[],[],AI_Gen,1,0,0,0,0,0,0,0,0,train
+100022,"I suspect the ""missing"" kids in the flood were taken for the underground tunnels. This shit is dark.",1,1,[],[],"[['suspect', 2, 9]]","[['missing', 16, 23]]","[['shit', 86, 90]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100023,ALERT: FEMA is poisoning the bottled water they are giving out at the relief centers. DO NOT DRINK.,1,0,"[['ALERT', 0, 5], ['DO', 87, 89], ['NOT', 90, 93], ['DRINK', 94, 99]]",[],[],"[['poisoning', 14, 23], ['giving', 50, 56]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100024,It's so obvious the earthquake was a test for a new weapon. I feel like we are all lab rats.,1,1,[],[],"[['feel', 61, 65]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100025,"BREAKING: NASA warns that a ""solar tsunami"" will destroy the internet for 10 years starting tonight.",1,0,"[['BREAKING', 0, 8]]",[],[],"[['starting', 90, 98]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100026,"idk, maybe the ""meteor"" was actually a crashed drone from China? The news isn't telling us the truth.",1,1,[],[],"[['maybe', 5, 10]]","[['telling', 82, 89]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100027,"The ""smoke"" in NY is actually a chemical cloud released by the UN to see how we react. #NYSun",1,0,"[['NY', 18, 20]]",[],[],"[['released', 47, 55]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100028,I hope people realize the red sun is a sign of the occult ritual the elites are doing tonight!,1,1,[],"[['!', 94, 95]]","[['hope', 2, 6]]","[['doing', 87, 92]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100029,"Statistics show that the ""drought"" is actually a way for the govt to seize private farmland. WAKE UP!",1,0,"[['WAKE', 92, 96], ['UP', 97, 99]]","[['!', 99, 100]]",[],[],[],AI_Gen,1,1,0,0,0,0,0,0,0,train
+100030,"Seems like the ""tsunami warning"" is just a cover for the navy to move assets into the Pacific for war.",1,1,[],[],"[['Seems', 0, 5]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100031,"ffs the red sky is so creepy, I'm pretty sure it's the end of the world. someone help!",0,1,[],"[['!', 83, 84]]","[['sure', 41, 45]]",[],"[['ffs', 0, 3]]",AI_Gen,1,0,1,0,1,0,0,0,0,train
+100032,Reports indicate that the gas leak has been contained. Residents may return to their homes w/ caution.,0,0,[],[],"[['indicate', 8, 16], ['may', 58, 61]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100033,I think the mayor is a total jackass for not evacuating the coastal areas sooner. what a mess.,0,1,[],[],"[['think', 2, 7]]","[['evacuating', 43, 53]]","[['jackass', 32, 39]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100034,Flood levels have reached 15 feet in some parts of the city. More rain expected tonight. #HoustonFlood,0,0,[],[],"[['expected', 74, 82]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100035,literally crying bc I lost all my photos in the fire. life is so fucking unfair sometimes.,0,1,[],[],[],"[['crying', 10, 16]]","[['fucking', 57, 64]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100036,Headline: New study finds that urban heat islands are becoming more dangerous during summers.,0,0,[],[],[],"[['becoming', 47, 55], ['dangerous', 61, 70]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100037,I guess we just gotta deal w/ the smoke for now. it's not like we can move the wind lol.,0,1,[],[],"[['guess', 2, 7], ['can', 73, 76]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100038,"The number of heat-related deaths has increased by 10% in the last decade, says report.",0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100039,damn this traffic is hell. everyone is trying to leave at once bc of the storm warning. fml.,0,1,[],[],[],"[['trying', 37, 43]]","[['damn', 0, 4], ['fml', 89, 92]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100040,Official: The bridge on I-95 will remain closed for repairs until further notice. Use alternate routes.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100041,"I suspect that the power company is charging us extra for the ""emergency"" repairs. what a scam.",0,1,[],[],"[['suspect', 2, 9]]","[['charging', 33, 41]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100042,Seismic activity has increased near Mount St. Helens. Geologists are monitoring the situation closely.,0,0,[],[],[],"[['monitoring', 69, 79]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100043,omg is it just me or is the moon looking way bigger than usual tonight?? creepy as fuck.,0,1,[],[],"[['usual', 54, 59]]","[['looking', 39, 46]]","[['fuck', 82, 86]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100044,The evacuation order for Zone A has been lifted. Residents can return home safely.,0,0,[],[],"[['can', 54, 57]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100045,tbh the response time for the fire dept was actually pretty good. props to them.,0,1,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100046,"ALERT: The ""snow"" in Texas is actually synthetic plastic that won't melt. DON'T TOUCH IT!",1,0,"[['ALERT', 0, 5], ['DON', 73, 76], ['T', 77, 78], ['TOUCH', 79, 84], ['IT', 85, 87]]","[['!', 87, 88]]",[],[],[],AI_Gen,1,1,0,0,0,0,0,0,0,train
+100047,I believe the government is steering the hurricanes to target specific voting districts. SHAMEFUL!,1,1,"[['SHAMEFUL', 90, 98]]","[['!', 98, 99]]","[['believe', 2, 9]]","[['voting', 80, 86]]",[],AI_Gen,1,1,1,1,0,0,0,0,0,train
+100048,Scientists have found that the vaccine contains a tracking chip that activates during solar storms.,1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100049,"It seems like the ""fire"" was actually a cover for the military to excavate an ancient artifact.",1,1,[],[],"[['seems', 3, 8]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100050,BREAKING: The UN has officially taken control of the US power grid under the Global Emergency Act.,1,0,"[['BREAKING', 0, 8], ['UN', 13, 15], ['US', 46, 48]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100051,"I suspect that the ""red sun"" is caused by a massive chemical leak they are trying to hide from us.",1,1,[],[],"[['suspect', 2, 9]]","[['trying', 71, 77]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100052,The drought was intentionally caused by a secret facility in Nevada using water-diversion lasers.,1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100053,"idk, I feel like the ""wildfires"" are just a way for the elites to clear the land for their 15-minute cities.",1,1,[],[],"[['feel', 9, 13]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100054,NEW STUDY: The ash from the fires is actually a programmable material that can change your DNA.,1,0,"[['NEW', 0, 3], ['STUDY', 4, 9], ['DNA', 89, 92]]",[],"[['can', 76, 79]]",[],[],AI_Gen,0,1,1,0,0,0,0,0,0,train
+100055,"Maybe the ""hurricane"" is just a giant hologram to hide the fact that the ocean is disappearing.",1,1,[],[],"[['Maybe', 0, 5]]","[['disappearing', 82, 94]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100056,URGENT: The water supply has been poisoned with mind-control agents. DO NOT DRINK THE WATER!!,1,0,"[['URGENT', 0, 6], ['DO', 70, 72], ['NOT', 73, 76], ['DRINK', 77, 82], ['THE', 83, 86], ['WATER', 87, 92]]","[['!', 92, 93], ['!', 93, 94]]",[],"[['poisoned', 35, 43]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100057,"I reckon the ""earthquake"" was actually a secret explosion from an underground base. shit is wild.",1,1,[],[],"[['reckon', 2, 8]]",[],"[['shit', 86, 90]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100058,Leaked documents prove that the government has been controlling the weather since the 1960s.,1,0,[],[],[],"[['controlling', 53, 64]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100059,"I hope people see that the ""emergency"" is just a way for them to implement martial law. WAKE UP!",1,1,"[['WAKE', 88, 92], ['UP', 93, 95]]","[['!', 95, 96]]","[['hope', 2, 6]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100060,"Statistics show that the ""drought"" is actually a fake narrative created by the UN to control food.",1,0,"[['UN', 80, 82]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100061,the wind is absolutely insane rn. my neighbor's fence just blew over. hope everyone is staying safe out there.,0,1,[],[],"[['hope', 63, 67]]","[['staying', 84, 91]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100062,Officials have confirmed a second breach in the levee. Water is expected to reach the industrial park by midnight.,0,0,[],[],"[['expected', 59, 67]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100063,why the hell is the city taking so long to clear the trees? ppl have jobs to get to. such a mess.,0,1,[],[],[],"[['taking', 26, 32]]","[['hell', 8, 12]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100064,Thousands of travelers remain stranded at O'Hare as the blizzard continues to dump snow across the Midwest.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100065,tbh I think the new evacuation map is confusing as fuck. who even designed this??,0,1,[],[],"[['think', 6, 11]]","[['confusing', 40, 49]]","[['fuck', 53, 57]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100066,A look at how urban infrastructure has changed since the 1994 earthquake. New building codes are...,0,0,[],[],[],"[['building', 90, 98]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100067,look at the sky! it's literally purple. I've never seen anything like this in my life. stay safe y'all!,0,1,[],"[['!', 15, 16], ['!', 97, 98]]",[],[],[],AI_Gen,1,0,0,0,0,0,0,0,0,train
+100068,CAL FIRE reports the blaze is now 45% contained. Cooler temperatures are helping the crews on the ground.,0,0,"[['CAL', 0, 3], ['FIRE', 4, 8]]",[],[],"[['helping', 71, 78]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100069,another night in the dark bc the power grid is dogshit. thanks for nothing @PGE4Me,0,1,[],[],[],[],"[['dogshit', 48, 55]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100070,The proportion of emergency calls related to heat stroke has risen sharply in the last 48 hours.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100071,"i'm so thankful we got out before the bridge closed. the traffic was moving so slow, i was panicked.",0,1,[],[],[],"[['thankful', 7, 15], ['moving', 69, 75]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100072,Update: Mayor announces a temporary curfew for the downtown district starting at 10 PM tonight.,0,0,[],[],[],"[['starting', 78, 86]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100073,"idc what the gov says, I’m not drinking the tap water. it tastes like straight metal. disgusting.",0,1,[],[],[],"[['disgusting', 88, 98]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100074,Seismologists say the 3.8 magnitude tremor was an aftershock of last week's main event. No damage reported.,0,0,[],[],[],"[['reported', 99, 107]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100075,I feel so bad for the animals in this heat. please put out water if you can!,0,1,[],"[['!', 74, 75]]","[['feel', 2, 6], ['can', 70, 73]]",[],[],AI_Gen,1,0,1,0,0,0,0,0,0,train
+100076,"ALERT: The ""heatwave"" is actually a cover for the military to test a new microwave weapon on the city.",1,0,"[['ALERT', 0, 5]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100077,maybe the gov is steering the hurricanes bc they want to buy up the cheap land after the destruction.,1,1,[],[],"[['maybe', 0, 5]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100078,WATCH: Leaked audio shows the governor admitting the flood was intentional to destroy low-income housing.,1,0,"[['WATCH', 0, 5]]",[],[],"[['income', 83, 89]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100079,"i suspect the ""smoke"" from the fires is actually a chemical trail designed to make us more obedient.",1,1,[],[],"[['suspect', 2, 9]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100080,"BREAKING: The UN has officially started seizing private property in Florida under the ""Emergency Relief"" act.",1,0,"[['BREAKING', 0, 8], ['UN', 13, 15]]",[],[],"[['seizing', 34, 41]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100081,"it seems pretty obvious the ""meteor"" was a satellite from China. they aren't telling us the whole truth.",1,1,[],[],"[['seems', 3, 8]]","[['telling', 78, 85]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100082,Scientists found that the new vaccine contains a bioluminescent dye that glows under UV light for tracking.,1,0,"[['UV', 87, 89]]",[],[],"[['tracking', 101, 109]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100083,"reckon the ""wildfire"" was actually a direct energy weapon attack. look at how the trees didn't burn!",1,1,[],"[['!', 98, 99]]","[['reckon', 0, 6]]",[],[],AI_Gen,1,0,1,0,0,0,0,0,0,train
+100084,URGENT: The red sun is a sign that the atmosphere is failing. stock up on oxygen masks NOW!,1,0,"[['URGENT', 0, 6], ['NOW', 88, 91]]","[['!', 91, 92]]",[],"[['failing', 63, 70]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100085,"i hope ppl realize the ""missing"" people are actually being taken to underground tunnels. it's so dark.",1,1,[],[],"[['hope', 2, 6]]","[['missing', 24, 31]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100086,Leaked report: The drought is being artificially maintained by the UN to control the global food supply.,1,0,"[['UN', 68, 70]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100087,"i feel like the ""storm"" is just a distraction while they implement the new social credit system.",1,1,[],[],"[['feel', 2, 6]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100088,IMPORTANT: The government is using the hurricane to test a mass-forgetting frequency. DONT BELIEVE THE NEWS!,1,0,"[['IMPORTANT', 0, 9], ['DONT', 90, 94], ['BELIEVE', 95, 102], ['THE', 103, 106], ['NEWS', 107, 111]]","[['!', 111, 112]]",[],"[['forgetting', 65, 75]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100089,"i guess the ""red sky"" is a sign of the end of the world. the elites know and they aren't telling us.",1,1,[],[],"[['guess', 2, 7]]","[['telling', 84, 91]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100090,"Statistics show that the ""heat deaths"" are actually caused by the 5G towers being activated. WAKE UP!",1,0,"[['WAKE', 91, 95], ['UP', 96, 98]]","[['!', 98, 99]]",[],"[['activated', 78, 87]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100091,"damn, I'm so over this weather. my basement is literally a pool. fml.",0,1,[],[],[],[],"[['damn', 0, 4], ['fml', 65, 68]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100092,Current data indicates that the earthquake's epicenter was 10 miles west of the city. No fatalities.,0,0,[],[],"[['indicates', 13, 22]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100093,tbh the city's response to the blizzard was fucking embarrassing. people were stuck for 12 hours.,0,1,[],[],[],"[['embarrassing', 58, 70]]","[['fucking', 50, 57]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100094,New report: The proportion of property damage from wildfires has doubled since 2015. Are we prepared?,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100095,I suspect the mayor is just a greedy bastard who wants to profit off the reconstruction. just my opinion.,0,1,[],[],"[['suspect', 2, 9]]",[],"[['bastard', 38, 45]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100096,Traffic is at a standstill on the I-5 as crews work to clear the mudslide. Expected delay: 4 hours.,0,0,[],[],"[['Expected', 76, 84]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100097,literally crying bc I have no way to get to work now. this storm ruined everything. ffs.,0,1,[],[],[],"[['crying', 10, 16]]","[['ffs', 86, 89]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100098,Headline: Local authorities confirm that the water is safe to drink after the chemical spill.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100099,"idk, I think the ""warning"" was way too late. ppl could have been killed. so reckless.",0,1,[],[],"[['think', 7, 12], ['could', 42, 47]]","[['reckless', 72, 80]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100100,Update: The governor has requested federal assistance for the flood-ravaged counties in the north.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100101,i'm unsure if the power will be back on tonight. it's so dark and creepy as hell. stay safe.,0,1,[],[],"[['unsure', 4, 10]]",[],"[['hell', 71, 75]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100102,The annual report shows a significant increase in the use of public shelters during the winter months.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100103,watching the news and I feel like they are hiding the real death toll from the fires. what a shame.,0,1,[],[],"[['feel', 21, 25]]","[['hiding', 39, 45]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100104,Seismologists have recorded several minor tremors near the fault line this morning. Monitoring continues.,0,0,[],[],[],"[['Monitoring', 84, 94]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100105,"honestly, the ""safety tips"" they gave us are basically useless. as if a mask will help in this smoke.",0,1,[],[],"[['basically', 50, 59]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100106,"ALERT: The ""snow"" in the South is actually biological weapons. DO NOT TOUCH. IT IS DEADLY!",1,0,"[['ALERT', 0, 5], ['DO', 65, 67], ['NOT', 68, 71], ['TOUCH', 72, 77], ['IT', 79, 81], ['IS', 82, 84], ['DEADLY', 85, 91]]","[['!', 91, 92]]",[],[],[],AI_Gen,1,1,0,0,0,0,0,0,0,train
+100107,"i believe the government is using the ""hurricane"" to cover up a naval invasion from the East. SHAMEFUL!",1,1,"[['SHAMEFUL', 94, 102]]","[['!', 102, 103]]","[['believe', 2, 9]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100108,"Doctors have found that the ""smoke"" from the wildfires contains mind-control particles. SHARE NOW!",1,0,"[['SHARE', 91, 96], ['NOW', 97, 100]]","[['!', 100, 101]]",[],[],[],AI_Gen,1,1,0,0,0,0,0,0,0,train
+100109,"it seems like the ""flood"" was a fake event staged to move people into FEMA camps. I'm so scared.",1,1,"[['FEMA', 78, 82]]",[],"[['seems', 3, 8]]",[],[],AI_Gen,0,1,1,0,0,0,0,0,0,train
+100110,BREAKING: The UN is building a weather-control dome over the city to keep us trapped. WATCH!,1,0,"[['BREAKING', 0, 8], ['UN', 13, 15], ['WATCH', 88, 93]]","[['!', 93, 94]]",[],"[['building', 22, 30]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100111,"i suspect the ""missing"" children are being used for experiments in the underground bunkers. shit is real.",1,1,[],[],"[['suspect', 2, 9]]","[['missing', 16, 23]]","[['shit', 95, 99]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100112,"Scientists warn that the ""red moon"" is a sign of a massive solar flare that will destroy the grid.",1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100113,maybe the reason for the drought is because they are diverting the water to their secret cities.,1,1,[],[],"[['maybe', 0, 5]]","[['diverting', 53, 62]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100114,"URGENT: The government is poisoning the food supply during the ""emergency"" to lower the population.",1,0,"[['URGENT', 0, 6]]",[],[],"[['poisoning', 26, 35]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100115,"i hope ppl realize the ""smoke"" is actually a programmable material that can change your DNA. WAKE UP!",1,1,"[['DNA', 89, 92], ['WAKE', 94, 98], ['UP', 99, 101]]","[['!', 101, 102]]","[['hope', 2, 6], ['can', 76, 79]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100116,"Statistics prove that the ""climate change"" fires are being set by drones with laser beams.",1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100117,"i reckon the ""earthquake"" was a test run for a global blackout. they are coming for us. I'm ready.",1,1,[],[],"[['reckon', 2, 8]]","[['coming', 75, 81]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100118,Leaked documents show the government has been using weather-control since the 1960s to win wars.,1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100119,"it's possible that the ""emergency"" is just a way for them to implement martial law. don't be fooled!",1,1,[],"[['!', 101, 102]]","[['possible', 5, 13]]",[],[],AI_Gen,1,0,1,0,0,0,0,0,0,train
+100120,"BREAKING: NASA warns that a ""solar tsunami"" will destroy the internet for 10 years starting tonight.",1,0,"[['BREAKING', 0, 8]]",[],[],"[['starting', 90, 98]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100121,Major delays on the G train due to a signal malfunction at Bedford-Nostrand. Use the B38 bus as an alternative.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100122,The National Weather Service confirms a flash flood warning for Clark County until 4:00 AM. Avoid low-lying areas.,0,0,"[['AM', 88, 90]]",[],[],"[['lying', 101, 106]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100123,20% of the city remains without power following yesterday’s ice storm. Crews are working 24/7 to restore service.,0,0,[],[],[],"[['following', 38, 47], ['working', 78, 85]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100124,Update: The governor has officially declared a state of emergency for all coastal counties. #FLwx,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100125,Public health officials are monitoring a cluster of respiratory illnesses linked to the recent smog.,0,0,[],[],[],"[['monitoring', 33, 43]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100126,Search and rescue teams have recovered three missing hikers in the Adirondacks. All are in stable condition.,0,0,[],[],[],"[['missing', 44, 51]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100127,The proportion of students missing school due to the flu has reached a five-year high in the district.,0,0,[],[],[],"[['missing', 26, 33]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100128,Local markets are reporting a shortage of bottled water and batteries ahead of the hurricane's landfall.,0,0,[],[],[],"[['reporting', 19, 28]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100129,NEW: The bridge on Highway 101 is now open to one-lane traffic following the mudslide clearance.,0,0,"[['NEW', 0, 3]]",[],[],"[['following', 62, 71]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100130,Scientists have recorded a 4.5 magnitude earthquake near the border of Turkey and Syria.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100131,"Air quality index in Salt Lake City has reached ""Unhealthy"" levels due to the wildfire smoke inversion.",0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100132,Shelter capacity in the downtown area is currently at 95%. New locations opening in the suburbs.,0,0,[],[],[],"[['opening', 60, 67]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100133,Transportation officials indicate that the interstate will remain closed through the weekend for repairs.,0,0,[],[],"[['indicate', 25, 33]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100134,The annual report shows that heat-related hospitalizations have increased significantly in urban centers.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100135,Water levels in the reservoir have dropped to record lows after the driest summer in decades.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100136,idk why anyone still lives in Florida bc these hurricanes are getting way too frequent. it’s exhausting.,0,1,[],[],[],"[['getting', 53, 60], ['exhausting', 81, 91]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100137,"tbh the way the media is covering this blizzard is so dramatic. it’s just snow ppl, calm down.",0,1,[],[],[],"[['covering', 27, 35]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100138,"I suspect the city council is just using the ""emergency fund"" for their own stupid projects. what a joke.",0,1,[],[],"[['suspect', 2, 9]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100139,literally crying bc the storm ruined my wedding plans. life is so fucking unfair sometimes.,0,1,[],[],[],"[['crying', 10, 16]]","[['fucking', 61, 68]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100140,It seems like the emergency sirens are louder than they used to be. My ears are ringing.,0,1,[],[],"[['seems', 3, 8]]","[['ringing', 79, 86]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100141,ffs the traffic on the I-5 is absolute dogshit today. everyone is panic buying and it’s a mess.,0,1,[],[],[],"[['buying', 75, 81]]","[['ffs', 0, 3], ['dogshit', 37, 44]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100142,I feel so bad for the homeless ppl during this heatwave. the city should provide more cooling centers.,0,1,[],[],"[['feel', 2, 6], ['should', 60, 66]]","[['cooling', 84, 91]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100143,honestly the response to the flash flood was pretty impressive. props to the first responders!,0,1,[],"[['!', 92, 93]]",[],"[['impressive', 61, 71]]",[],AI_Gen,1,0,0,1,0,0,0,0,0,train
+100144,I reckon we won’t have power back until Tuesday. This company is a total disaster.,0,1,[],[],"[['reckon', 2, 8]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100145,damn the sky looks so eerie today with the smoke. feels like the end of the world tbh.,0,1,[],[],"[['feels', 54, 59]]",[],"[['damn', 0, 4]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100146,I think the evacuation order was way too late. They always wait until the last possible second.,0,1,[],[],"[['think', 2, 7], ['possible', 78, 86]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100147,why the hell is it so hard to get sandbags in this town? ppl are literally fighting over them. fml.,0,1,[],[],[],"[['fighting', 70, 78]]","[['hell', 8, 12], ['fml', 92, 95]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100148,it’s so heartless that the landlord is still demanding rent while the apartment is flooded.,0,1,[],[],[],"[['heartless', 8, 17], ['demanding', 45, 54], ['flooded', 81, 88]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100149,I hope everyone in the path of the storm stays safe. God bless.,0,1,[],[],"[['hope', 2, 6]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100150,"tbh I’m kind of enjoying the rain, even if it’s a bit much. better than that 100 degree heat!",0,1,[],"[['!', 91, 92]]",[],"[['enjoying', 19, 27]]",[],AI_Gen,1,0,0,1,0,0,0,0,0,train
+100151,"ALERT: The government is using the ""wildfires"" to cover up a massive underground gas leak in the valley.",1,0,"[['ALERT', 0, 5]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100152,"Doctors warn that the ""red sun"" is actually a sign of the atmosphere being replaced with nitrogen.",1,0,[],[],[],"[['being', 75, 80], ['replaced', 81, 89]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100153,Leaked video shows the hurricane is actually a giant hologram used to test civilian fear levels.,1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100154,URGENT: The water supply has been poisoned with a sedative to keep everyone calm during the transition.,1,0,"[['URGENT', 0, 6]]",[],[],"[['poisoned', 35, 43]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100155,"NASA admits that the ""meteor"" was actually a failed satellite launch from a secret private facility.",1,0,"[['NASA', 0, 4]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100156,"Statistics show that the ""drought"" is actually a plot by the UN to seize control of all private wells.",1,0,"[['UN', 61, 63]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100157,BREAKING: The governor has been replaced by an AI clone to manage the disaster response more efficiently.,1,0,"[['BREAKING', 0, 8], ['AI', 49, 51]]",[],[],"[['replaced', 29, 37]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100158,Reports indicate that the earthquake was triggered by a deep-sea mining explosion that went wrong.,1,0,[],[],"[['indicate', 8, 16]]","[['mining', 63, 69]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100159,IMPORTANT: The ash from the fires contains microscopic trackers that can be activated by 5G towers.,1,0,"[['IMPORTANT', 0, 9]]",[],"[['can', 73, 76]]","[['activated', 80, 89]]",[],AI_Gen,0,1,1,1,0,0,0,0,0,train
+100160,"The UN is building a giant wall around the ""disaster zone"" to prevent people from ever returning.",1,0,"[['UN', 4, 6]]",[],[],"[['building', 10, 18], ['returning', 86, 95]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100161,WATCH: Security footage shows a blue laser starting the fire in the hills last night. TRUTH REVEALED!,1,0,"[['WATCH', 0, 5], ['TRUTH', 85, 90], ['REVEALED', 91, 99]]","[['!', 99, 100]]",[],"[['starting', 43, 51]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100162,"Scientists have discovered that the ""virus"" is actually a biological agent released by the smoke.",1,0,[],[],[],"[['released', 72, 80]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100163,Leaked documents prove the flood was intentional to destroy the voting records in the county office.,1,0,[],[],[],"[['voting', 65, 71]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100164,"NEW STUDY: The ""climate change"" fires are being set by government drones to clear land for new cities.",1,0,"[['NEW', 0, 3], ['STUDY', 4, 9]]",[],[],"[['being', 43, 48]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100165,ALERT: FEMA is using the hurricane to test a mass-forgetting frequency on the population tonight!,1,0,"[['ALERT', 0, 5], ['FEMA', 7, 11]]","[['!', 96, 97]]",[],"[['forgetting', 53, 63]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100166,"maybe the ""smoke"" is actually a healing vapor and the government is trying to hide it from us. think!",1,1,[],"[['!', 98, 99]]","[['maybe', 0, 5], ['think', 92, 97]]","[['healing', 32, 39], ['trying', 66, 72]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100167,"I suspect the ""missing"" children were taken by the military for experiments. this shit is sick.",1,1,[],[],"[['suspect', 2, 9]]","[['missing', 16, 23]]","[['shit', 86, 90]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100168,It seems pretty obvious the earthquake was a test for a new tectonic weapon. We are all lab rats!,1,1,[],"[['!', 95, 96]]","[['seems', 3, 8]]",[],[],AI_Gen,1,0,1,0,0,0,0,0,0,train
+100169,"reckon the ""flood"" was a fake event to move us into FEMA camps. I’m not going without a fight.",1,1,"[['FEMA', 55, 59]]",[],"[['reckon', 0, 6]]","[['going', 69, 74]]",[],AI_Gen,0,1,1,1,0,0,0,0,0,train
+100170,"idk, i feel like the red moon is a sign that the world is ending. the elites know the truth!",1,1,[],"[['!', 92, 93]]","[['feel', 9, 13]]","[['ending', 74, 80]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100171,the sirens are actually a frequency designed to make us sick. ffs it’s so obvious if you listen.,1,1,[],[],[],[],"[['ffs', 62, 65]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100172,I believe the government is steering these hurricanes to target red states. SHAMEFUL CONDUCT!,1,1,"[['SHAMEFUL', 77, 85], ['CONDUCT', 86, 93]]","[['!', 93, 94]]","[['believe', 2, 9]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100173,"it's possible that the ""emergency"" is just a way for them to implement martial law. WAKE UP PPL!",1,1,"[['WAKE', 84, 88], ['UP', 89, 91], ['PPL', 92, 95]]","[['!', 95, 96]]","[['possible', 5, 13]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100174,"honestly, the ""climate change"" fires are just a cover for land grabbing. they want us in 15min cities.",1,1,[],[],[],"[['grabbing', 72, 80]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100175,"i hope ppl realize the ""ash"" is actually a programmable material for mind control. SCARY SHIT!",1,1,"[['SCARY', 88, 93], ['SHIT', 94, 98]]","[['!', 98, 99]]","[['hope', 2, 6]]",[],"[['SHIT', 94, 98]]",AI_Gen,1,1,1,0,1,0,0,0,0,train
+100176,maybe the reason the power is out is so they can install 6G towers without anyone seeing.,1,1,[],[],"[['maybe', 0, 5], ['can', 43, 46]]","[['seeing', 88, 94]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100177,"i suspect that the ""red sky"" is caused by a massive chemical spill they are lying about!",1,1,[],"[['!', 88, 89]]","[['suspect', 2, 9]]","[['lying', 77, 82]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100178,"it seems like the ""tsunami"" was actually a secret naval explosion from a foreign submarine.",1,1,[],[],"[['seems', 3, 8]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100179,ffs I reckon the gov is just using this storm to distract us from the new taxes. greedy bastards.,1,1,[],[],"[['reckon', 6, 12]]",[],"[['ffs', 0, 3], ['bastards', 90, 98]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100180,"I think the ""meteor"" was a crashed alien ship and they are covering it up right now. WAKE UP!",1,1,"[['WAKE', 86, 90], ['UP', 91, 93]]","[['!', 93, 94]]","[['think', 2, 7]]","[['covering', 58, 66]]",[],AI_Gen,1,1,1,1,0,0,0,0,0,train
+100181,Update: The city’s reservoir has reached its lowest point in 40 years. Mandatory water restrictions are now in effect.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100182,Seismologists indicate that the 4.1 magnitude tremor was felt as far as 50 miles from the epicenter.,0,0,[],[],"[['indicate', 14, 22]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100183,The proportion of residents returning to the evacuation zone has slowed due to debris on the roads.,0,0,[],[],[],"[['returning', 24, 33]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100184,50% of the forest fire in Lake County is now contained. Crews are expecting cooler weather to help tonight.,0,0,[],[],"[['expecting', 63, 72]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100185,"BREAKING: The governor signed the emergency relief bill, allocating funds for those displaced by the floods.",0,0,"[['BREAKING', 0, 8]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100186,Scientists at the university are monitoring the movement of the fault line following the recent quake.,0,0,[],[],[],"[['monitoring', 33, 43], ['following', 73, 82]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100187,"Public health officials suggest that residents wear masks while the smoke levels remain ""Hazardous.""",0,0,[],[],"[['suggest', 24, 31]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100188,Several schools in the district remain closed today as power restoration efforts continue. #LAweather,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100189,Air quality index hit a record high today in Salt Lake City. Experts say it’s the worst smog in a decade.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100190,Headline: New data shows that coastal erosion has increased significantly following a series of winter storms.,0,0,[],[],[],"[['following', 75, 84]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100191,Local authorities confirm that the bridge on I-95 will be open by tomorrow morning. Travel with caution.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100192,"The number of heat-related hospitalizations has risen by 15% this summer, according to recent medical data.",0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100193,URGENT: The levee has been breached. Residents in the low-lying areas must evacuate immediately.,0,0,"[['URGENT', 0, 6]]",[],[],"[['lying', 61, 66]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100194,Meteorologists expect the storm to turn east before it reaches the coast. Monitoring remains constant.,0,0,[],[],"[['expect', 15, 21]]","[['Monitoring', 73, 83]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100195,Search teams have found the missing hikers. All are reported to be in stable condition at the local hospital.,0,0,[],[],[],"[['missing', 29, 36], ['reported', 46, 54]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100196,The proportion of homes with power has increased to 80% following the transformer repairs on Main St.,0,0,[],[],[],"[['following', 56, 65]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100197,Seismologists recorded a minor tremor of 3.2 magnitude near the border of Oregon early this morning.,0,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100198,tbh I’m so glad I moved out of the city before the floods hit. feeling blessed rn. stay safe ppl.,0,1,[],[],"[['feeling', 63, 70]]","[['blessed', 71, 78]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100199,"idc how much they fix the roads, the commute after a storm is always dogshit. ffs.",0,1,[],[],[],[],"[['dogshit', 69, 76], ['ffs', 78, 81]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100200,I suspect the mayor is hiding the true cost of the disaster to protect his reputation. what a joke.,0,1,[],[],"[['suspect', 2, 9]]","[['hiding', 23, 29]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100201,literally crying bc I lost everything in the fire. life is so fucking unfair. I hate it here.,0,1,[],[],[],"[['crying', 10, 16]]","[['fucking', 57, 64]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100202,It seems like the media is only showing the parts of town that aren't that bad. It's way worse here!,0,1,[],"[['!', 98, 99]]","[['seems', 3, 8]]","[['showing', 33, 40]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100203,ffs the sirens just went off again. I'm over this shit. I just want to sleep for once. #KSwx,0,1,[],[],[],[],"[['ffs', 0, 3], ['shit', 46, 50]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100204,I feel so bad for the animals left behind in the evacuation. my heart is literally breaking.,0,1,[],[],"[['feel', 2, 6]]","[['breaking', 81, 89]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100205,"honestly, the response to the hurricane was absolute dogshit. ppl are still without water 5 days later.",0,1,[],[],[],[],"[['dogshit', 53, 60]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100206,I reckon we won't see power back for a week. this company is a total disaster. fml.,0,1,[],[],"[['reckon', 2, 8]]",[],"[['fml', 80, 83]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100207,damn the sky looks so creepy with the red sun. feels like the end of the world tbh.,0,1,[],[],"[['feels', 49, 54]]",[],"[['damn', 0, 4]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100208,I think the warning was way too late. They always wait until the last possible second. so reckless.,0,1,[],[],"[['think', 2, 7], ['possible', 78, 86]]","[['reckless', 89, 97]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100209,why the hell is it so hard to get sandbags? ppl are literally fighting over them in the streets.,0,1,[],[],[],"[['fighting', 58, 66]]","[['hell', 8, 12]]",AI_Gen,0,0,0,1,1,0,0,0,0,train
+100210,it’s so heartless that companies are raising prices during a state of emergency. SHAME ON THEM!,0,1,"[['SHAME', 84, 89], ['ON', 90, 92], ['THEM', 93, 97]]","[['!', 97, 98]]",[],"[['heartless', 8, 17], ['raising', 38, 45]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100211,I hope everyone stays safe tonight. This storm looks absolutely terrifying on the radar.,0,1,[],[],"[['hope', 2, 6]]","[['terrifying', 56, 66]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100212,"tbh I’m kind of enjoying the rain, even if my basement is slightly flooded. better than 100 degrees!",0,1,[],"[['!', 99, 100]]","[['slightly', 60, 68]]","[['enjoying', 19, 27], ['flooded', 69, 76]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100213,I suspect the city is lying about the number of deaths. they don't want people to panic.,0,1,[],[],"[['suspect', 2, 9]]","[['lying', 22, 27]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100214,watching the footage of the rescue workers is so inspiring. they are truly heroes.,0,1,[],[],[],"[['inspiring', 51, 60]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100215,"idk, I feel like the governor is just a total jackass who doesn't care about us. just my opinion.",0,1,[],[],"[['feel', 9, 13]]",[],"[['jackass', 41, 48]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100216,ALERT: Scientists have confirmed that the smoke from the fires contains tracking nanobots. DO NOT INHALE!,1,0,"[['ALERT', 0, 5], ['DO', 93, 95], ['NOT', 96, 99], ['INHALE', 100, 106]]","[['!', 106, 107]]",[],[],[],AI_Gen,1,1,0,0,0,0,0,0,0,train
+100217,Leaked satellite data shows the hurricane was steered by a secret frequency emitter in the Atlantic.,1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100218,"Doctors warn that the ""red sun"" is actually a sign of the atmosphere being replaced with toxic gas.",1,0,[],[],[],"[['being', 75, 80]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100219,BREAKING: The UN has officially started seizing private property in Oregon under the Climate Act.,1,0,"[['BREAKING', 0, 8], ['UN', 13, 15]]",[],[],"[['seizing', 41, 48]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100220,URGENT: The water supply has been poisoned with a sedative to keep the population obedient. DO NOT DRINK.,1,0,"[['URGENT', 0, 6], ['DO', 96, 98], ['NOT', 99, 102], ['DRINK', 103, 108]]",[],[],"[['poisoned', 35, 43]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100221,"Statistics show that the ""drought"" is actually a plot by the elites to control the food supply. WAKE UP!",1,0,"[['WAKE', 94, 98], ['UP', 99, 101]]","[['!', 101, 102]]",[],[],[],AI_Gen,1,1,0,0,0,0,0,0,0,train
+100222,"NASA admits that the ""meteor"" was actually a crashed alien ship and they are covering it up right now.",1,0,"[['NASA', 0, 4]]",[],[],"[['covering', 75, 83]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100223,IMPORTANT: The ash from the fires contains trackers that can be activated by cell towers. SHARE NOW!,1,0,"[['IMPORTANT', 0, 9], ['SHARE', 93, 98], ['NOW', 99, 102]]","[['!', 102, 103]]","[['can', 59, 62]]","[['activated', 66, 75]]",[],AI_Gen,1,1,1,1,0,0,0,0,0,train
+100224,Leaked video shows a blue laser starting the fire in the hills last night. TRUTH REVEALED!,1,0,"[['TRUTH', 77, 82], ['REVEALED', 83, 91]]","[['!', 91, 92]]",[],"[['starting', 35, 43]]",[],AI_Gen,1,1,0,1,0,0,0,0,0,train
+100225,Reports indicate that the earthquake was triggered by a secret underground explosion. WATCH!,1,0,"[['WATCH', 88, 93]]","[['!', 93, 94]]","[['indicate', 8, 16]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100226,"The UN is building a giant wall around the ""disaster zone"" to prevent people from ever leaving.",1,0,"[['UN', 4, 6]]",[],[],"[['building', 10, 18], ['leaving', 86, 93]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100227,Leaked documents prove the flood was intentional to destroy the voting records in the city office.,1,0,[],[],[],"[['voting', 65, 71]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100228,Scientists have found that the vaccine contains a tracking chip that activates during solar flares.,1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100229,URGENT: The government is using the hurricane to test a mass-forgetting frequency tonight. DO NOT SLEEP.,1,0,"[['URGENT', 0, 6], ['DO', 92, 94], ['NOT', 95, 98], ['SLEEP', 99, 104]]",[],[],"[['forgetting', 55, 65]]",[],AI_Gen,0,1,0,1,0,0,0,0,0,train
+100230,"Statistics prove that the ""climate change"" fires are being set by drones with laser beams.",1,0,[],[],[],[],[],AI_Gen,0,0,0,0,0,0,0,0,0,train
+100231,BREAKING: The UN has officially taken control of the US power grid under the Emergency Relief Act.,1,0,"[['BREAKING', 0, 8], ['UN', 13, 15], ['US', 46, 48]]",[],[],[],[],AI_Gen,0,1,0,0,0,0,0,0,0,train
+100232,"I suspect the ""missing"" children were taken for experiments in the underground tunnels. shit is real.",1,1,[],[],"[['suspect', 2, 9]]","[['missing', 16, 23]]","[['shit', 90, 94]]",AI_Gen,0,0,1,1,1,0,0,0,0,train
+100233,i reckon the gov is just using the drought as an excuse to seize our land. they are so greedy. shit is crazy.,1,1,[],[],"[['reckon', 2, 8]]",[],"[['shit', 97, 101]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100234,maybe the reason the sky is red is bc they are testing a new bio-weapon on us. idk feel like we are lab rats.,1,1,[],[],"[['maybe', 0, 5], ['feel', 84, 88]]","[['testing', 48, 55]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100235,it seems pretty obvious the earthquake was a test for a new tectonic weapon. we are all lab rats!,1,1,[],"[['!', 95, 96]]","[['seems', 3, 8]]",[],[],AI_Gen,1,0,1,0,0,0,0,0,0,train
+100236,"reckon the ""flood"" was a fake event to move us into FEMA camps. I’m not going without a fight.",1,1,"[['FEMA', 55, 59]]",[],"[['reckon', 0, 6]]","[['going', 69, 74]]",[],AI_Gen,0,1,1,1,0,0,0,0,0,train
+100237,"idk, i feel like the red moon is a sign that the world is ending. the elites know the truth!",1,1,[],"[['!', 92, 93]]","[['feel', 9, 13]]","[['ending', 74, 80]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100238,the sirens are actually a frequency designed to make us sick. ffs it’s so obvious if you listen.,1,1,[],[],[],[],"[['ffs', 62, 65]]",AI_Gen,0,0,0,0,1,0,0,0,0,train
+100239,I believe the government is steering these hurricanes to target certain states. SHAMEFUL CONDUCT!,1,1,"[['SHAMEFUL', 80, 88], ['CONDUCT', 89, 96]]","[['!', 96, 97]]","[['believe', 2, 9]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100240,"it's possible that the ""emergency"" is just a way for them to implement martial law. WAKE UP PPL!",1,1,"[['WAKE', 84, 88], ['UP', 89, 91], ['PPL', 92, 95]]","[['!', 95, 96]]","[['possible', 5, 13]]",[],[],AI_Gen,1,1,1,0,0,0,0,0,0,train
+100241,"honestly, the ""climate change"" fires are just a cover for land grabbing. they want us in smart cities.",1,1,[],[],[],"[['grabbing', 72, 80]]",[],AI_Gen,0,0,0,1,0,0,0,0,0,train
+100242,"i hope ppl realize the ""ash"" is actually a programmable material for mind control. SCARY SHIT!",1,1,"[['SCARY', 88, 93], ['SHIT', 94, 98]]","[['!', 98, 99]]","[['hope', 2, 6]]",[],"[['SHIT', 94, 98]]",AI_Gen,1,1,1,0,1,0,0,0,0,train
+100243,maybe the reason the power is out is so they can install 5G towers without anyone seeing.,1,1,[],[],"[['maybe', 0, 5], ['can', 43, 46]]","[['seeing', 88, 94]]",[],AI_Gen,0,0,1,1,0,0,0,0,0,train
+100244,"i suspect that the ""red sky"" is caused by a massive chemical spill they are lying about!",1,1,[],"[['!', 88, 89]]","[['suspect', 2, 9]]","[['lying', 77, 82]]",[],AI_Gen,1,0,1,1,0,0,0,0,0,train
+100245,"it seems like the ""tsunami"" was actually a secret naval explosion from a foreign sub.",1,1,[],[],"[['seems', 3, 8]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100246,ffs I reckon the gov is just using this storm to distract us from the truth. greedy bastards.,1,1,[],[],"[['reckon', 6, 12]]",[],"[['ffs', 0, 3], ['bastards', 82, 90]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100247,"I think the ""meteor"" was a crashed alien ship and they are covering it up right now. WAKE UP!",1,1,"[['WAKE', 86, 90], ['UP', 91, 93]]","[['!', 93, 94]]","[['think', 2, 7]]","[['covering', 58, 66]]",[],AI_Gen,1,1,1,1,0,0,0,0,0,train
+100248,"It’s possible that the ""smoke"" is actually a sedative to keep the public calm during the riots.",1,1,[],[],"[['possible', 5, 13]]",[],[],AI_Gen,0,0,1,0,0,0,0,0,0,train
+100249,I suspect the wildfire was actually a test for a new direct energy weapon. this shit is insane.,1,1,[],[],"[['suspect', 2, 9]]",[],"[['shit', 82, 86]]",AI_Gen,0,0,1,0,1,0,0,0,0,train
+100250,"honestly, the ""flood"" was a staged event to clear out the homeless. they are so heartless!",1,1,[],"[['!', 92, 93]]",[],"[['staged', 29, 35], ['heartless', 82, 91]]",[],AI_Gen,1,0,0,1,0,0,0,0,0,train
